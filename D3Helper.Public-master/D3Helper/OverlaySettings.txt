@@ -1,0 +1,10 @@
+﻿// Here you can set the Start X and Y Position of the Skill Icons Bar
+// The Values are % of Client Width and Client Height
+// For Example Left 79 means the X StartPosition is set to 79% of D3ClientWitdh starting from the left
+// For Example Top 93 means the Y StartPosition is set to 93% of D3ClientHeight starting from the top
+// Left 0 && Top 0 means its the upper left Corner of your D3Client X0 / Y0
+// IMORTANT!!! -> Close D3Helper before u change stuff in here. Start D3Helper after u changed Values and saved the File
+// IMPORTANT!!! -> Values must be >= 0 and <= 100
+
+SkillBar_Left:	79
+SkillBar_Top:	93
