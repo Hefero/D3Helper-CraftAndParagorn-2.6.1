@@ -178,7 +178,7 @@ namespace D3Helper.A_Tools.Buffs
                         local = A_Collection.Me.HeroGlobals.LocalPlayerData;
                     var allmages = acdcontainer.Where(EachActor => EachActor._ACD.x000_Id != -1 && skeletonMageActorSNOs.Contains(EachActor._ACD.x098_NonPlayerNonItemActorSnoId));
 
-                    return allmages.Count(x => x._ACD.x004_Name.ToLower().Contains("skeletonmage"));
+                    return allmages.Count();
                 }
                 catch { return 0; }
             }
