@@ -3,16 +3,16 @@ namespace Enigma.D3.Memory
     public static class ObjectPtr
     {
         public const int VideoPreferences = 0x1E967F0;
-        public const int SoundPreferences = 0x1E96950;
-        public const int HotkeyPreferences = 0x1E969D0;
-        public const int GameplayPreferences = 0x1E97B22;
-        public const int SocialPreferences = 0x1E97C22;
-        public const int ChatPreferences = 0x1E97C6A;
-        public const int LevelArea = 0x20D5150;
-        public const int LevelAreaName = 0x20D5158;
+        public const int SoundPreferences = 0x1E96890;
+        public const int HotkeyPreferences = 0x1E968E0;
+        public const int GameplayPreferences = 0x1E96D60;
+        public const int SocialPreferences = 0x1E96DC8;
+        public const int ChatPreferences = 0x1E96DF8;
+        public const int LevelArea = 0x207A7C0;
+        public const int LevelAreaName = 0x207A7C8;
         public const int MapActId = 0x207AAB0;
-        public const int SNOGroupsByCode = 0x20EBE18;
-        public const int SNOGroups = 0x20EBE28;
+        public const int SNOGroupsByCode = 0x20EBE28;
+        public const int SNOGroups = 0x20EBE24;
         public const int ObjectManager = 0x20EC070;
         public const int ObjectManagerPristine = 0x20EC060;
         public const int ApplicationLoopCount = 0x20EC0EC;
