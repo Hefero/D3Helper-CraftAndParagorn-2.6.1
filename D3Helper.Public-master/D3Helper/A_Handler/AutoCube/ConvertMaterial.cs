@@ -30,8 +30,7 @@ namespace D3Helper.A_Handler.AutoCube
                     ActorCommonData CubeStand;
                     bool CubeNearby = Tools.IsCubeNearby(out CubeStand);
                     // Get list of equipment of the specified quality
-                    var ToItemList = Tools.Get_Items(ToMaterialQuality);
-
+                    var ToItemList = Tools.Get_Items(ToMaterialQuality);                    
                     if (CubeNearby & ToItemList.Count > 0)
                     {
                         if (Tools.ClickOnCube(CubeStand))
@@ -44,23 +43,6 @@ namespace D3Helper.A_Handler.AutoCube
                             var Count_AvailableEnchants = 50;                            
 
                             var Count_Enchants = 0;
-
-
-                            //recheck ui
-                            if (!Tools.IsKanaisCube_MainPage_Visible())
-                            {
-                                int openTries = 0;
-                                while (openTries < 50)
-                                {
-                                    Tools.ClickOnCube(CubeStand);
-                                    if (Tools.IsKanaisCube_MainPage_Visible())
-                                    {
-                                        break;
-                                    }
-                                    openTries++;
-                                    Thread.Sleep(500);
-                                }
-                            }
 
                             //receipe button
                             A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Recipe_Button);
@@ -88,37 +70,46 @@ namespace D3Helper.A_Handler.AutoCube
 
                             int numberOfItemsBeforeTrying = ToItemList.Count;
                             foreach (var item in ToItemList)
-                            {                                
-
-                                if (Tools.ClickOnCube(CubeStand))
+                            {
+                                if (true)
                                 {
 
                                     // Find the item position and rightclick on the item
                                     UIRect UIRect_item = A_Collection.D3UI.InventoryItemUIRectMesh.FirstOrDefault(x => x.Key.ItemSlotX == item.x118_ItemSlotX && x.Key.ItemSlotY == item.x11C_ItemSlotY).Value;
                                     A_Tools.InputSimulator.IS_Mouse.RightCLick((int)UIRect_item.Left, (int)UIRect_item.Top, (int)UIRect_item.Right, (int)UIRect_item.Bottom);
-                                    Thread.Sleep(2);
+                                    Thread.Sleep(1);
                                     //fill
                                     A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Fill_Button);
-                                    Thread.Sleep(2);
+                                    Thread.Sleep(1);
                                     //transmute
                                     A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Transmute_Button);
-                                    Thread.Sleep(10);
+                                    Thread.Sleep(8);
                                     //click next and back to reset
                                     A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
-                                    Thread.Sleep(2);
+                                    Thread.Sleep(1);
                                     A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Previous);
-                                    Thread.Sleep(2);
+                                    Thread.Sleep(1);
                                     Count_Enchants++;
                                 }
                                 ToItemList = Tools.Get_Items(ToMaterialQuality);
                                 int numberOfItemsAfterTrying = ToItemList.Count;
                                 if (numberOfItemsAfterTrying == numberOfItemsBeforeTrying) //retrying if no materials
                                 {
+                                    if (Tools.IsKanaisCube_MainPage_Visible())
+                                    {
+                                        A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Exit_Button);
+                                        Thread.Sleep(200);
+                                    }
+                                    else
+                                    {
+                                        Tools.ClickOnCube(CubeStand);
+                                        Thread.Sleep(200);
+                                    }
                                     FailedTriesExit++;
                                 }
-                                if (FailedTriesExit >= 5)
+                                if (FailedTriesExit >= 3)
                                 {
-                                    break; // failed 5 times, no materials
+                                    break; // failed 5 times, stopping
                                 }
                                 numberOfItemsBeforeTrying = ToItemList.Count;
                             }

@@ -346,7 +346,6 @@ namespace D3Helper.A_Handler.AutoCube
         private static int GetMaterial_VeiledCrystal(List<ActorCommonData> Inventory, out ActorCommonData acd)
         {
             acd = new ActorCommonData();
-
             try
             {
                 int ActorSno = 361986;
@@ -372,30 +371,23 @@ namespace D3Helper.A_Handler.AutoCube
             int LoopCounter = 0;
             int middleScreenX = A_Collection.D3Client.Window.D3ClientRect.Width/2;
             int middleScreenY = A_Collection.D3Client.Window.D3ClientRect.Height/2;
-
             // Attempt to click on Cube, wait 2 sec (10x200ms)
-            while (!FoundCube && LoopCounter <= 300)
+            while (!FoundCube && LoopCounter <= 30)
             {
                 float RX_Cube, RY_Cube;
-
                 LoopCounter += 1;
-
                 // Try to find where the cube is?
                 A_Tools.T_World.ToScreenCoordinate(inputCubeStand.x0D0_WorldPosX, inputCubeStand.x0D4_WorldPosY, inputCubeStand.x0D8_WorldPosZ, out RX_Cube, out RY_Cube);
-
                 // If vendor page or kanai page is not already visible, click it
-                bool IsVendorPageVisible = Tools.IsVendorPage_Visible();
-                bool IsKanaiCubeMainPageVisible = Tools.IsKanaisCube_MainPage_Visible();
-
-                if (IsVendorPageVisible | IsKanaiCubeMainPageVisible)
+                if (IsKanaisCube_MainPage_Visible())
                 {
                     FoundCube = true;
                     break;
                 }
-                if (!IsKanaiCubeMainPageVisible)
+                else
                 {
                     // Move mouse cursor to the cube location coord and click it
-                    if (LoopCounter < 20) //first move to half the location
+                    if (LoopCounter < 5) //first move to half the location
                     {
                         uint RX_Half = (uint)(middleScreenX + RX_Cube) / 2;
                         uint RY_Half = (uint)(middleScreenY + RY_Cube) / 2;
@@ -406,8 +398,7 @@ namespace D3Helper.A_Handler.AutoCube
                     A_Tools.InputSimulator.IS_Mouse.MoveCursor((uint)RX_Cube, (uint)RY_Cube);
                     A_Tools.InputSimulator.IS_Mouse.LeftClick();
                     A_Tools.InputSimulator.IS_Keyboard.Close_AllWindows();
-
-                    Thread.Sleep(70);
+                    Thread.Sleep(250);
                 }
             }
             return FoundCube;

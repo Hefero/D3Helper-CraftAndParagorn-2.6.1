@@ -36,20 +36,6 @@ namespace D3Helper.A_Handler.AutoCube
                         s1.Start(); ///////////
                         var Count_AvailableEnchants = 50;
                         var Count_Enchants = 0;
-                        if (!Tools.IsKanaisCube_MainPage_Visible())
-                        {
-                            int openTries = 0;
-                            while (openTries < 50)
-                            {
-                                Tools.ClickOnCube(CubeStand);
-                                if (Tools.IsKanaisCube_MainPage_Visible())
-                                {
-                                    break;
-                                }                                
-                                openTries++;
-                                Thread.Sleep(500);
-                            }
-                        }
                         //receipe button
                         A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Recipe_Button);
                         Thread.Sleep(5);
@@ -63,8 +49,7 @@ namespace D3Helper.A_Handler.AutoCube
 
                         foreach (var item in UpgradableItems)
                         {
-
-                            if (Tools.ClickOnCube(CubeStand))
+                            if (true)
                             {
                                 //put item in cube
                                 UIRect UIRect_item =
@@ -72,28 +57,37 @@ namespace D3Helper.A_Handler.AutoCube
                                         x => x.Key.ItemSlotX == item.x118_ItemSlotX && x.Key.ItemSlotY == item.x11C_ItemSlotY).Value;
 
                                 A_Tools.T_D3UI.UIElement.rightClick(UIRect_item);
-                                Thread.Sleep(2);
+                                Thread.Sleep(1);
                                 //fill
                                 A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Fill_Button);
-                                Thread.Sleep(2);
+                                Thread.Sleep(1);
                                 //transmute
                                 A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Transmute_Button);
-                                Thread.Sleep(10);
+                                Thread.Sleep(8);
                                 //click next and back to reset
                                 A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
-                                Thread.Sleep(2);
+                                Thread.Sleep(1);
                                 A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Previous);
-                                Thread.Sleep(2);
+                                Thread.Sleep(1);
                             }
                             UpgradableItems = Tools.Get_Items("rare");
                             int numberOfItemsAfterTrying = UpgradableItems.Count;
                             if (numberOfItemsAfterTrying == numberOfItemsBeforeTrying) //retrying if no materials
                             {
+                                if (Tools.IsKanaisCube_MainPage_Visible())
+                                {
+                                    A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Exit_Button);
+                                    Thread.Sleep(200);
+                                }
+                                else
+                                {
+                                    Tools.ClickOnCube(CubeStand);
+                                    Thread.Sleep(200);
+                                }
                                 FailedTriesExit++;
                             }
                             if (FailedTriesExit >= 5) {
-                                Properties.Settings.Default.RosBotUpgradeKadalaBool = false;
-                                break; // failed 5 times, no materials
+                                break; // failed 5 times, stopping
                             }
                             numberOfItemsBeforeTrying = UpgradableItems.Count;
                         }
