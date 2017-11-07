@@ -1,0 +1,2094 @@
+﻿SNO	Code	Name	Description
+301247	_x1_pandext_ideation_war_spawner_angel		
+301248	_x1_pandext_ideation_war_spawner_demon		
+285955	_x1westm_ideation_event_ratznggold		
+199789	1000monsterfight_meteor	Grenades	Throw out three grenades that explode in {Script Formula 0} - [{Script Formula 0} + {Script Formula 1}] damage.
+108017	a1dun_leor_bigfiregrate		
+175159	a1dun_leor_fire_gutter_fire		
+89867	a1dun_leoric_executioner		
+89418	a1dun_leoric_firetrench		
+90428	a1dun_leoric_firetrench_01		
+112259	a1dun_leoric_firetrench_02		
+153000	a2_evacuation_belialbomb	Belial Firebomb	Throw out three grenades that explode in {Script Formula 0} - [{Script Formula 0} + {Script Formula 1}] damage.
+396386	a2dun_aqd_act_wood_platform_damage	trDun_Cath_WallCollapse_Damage	
+175069	a2dun_cave_goatmen_dropping_log_trap_attack	Cave_Goatmen_LogTrap	
+206565	a2dun_cave_larva	Cave Larva	
+189864	a2dun_cave_larva_aoe	a2dun_Cave_Larva_AOE	
+114308	a2dun_cave_slimegeyser_a	Slime Geyser	
+223739	a2dun_zolt_tesla_tower_cold_spawnattack	a2dun_Zolt_Tesla_Tower_Lightning_pewpew_	
+29983	a2dun_zolt_tesla_tower_fire		
+223738	a2dun_zolt_tesla_tower_fire_spawnattack	a2dun_Zolt_Tesla_Tower_Lightning_pewpew_	
+29984	a2dun_zolt_tesla_tower_icenova		
+174642	a2dun_zolt_tesla_tower_lightning_pewpew	a2dun_Zolt_Tesla_Tower_Lightning_pewpew_	
+223731	a2dun_zolt_tesla_tower_lightning_spawnattack	a2dun_Zolt_Tesla_Tower_Lightning_pewpew_	
+223740	a2dun_zolt_tesla_tower_poison_spawnattack	a2dun_Zolt_Tesla_Tower_Lightning_pewpew_	
+174905	a3_battlefield_demonic_forge	Demonic Forge	
+122327	a3_battlefield_demonmine_aoe	A3_Battlefield_DemonMine_AOE	
+180931	a3dun_bastionkeepguard_fireatnothing		
+123043	a3dun_crater_demon_groundtrap_gaschamber	Fire Chamber	
+212330	a3dun_crater_demon_groundtrap_gaschamber_fireonly	Fire Chamber Fire	
+162328	a3dun_crater_demonclawbomb_a	a3dun_crater_DemonClawBomb_A	
+206575	a3dun_crater_demonclawbomb_a_trigger	Demon Claw Bomb A	
+55014	a3dun_keep_barrel_stack_short_damage		
+186638	a3dun_keep_exploding_barrel_stun_power		
+200051	a3dun_keep_firetrench_01		
+200038	a3dun_keep_firetrench_02		
+244155	a3intro_catapultattack		
+188960	a4dun_garden_corruption_mine	Corruption Mine	
+223721	a4dun_heaven_hellrift_fallingrocks_a	Collapse Ceiling	
+223722	a4dun_heaven_hellrift_fallingrocks_b	Collapse Ceiling	
+223286	a4dun_hellfissure	Hell Fissure	
+219695	a4dun_spire_corruptiongeyser	a4dun_Spire_CorruptionGeyser	
+223284	a4dun_spire_firewall	Firewall Monster	
+220634	a4dun_spire_spike_trap		
+93716	actordisabledbuff		
+224639	actorghostedbuff		
+220304	actorintownbuff	In Town	
+212032	actorloadingbuff		
+199222	adria_event47_blast	Maghda Shield	
+199198	adria_event47_projectile	Maghda Shield	
+313697	ai_backpedal		
+327537	ai_backpedal_oneshotthroughactors		
+29986	ai_circle		
+29987	ai_circle_long		
+29989	ai_circle_strafe		
+29988	ai_circle_strafe_short		
+29990	ai_close		
+29991	ai_close_long		
+29992	ai_escortfollow		
+29993	ai_follow		
+29995	ai_follow_close		
+104514	ai_follow_meleelead		
+231004	ai_follow_meleelead_pet		
+29994	ai_followpath		
+1728	ai_followwithwalk		
+29996	ai_idle		
+29997	ai_idle_long		
+29998	ai_idle_short		
+55433	ai_orbit		
+193411	ai_returntoguardobject		
+30000	ai_returntopath		
+30001	ai_runaway		
+30002	ai_runaway_long		!!Missing!! - Powers:AI_RunAway_Long_desc
+30003	ai_runaway_short		
+30004	ai_runinfront		
+163339	ai_runinfront_guaranteed		
+30005	ai_runnearby		
+30006	ai_runnearby_gloam		
+30007	ai_runnearby_long		
+30008	ai_runnearby_short		
+30009	ai_runto		
+163338	ai_runto_guaranteed		
+376110	ai_runto_guaranteed_spider		
+163336	ai_sprintinfront_guaranteed		
+82805	ai_sprintto		
+163335	ai_sprintto_guaranteed		
+30010	ai_strafe		
+217618	ai_townwalkto_guaranteed		
+30012	ai_walkinfront		
+163334	ai_walkinfront_guaranteed		
+30013	ai_walkto		
+163333	ai_walkto_guaranteed		
+1729	ai_wander		
+30015	ai_wander_long		
+30016	ai_wander_superlong		
+30014	ai_wanderrun		
+114421	ai_warnothers		
+99543	aievadebuff	Evade Buff	
+106281	ancientspearknockback		
+311167	anniversary_buff_expmf		
+30020	axe bad data		
+30021	axe_operate_gizmo		
+30022	axe_operate_npc		
+123199	azmodan_aod_damage		
+122700	azmodan_fallingcorpses	Azmodan Falling Corpses	
+122699	azmodan_globeofannihilation	Globe of Annihilation	An orb of pure energy that explodes on contact with enemies, dealing {c_green}{Script Formula 0} - [{Script Formula 0} + {Script Formula 1}] Arcane damage{/c_green} to all enemies within {c_green}{Script Formula 5} yards{/c_green}.<br><br>Costs: {c_green}{Resource Cost} Arcane Power{/c_green}
+129243	azmodan_laserattack	Azmodan_LaserAttack	
+133744	azmodan_melee	Azmodan Knockback	
+176046	azmodan_ondeath		
+123466	azmodan_phase3channel		
+211934	azmodan_taunt	Azmodan Taunt	
+211856	azmodan_turning		
+185040	bannerdrop		
+234255	bannerdroppvp		
+134334	banter_cooldown		
+79242	barbarian_bash	Bash	{c_gold}Generate:{/c} {c_green}{Resource Gained On First Hit}{/c} Fury per attack<br><br>Brutally strike a single enemy.
+79076	barbarian_battlerage	Battle Rage	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Fury<br><br>Unleash your inner rage, increasing your damage and Critical Hit Chance. Lasts {c_green}{Script Formula 17}{/c_green} seconds.
+80049	barbarian_calloftheancients	Call of the Ancients	{c_gold}Cooldown:{/c_gold} {c_green}[{Script Formula 16}]{/c_green} seconds<br><br>Summon three ancestral heroes to fight alongside you for {c_green}{Script Formula 9}{/c_green} seconds.
+187092	barbarian_calloftheancients_basic_melee	Ancient Melee	
+168823	barbarian_calloftheancients_cleave	Ancient Cleave	
+168824	barbarian_calloftheancients_furiouscharge	Furious Charge	
+168825	barbarian_calloftheancients_leap	Ancient Leap Attack	
+168827	barbarian_calloftheancients_seismicslam	Ancient Seismic Slam	
+168828	barbarian_calloftheancients_weaponthrow	Ancient Weapon Throw	
+168830	barbarian_calloftheancients_whirlwind	Ancient Whirlwind	
+80263	barbarian_cleave	Cleave	{c_gold}Generate:{/c_gold} {c_green}{Resource Gained On First Hit}{/c_green} Fury per attack<br><br>Swing your weapon in an arc and strike multiple enemies.
+98878	barbarian_earthquake	Earthquake	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 21}{/c_green} Fury<br>{c_gold}Cooldown:{/c_gold} {c_green}[{Script Formula 8}]{/c_green} seconds<br><br>Violent tremors shake the earth and damage nearby enemies.
+78548	barbarian_frenzy	Frenzy	{c_gold}Generate:{/c_gold} {c_green}{Resource Gained On First Hit}{/c_green} Fury per attack<br><br>Enter a frenzied state that increases your attack speed with each hit.
+97435	barbarian_furiouscharge	Furious Charge	{c_gold}Generate:{/c_gold} {c_green}{Resource Gained On First Hit}{/c_green} Fury<br>{c_gold}Cooldown:{/c_gold} {c_green}{Cooldown Time}{/c_green} seconds<br><br>Charge all enemies in your path and knock them back.
+79446	barbarian_groundstomp	Ground Stomp	{c_gold}Generate:{/c_gold} {c_green}{Resource Gained On First Hit}{/c_green} Fury<br>{c_gold}Cooldown:{/c_gold} {c_green}{Cooldown Time}{/c_green} seconds<br><br>Smash the ground and Stun nearby enemies for {c_green}{Script Formula 1}{/c_green} seconds.
+30080	barbarian_groundstompeffect		
+80028	barbarian_hammeroftheancients	Hammer of the Ancients	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Fury<br><br>Call down a mystical hammer and smash groups of enemies.
+79528	barbarian_ignorepain	Ignore Pain	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 15}{/c_green} seconds<br><br>Your rage protects you from most damage for {c_green}{Script Formula 12}{/c_green} seconds.
+93409	barbarian_leap	Leap	{c_gold}Generate:{/c} {c_green}{Resource Gained On First Hit}{/c} Fury<br>{c_gold}Cooldown:{/c} {c_green}{Cooldown Time}{/c} seconds<br><br>Leap towards enemies and attack them.
+30097	barbarian_leap_old	Leap Attack	The Barbarian makes a mighty leap, causing {Physical Damage Min} damage to enemies nearby when he lands. Damage of Leap Attack increases with Strength.<br><br>Costs {Resource Cost} Fury
+159169	barbarian_overpower	Overpower	{c_gold}Cooldown:{/c_gold} {c_green}[{Script Formula 27}]{/c_green} seconds<br><br>Unleash a devastating attack against nearby enemies.<br><br>{c_yellow}The cooldown of Overpower is reduced when you land Critical Hits.{/c_yellow}
+368239	barbarian_overpower_cowking	Overpower	{c_gold}Cooldown:{/c_gold} {c_green}[{Script Formula 27}]{/c_green} seconds<br><br>Deal {c_green}[{Script Formula 6}*100]%{/c_green} weapon damage to all targets within {c_green}{Script Formula 7}{/c_green} yards.<br><br>{c_yellow}Critical Hits have a chance to reduce the cooldown of Overpower by {c_green}{Script Formula 0}{/c_green} second.{/c_yellow}
+205228	barbarian_passive_animosity	Animosity	"While most orders teach the merits of calming the seas of the soul, the guardians of Arreat have embraced the raging inner storm." —Chronicler Arlavoc
+205187	barbarian_passive_berserkerrage	Berserker Rage	"You wouldn't like me when I'm angry." —Bannar the Berserker
+205217	barbarian_passive_bloodthirst	Bloodthirst	"Compassion is weakness. To press the advantage when an opponent calls for mercy is the way of true power." —Halaberd the Conqueror
+204603	barbarian_passive_boonofbulkathos	Boon of Bul-Kathos	The aid of the Immortal King shall come to those who have earned it.
+205133	barbarian_passive_brawler	Brawler	"I have two blades, one for each of you." —Blademaster Kharne
+205546	barbarian_passive_inspiringpresence	Inspiring Presence	"The enemy poured through the gap until Warmaster Karja impaled three demons at once on our battle standard, tossing their corpses into the fray below as she roared a rallying call from high atop the battlements." —The Battle of the Starless Night
+205707	barbarian_passive_juggernaut	Juggernaut	"I swear to you, we put a dozen arrows into him and he just stood back up. These so-called barbarians, these madmen of the north—there is no stopping them." —Soldier of Bastion's Keep
+217819	barbarian_passive_nervesofsteel	Nerves of Steel	"The trials begin with childhood; skinning ferocious beasts, climbing windswept cliffs and carrying weapons heavy enough to make a southern soldier weep. Is it any wonder that they never give ground?" —Sir Aric of Duncraig
+204725	barbarian_passive_noescape	No Escape	"Run if you must, but you'll only die tired." —Ooron Goons
+205205	barbarian_passive_poundofflesh	Pound of Flesh	"When the sky bleeds, the crops grow tall. When our enemies bleed, we grow strong." —Chant of the Harvest
+205398	barbarian_passive_relentless	Relentless	No matter the odds, some warriors simply refuse to fall.
+205175	barbarian_passive_ruthless	Ruthless	The clans each paint their warriors in their own unique way. Some celebrate the mountain, others honor the fire, but the Targos clan worships the purifying virtue of pain.
+205491	barbarian_passive_superstition	Superstition	"The sorcery of the west has brought us nothing but blight. Strength built these walls, and strength will hold them." —Gruchac Hammerhand
+205848	barbarian_passive_toughasnails	Tough as Nails	After a while the scars serve as their own layer of armor.
+205300	barbarian_passive_unforgiving	Unforgiving	"It was as if he suddenly came to know every grievous injury endured by his ancestors, and he had selected that very moment to exact their collective revenge." —Chronicler Arlavoc
+206147	barbarian_passive_weaponsmaster	Weapons Master	"My men ambushed the traveler in the woods, but it was we who were surprised. Such keen senses, swift motions, flawless strikes. We never stood a chance." —Redjack the Bandit
+70472	barbarian_rend	Rend	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Fury<br><br>Wound nearby enemies and cause them to Bleed for {c_green}{Script Formula 15}{/c_green} seconds.
+109342	barbarian_revenge	Revenge	{c_gold}Cost: {/c_gold}{c_green}1{/c_green} charge<br><br>Release a retaliatory attack that heals you with each enemy hit.<br><br>{c_yellow}Revenge has a chance to gain a charge when you are hit. Maximum {c_green}{Script Formula 19}{/c_green} charges.{/c_yellow}
+109344	barbarian_revenge_buff	Revenge Buff	Revenge has a [{Revenge Proc Chance On Get Hit} * 100]% chance to be usable when hit by an enemy.<br><br>Smash the ground dealing [PowerTag.Barbarian_Revenge."Base Damage Scalar" * 100]% weapon damage to all nearby monsters. You gain [PowerTag.Barbarian_Revenge."Revenge Health Percent Per Hit"*100]% of your maximum health for each enemy hit.
+86989	barbarian_seismicslam	Seismic Slam	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 16}{/c_green} Fury<br><br>Create shockwaves that damage enemies in their path.
+78551	barbarian_sprint	Sprint	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Fury<br><br>Run furiously fast for {c_green}{Script Formula 3}{/c_green} seconds.
+79077	barbarian_threateningshout	Threatening Shout	{c_gold}Generate:{/c_gold} {c_green}{Script Formula 13}{/c_green} Fury<br>{c_gold}Cooldown:{/c_gold} {c_green}{Cooldown Time}{/c_green} seconds<br><br>Strike fear in your enemies and make their attacks do less damage.
+96296	barbarian_whirlwind	Whirlwind	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 14}{/c_green} Fury<br><br>Unleash a series of whirling attacks damaging everything in your path.
+79607	barbarian_wrathoftheberserker	Wrath of the Berserker	{c_gold}Cooldown:{/c_gold} {c_green}[{Script Formula 7}]{/c_green} seconds<br><br>Become Fury incarnate for {c_green}{Script Formula 6}{/c_green} seconds.
+30145	barehandedpassive		
+1736	barrel_explode_instant		
+109289	beast_weapon_melee_instant	Melee Attack	This is your skill at close-range combat.
+30147	beastcharge		
+67753	belial_ground_pound		
+95856	belial_lightningbreath	Disintegrate v2	Emanate a beam of pure energy dealing [{Arcane Damage Min} / {Disintegrate Time Between Updates}] Arcane damage per second. Damage is modified to [({Disintegrate Beam Strength Reduction Per Target})* 100]% each time the beam passes through a target.<br><br>Costs {c_green}[{Resource Cost} / {Disintegrate Time Between Updates}]{/c_green} Arcanum per second.
+241757	belial_lightningstrike_enrage	Belial Lightning Strike Enrage	
+96212	belial_lightningstrike_v2	Disintegrate v2	
+96712	belial_melee		
+156429	belial_melee_reach		
+95811	belial_phase3buff	Belial Phase 3 Buff	
+63079	belial_ranged_attack	Belial Ranged Attack	
+98565	belial_sprint		
+105312	belial_sprint_away		
+259123	belialarmproxy		
+149875	bigred_charge		
+150552	bigred_firebreath	Big Red Fire Breath	This is your skill at close-range combat.
+355392	blockchance_10		
+131193	bodyguard_teleport		
+72675	brickhouse_armshields		
+180875	brickhouse_destructionsetup		
+72713	brickhouse_enrage		
+72812	brickhouse_slam		
+255336	bugwingsbuff		
+30156	burrowin		
+194582	burrowinhidden		
+69949	burrowinsetup		
+327086	burrowinsetup2hswing		
+346610	burrowinsetuphidden		
+327088	burrowinsetupstaff		
+30157	burrowout		
+75226	burrowout_nofacing		
+194596	burrowoutsetup		
+30158	burrowstartbuff		
+86627	butcher_damagingfire		
+96925	butcher_floorpanelfire	Floor Panel Fire	
+85001	butcher_frenzy		
+364220	butcher_frenzy_custom_lr_boss		
+83008	butcher_grapplinghook		
+209203	butcher_ondeath		
+85152	butcher_slam		
+30160	butcher_smash		
+198671	butcher_spears	Butcher Spears	Throw a spear up to {c_green}{Script Formula 2}{/c_green} yards to pull an enemy back to the Barbarian, slowing target's movement speed and dealing {c_green}[{Script Formula 0}*100]%{/c_green} weapon damage.<br><br>Generates: {c_green}{Script Formula 12}{/c_green} Fury<br>Cooldown: {c_green}{Cooldown Time}{/c_green} seconds
+109153	butcher_target_ranged		
+102449	cain_intro_swing	Melee Attack	This is your skill at close-range combat.
+156211	caldeum_poisonlaser		
+91155	calldowngrenade	Call Catapult Strike	Tell Jimmy the Spotter where to call down a catapult attack.
+134225	callout_cooldown		
+151595	camera_focus_buff		
+151604	camera_focus_pet_buff		
+225599	cannotdieduringbuff		
+396376	caout_boneyards_collapsing_bones_damage	trDun_Cath_WallCollapse_Damage	
+102874	caout_oasis_attack_plant_attack		
+108036	catapultattack	Grenades	Throw out three grenades that explode in {Script Formula 0} - [{Script Formula 0} + {Script Formula 1}] damage.
+30166	championclone		
+30167	championteleport		
+132695	charmed_weapon_melee_instant	Melee Attack	This is your skill at close-range combat.
+208706	collectorseditionbuff	Collectors Edition Buff	
+370781	community_event_buff_expmf		
+275399	companionbuff		
+300082	console_powerglobe	Power Globe	[ph]You are empowered
+30176	cooldown		
+91052	copiedvisualeffectsbuff		
+134816	coreelite_droppod	Drop Pod Impact	
+136455	coreelite_droppod_begin	Drop Pod Warning	
+134815	coreelitepodsetup		
+30178	corpulentexplode		
+123639	corruptangel_piercingdash		
+122978	corruptangel_spectralstrike		
+72366	creepmob_creeper_attack		
+71646	creepmob_knockback		
+376935	creepmob_knockback_lr		
+71688	creepmob_ranged_arm_attack		
+30180	critdebuffcold		
+1738	cryptchildeat		
+30185	cryptchildleapout		
+30186	cryptchildleapoutbuff		
+86152	damageattribute		
+228423	debuffbleed	Bleed	
+103216	debuffblind		
+311910	debuffcharmed		
+30195	debuffchilled		
+101002	debufffeared		
+312061	debufffiredamageproc	Burning	
+312799	debuffforcegripped		
+312062	debuffpoisondamageproc	Poison	
+101003	debuffrooted		
+100971	debuffslowed		
+101000	debuffstunned		
+346635	deleteselfanim		
+132940	demonflyer_dropbomb		
+155188	demonflyer_firebreath	Big Red Fire Breath	This is your skill at close-range combat.
+130798	demonflyer_projectile		
+121326	demonflyer_snatch	Demon Flyer	
+77552	demonhunter_bolas	Bolas	{c_gold}Generate:{/c} {c_green}{Script Formula 15}{/c} Hatred<br><br>Fire a bola that wraps around an enemy and explodes.
+129216	demonhunter_caltrops	Caltrops	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 8}{/c_green} Discipline<br><br>Place a trap that slows enemies.
+129213	demonhunter_chakram	Chakram	{c_gold}Cost:{/c} {c_green}{Resource Cost}{/c} Hatred<br><br>Release a spinning blade of death that slices through enemies.
+129214	demonhunter_clusterarrow	Cluster Arrow	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 3}{/c_green} Hatred<br><br>Fire a cluster arrow that fragments into grenades on impact.
+131325	demonhunter_elementalarrow	Elemental Arrow	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Hatred<br><br>Unleash a fiery arrow that pierces through enemies.
+134280	demonhunter_evasivefire_flip	Evasive Fire Flip	Tumble acrobatically {c_green}{Script Formula 0} yards{/c_green}.<br><br>Costs: {c_green}{Resource Cost}{/c_green} Mana
+77546	demonhunter_fanofknives	Fan of Knives	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 26}{/c_green} seconds<br><br>Unleash a flurry of knives that strike and Slow all nearby enemies.
+86610	demonhunter_grenades	Grenade	{c_gold}Generate:{/c} {c_green}{Script Formula 19}{/c} Hatred<br><br>Throw a grenade that bounces and explodes.
+129215	demonhunter_hungeringarrow	Hungering Arrow	{c_gold}Generate:{/c} {c_green}{Script Formula 20}{/c} Hatred<br><br>Fire a piercing arrow that seeks additional enemies.
+131366	demonhunter_impale	Impale	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Hatred<br><br>Throw a knife that impales enemies.
+130738	demonhunter_markedfordeath	Marked for Death	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Discipline<br><br>Mark an enemy to take additional damage from attacks.
+77649	demonhunter_multishot	Multishot	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 13}{/c_green} Hatred<br><br>Fire a massive volley of arrows in an arc.
+209734	demonhunter_passive_archery	Archery	"Feel the weight of the crossbow in your hand. Now... the wind, the distance, the target's speed. Good. Now try it with blood in your eyes and a demon at your throat." —Greyscarr, Veteran Demon Hunter
+155723	demonhunter_passive_ballistics	Ballistics	"How should I know who first invented these devices? Just make sure the correct end is pointed at the enemy and they'll do the rest." —Greyscarr, Veteran Demon Hunter
+210801	demonhunter_passive_brooding	Brooding	Never forget where you came from.
+155721	demonhunter_passive_culltheweak	Cull the Weak	"I'll show you the same mercy you showed my helpless family." —Tyla Shrikewing
+208610	demonhunter_passive_customengineering	Custom Engineering	The self-loading mechanisms built into most hand crossbows and traps are delicate and difficult to maintain. Extensive practice is required to use them properly.
+208779	demonhunter_passive_grenadier	Grenadier	"Do not construct these devices by candlelight, nor by firelight. Once armed, be no closer than ten paces upon the count of three." —Explicit instructions from Quang the Chemist
+155725	demonhunter_passive_hotpursuit	Hot Pursuit	"Don't make me chase you back to Hell, vermin. I know a quicker way to send you there." —Tyla Shrikewing
+218350	demonhunter_passive_nightstalker	Night Stalker	"How did I learn to hate, to kill, to flay the flesh from the bones of my prey without pity? You taught me." —Tyla Shrikewing's final words to Naragh the Sin Eater
+218398	demonhunter_passive_numbingtraps	Numbing Traps	"Demonic anatomy is strange and diverse. At times they defy sanity, but in other ways they are just as vulnerable as we are." —Meditations on the Enemy
+155722	demonhunter_passive_perfectionist	Perfectionist	Once the trap is sprung you must not relent until every last enemy has fallen. To hesitate is to invite disaster.
+155715	demonhunter_passive_sharpshooter	Sharpshooter	"Every creature has a vulnerability. Find it, and put an arrow in it." —Greyscarr, Veteran Demon Hunter
+164363	demonhunter_passive_steadyaim	Steady Aim	"Flee if you can, demon. I have a quiver full of friends who fly faster than you." —Tyla Shrikewing
+218385	demonhunter_passive_tacticaladvantage	Tactical Advantage	Never start a fair fight.
+211225	demonhunter_passive_thrillofthehunt	Thrill of the Hunt	"The first three were dead before they hit the ground. The others weren't so lucky." —Captain Rumford
+155714	demonhunter_passive_vengeance	Blood Vengeance	"If it bleeds you can kill it. Kill this one slowly." —Greyscarr, Veteran Demon Hunter
+129212	demonhunter_preparation	Preparation	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 3}{/c_green} seconds<br><br>Focus and instantly restore {c_green}{Script Formula 8}{/c_green} Discipline.
+324845	demonhunter_preparation_passive	Preparation	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 3}{/c_green} seconds<br><br>Instantly restore {c_green}{Script Formula 8}{/c_green} Discipline.
+130831	demonhunter_rainofvengeance	Rain of Vengeance	{c_gold}Cooldown:{/c_gold} {c_green}{Cooldown Time}{/c_green} seconds<br><br>Unleash a torrent of arrows from the sky.
+131192	demonhunter_rapidfire	Rapid Fire	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 4}{/c_green} Hatred initially, and an additional {c_green}[{Script Formula 17}]{/c_green} Hatred while channeling<br><br>Hold your ground and continually fire a stream of arrows.
+129217	demonhunter_sentry	Sentry	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Hatred<br>{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 23}{/c_green} seconds<br><br>Summon a turret that automatically attacks nearby enemies.
+129661	demonhunter_sentry_turretattack	Sentry Turret Attack	
+130830	demonhunter_shadowpower	Shadow Power	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 6}{/c_green} Discipline<br><br>Gain Life for dealing damage for {c_green}[{Script Formula 0}]{/c_green} seconds.
+130695	demonhunter_smokescreen	Smoke Screen	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 13}{/c_green} Discipline<br>{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 9}{/c_green} seconds<br><br>Vanish from sight for a limited time.
+75301	demonhunter_spiketrap	Spike Trap	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Hatred<br><br>A deadly trap that explodes on contact once armed.
+134030	demonhunter_strafe	Strafe	{c_gold}Cost:{/c_gold} {c_green}[{Script Formula 16} + ({Script Formula 15} * {Script Formula 0})]{/c_green} Hatred<br><br>Shoot at nearby enemies while moving.
+111215	demonhunter_vault	Vault	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 5}{/c_green} Discipline<br><br>Tumble acrobatically to avoid attacks.
+143198	demontrooperleapout		
+30207	dervish_whirlwind		
+256026	dervish_whirlwind_mortar_prototype		
+152865	despair_melee_cleave	Despair Cleave	
+241778	despair_melee_cleaveenrage		
+150486	despair_summonminion	Despair Summon Minion	
+149911	despair_teleport	Despair Teleport	
+209700	despair_teleport_away	Despair Teleport	
+152866	despair_volley	Despair Volley	
+366277	despair_volley_lr_boss	Despair Volley	
+30208	destructableobjectaoe		
+30209	destructableobjectchandelier_aoe		
+358809	destructableobjectchandelier_aoe_hoist		
+368174	destructionstreak_buff_run_speed		
+133887	dh_companion_chargeattack	Companion Charge Attack	Charges a target, dealing [{Script Formula 0}*100]% weapon damage and stunning it for {Script Formula 4} second.
+227240	dh_companion_meleeattack	Companion Attack	Charges a target, dealing [{Script Formula 0}*100]% weapon damage and stunning it for {Script Formula 4} second.
+150075	dh_rainofarrows_shadowbeast_bombdrop		
+195816	diablo_charge	Shadow Vanish	
+136189	diablo_clawrip	Claw Rip	
+375905	diablo_clawrip_uber	Claw Rip	
+161174	diablo_corruptionshield	Claw Rip	
+136828	diablo_curseofanguish	Curse Of Anguish	
+136831	diablo_curseofdestruction	Curse Of Destruction	
+136830	diablo_curseofhate	Curse Of Hate	
+136829	diablo_curseofpain	Curse Of Pain	
+185997	diablo_expandingfirering	Expanding Fire Ring	
+375908	diablo_expandingfirering_uber	Expanding Fire Ring	
+214831	diablo_firemeteor	Diablo Meteor Call	Throw out three grenades that explode in {Script Formula 0} - [{Script Formula 0} + {Script Formula 1}] damage.
+214668	diablo_gethit		
+136226	diablo_hellspikes	Hell Spikes	
+136219	diablo_lightningbreath	Lightning Breath	
+375904	diablo_lightningbreath_uber	Lightning Breath	
+167560	diablo_lightningbreath_v2	Lightning Breath	
+141865	diablo_phase1buff		
+136850	diablo_phase2buff		
+136852	diablo_phase3buff		
+136223	diablo_ringoffire	Ring Of Fire	
+375907	diablo_ringoffire_uber	Ring Of Fire	
+136281	diablo_shadowclones	Shadow Clones	
+136237	diablo_shadowvanish	Shadow Vanish	
+142582	diablo_shadowvanish_charge	Shadow Vanish	
+136849	diablo_shadowvanish_grab	Shadow Vanish	
+169212	diablo_smash_puny_destructible	Cage Smash	
+199476	diablo_stompandstun	Expanding Fire Ring	
+219598	diablo_teleport	Diablo Teleport	
+360319	disablegethitbuff_infinite		
+340708	disablepowerbuff_infinite		
+95701	dotdebuff		
+30211	drinkhealthpotion		
+335158	dualwield_scripted		
+335253	dualwield_scripted_remove		
+193438	dualwieldbuff	Dual Wield Buff	
+270058	duelbuff		
+275135	dueldefeatbuff		
+30214	eatcorpse		
+57932	electriceel_electricburst		
+59836	electriceelleapout		
+188254	emoteattack		
+185085	emotebye		
+384214	emotedance		
+185087	emotedie		
+185042	emotefollow		
+185081	emotegive		
+185629	emotego		
+185093	emotehelp		
+188256	emotehold		
+188258	emotelaugh		
+188252	emoteno		
+188255	emoteretreat		
+185598	emoterun		
+185083	emotesorry		
+188253	emotestay		
+188257	emotetakeobjective		
+185082	emotethanks		
+185600	emotewait		
+188251	emoteyes		
+102057	enchantress_charm	Charm	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 0}{/c_green} seconds<br><br>Temporarily Charms an enemy to fight for you.
+84469	enchantress_cripple	Cripple	Slows target 50% for 3 seconds and weak damage over time
+101990	enchantress_disorient	Disorient	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 0}{/c_green} seconds<br><br>Disorients enemies for a short time.
+101425	enchantress_focusedmind	Focused Mind	An aura that increases attack speed for you and the Enchantress.
+101969	enchantress_forcefulpush	Forceful Push	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 7}{/c_green} seconds<br><br>Creates an explosion that deals massive damage and knocks back enemies.
+201524	enchantress_masscharm	Mass Control	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 7}{/c_green} seconds<br><br>Hexes a nearby group of enemies.
+230238	enchantress_melee_instant	Melee Attack	Swing your melee weapon for {c_green}{DamageMin} - {DamageMax}{/c} damage.
+257687	enchantress_missileward	Missile Ward	Reduces damage from ranged attacks for you and the Enchantress.
+101461	enchantress_poweredarmor	Powered Armor	Increases Armor and slows melee attackers for you and the Enchantress.
+186200	enchantress_runaway		
+220872	enchantress_scorchedearth	Erosion	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 10}{/c_green} seconds<br><br>Conjures a pool of energy that deals damage and causes affected enemies to take additional damage.
+201538	enterrecallportal	Stone Of Recall	This is your skill at close-range combat.
+200036	enterstoneofrecall	Stone Of Recall	This is your skill at close-range combat.
+391680	environmentkill_buff_resource_regen	Trap Mastery	
+86241	escortingbuff		
+201570	exitrecallportal	Stone Of Recall	This is your skill at close-range combat.
+200039	exitstoneofrecall	Stone Of Recall	This is your skill at close-range combat.
+158955	fallen_lunatic_aggro_a		
+330501	fallen_lunatic_aggro_b		
+330800	fallen_lunatic_aggro_c		
+330802	fallen_lunatic_aggro_d		
+66547	fallen_lunatic_suicide		
+30222	fallenchampion_leader_shout		
+1740	fallenchampion_power_hit		
+30223	fallengrunt_shout		
+30225	fallenshaman_projectile		
+364817	fallenshaman_projectile_lr		
+329401	fallingsword_checkpath_passability		
+30227	fastmummy_disease_cloud	Disease Cloud	
+123843	frenzy_affix	Frenzy	
+230745	g_killelitepack	Nephalem Valor	
+85954	g_levelup	Level Up	
+252038	g_levelup_aa	Paragon Level Up	
+286747	g_paragonbuff		
+129386	generic_setcannotbeaddedtoaitargetlist		
+129395	generic_setdoesfakedamage		
+76107	generic_setinvisible		
+62731	generic_setinvulnerable		
+129393	generic_setobserver		
+129394	generic_settakesnodamage		
+62666	generic_setuntargetable		
+60777	generic_taunt		
+30242	genericarrow_projectile		
+94972	ghost_a_unique_house1000undead_slow		
+30243	ghost_melee_drain		
+30244	ghost_soulsiphon		
+99094	ghostwalkthroughwalls		
+129689	gizmo_a3dun_rmpt_oilvat_a_attack	Hot Oil	
+30249	gizmooperateportalwithanimation		
+93838	gluttony_breath_attack		
+93676	gluttony_gas_cloud		
+369667	gluttony_gas_cloud_lr_boss		
+211292	gluttony_loogiespawn		
+98587	gluttony_ondeath		
+123158	goatman_cold_shield		
+99077	goatman_iceball	Frostbolt	Hurls a bolt of Cold damage, slowing your target.
+30251	goatman_lightning_shield		
+30252	goatman_moonclan_ranged_projectile		
+168554	goatman_shaman_empower		
+77342	goatman_shaman_lightningbolt		
+97497	goatmandrumsbeating		
+159004	goatmutant_ranged_projectile		
+131588	goatmutantenrage	GoatMutantEnrage	
+131699	goatmutantgroundsmash	Melee Attack	This is your skill at close-range combat.
+157947	goatmutantshamanblast		
+413313	goblinaffix_teleporter		
+30255	gravedigger_knockback_attack		
+113817	gravedigger_warden_rangedattack	Grave Digger Ranged Attack	
+30256	graverobber_dodge_left		
+30257	graverobber_dodge_right		
+30258	graverobber_projectile		
+408505	greed_stompandstun	Expanding Fire Ring	
+30264	healingwell_heal		
+30265	hearth		
+30266	hearth_finish		
+118226	hellportalsummoningmachineactivate		
+73289	helperarcherprojectile		
+87093	hireling_callout_battlecry		
+117323	hireling_callout_battlefinished		
+196142	hireling_dismiss		
+196103	hireling_dismiss_buff		
+196251	hireling_dismiss_buff_remove		
+30273	hirelingmage_magicmissile		
+135701	hoodednightmare_bonearmor	Bone Armor	
+136071	hoodednightmare_curses	Curses	
+136072	hoodednightmare_gatewaytohell	Gateway To Hell	
+135412	hoodednightmare_lightningofunlife	Maghda Shield	
+293981	identifyallwithcast		
+226757	identifywithcast	Stone Of Recall	This is your skill at close-range combat.
+259848	identifywithcastlegendary		
+238686	igr_buff_exp	Enlightened	
+30283	immunetofearduringbuff		
+30284	immunetorootduringbuff		
+30285	immunetosnareduringbuff		
+30286	immunetostunduringbuff		
+30287	interact_crouching		
+30288	interact_normal		
+30289	invisibileduringbuff		
+30290	invulnerableduringbuff		
+371005	itempassive_setbonus_chantodo		Your shields heal for 25% of their remaining amount when they expire.
+246590	itempassive_unique_amulet_001		
+246750	itempassive_unique_amulet_003	Moonlight Sphere	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to be surrounded by balls of Arcane Power when attacking.
+364343	itempassive_unique_amulet_003_x1	Moonlight Sphere	Hitting an enemy within 15 yards has a chance to ward you with shards of Arcane energy that explode when enemies get close, dealing {c_magic}[{VALUE1}*100]%{/c} weapon damage as Arcane to enemies within 15 yards.
+248136	itempassive_unique_amulet_011		Call forth a creature from the depths.
+322978	itempassive_unique_amulet_017_x1		Chance on hit to charm the enemy. While charmed, the enemy takes 35% more damage.
+334880	itempassive_unique_amulet_105_x1		After earning a massacre bonus, {c_magic}{VALUE1}{/c} Skeletons are summoned to fight by your side for 10 seconds.
+245854	itempassive_unique_axe_1h_003		Chance to summon a ghostly Fallen Champion when attacking.
+364311	itempassive_unique_axe_1h_003_x1		Chance to summon a ghostly Fallen Champion when attacking.
+246101	itempassive_unique_axe_1h_005	Sky Smite	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to smite enemies with lightning when you hit them.
+364318	itempassive_unique_axe_1h_005_x1	Sky Smite	{c_magic}[{VALUE1} * 100]%{/c} chance to Smite enemies with lightning when you hit them.
+248484	itempassive_unique_axe_1h_006	Butcher's Sickle	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to drag enemies to you when attacking.
+246113	itempassive_unique_axe_1h_007		Chance to fight through the pain when enemies hit you.
+246118	itempassive_unique_axe_2h_001		The Butcher still inhabits his carver.
+248462	itempassive_unique_axe_2h_010	Fireball	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to cast a fireball when attacking.
+322974	itempassive_unique_axe_2h_012_x1		Killing enemies and destroying objects has a chance to grant 20% of your maximum primary resource.
+246363	itempassive_unique_barbbelt_003	Thunder Shock	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to cause Shock Pulse to erupt from your enemies when you hit them.
+364341	itempassive_unique_barbbelt_003_x1	Thunder Shock	Blocking, dodging or being hit causes you to discharge bolts of electricity that deal {c_magic}[{VALUE1} * 100]%{/c} weapon damage as Lightning.
+322980	itempassive_unique_belt_016_x1		Picking up a Health Globe increases your maximum Life by 5% for 15 seconds, stacking up to 5 times.
+246442	itempassive_unique_boots_007	Scorched Earth	Burn the ground you walk on.
+342515	itempassive_unique_boots_007_x1	Scorched Earth	Burn the ground you walk on, dealing 100% weapon damage each second.
+322976	itempassive_unique_boots_020_x1		Gain 500 Life regeneration per Second for each second you stand still. This effect stacks up to 8 times.
+246605	itempassive_unique_bow_008		Ravens flock to your side.
+375037	itempassive_unique_bow_008_x1		A raven flies to your side.
+248817	itempassive_unique_bow_015	Clucked	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to cluck when attacking.
+344372	itempassive_unique_bow_015_x1	Clucked	{c_magic}[{VALUE1} * 100]%{/c} chance to cluck when attacking.
+334881	itempassive_unique_bracer_105_x1		Chance on being hit to deal 1000% of your Thorns damage to nearby enemies.
+245835	itempassive_unique_ceremonialdagger_002		Chance to summon a Fetish when attacking.
+364316	itempassive_unique_ceremonialdagger_002_x1	The Gidbinn	Chance to summon a Fetish when attacking.
+247896	itempassive_unique_ceremonialdagger_008	Last Breath	Slain enemies rest in pieces.
+246515	itempassive_unique_chest_001		Chance for enemies to drop gold when you hit them.
+247777	itempassive_unique_combatstaff_2h_007		Slap!
+246562	itempassive_unique_combatstaff_2h_009		Chance to double your attack speed when attacking.
+247769	itempassive_unique_dagger_006		Blood oozes from you.
+245836	itempassive_unique_dagger_007		Squeal!
+245837	itempassive_unique_dagger_010	Frozen Orb	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to hurl a frozen orb when attacking.
+364312	itempassive_unique_dagger_010_x1	Frozen Orb	Performing an attack has a {c_magic}[{VALUE1} * 100]%{/c_magic} chance to hurl a Frozen Orb.
+334882	itempassive_unique_dagger_011_x1		
+322979	itempassive_unique_dagger_103_x1		Gain 100% Critical Hit Chance against enemies at full health.
+248928	itempassive_unique_fist_010	Shenlong's Chi	Chance to hurl a ball of pure energy when attacking.
+360490	itempassive_unique_fist_010_x1	Shenlong's Chi	Chance to hurl a ball of pure energy when attacking.
+383014	itempassive_unique_gem_001_x1		Gain 20% increased damage for {c_magic}[{VALUE1}|1|]{/c} seconds after killing an elite pack.
+403456	itempassive_unique_gem_002_x1		Increase damage against enemies under the effects of control-impairing effects by{c_magic} [{VALUE1}*10|2|]%{/c}.
+403457	itempassive_unique_gem_002u_x1		Gain an aura that reduces the movement speed of enemies within 15 yards by [{VALUE1}*100]%.
+403459	itempassive_unique_gem_003_x1		
+403460	itempassive_unique_gem_004_x1	Wreath of Lightning	15% chance on hit to gain a Wreath of Lightning, dealing {c_magic}[{VALUE1}*100|1|]%{/c} weapon damage as Lightning every second to nearby enemies for 3 seconds.
+403560	itempassive_unique_gem_004u_x1	Wreath of Lightning	While under the effect of the Wreath of Lightning, gain [{VALUE1}*100]% increased movement speed.
+403461	itempassive_unique_gem_005_x1	Gem of Efficacious Toxin	Poison all enemies hit for {c_magic}[{VALUE1}*100]%{/c} weapon damage over 10 seconds.
+403556	itempassive_unique_gem_005u_x1		All enemies you poison take [{VALUE1}*100]% increased damage from all sources.
+403462	itempassive_unique_gem_006_x1	Pain Enhancer	Critical hits cause the enemy to bleed for {c_magic}[{VALUE1}*100|1|]%{/c} weapon damage as Physical over 3 seconds.
+403600	itempassive_unique_gem_006u_x1		Gain Blood Frenzy, granting you [{VALUE1}*100]% increased Attack Speed for each bleeding enemy within 20 yards.
+403463	itempassive_unique_gem_007_x1	Mirinae, Teardrop of the Starweaver	15% chance on hit to smite a nearby enemy for {c_magic}[{VALUE1}*100]%{/c} weapon damage as Holy.
+403620	itempassive_unique_gem_007u_x1		Smite a nearby enemy every 5 seconds.
+403464	itempassive_unique_gem_008_x1	Gogok of Swiftness	{c_magic}[{VALUE1}*100|1|]%{/c} chance on hit to gain Swiftness, increasing your Attack Speed by 1% for 4 seconds. This effect stacks up to 15 times.
+403524	itempassive_unique_gem_008u_x1		Gain [{VALUE1}*100]% Cooldown Reduction per stack of Swiftness.
+403465	itempassive_unique_gem_009_x1		While under any control-impairing effects, reduce all damage taken by {c_magic}[{VALUE1}*100|1|]%{/c}.
+403624	itempassive_unique_gem_009u_x1		Heal for [{VALUE1}*100]% of maximum life when hit by a control-impairing effect.
+403466	itempassive_unique_gem_010_x1		Increase the damage of your pets by {c_magic}[{VALUE1}*10|2|]%{/c}.
+403472	itempassive_unique_gem_010u_x1		Your pets take [{VALUE1}*100]% less damage.
+403467	itempassive_unique_gem_011_x1	Moratorium	25% of all damage taken is instead staggered and dealt to you over {c_magic}[{VALUE1}|2|]{/c} seconds.
+403687	itempassive_unique_gem_011u_x1		[{VALUE1}*100]% chance on kill to clear all staggered damage.
+403468	itempassive_unique_gem_012_x1		Damage you deal is increased by {c_magic}[{VALUE1}|2|]%{/c} for every 10 yards between you and the enemy hit. Maximum {c_magic}[({VALUE1}*5)|2|]%{/c} increase at 50 yards.
+403727	itempassive_unique_gem_012u_x1		[{VALUE1}*100]% chance on hit to Stun the enemy for 1 second.
+403469	itempassive_unique_gem_013_x1		Increase the damage of primary skills by {c_magic}[{VALUE1}*10|2|]%{/c}.
+403473	itempassive_unique_gem_013u_x1		Primary skills heal you for 2% of maximum health on hit.
+403470	itempassive_unique_gem_014_x1		{c_magic}[{VALUE1}*100|1|]%{/c} chance on killing an enemy to cause an explosion of gold.
+403784	itempassive_unique_gem_014u_x1		Gain [{VALUE1}*100]% increased movement speed for 2 seconds after picking up gold.
+403471	itempassive_unique_gem_015_x1		Gain 0.5% increased damage for 3 seconds after spending primary resource. This effect stacks up to {c_magic}{VALUE1}{/c} times.
+403785	itempassive_unique_gem_015u_x1		Gain [{VALUE1}*100|1|]% increased Armor for every stack.
+246678	itempassive_unique_handxbow_012		{c_magic}[{VALUE1} * 100]%{/c_magic} chance to target enemies with Marked for Death when you hit them.
+246814	itempassive_unique_helm_003	Andariel's Poison	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to cast a Poison Nova when you are hit.
+338061	itempassive_unique_helm_003_x1	Andariel's Visage	Chance on hit to release a Poison Nova that deals {c_magic}[{VALUE1}*100]%{/c_magic} weapon damage as Poison to enemies within 10 yards.
+322977	itempassive_unique_helm_017_x1		Your resource costs are reduced by 30% after not taking damage for 5 seconds.
+246918	itempassive_unique_mace_1h_002	Odyn Lightning	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to Chain Lightning enemies when you hit them.
+364325	itempassive_unique_mace_1h_002_x1	Odyn Lightning	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to Chain Lightning enemies when you hit them.
+247484	itempassive_unique_mace_1h_009	Earthshatter	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to cause the ground to shudder when attacking.
+249958	itempassive_unique_mace_2h_003	Rest In Pieces	Slain enemies rest in pieces.
+248501	itempassive_unique_mace_2h_006		{c_magic}[{VALUE1} * 100]%{/c_magic} chance to sunder the ground your enemies walk on when you attack.
+247913	itempassive_unique_mace_2h_009	Schaefer's Lightning Shield	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to be protected by Lightning when you are hit.
+364319	itempassive_unique_mace_2h_009_x1	Schaefer's Lightning Shield	Getting hit has a chance to charge you with Lightning, causing you to deal {c_magic}[{VALUE1}*100]%{/c_magic} weapon damage as Lightning every second for 5 seconds to nearby enemies.
+246836	itempassive_unique_mighty_1h_006	Chilling Aura	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to be surrounded by a Chilling Aura when attacking.
+364322	itempassive_unique_mighty_1h_006_x1	Chilling Aura	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to be surrounded by a Chilling Aura when attacking.
+248481	itempassive_unique_mighty_1h_011	Whirlwind of Bul-Kathos	You occasionally Whirlwind furiously.
+360488	itempassive_unique_mighty_1h_011_x1	Whirlwind of Bul-Kathos	Chance on attack to Whirlwind furiously for 325% weapon damage as Physical every second for 6 seconds.
+374670	itempassive_unique_mojo_003_x1		A Zombie Dog is automatically summoned to your side every {c_magic}{VALUE1}{/c_magic} seconds.
+248489	itempassive_unique_mojo_010	Manajuma's Poison	You are surrounded by a deadly Poison Cloud.
+360491	itempassive_unique_mojo_010_x1	Manajuma's Poison	You are surrounded by a deadly Poison Cloud.
+374308	itempassive_unique_orb_001_x1		Taking damage has up to a {c_magic}[{VALUE1}*100]%{/c} chance to reset the cooldown on Teleport.
+247009	itempassive_unique_pants_007	Stink	These pants occasionally make you stink.
+364342	itempassive_unique_pants_007_x1	Stink	When 3 or more enemies are within 12 yards, you release a vile stench that deals {c_magic}[{VALUE1}*100]%{/c_magic} weapon damage as Poison every second for 10 seconds to enemies within 15 yards.
+247641	itempassive_unique_polearm_001		Chance to cast Inner Sanctuary when you are hit.
+367008	itempassive_unique_polearm_001_x1		Getting hit has a chance to automatically cast Inner Sanctuary.
+341335	itempassive_unique_potion_01_x1		
+341340	itempassive_unique_potion_02_x1		
+341341	itempassive_unique_potion_03_x1		
+248880	itempassive_unique_ring_001	Haunted Whisper	This ring occasionally haunts nearby enemies.
+364345	itempassive_unique_ring_001_x1	Haunted Whisper	This ring occasionally haunts nearby enemies.
+247797	itempassive_unique_ring_004		This ring sometimes calls forth a Treasure Goblin when you are hit.
+248763	itempassive_unique_ring_015		This ring sometimes summons a Skeleton when you attack.
+360492	itempassive_unique_ring_015_x1		This ring sometimes summons a Skeleton when you attack.
+248537	itempassive_unique_ring_020	Life Drain	You drain life from enemies around you.
+364340	itempassive_unique_ring_020_x1	Life Drain	You drain life from enemies around you.
+257586	itempassive_unique_ring_024	Hellfire Flame	Chance to launch an explosive ball of Hellfire when you attack.
+322975	itempassive_unique_ring_025_x1		Each time you pick up gold, increase your Gold and Health Pickup radius by 1 yard for 10 seconds, stacking up to 30 times.
+318241	itempassive_unique_ring_500_x1	Razor Strop	Picking up a Health Globe releases an explosion that deals {c_magic}[{VALUE1}*100]%{/c_magic} weapon damage as Fire to enemies within 20 yards.
+318300	itempassive_unique_ring_501_x1		Companion - Wolf Companion now summons 3 wolves.
+318346	itempassive_unique_ring_502_x1		Transform into something angelic or demonic. <NYI>
+318347	itempassive_unique_ring_503_x1		You absorb an attribute from the pack you are fighting. <NYI>
+318348	itempassive_unique_ring_504_x1		Leave a clone of yourself behind after using Vault.
+318349	itempassive_unique_ring_505_x1		Your Chill effects have up to a {c_magic}[{VALUE1}*100]%{/c_magic} chance to Freeze instead of Slow.
+318351	itempassive_unique_ring_506_x1		Double the duration of Fire elemental effects.
+318358	itempassive_unique_ring_507_x1		Falling Sword can be used again within 4 seconds before the cooldown is triggered.
+318359	itempassive_unique_ring_508_x1	Mad Monarch's Scepter	After killing 10 enemies, you release a Poison Nova that deals {c_magic}[{VALUE1}*100]%{/c_magic} weapon damage as Poison to enemies within 30 yards.
+318360	itempassive_unique_ring_509_x1		Enemies you hit become Marked for Death.
+318371	itempassive_unique_ring_510_x1		You may have one extra Hydra active at a time.
+318372	itempassive_unique_ring_511_x1		Chance on kill to siphon the spirit out of the slain enemy. When the spirit is pulled to you, it heals you for 10% of your maximum Life and Mana. <NYI>
+318374	itempassive_unique_ring_512_x1		Enable all runes for a specific skill. <NYI>
+326968	itempassive_unique_ring_513_ai_pickup_x1		
+318375	itempassive_unique_ring_513_x1		Summon a treasure goblin who picks up normal-quality items for you. After picking up {c_magic}{VALUE1}{/c_magic} items, he drops a rare item with a chance for a legendary.
+318376	itempassive_unique_ring_514_x1		Reduces the cooldown of Slow Time by {c_magic}[{VALUE1} * 100]%{/c_magic}.
+318377	itempassive_unique_ring_515_x1		Equip on Follower: Gain access to all skills.
+318378	itempassive_unique_ring_516_x1		When receiving fatal damage, you are instead restored to 100% of maximum Life and resources. This item is destroyed in the process.
+318379	itempassive_unique_ring_517_x1		Elemental Arrow now generates {c_magic}{VALUE1}{/c_magic} Hatred.
+318380	itempassive_unique_ring_518_x1		Vault now costs 8 Hatred instead of Discipline.
+318381	itempassive_unique_ring_519_x1		Prevent all Arcane damage taken and heal yourself for {c_magic}[{VALUE1}*100]%{/c_magic} of the amount prevented.
+318382	itempassive_unique_ring_520_x1		Chance on hit to summon a herd of murderous cows.
+318383	itempassive_unique_ring_521_x1		Shrine effects last for 10 minutes.
+318384	itempassive_unique_ring_522_x1		Chance on attack to shoot out a spectral creature dealing damage and knockback. <NYI>
+318385	itempassive_unique_ring_523_x1		Summon a Fetish Army after you kill 2 Elites.
+318386	itempassive_unique_ring_524_x1		When receiving fatal damage, you instead automatically cast Smoke Screen and are healed to 25% Life. This effect may occur once every {VALUE1} seconds.
+318410	itempassive_unique_ring_525_x1		Enemies you kill have a {c_magic}[{VALUE1}*100]%{/c_magic} additional chance to drop a health globe.
+318411	itempassive_unique_ring_526_x1		Pets deal {c_magic}[{VALUE}*100]%{/c_magic} more damage.
+318412	itempassive_unique_ring_527_x1	Stalgard's Decimator	Your melee attacks throw a piercing axe at a nearby enemy, dealing {c_magic}[{VALUE1}*100]%{/c_magic} weapon damage as Physical.
+318417	itempassive_unique_ring_528_x1		Reduces the Fury cost of Seismic Slam by {c_magic}[{VALUE1}*100]%{/c_magic}.
+318418	itempassive_unique_ring_529_x1		Cause an Earthquake when you land after using Leap.
+318419	itempassive_unique_ring_530_x1		Increases the duration of Ignore Pain by {c_magic}{VALUE1}{/c_magic} seconds.
+318420	itempassive_unique_ring_531_x1		When receiving fatal damage, you instead automatically cast Smoke Screen and are healed to 25% Life. This effect may occur once every {VALUE1} seconds.
+318421	itempassive_unique_ring_532_x1		Automatically drop Caltrops when you are hit. This effect may only occur once every 6 seconds.
+318423	itempassive_unique_ring_533_x1		Strafe gains the effect of the Drifting Shadow rune.
+318426	itempassive_unique_ring_534_x1	Gyana Na Kashu	Lashing Tail Kick releases a piercing fireball that deals {c_magic}[{VALUE1}*100]%{/c} weapon damage as Fire to enemies within 10 yards on impact.
+318427	itempassive_unique_ring_535_x1		Double the range of Deadly Reach.
+318428	itempassive_unique_ring_536_x1		Using Blinding Flash restores {c_magic}{VALUE1}{/c_magic} Spirit.
+318430	itempassive_unique_ring_537_x1		Tempest Rush gains the effect of the Tailwind rune.
+318431	itempassive_unique_ring_538_x1		Reduce the cooldown of Breath of Heaven by {c_magic}[{VALUE1}*100]%{/c_magic}.
+318432	itempassive_unique_ring_539_x1		When Dashing Strike hits an enemy more than {c_magic}{VALUE1}{/c_magic} yards away, its Charge cost is refunded.
+318433	itempassive_unique_ring_540_x1		Exploding Palm's on-death explosion damage is increased by {c_magic}[{VALUE1}*100]%{/c_magic}.
+318434	itempassive_unique_ring_541_x1		Your Spirit Generators generate {c_magic}[{VALUE1}*100]%{/c_magic} more Spirit.
+318435	itempassive_unique_ring_542_x1	Mantra of Retribution	Gain the base effect of all four Mantras at all times.
+318436	itempassive_unique_ring_543_x1		Mystic Ally mirrors your attacks. <NYI>
+318715	itempassive_unique_ring_544_x1		Prevent all Cold damage taken and heal yourself for {c_magic}[{VALUE1}*100]%{/c_magic} of the amount prevented.
+318716	itempassive_unique_ring_545_x1		Prevent all Fire damage taken and heal yourself for {c_magic}[{VALUE1}*100]%{/c_magic} of the amount prevented.
+318717	itempassive_unique_ring_546_x1		Prevent all Holy damage taken and heal yourself for {c_magic}[{VALUE1}*100]%{/c_magic} of the amount prevented.
+318718	itempassive_unique_ring_547_x1		Prevent all Lightning damage taken and heal yourself for {c_magic}[{VALUE1}*100]%{/c_magic} of the amount prevented.
+318719	itempassive_unique_ring_548_x1		Prevent all Poison damage taken and heal yourself for {c_magic}[{VALUE1}*100]%{/c_magic} of the amount prevented.
+318720	itempassive_unique_ring_549_x1		Zombie Dogs stuns enemies around them for 1.5 seconds when summoned.
+318721	itempassive_unique_ring_550_x1		{c_magic}[{VALUE1}*100]%{/c_magic} of the damage you take is redirected to your Zombie Dogs.
+318722	itempassive_unique_ring_551_x1		Spirit Walk lasts until you attack or until an enemy is within 30 yards of you.
+318724	itempassive_unique_ring_552_x1		Reduce the cooldown of Fetish Army and Big Bad Voodoo by 1 second each time your fetishes deal damage.
+318730	itempassive_unique_ring_553_x1		X% chance for health globes to also grant a powerup. <NYI>
+318731	itempassive_unique_ring_554_x1		Increase attack speed of your pets by {c_magic}[{VALUE1}*100]%{/c_magic}.
+318732	itempassive_unique_ring_555_x1		Corpse Spiders releases a web on impact that Slows enemies by {c_magic}[{VALUE1}*100]%{/c_magic}.
+318733	itempassive_unique_ring_556_x1		Teleport gains the effect of the Wormhole rune.
+318734	itempassive_unique_ring_557_x1		Magic Missile fires {c_magic}{VALUE1}{/c_magic} extra |4missile:missiles;.
+318740	itempassive_unique_ring_558_x1		Double the number of enemies your Electrocute jumps to.
+318741	itempassive_unique_ring_559_x1		Gain immunity to Freeze and Immobilize effects.
+318742	itempassive_unique_ring_560_x1		Chance on hit to create a chaos field that Blinds and Slows enemies inside for {c_magic}{VALUE1}{/c_magic} seconds.
+318743	itempassive_unique_ring_561_x1	Lightning Nova	While your Arcane Power is below 30%, you emit a Lightning Nova that deals {c_magic}[{VALUE1}*100]%{/c_magic} weapon damage as Lightning every second.
+318744	itempassive_unique_ring_562_x1		Stun enemies for 2 seconds the first time you hit them.
+318745	itempassive_unique_ring_563_x1		Gain increased damage after stunning an enemy.
+318746	itempassive_unique_ring_564_x1		Gain 15% increased damage for 3 seconds after blocking an attack.
+318747	itempassive_unique_ring_565_x1		You take {c_magic}[{VALUE1}*100]%{/c_magic} less damage from blocked attacks.
+318748	itempassive_unique_ring_566_x1		Chance on Critical Hit to increase attack speed and movement speed.
+318749	itempassive_unique_ring_567_x1		Chance on you or your pets being hit to Confuse the enemy for {c_magic}{VALUE1}{/c_magic} seconds.
+318750	itempassive_unique_ring_568_x1		Enemy missiles sometimes pass through you harmlessly.
+318751	itempassive_unique_ring_569_x1	Kekegi's Unbreakable Spirit	Damaging enemies has a chance to grant you an effect that removes the Spirit cost of your abilities for {c_magic}{VALUE1}{/c_magic} seconds.
+318752	itempassive_unique_ring_570_x1		Damage increased by 15% to targets that are Slowed or Stunned.
+318753	itempassive_unique_ring_571_x1		Increases damage against elites by {c_magic}[{VALUE1}*100]%{/c_magic}.
+318754	itempassive_unique_ring_572_x1		Chance on kill to increase damage dealt by 4% for 5 sec., stacking up to 5 times.
+318755	itempassive_unique_ring_573_x1		Reduce duration of control impairing effects by 75%.
+318756	itempassive_unique_ring_574_x1		When you block an attack, gain 100% chance to also block the next 2 attacks.
+318757	itempassive_unique_ring_575_x1		Heal for {c_magic}[{VALUE1}*100]%{/c_magic} of your missing Life when you kill an Undead enemy.
+318758	itempassive_unique_ring_576_x1		Your Fetishes shoot a Poison Dart every time you do.
+318759	itempassive_unique_ring_577_x1		Chance on hit to pull in enemies toward your target and Slow them by {c_magic}[{VALUE1}*100]%{/c_magic}.
+318760	itempassive_unique_ring_578_x1		Call of the Ancients last until they die.
+318761	itempassive_unique_ring_579_x1		You may move unhindered through enemies.
+318762	itempassive_unique_ring_580_x1		Reduce the cooldown of Earthquake by {VALUE1} seconds every time it kills an enemy.
+318763	itempassive_unique_ring_581_x1	Thunderfury, Blessed Blade of the Windseeker	Chance on hit to blast your enemy with Lightning, dealing {c_magic}[{VALUE1}*100]%{/c_magic} weapon damage as Lightning and then jumping to additional nearby enemies. Each enemy hit has their attack speed and movement speed reduced by 30% for 3 seconds. Jumps up to 5 targets.
+318764	itempassive_unique_ring_582_x1		Double the number of enemies that Lightning elemental effects jump to.
+318765	itempassive_unique_ring_583_x1		Double the damage of Poison elemental effects.
+318766	itempassive_unique_ring_584_x1		Double the chance for Arcane elemental effects to charm the enemy.
+318767	itempassive_unique_ring_585_x1		Double the healing amount of Holy elemental effects.
+318768	itempassive_unique_ring_586_x1		Wall of Zombies spews acid, dealing [{VALUE1}*100]% weapon damage every second for its entire duration.
+318769	itempassive_unique_ring_587_x1	Unity	All damage taken is split between wearers of this item.
+318770	itempassive_unique_ring_588_x1		Each stunned enemy within 25 yards reduces your damage taken by {c_magic}[{VALUE1}*100]%{/c_magic}.
+318771	itempassive_unique_ring_589_x1		Every time you destroy a wreckable object, you gain a short burst of speed.
+318772	itempassive_unique_ring_590_x1		Enemies hit by knockbacks suffer {c_magic}[{VALUE1}*100]%{/c_magic} more damage for 5 seconds when they land.
+318773	itempassive_unique_ring_591_x1		Threatening Shout has a chance to Charm enemies and cause them to join your side.
+318774	itempassive_unique_ring_592_x1		Horrify causes you to Fear and Root enemies around you for {c_magic}{VALUE1}{/c_magic} seconds.
+318775	itempassive_unique_ring_593_x1		Electrocute can chain to enemies that have already been hit.
+318776	itempassive_unique_ring_594_x1		Reduces the Spirit cost of Wave of Light by {c_magic}[{VALUE1} * 100]%{c_magic}.
+318777	itempassive_unique_ring_595_x1		Your Mirror Images have a chance to multiply when killed by enemies.
+318778	itempassive_unique_ring_596_x1		Your Fetish Army lasts until they die.
+318779	itempassive_unique_ring_597_x1		While below {c_magic}[{VALUE1}*100]%{/c_magic} Life, all attacks are guaranteed Critical Hits.
+318780	itempassive_unique_ring_598_x1		Your Thorns damage now hits all enemies in a 15 yard radius.
+318781	itempassive_unique_ring_599_x1		NYI
+318782	itempassive_unique_ring_600_x1		Summons shadow clones to your aid when you Stun an enemy. This effect may occur once every {VALUE1} seconds.
+318783	itempassive_unique_ring_601_x1		NYI
+318784	itempassive_unique_ring_602_x1		Your Spike Traps lure enemies to them. Enemies may be taunted once every {c_magic}{VALUE1}{/c_magic} seconds.
+318785	itempassive_unique_ring_603_x1		NYI
+318786	itempassive_unique_ring_604_x1		Frost Hydra now periodically casts Frost Nova.
+318787	itempassive_unique_ring_605_x1		Arcane Torrent instantly lays mines on the ground. <NYI>
+318788	itempassive_unique_ring_606_x1		Automatically cast Diamond Skin when you fall below 35% Life. This effect may occur once every {c_magic}{VALUE1}{/c_magic} seconds.
+318789	itempassive_unique_ring_607_x1		3 additional Explosive Blasts are triggered after casting Explosive Blast.
+318790	itempassive_unique_ring_608_x1		Reduces the resource cost of Fire skills by {c_magic}[{VALUE1}*100]%{/c_magic}.
+318791	itempassive_unique_ring_609_x1		Lesser enemies are now lured to your Meteor impact areas.
+318792	itempassive_unique_ring_610_x1		Energy Twister now travels in a straight path.
+318793	itempassive_unique_ring_611_x1	Frost Nova	Enemies killed by Cold damage have a {c_magic}[{VALUE1}*100]%{/c_magic} chance to release a Frost Nova.
+318794	itempassive_unique_ring_612_x1	Fulminator	Lightning damage has a chance to turn enemies into lightning rods, causing them to pulse {c_magic}[{VALUE1}*100]%{/c_magic} weapon damage as Lightning every second to nearby enemies for 6 seconds.
+318795	itempassive_unique_ring_613_x1		Enemies damaged by Black Hole are also slowed by {c_magic}[{VALUE1}*100]%{/c_magic} for 3 seconds.
+318796	itempassive_unique_ring_614_x1		Locust Swarm and Haunt now deal their damage in half of the normal duration.
+318797	itempassive_unique_ring_615_x1		Healing wells replenish all resources and reduce all cooldowns by {c_magic}{VALUE1}{/c_magic} seconds.
+318798	itempassive_unique_ring_616_x1		After earning a survival bonus, quickly heal to full Life.
+318799	itempassive_unique_ring_617_x1		After earning a massacre bonus, gold rains from sky.
+318800	itempassive_unique_ring_618_x1		Locust Swarm also Slows enemies by {c_magic}[{VALUE1}*100]%{/c_magic}.
+318801	itempassive_unique_ring_619_x1		Your Town Portal is no longer interrupted by taking damage. While casting Town Portal you gain a protective bubble that reduces damage taken by {c_magic}[{VALUE1}*100]%{/c_magic}.
+318802	itempassive_unique_ring_620_x1		Bolas now explode instantly.
+318803	itempassive_unique_ring_621_x1		Fan of Knives gains the effect of the Fan of Daggers rune.
+318804	itempassive_unique_ring_622_x1		You may have 2 additional Sentries.
+318805	itempassive_unique_ring_623_x1		Hungering Arrow has {c_magic}[{VALUE}*100]%{/c_magic} additional chance to pierce.
+318806	itempassive_unique_ring_624_x1		Zombie Dogs instead summons a single gargantuan dog with more damage and health than all other dogs combined.
+318807	itempassive_unique_ring_625_x1		Ancient Spear now pulls you to the first enemy hit. This effect replaces rune effects that pull enemies.
+318808	itempassive_unique_ring_626_x1		Grasp of the Dead gains the effect of the Rain of Corpses rune.
+318809	itempassive_unique_ring_627_x1		Periodically gain a shield that absorbs and reflects projectiles.
+318810	itempassive_unique_ring_628_x1		Leap can be cast again within 2 seconds before the cooldown begins.
+318811	itempassive_unique_ring_629_x1		Wave of Light is now cast at your enemy.
+318812	itempassive_unique_ring_630_x1		Plague of Toads now seek out enemies and can explode twice.
+318813	itempassive_unique_ring_631_x1		Vault gains the effect of the Rattling Roll rune.
+318814	itempassive_unique_ring_632_x1		Heal to full Life and resources when you fall below 20% Life.
+318815	itempassive_unique_ring_633_x1		{c_magic}[{VALUE1}*100]%{/c_magic} of Health Potion effects are also applied to allies.
+318816	itempassive_unique_ring_634_x1		Blocking an attack has a chance to Freeze the attacker for {c_magic}[{VALUE1}|1|]{/c_magic} seconds.
+318817	itempassive_unique_ring_635_x1		Your resource generation and damage is increased by 25% while moving and decreased by {c_magic}[{VALUE1}*100]%{/c_magic} while standing still.
+318818	itempassive_unique_ring_636_x1		Health globes restore {c_magic}[{VALUE1}*100]%{/c_magic} of your primary resource.
+318819	itempassive_unique_ring_637_x1		The world map is always revealed.
+318820	itempassive_unique_ring_638_x1		Shrines will spawn an enemy champion.
+318821	itempassive_unique_ring_639_x1		Using War Cry increases the movement speed for you and all allies affected by {c_magic}[{VALUE1}*100]%{/c_magic} for 10 seconds.
+318822	itempassive_unique_ring_640_x1		Completing an event grants a special reward.
+318823	itempassive_unique_ring_641_x1		Chance on being hit to summon a protective pylon.
+318824	itempassive_unique_ring_642_x1		Inner Sanctuary increases Spirit Regeneration per second by {c_magic}{VALUE1}{/c_magic}.
+318825	itempassive_unique_ring_643_x1		Blocks have a chance of summoning a charging wolf that deals {c_magic}[{VALUE1}*100]%{/c_magic} weapon damage to all enemies it passes through.
+318826	itempassive_unique_ring_644_x1	Soulsmasher	When you kill an enemy, it explodes for {c_magic}[{VALUE1}*100]%{/c_magic} of your Life per Kill as damage to all enemies within 20 yards. You no longer benefit from your Life per Kill.
+318827	itempassive_unique_ring_645_x1	Death's Bargain	Gain an aura of death that deals {c_magic}[{VALUE1}*100]%{/c_magic} of your Life per Second as Physical damage to enemies within 16 yards. You no longer regenerate Life.
+318828	itempassive_unique_ring_646_x1		{c_magic}[{VALUE1}*100]%{/c_magic} chance on hit to summon a Spike Trap, Caltrops or Sentry.
+318829	itempassive_unique_ring_647_x1		Blocked attacks heal you and your allies for {c_magic}[{VALUE1}*100]%{/c_magic} of the amount blocked.
+318830	itempassive_unique_ring_648_x1		Enemies slain while Feared die in a bloody explosion and cause other nearby enemies to flee in Fear.
+318831	itempassive_unique_ring_649_x1		Reduces the cooldown of Seven-Sided Strike by {c_magic}[{VALUE1}*100]%{/c_magic}.
+318832	itempassive_unique_ring_650_x1		Gib all enemies you kill.
+318833	itempassive_unique_ring_651_x1	Haunt	Haunt is cast on 5 nearby enemies when you open a chest.
+318834	itempassive_unique_ring_652_x1		Heal for 1% of your maximum Life per second for each enemy affected by a damage over time skill.
+318835	itempassive_unique_ring_653_x1		Equip on Follower: Your follower cannot die.
+318849	itempassive_unique_ring_654_x1		Knockbacks will knockup enemies instead.
+318850	itempassive_unique_ring_655_x1		Removes the resource cost of Blessed Shield.
+318851	itempassive_unique_ring_656_x1		Increase the size of your Blessed Hammers.
+318852	itempassive_unique_ring_657_x1		Smite now jumps to 3 additional enemies.
+318853	itempassive_unique_ring_658_x1		Reduces the cooldown of Heaven's Fury by {c_magic}[{VALUE1}*100]%{/c_magic}.
+318854	itempassive_unique_ring_659_x1		Marked for Death causes all rockets to lock in on that enemy.
+318855	itempassive_unique_ring_660_x1		Ray of Frost now pierces.
+318856	itempassive_unique_ring_661_x1		Your Life per Second becomes an aura that affects all nearby allies.
+318857	itempassive_unique_ring_662_x1		{c_magic}[{VALUE1}*100]%{/c_magic} chance on being hit by an Undead enemy to charm it for 2 seconds.
+318858	itempassive_unique_ring_663_x1		Your items become indestructible.
+318860	itempassive_unique_ring_664_x1		When there are 5 or more enemies within 12 yards, you gain an absorb shield equal to {c_magic}[{VALUE1}*100]%{/c_magic} of your maximum Life for 6 seconds. This effect may occur once every 30 seconds.
+318861	itempassive_unique_ring_665_x1		Increase your Life per Second by up to {c_magic}[{VALUE1}*100]%{/c_magic} based on your missing Life.
+318862	itempassive_unique_ring_666_x1		Killing enemies with Holy damage has a chance to cast Inner Sanctuary on your allies.
+318863	itempassive_unique_ring_667_x1		When you kill a Fallen, you have a {c_magic}[{VALUE1}*100]%{/c_magic} chance to charm all other nearby Fallen.
+318864	itempassive_unique_ring_668_x1		10% chance on hit to instantly deal {c_magic}[{VALUE1}*100]%{/c_magic} weapon damage as Cold to enemies that are Frozen.
+318865	itempassive_unique_ring_669_x1		Taking Fire damage restores your primary resource.
+318866	itempassive_unique_ring_670_x1		Lightning damage has a {c_magic}[{VALUE1}*100]%{/c_magic} chance to Stun for 1.5 seconds.
+318867	itempassive_unique_ring_671_x1		Increases duration of Stun effects by {c_magic}[{VALUE1}*100]%{/c_magic}.
+318868	itempassive_unique_ring_672_x1		Chance on killing a demon to gain a random Shrine effect.
+318869	itempassive_unique_ring_673_x1		{c_magic}[{VALUE1}*100]%{/c_magic} of your Thorns damage is applied on every attack.
+318870	itempassive_unique_ring_674_x1		Gain {c_magic}[{VALUE1}*100]%{/c_magic} increased movement speed for 4 seconds after Fearing an enemy.
+318871	itempassive_unique_ring_675_x1		{c_magic}[{VALUE1}*100]%{/c_magic} chance to spawn a Nephalem Glory globe when you Blind an enemy.
+318872	itempassive_unique_ring_676_x1		Knockbacks cause the enemy to move more slowly.
+318873	itempassive_unique_ring_677_x1		Critical Hits have a {c_magic}[{VALUE1}*100]%{/c_magic} chance to spawn a health globe.
+318874	itempassive_unique_ring_678_x1		Your projectiles move faster.
+318875	itempassive_unique_ring_679_x1		On gold pickup: Gain armor for 5 seconds equal to the amount picked up.
+318876	itempassive_unique_ring_680_x1		Shadow Power gains the effect of every rune.
+318877	itempassive_unique_ring_681_x1		Gain up to {c_magic}[{VALUE}*100]%{/c_magic} increased movement speed based on amount of Life missing.
+318878	itempassive_unique_ring_682_x1		Occasionally taunt nearby demons, forcing them to mindlessly melee you.
+318879	itempassive_unique_ring_683_x1		Knockback nearby enemies every {c_magic}{VALUE1}{/c_magic} seconds.
+318880	itempassive_unique_ring_684_x1		Thorns now deals fire damage.
+318881	itempassive_unique_ring_685_x1		Opening a chest grants {c_magic}[{VALUE1}*100]%{/c_magic} increased damage for 10 seconds.
+318882	itempassive_unique_ring_686_x1	Homing Rocket	Dodging or getting hit by a ranged attack automatically shoots a homing rocket back at the attacker for {c_magic}[{VALUE1}*100]%{/c_magic} weapon damage as Physical.
+318883	itempassive_unique_ring_687_x1		Blessed Shield ricochets to {c_magic}{VALUE1}{/c_magic} additional enemies.
+318884	itempassive_unique_ring_688_x1		Shield Glare now hits all enemies around you.
+318885	itempassive_unique_ring_689_x1		Reduces the Wrath cost of Shield Bash by {c_magic}[{VALUE1} * 100]%{/c_magic}.
+318886	itempassive_unique_ring_690_x1		Enemies affected by Provoke take double damage from Thorns.
+318887	itempassive_unique_ring_691_x1		Iron Skin also increases your Block Amount by {c_magic}[{VALUE1}*100]%{/c_magic}.
+318888	itempassive_unique_ring_692_x1		Every successful block has a {c_magic}[{VALUE1}*100]%{/c_magic} chance to reduce all cooldowns by 1 second.
+318889	itempassive_unique_ring_693_x1		Shield Bash no longer causes you to charge to the enemy.
+318890	itempassive_unique_ring_694_x1		When you block, you have up to a {c_magic}[{VALUE1}*100]%{/c_magic} chance to Stun the attacker for 1.5 seconds based on your current Wrath.
+318891	itempassive_unique_ring_695_x1		Gain 10% increased damage while wielding a two-handed weapon.
+318892	itempassive_unique_ring_696_x1		Smite will now also be cast at a second nearby enemy.
+318893	itempassive_unique_ring_697_x1		Fist of the Heavens has a {c_magic}[{VALUE1}*100]%{/c_magic} chance to also be cast at your location.
+318894	itempassive_unique_ring_698_x1		Casting Consecration also casts Consecration beneath all of your allies.
+318895	itempassive_unique_ring_699_x1		Blessed Hammer gains the effect of the Dominion rune.
+359537	itempassive_unique_ring_700_x1		Doubles the duration of Steed Charge.
+359538	itempassive_unique_ring_701_x1		Casting Justice increases your movement speed by {c_magic}[{VALUE1}*100]%{/c_magic} for 2 seconds.
+359539	itempassive_unique_ring_702_x1		Removes the resource cost of Blessed Shield.
+359540	itempassive_unique_ring_703_x1		Condemned enemies also trigger Condemn's explosion.
+359545	itempassive_unique_ring_704_x1		Enemies killed while Akarat's Champion is active turn into Phalanx Avatars for 10 seconds.
+359546	itempassive_unique_ring_705_x1		Sweep Attack restores {c_magic}{VALUE1}{/c_magic} Wrath for each enemy hit.
+359550	itempassive_unique_ring_706_x1		Every 60 seconds, gain a random Law for 60 seconds.
+359552	itempassive_unique_ring_707_x1		Gain two additional rays of Heaven’s Fury.
+359553	itempassive_unique_ring_708_x1		Double the number of Bombardment impacts.
+359554	itempassive_unique_ring_709_x1		The cooldown of Rain of Vengeance is reduced by {VALUE1} |4second:seconds; for every enemy you kill.
+359555	itempassive_unique_ring_710_x1		Damaging enemies with Arcane, Cold, Fire or Lightning will cause a Meteor of the same damage type to fall from the sky. There is an 8 second cooldown for each damage type.
+359556	itempassive_unique_ring_711_x1		You are immune to Desecrator, Molten, and Plagued monster ground effects.
+359557	itempassive_unique_ring_712_x1		Picking up gold grants experience.
+359558	itempassive_unique_ring_713_x1		Attacks cause your followers to occasionally come to your aid.
+359559	itempassive_unique_ring_714_x1		Chance to proc a demonic spell.
+359560	itempassive_unique_ring_715_x1		Whenever a Death's Breath drops, a second one will also drop.
+359561	itempassive_unique_ring_716_x1		Companion calls all companion types to your side.
+359562	itempassive_unique_ring_717_x1		Sentries cast your equipped Hatred spenders.
+359563	itempassive_unique_ring_718_x1		Furious Charge gains the effect of every rune.
+359564	itempassive_unique_ring_719_x1		Furious Charge gains the effect of the Merciless Assault rune.
+359565	itempassive_unique_ring_720_x1		Furious Charge gains the effect of the Stamina rune.
+359566	itempassive_unique_ring_721_x1		Furious Charge gains the effect of the Bull Rush rune.
+359567	itempassive_unique_ring_722_x1		Furious Charge gains the effect of the Dreadnought rune.
+359568	itempassive_unique_ring_723_x1		While a Combat Staff is equipped, all damage is increased by 20%.
+359569	itempassive_unique_ring_724_x1	Sunwuko's Clone	Spending 75 Spirit causes a decoy to spawn that taunts nearby enemies and then explodes for [{VALUE1} * 100]% weapon damage as Holy.
+359570	itempassive_unique_ring_725_x1	Lightning Storm	After using Dashing Strike, release Lightning at all nearby enemies for [{VALUE1}*100]% weapon damage.
+359573	itempassive_unique_ring_726_x1		Soul Harvest consumes your damage over time effects on enemies, instantly dealing their remaining damage.
+359574	itempassive_unique_ring_727_x1		Archon gains the effect of every rune.
+359576	itempassive_unique_ring_728_x1		Archon gains the effect of the Slow Time rune.
+359577	itempassive_unique_ring_729_x1		Archon gains the effect of the Teleport rune.
+359578	itempassive_unique_ring_730_x1		Archon gains the effect of the Pure Power rune.
+359579	itempassive_unique_ring_731_x1		Archon gains the effect of the Arcane Destruction rune.
+359580	itempassive_unique_ring_732_x1		When you die, a meteor falls from the sky and revives you. This effect has a 300 second cooldown.
+359581	itempassive_unique_ring_733_x1	Phoenix Fire	Dealing Fire damage causes the enemy to take the same amount of damage over 3 seconds, stacking up to 3000% weapon damage as Fire per second. After reaching 3000% damage per second, the enemy will burn until they die.
+359582	itempassive_unique_ring_734_x1		Every time you spend primary resource, you gain [{VALUE1}*100]% increased attack speed for 5 seconds. This effect stacks up to 5 times.
+359583	itempassive_unique_ring_735_x1		Your primary resource spenders that spent resource deal [{VALUE1}*100]% more damage while you are at full resource.
+359584	itempassive_unique_ring_736_x1		Reduce the cost of all abilities by 50% while Akarat's Champion is active.
+359585	itempassive_unique_ring_737_x1		Reduce the cooldown of Akarat's Champion by 50%.
+359586	itempassive_unique_ring_738_x1		Removes the cooldown of Summon Zombie Dogs.
+359587	itempassive_unique_ring_739_x1		Elemental skills have a chance to trigger a powerful attack that deals {c_magic}[{VALUE1}*100]%{/c_magic} weapon damage:<br>  {icon:bullet} Cold skills trigger Freezing Skull<br>  {icon:bullet} Poison skills trigger Poison Nova<br>  {icon:bullet} Lightning skills trigger Charged Bolt
+359589	itempassive_unique_ring_740_x1		
+359591	itempassive_unique_ring_741_x1		You are immune to Knockback and Stun effects.
+359593	itempassive_unique_ring_742_x1		Rend can now stack up to 2 times on an enemy.
+359594	itempassive_unique_ring_743_x1		Increase the effect of any gem socketed into this item by {c_magic}[{VALUE1}*100]%{/c_magic}.
+359597	itempassive_unique_ring_744_x1		Picking up gold heals you for an amount equal to the gold that was picked up.
+359598	itempassive_unique_ring_745_x1	Lightning	Lightning pulses periodically between all wearers of this item, dealing {c_magic}[{VALUE1}*100]%{/c_magic} weapon damage.
+359601	itempassive_unique_ring_746_x1		Energy Armor, Ice Armor, and Storm Armor affect all party members. <NYI>
+359602	itempassive_unique_ring_747_x1		Gain 25% run speed. This effect is lost for 5 seconds after taking damage.
+359604	itempassive_unique_ring_748_x1		Equip on Follower: Reduce the cooldown of all Follower skills by 50%.
+359605	itempassive_unique_ring_749_x1		Elemental Arrow - Ball Lightning now travels at {c_magic}[{VALUE1}*100]%{/c_magic} speed.
+359606	itempassive_unique_ring_750_x1		Chakram now generates {c_magic}{VALUE1}{c_magic} Hatred.
+397780	itempassive_unique_ring_751_x1		Rapid Fire deals {c_magic}[{VALUE1}*100]%{/c_magic} more damage for every second that you channel. Stacks up to 4 times.
+397781	itempassive_unique_ring_752_x1		Arcane Torrent instantly lays a mine field. <NYI>
+397782	itempassive_unique_ring_753_x1		25% chance on attack to throw a dagger at a nearby enemy for {c_magic}[{VALUE1}*100]%{/c_magic} weapon damage as Physical.
+397783	itempassive_unique_ring_754_x1		Furious Charge deals {c_magic}[{VALUE1}*100]%{/c_magic} increased damage for every enemy hit while charging.
+397784	itempassive_unique_ring_755_x1		Bola Shot has a {c_magic}[{VALUE1}*100]%{/c_magic} chance on explosion to pull in all enemies within 24 yards.
+397785	itempassive_unique_ring_756_x1		Picking up a gem gives you all the bonuses of that gem for 20 seconds. <NYI>
+397786	itempassive_unique_ring_757_x1		Energy Twisters cause lightning to arc between them, dealing 100% weapon damage per second. <NYI>
+397787	itempassive_unique_ring_758_x1		Whirlwind reflects all projectiles back at the attacker. <NYI>
+397788	itempassive_unique_ring_759_x1		Teleport no longer has a cooldown but costs 25 Arcane Power.
+397789	itempassive_unique_ring_760_x1		Gain the effect of all Armors. <NYI>
+397792	itempassive_unique_ring_761_x1		Frenzy now stacks up to {c_magic}{VALUE1}{/c_magic} times.
+397802	itempassive_unique_ring_762_x1		Hammer of the Ancients has a {c_magic}[{VALUE1}*100]%{/c_magic} chance to summon an Ancient for 20 seconds.
+397805	itempassive_unique_ring_763_x1		Zombie dogs become ghostly and cannot die. <NYI>
+397806	itempassive_unique_ring_764_x1		Familiar gains the effect of the Sparkflint rune.
+397807	itempassive_unique_ring_765_x1		Familiar gains the effect of the Icicle rune.
+397808	itempassive_unique_ring_766_x1		Familiar gains the effect of the Ancient Guardian rune.
+397809	itempassive_unique_ring_767_x1		Familiar gains the effect of the Arcanot rune.
+397811	itempassive_unique_ring_768_x1		Familiar gains the effect of the Cannoneer rune.
+397812	itempassive_unique_ring_769_x1		When your Diamond Skin is consumed by damage, it has a 10% chance to spawn a random Marquise gem. <NYI>
+397813	itempassive_unique_ring_770_x1		Gain the Pound of Flesh passive.
+397814	itempassive_unique_ring_771_x1		Gain the Ruthless passive.
+397815	itempassive_unique_ring_772_x1		Gain the Nerves of Steel passive.
+397816	itempassive_unique_ring_773_x1		Gain the Weapons Master passive.
+397817	itempassive_unique_ring_774_x1		Gain the Inspiring Presence passive.
+397818	itempassive_unique_ring_775_x1		Gain the Berserker Rage passive.
+397819	itempassive_unique_ring_776_x1		Gain the Bloodthirst passive.
+397820	itempassive_unique_ring_777_x1		Gain the Animosity passive.
+397822	itempassive_unique_ring_778_x1		Gain the Superstition passive.
+397831	itempassive_unique_ring_779_x1		Gain the Tough as Nails passive.
+397832	itempassive_unique_ring_780_x1		Gain the No Escape passive.
+397833	itempassive_unique_ring_781_x1		Gain the Relentless passive.
+397834	itempassive_unique_ring_782_x1		Gain the Brawler passive.
+397835	itempassive_unique_ring_783_x1		Gain the Juggernaut passive.
+397836	itempassive_unique_ring_784_x1		Gain the Unforgiving passive.
+397838	itempassive_unique_ring_785_x1		Gain the Boon of Bul-Kathos passive.
+397839	itempassive_unique_ring_786_x1		Gain the Earthen Might passive.
+397841	itempassive_unique_ring_787_x1		Gain the Rampage passive.
+397842	itempassive_unique_ring_788_x1		Gain the Sword and Board passive.
+397843	itempassive_unique_ring_789_x1		Gain the Heavenly Strength passive.
+397844	itempassive_unique_ring_790_x1		Gain the Hold Your Ground passive.
+397845	itempassive_unique_ring_791_x1		Gain the Indestructible passive.
+397846	itempassive_unique_ring_792_x1		Gain the Vigilant passive.
+397847	itempassive_unique_ring_793_x1		Gain the Insurmountable passive.
+397848	itempassive_unique_ring_794_x1		Gain the Long Arm of the Law passive.
+397849	itempassive_unique_ring_795_x1		Gain the Wrathful passive.
+397850	itempassive_unique_ring_796_x1		Gain the Iron Maiden passive.
+397851	itempassive_unique_ring_797_x1		Gain the Finery passive.
+397852	itempassive_unique_ring_798_x1		Gain the Holy Cause passive.
+397853	itempassive_unique_ring_799_x1		Gain the Lord Commander passive.
+397854	itempassive_unique_ring_800_x1		Gain the Blunt passive.
+401366	itempassive_unique_ring_801_x1		Gain the Towering Shield passive.
+401367	itempassive_unique_ring_802_x1		Gain the Righteousness passive.
+401368	itempassive_unique_ring_803_x1		Gain the Renewal passive.
+401369	itempassive_unique_ring_804_x1		Gain the Divine Fortress passive.
+401370	itempassive_unique_ring_805_x1		Gain the Fervor passive.
+401371	itempassive_unique_ring_806_x1		Gain the Fanaticism passive.
+401378	itempassive_unique_ring_807_x1		Gain the Thrill of the Hunt passive.
+401379	itempassive_unique_ring_808_x1		Gain the Tactical Advantage passive.
+401380	itempassive_unique_ring_809_x1		Gain the Blood Vengeance passive.
+401381	itempassive_unique_ring_810_x1		Gain the Steady Aim passive.
+401382	itempassive_unique_ring_811_x1		Gain the Cull the Weak passive.
+401383	itempassive_unique_ring_812_x1		Gain the Night Stalker passive.
+401384	itempassive_unique_ring_813_x1		Gain the Brooding passive.
+401385	itempassive_unique_ring_814_x1		Gain the Hot Pursuit passive.
+401386	itempassive_unique_ring_815_x1		Gain the Archery passive.
+401387	itempassive_unique_ring_816_x1		Gain the Numbing Traps passive.
+401388	itempassive_unique_ring_817_x1		Gain the Perfectionist passive.
+401389	itempassive_unique_ring_818_x1		Gain the Custom Engineering passive.
+401390	itempassive_unique_ring_819_x1		Gain the Grenadier passive.
+401391	itempassive_unique_ring_820_x1		Gain the Sharpshooter passive.
+401392	itempassive_unique_ring_821_x1		Gain the Ballistics passive.
+401393	itempassive_unique_ring_822_x1		Gain the Ambush passive.
+401394	itempassive_unique_ring_823_x1		Gain the Awareness passive.
+401395	itempassive_unique_ring_824_x1		Gain the Single Out passive.
+401414	itempassive_unique_ring_825_x1		Gain the Resolve passive.
+401415	itempassive_unique_ring_826_x1		Gain the Fleet Footed passive.
+401416	itempassive_unique_ring_827_x1		Gain the Exalted Soul passive.
+401417	itempassive_unique_ring_828_x1		Gain the Transcendence passive.
+401418	itempassive_unique_ring_829_x1		Gain the Chant of Resonance passive.
+401419	itempassive_unique_ring_830_x1		Gain the Seize the Initiative passive.
+401420	itempassive_unique_ring_831_x1		Gain the The Guardian's Path passive.
+401421	itempassive_unique_ring_832_x1		Gain the Sixth Sense passive.
+401422	itempassive_unique_ring_833_x1		Gain the Relentless Assault passive.
+401423	itempassive_unique_ring_834_x1		Gain the Beacon of Ytar passive.
+401424	itempassive_unique_ring_835_x1		Gain the Alacrity passive.
+401425	itempassive_unique_ring_836_x1		Gain the Harmony passive.
+401426	itempassive_unique_ring_837_x1		Gain the Combination Strike passive.
+401427	itempassive_unique_ring_838_x1		Gain the Near Death Experience passive.
+401428	itempassive_unique_ring_839_x1		Gain the Mythic Rhythm passive.
+401429	itempassive_unique_ring_840_x1		Gain the Momentum passive.
+401430	itempassive_unique_ring_841_x1		Gain the Unity passive.
+401458	itempassive_unique_ring_842_x1		Gain the Jungle Fortitude passive.
+401459	itempassive_unique_ring_843_x1		Gain the Circle of Life passive.
+401460	itempassive_unique_ring_844_x1		Gain the Spiritual Attunement passive.
+401461	itempassive_unique_ring_845_x1		Gain the Gruesome Feast passive.
+401462	itempassive_unique_ring_846_x1		Gain the Blood Ritual passive.
+401463	itempassive_unique_ring_847_x1		Gain the Bad Medicine passive.
+401464	itempassive_unique_ring_848_x1		Gain the Zombie Handler passive.
+401465	itempassive_unique_ring_849_x1		Gain the Pierce the Veil passive.
+401466	itempassive_unique_ring_850_x1		Gain the Spirit Vessel passive.
+401467	itempassive_unique_ring_851_x1		Gain the Fetish Sycophants passive.
+401468	itempassive_unique_ring_852_x1		Gain the Rush of Essence passive.
+401469	itempassive_unique_ring_853_x1		Gain the Vision Quest passive.
+401470	itempassive_unique_ring_854_x1		Gain the Fierce Loyalty passive.
+401471	itempassive_unique_ring_855_x1		Gain the Grave Injustice passive.
+401472	itempassive_unique_ring_856_x1		Gain the Tribal Rites passive.
+401473	itempassive_unique_ring_857_x1		Gain the Creeping Death passive.
+401474	itempassive_unique_ring_858_x1		Gain the Physical Attunement passive.
+401475	itempassive_unique_ring_859_x1		Gain the Midnight Feast passive.
+401476	itempassive_unique_ring_860_x1		Gain the Dominance passive.
+401495	itempassive_unique_ring_861_x1		Gain the Glass Cannon passive.
+401496	itempassive_unique_ring_862_x1		Gain the Prodigy passive.
+401497	itempassive_unique_ring_863_x1		Gain the Astral Presence passive.
+401498	itempassive_unique_ring_864_x1		Gain the Illusionist passive.
+401499	itempassive_unique_ring_865_x1		Gain the Cold Blooded passive.
+401500	itempassive_unique_ring_866_x1		Gain the Galvanizing Ward passive.
+401501	itempassive_unique_ring_867_x1		Gain the Power Hungry passive.
+401502	itempassive_unique_ring_868_x1		Gain the Blur passive.
+401503	itempassive_unique_ring_869_x1		Gain the Evocation passive.
+401504	itempassive_unique_ring_870_x1		Gain the Arcane Dynamo passive.
+401505	itempassive_unique_ring_871_x1		Gain the Unstable Anomaly passive.
+401506	itempassive_unique_ring_872_x1		Gain the Paralysis passive.
+401507	itempassive_unique_ring_873_x1		Gain the Unwavering Will passive.
+401508	itempassive_unique_ring_874_x1		Gain the Conflagration passive.
+401509	itempassive_unique_ring_875_x1		Gain the Audacity passive.
+401510	itempassive_unique_ring_876_x1		Gain the Temporal Flux passive.
+401511	itempassive_unique_ring_877_x1		Gain the Elemental Exposure passive.
+409335	itempassive_unique_ring_878_x1		Gain the Determination passive.
+409431	itempassive_unique_ring_899_x1		Increase the attack speed of Shield Bash and Sweep Attack [{VALUE1}*100]%.
+409428	itempassive_unique_ring_900_x1		Every use of Shield Bash or Sweep Attack that hits an enemy grants [{VALUE1}*100]% increased Attack Speed for 3 |4second:seconds;. This effect stacks up to 5 times.
+402407	itempassive_unique_ring_901_x1		Gain 15% primary resource when used below 25% Life.
+402408	itempassive_unique_ring_902_x1		Gain {c_magic}{VALUE1}%{/c_magic} Dodge for 3 seconds after using Dashing Strike.
+402411	itempassive_unique_ring_903_x1		Increases the maximum stack count of Sweeping Wind by {VALUE1}.
+402406	itempassive_unique_ring_904_x1		Seismic Slam is cast in all directions.
+402413	itempassive_unique_ring_905_x1		Increases the duration of Phalanx avatars by 200%.
+402414	itempassive_unique_ring_906_x1		Condemn has no cooldown but instead costs 40 Wrath.
+402415	itempassive_unique_ring_907_x1		Punish gains the effect of every rune.
+402416	itempassive_unique_ring_908_x1		Primary skills that generate resource deal {c_magic}[{VALUE1}*100]%{/c_magic} additional damage.
+402444	itempassive_unique_ring_909_x1		Phalanx now casts twice.
+402446	itempassive_unique_ring_910_x1		A bolt of damage strikes an enemy every second for {c_magic}[{VALUE1}*100]%{/c_magic} weapon damage while Akarat's Champion is active.
+402447	itempassive_unique_ring_911_x1		Your Poison Darts and your Fetishes' Poison Darts now pierce.
+402448	itempassive_unique_ring_912_x1		Reduces the Arcane Power cost of Meteor by {c_magic}[{VALUE1}*100]%{/c_magic}.
+402449	itempassive_unique_ring_913_x1		Reduce the cooldown of Rain of Vengeance by {VALUE1} |4second:seconds; every time you cast a primary skill.
+402450	itempassive_unique_ring_914_x1		
+402451	itempassive_unique_ring_915_x1		
+402455	itempassive_unique_ring_916_x1		
+402456	itempassive_unique_ring_917_x1		
+402457	itempassive_unique_ring_918_x1		
+402458	itempassive_unique_ring_919_x1		
+402459	itempassive_unique_ring_920_x1		
+402460	itempassive_unique_ring_921_x1		
+402461	itempassive_unique_ring_922_x1		
+402462	itempassive_unique_ring_923_x1		
+402463	itempassive_unique_ring_924_x1		
+402464	itempassive_unique_ring_925_x1		
+402465	itempassive_unique_ring_926_x1		
+402466	itempassive_unique_ring_927_x1		
+402467	itempassive_unique_ring_928_x1		
+402469	itempassive_unique_ring_929_x1		
+402470	itempassive_unique_ring_930_x1		
+402471	itempassive_unique_ring_931_x1		
+402472	itempassive_unique_ring_932_x1		
+402473	itempassive_unique_ring_933_x1		
+402474	itempassive_unique_ring_934_x1		
+402475	itempassive_unique_ring_935_x1		
+402476	itempassive_unique_ring_936_x1		
+402477	itempassive_unique_ring_937_x1		
+402478	itempassive_unique_ring_938_x1		
+402479	itempassive_unique_ring_939_x1		
+402480	itempassive_unique_ring_940_x1		
+367462	itempassive_unique_ring_hellfire_x1	Hellfire Ring	Chance on hit to engulf the ground in lava, dealing 200% weapon damage per second for 6 seconds.
+247053	itempassive_unique_shield_008		You have a chance to be shielded when hit by enemies.
+247585	itempassive_unique_shield_011		{c_magic}[{VALUE1}*100]%{/c_magic} chance to be protected by a shield of bones when you are hit.
+247619	itempassive_unique_shoulder_002	Death Knives	{c_magic}[{VALUE1}*100]%{/c_magic} chance to explode with knives when hit by enemies.
+364339	itempassive_unique_shoulder_002_x1	Death Knives	{c_magic}[{VALUE1}*100]%{/c_magic} chance to explode in a fan of knives for 200% weapon damage when hit.
+247544	itempassive_unique_shoulder_009		Chance to reflect projectiles when you are hit by enemies.
+334883	itempassive_unique_shoulder_103_x1		When receiving fatal damage, there is a chance that you are instead restored to 25% of maximum Life and cause nearby enemies to flee in fear.
+246780	itempassive_unique_staff_006		Enemies occasionally flee at the sight of this staff.
+247572	itempassive_unique_staff_007		Chance to charm enemies when you hit them.
+247662	itempassive_unique_sword_1h_004		Chance to summon angelic assistance when attacking.
+364315	itempassive_unique_sword_1h_004_x1	Skycutter	Chance to summon angelic assistance when attacking.
+249967	itempassive_unique_sword_1h_007	Rest In Pieces	Slain enemies rest in pieces.
+249592	itempassive_unique_sword_1h_012		This weapon will forcefully repel undead enemies.
+374362	itempassive_unique_sword_1h_012_x1		Undead enemies within 25 yards take {c_magic}[{VALUE1}*100]%{/c_magic} weapon damage as Holy every second and are sometimes knocked back.
+247537	itempassive_unique_sword_2h_004	Demon Fury	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to explode with demonic fury when attacking.
+364321	itempassive_unique_sword_2h_004_x1	Demon Fury	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to explode with demonic fury when attacking.
+249138	itempassive_unique_sword_2h_010	Burning Chains	Chance on hit to summon a Demonic Slave.
+364317	itempassive_unique_sword_2h_010_x1	Burning Chains	Chance on hit to summon a Demonic Slave.
+251572	itempassive_unique_voodoomask_002		Chance to summon horrific Mimics when attacking.
+248686	itempassive_unique_wand_013		This wand finds your death humorous.
+247090	itempassive_unique_wizardhat_004	Fireball	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to cast a fiery ball when attacking.
+364338	itempassive_unique_wizardhat_004_x1	Fireball	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to cast a fiery ball when attacking.
+247429	itempassive_unique_xbow_001	Explosive Bolt	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to shoot explosive bolts when attacking.
+364332	itempassive_unique_xbow_001_x1	Explosive Bolt	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to shoot explosive bolts when attacking.
+247577	itempassive_unique_xbow_002		Chance to root enemies to the ground when you hit them.
+248480	itempassive_unique_xbow_011		{c_magic}[{VALUE1} * 100]%{/c_magic} chance for ranged projectiles to pierce enemies.
+374344	itempassive_unique_xbow_011_x1		Your projectiles pierce {c_magic}{VALUE1}{/c_magic} additional |4time:times;.
+247430	itempassive_unique_xbow_012	Acid Blob	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to lob an acid blob when attacking.
+364335	itempassive_unique_xbow_012_x1	Acid Blob	{c_magic}[{VALUE1} * 100]%{/c_magic} chance to lob an acid blob when attacking.
+374500	itempassive_x1_amulet_norm_unique_25_barbarian		When you use Wrath of the Berserker, you mesmerize nearby enemies with your skill, causing them to jump uncontrollably for {c_magic}{VALUE1}{/c_magic} seconds.
+374502	itempassive_x1_amulet_norm_unique_25_crusader		When you use Akarat's Champion, you mesmerize nearby enemies with your skill, causing them to jump uncontrollably for {c_magic}{VALUE1}{/c_magic} seconds.
+374503	itempassive_x1_amulet_norm_unique_25_demonhunter		When you use Vengeance, you mesmerize nearby enemies with your skill, causing them to jump uncontrollably for {c_magic}{VALUE1}{/c_magic} seconds.
+374504	itempassive_x1_amulet_norm_unique_25_monk		When you use Epiphany, you mesmerize nearby enemies with your skill, causing them to jump uncontrollably for {c_magic}{VALUE1}{/c_magic} seconds.
+374506	itempassive_x1_amulet_norm_unique_25_witchdoctor		When you use Big Bad Voodoo, you mesmerize nearby enemies with your skill, causing them to jump uncontrollably for {c_magic}{VALUE1}{/c_magic} seconds.
+374505	itempassive_x1_amulet_norm_unique_25_wizard		When you use Archon, you mesmerize nearby enemies with your skill, causing them to jump uncontrollably for {c_magic}{VALUE1}{/c_magic} seconds.
+241651	izual_charge		
+241652	izual_corruptangel_piercingdash		
+162329	izual_frostnova	Frost Nova	An explosion of ice freezes nearby enemies for {c_green}[{Script Formula 2}|1|] seconds{/c_green} and causes {c_green}{Script Formula 0} - [{Script Formula 0} + {Script Formula 1}] Cold damage{/c_green}. Cold damage chills enemies, slowing their movement and attack speed. Damage will break the freeze effect, but not the Chill effect.<br><br>Cooldown: {c_green}[{Cooldown Time}|1|] seconds{/c_green}
+241653	izual_frozencast		
+70432	knockback		
+356848	knockback_nolandinganim		
+85936	knockback_overobstacles		
+329195	knockback_throughownedbyteam		
+30296	knockdown		
+30300	lacuni_leap		
+30301	lacuni_lob		
+30297	lacuniburrowin		
+30298	lacuniburrowout		
+1744	lacunicombo		
+30299	lacunimale_doubleswing		
+30307	laugh		
+84699	laugh_skeletonking		
+190230	leah_hulkout		
+93831	leah_vortex		
+208501	leah_vortex_again		
+366477	lr_boss_collapseceiling		
+366481	lr_boss_fast		
+366830	lr_boss_izual_charge		
+366204	lr_boss_pathblocked_teleport	Despair Teleport	
+366527	lr_boss_sprint	Sprint	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Fury<br><br>Increase movement speed by {c_green}[{Script Formula 12}*100]%{/c_green} for {c_green}{Script Formula 3}{/c_green} seconds.
+131741	maghda_mark	Maghda Shield	
+131745	maghda_mothdust	Maghda Shield	
+184598	maghda_portalcreatecinematic	Maghda Shield	
+30568	maghda_projectile	Maghda Projectile	
+131746	maghda_punish	Maghda Punish	
+178279	maghda_punishcinematic	Maghda Shield	
+131744	maghda_summon_beserker	Maghda Summon	
+131749	maghda_teleport	Maghda Teleport	
+30313	magicpainting_summon_skeleton		
+123381	malletdemon_power_hit		
+366281	malletdemon_power_hit_lr_boss		
+229128	manual_walk	Walk	
+145022	mastablasta_combined_dismount_rider	Melee Attack	This is your skill at close-range combat.
+143940	mastablasta_combined_lobbed_shot		
+140857	mastablasta_rider_alpha_strike	Melee Attack	This is your skill at close-range combat.
+143991	mastablasta_rider_combine		
+140856	mastablasta_rider_leap		
+139356	mastablasta_rider_lobbed_shot		
+144289	mastablasta_steed_combine	Melee Attack	This is your skill at close-range combat.
+141333	mastablasta_steed_drainattack	Melee Attack	This is your skill at close-range combat.
+140859	mastablasta_steed_stomp	Melee Attack	This is your skill at close-range combat.
+212136	mistressofpain_ascend	Ascend	
+212237	mistressofpain_descend	Descend	
+136790	mistressofpain_painbolts	Pain Bolts	
+369693	mistressofpain_painbolts_lr		
+137143	mistressofpain_spiderling_explode	Web Patch	
+136958	mistressofpain_summonspiders	Summon Spiders	
+212239	mistressofpain_summonspiders_airborne	Summon Spiders	
+137483	mistressofpain_teleporttothrone	Teleport Away	
+136722	mistressofpain_webpatch	Web Patch	
+136954	monk_blindingflash	Blinding Flash	{c_gold}Cooldown:{/c_gold} {c_green}{Cooldown Time}{/c_green} seconds<br><br>Blind all nearby enemies for {c_green}[{Script Formula 17}]{/c_green} seconds.
+69130	monk_breathofheaven	Breath of Heaven	{c_gold}Cooldown:{/c_gold} {c_green}{Cooldown Time}{/c_green} seconds<br><br>Heal yourself and nearby allies.
+96311	monk_cripplingwave	Crippling Wave	{c_gold}Generate:{/c_gold} {c_green}[PowerTag.Monk_CripplingWave."Spirit Gained"]{/c_green} Spirit per attack<br><br>Sweeping punches that cripple enemies, reducing their attack and movement speed.
+223473	monk_cyclonestrike	Cyclone Strike	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 22}{/c_green} Spirit<br><br>Mystical force pulls nearby enemies towards you and blasts them.
+96019	monk_deadlyreach	Deadly Reach	{c_gold}Generate:{/c_gold} {c_green}[PowerTag.Monk_DeadlyReach."Spirit Gained"]{/c_green} Spirit per attack<br><br>Strike multiple enemies in a row with each attack. Every third hit has a chance to knock enemies up into the air.
+97328	monk_explodingpalm	Exploding Palm	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Spirit<br><br>Strike and Bleed an enemy. The enemy will explode if killed while bleeding.
+95940	monk_fistsofthunder	Fists of Thunder	{c_gold}Generate:{/c_gold} {c_green}[PowerTag.Monk_FistsofThunder."Spirit Gained"]{/c_green} Spirit per attack<br><br>Teleport to your target and attack it with a series of rapid punches.
+111676	monk_lashingtailkick	Lashing Tail Kick	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Spirit<br><br>Unleash a deadly roundhouse kick that is effective against small groups of enemies.
+366119	monk_lashingtailkick_handofytar_passability		
+110575	monk_lethaldecoy_taunt	Lethal Decoy Taunt	
+169155	monk_mystically_pet_runea_kick	Fire Kick	This is your skill at close-range combat.
+363493	monk_mystically_pet_runeb_waveattack_fast	Wave Attack	
+169715	monk_mystically_pet_runec_groundpunch	Ground Punch	This is your skill at close-range combat.
+169728	monk_mystically_pet_runed_aoeattack	Vortex	This is your skill at close-range combat.
+169081	monk_mystically_pet_weapon_melee_instant	Melee Attack	This is your skill at close-range combat.
+209104	monk_passive_beaconofytar	Beacon of Ytar	It is only through hardship that we come to know our limits, and only through knowing our limits that we learn to shatter them.
+156467	monk_passive_chantofresonance	Chant of Resonance	The world continues on the noble path, each of us carrying another, all connected, ever onward.
+218415	monk_passive_combinationstrike	Combination Strike	Master Wughan was not merely the first to perfect the six techniques. His true accomplishment was in weaving them into a style all his own.
+209027	monk_passive_exaltedsoul	Exalted Soul	"Endeavor to be one with the hidden truth and you will soar beyond the sky." —Waykeeper Tzo Krin
+209029	monk_passive_fleetfooted	Fleet Footed	Strength out of place is no strength at all.
+156492	monk_passive_guidinglight	Alacrity	"The harmony of mind, body, and spirit brings many blessings. A monk who has become as one will move like a storm crashing into the mountains. Fast, hard, and without hesitation." — Patriarch Anisim
+156484	monk_passive_neardeathexperience	Near Death Experience	"We do not see what has been done, we only see what remains to be done." —Mantra of the Monks of Ivgorod
+211581	monk_passive_resolve	Resolve	"It is not our place to make demands of nature, nor to acquiesce to those who would. First we learn what is right, then we protect what is right." —Master Wughan
+209628	monk_passive_seizetheinitiative	Seize the Initiative	The Monks of Ivgorod are trained to move like water — flowing freely into open spaces and crashing hard against their foes.
+209622	monk_passive_sixthsense	Sixth Sense	The final test of the Serpent's Form takes place in "The Pit of 12 Vipers." The initiates are not told about the 13th.
+209812	monk_passive_theguardianspath	The Guardian's Path	"No weapon can overcome the weakness of an undisciplined mind. They can only serve as an extension of the self." —Waykeeper Tzo Krin
+209250	monk_passive_transcendence	Transcendence	A life unlived is no different from death.
+69489	monk_resistaura	Resist Aura	Create an aura that increases all resistances by {c_green}[{Script Formula 2}*100]%{/c_green} for the Monk and allies within {c_green}{Script Formula 0}{/c_green} yards for {c_green}[{Script Formula 1}/60|1|]{/c_green} minutes.<br><br>{c_yellow}This is an aura. The Monk can only have one aura active at a time.{/c_yellow}<br><br>Cost: {c_green}{Resource Cost}{/c_green} Spirit<br>Cooldown: {c_green}{Cooldown Time}{/c_green} seconds
+144312	monk_resistaura_runec_arcane	Resist Aura	
+144197	monk_resistaura_runec_cold	Resist Aura	
+143382	monk_resistaura_runec_fire	Resist Aura	
+144322	monk_resistaura_runec_holy	Resist Aura	
+144188	monk_resistaura_runec_lightning	Resist Aura	
+144202	monk_resistaura_runec_poison	Resist Aura	
+96215	monk_serenity	Serenity	{c_gold}Cooldown:{/c_gold} {c_green}{Cooldown Time}{/c_green} seconds<br><br>Become immune to all attacks and control effects for {c_green}[{Script Formula 9}]{/c_green} seconds.
+96694	monk_sevensidedstrike	Seven-Sided Strike	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 21}{/c_green} Spirit<br>{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 18}{/c_green} seconds<br><br>Move with blinding speed and strike nearby enemies while being immune to attacks yourself.
+96090	monk_sweepingwind	Sweeping Wind	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Spirit<br><br>Surround yourself in a vortex for {c_green}{Script Formula 7}{/c_green} seconds that damages nearby enemies. Critical Hits intensify the vortex.
+121442	monk_tempestrush	Tempest Rush	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 15}{/c_green} Spirit<br><br>Charge through your enemies, dealing damage to everything in your path.
+96033	monk_waveoflight	Wave of Light	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 19}{/c_green} Spirit<br><br>Ring a mystic bell that crushes enemies.
+97110	monk_wayofthehundredfists	Way of the Hundred Fists	{c_gold}Generate:{/c_gold} {c_green}[PowerTag.Monk_WayoftheHundredFists."Spirit Gained"]{/c_green} Spirit per attack<br><br>Strike groups of enemies with a series of devastating punches.
+30333	monster_poison_melee_attack		
+30334	monster_ranged_projectile		
+30338	monster_spell_projectile		
+214594	monsteraffix_arcaneenchanted	Arcane Enchanted	
+221130	monsteraffix_arcaneenchanted_champion	Arcane Enchanted	
+221219	monsteraffix_arcaneenchanted_minion	Arcane Enchanted	
+219671	monsteraffix_arcaneenchanted_new_petbasic	Arcane	
+214791	monsteraffix_arcaneenchantedcast	Arcane	
+384426	monsteraffix_avenger_arcaneenchanted	Arcane Enchanted	
+392128	monsteraffix_avenger_arcaneenchanted_new_petbasic		
+384436	monsteraffix_avenger_arcaneenchantedcast		
+226292	monsteraffix_avenger_buff	Avenger	
+226289	monsteraffix_avenger_champion	Avenger	
+384594	monsteraffix_avenger_mortar		
+384596	monsteraffix_avenger_mortarcast		
+91098	monsteraffix_ballista	Ballista	
+210333	monsteraffix_championbuff	Champion	
+156106	monsteraffix_desecratorbuff	Desecrator	
+221131	monsteraffix_desecratorbuff_champion	Desecrator	
+156105	monsteraffix_desecratorcast	Desecrator	
+91232	monsteraffix_dietogether	Die Together	
+81420	monsteraffix_electrified	Electrified	
+365083	monsteraffix_electrified_lr_boss_custom		
+109899	monsteraffix_electrified_minion	Electrified	
+169461	monsteraffix_electrified_minion_rakevent		
+70650	monsteraffix_extrahealth	Extra health	
+70849	monsteraffix_fast	Fast	
+90144	monsteraffix_frozen	Frozen	
+231149	monsteraffix_frozencast	Frozen	
+231157	monsteraffix_frozenrare	Frozen	
+276798	monsteraffix_healing		
+71239	monsteraffix_healthlink	Health Link	
+71108	monsteraffix_illusionist	Illusionist	
+264185	monsteraffix_illusionistcast		
+222743	monsteraffix_jailer	Jailer	
+222745	monsteraffix_jailer_champion	Jailer	
+222744	monsteraffix_jailercast	Jailer	
+70655	monsteraffix_knockback	Knockback	
+226497	monsteraffix_linked	Fire Chains	
+91028	monsteraffix_missiledampening	Monster Affix - Missile Dampening	
+376860	monsteraffix_missiledampeningcast	Monster Affix - Missile Dampening	
+90314	monsteraffix_molten	Molten	
+109898	monsteraffix_molten_minion		
+215756	monsteraffix_mortar	Mortar	
+215757	monsteraffix_mortarcast	Mortar	
+247258	monsteraffix_nightmarish		
+120655	monsteraffix_pheonix	Pheonix	
+90566	monsteraffix_plagued	Plagued	
+231115	monsteraffix_plaguedcast	MonsterAffix_PlaguedCast	
+71023	monsteraffix_puppetmaster	Puppet Master	
+71024	monsteraffix_puppetmaster_minion	Puppet Master	
+230877	monsteraffix_reflectsdamage	Reflects Damage	
+285770	monsteraffix_reflectsdamagecast		
+226437	monsteraffix_shielding	Shielding	
+226438	monsteraffix_shieldingcast	Shielding	
+155958	monsteraffix_teleporterbuff	Teleporter	
+155959	monsteraffix_teleportercast	Teleporter	
+336177	monsteraffix_thunderstormbuff	Thunderstorm	
+336178	monsteraffix_thunderstormbuff_champion	Thunderstorm	
+336179	monsteraffix_thunderstormcast	MonsterAffix_ThunderstormCast	
+70309	monsteraffix_vampiric	Vampiric	
+81615	monsteraffix_vortex		
+120306	monsteraffix_vortexbuff	Vortex	
+221132	monsteraffix_vortexbuff_champion	Vortex	
+120305	monsteraffix_vortexcast	MonsterAffix_VortexCast	
+226293	monsteraffix_waller	Waller	
+226294	monsteraffix_wallercast	Waller	
+231117	monsteraffix_wallerrare	Waller	
+231118	monsteraffix_wallerrarecast	Waller	
+158970	morluspellcaster_breathoffire		
+263415	morluspellcaster_breathoffrost		
+158969	morluspellcaster_meteor		
+256045	morluspellcaster_meteor_graspofthedead_prototype		
+158968	morluspellcaster_shift		
+346590	morluspellcaster_shift_nocooldown		
+258199	multiplayer_buff		
+30342	npc_lookat		
+395342	oasis_rockslide_a_damage	trDun_Cath_WallCollapse_Damage	
+30343	ondeatharcane		
+30344	ondeathcold		
+30345	ondeathfire		
+30346	ondeathlightning		
+30347	ondeathpoison		
+30348	operate_helper_attach		
+380460	p1_greed_charge		
+391073	p1_greed_charge_long		
+398253	p1_greed_charge_no_los		
+394194	p1_greed_goblinknockback		
+385810	p1_greed_goldenmeteorshower		
+385737	p1_greed_goldspawner		
+391176	p1_greed_passivegoblinspawner_test		
+381205	p1_greed_passivelifetimebuff		
+380646	p1_greed_shockwave		
+382342	p1_greed_spawnminion		
+391193	p1_greed_ultimate_meteorshower		
+382195	p1_greedminion_passivelifetimebuff		
+402540	p1_itempassive_unique_ring_941		Your Seven-Sided Strike applies Exploding Palm.
+408974	p1_itempassive_unique_ring_942		The damage bonus from kills while in Archon form now lasts for {c_magic}{VALUE1}{/c_magic} seconds after Archon expires.
+409811	p1_itempassive_unique_ring_943		Mystic Ally summons two Mystic Allies that fight by your side.
+410217	p1_itempassive_unique_ring_944		Soul Harvest now stacks up to 10 times.
+404168	p1_monk_passive_harmony	Harmony	Ice hunters brave months of frozen darkness. Desert traders bear relentless, scorching sun. This world is ours to endure.
+402633	p1_monk_passive_provocation	Determination	"Where a lesser man despairs at the number of his foes, a monk of Ivgorod prays for more." —Master Wughan
+404245	p1_monk_passive_relentlessassault	Relentless Assault	"Vylnas refused to fall, despite his mortal wounds. The last of the Five Monks, he would not let his brothers' sacrifice be in vain; his determination turned the tide of the war, eventually leading to the full withdrawal of Entsteig's forces from the field of battle." —Poldamyr's Chronicle of the War of Thorns
+409173	p1_tieredrift_spawnnpc		
+382738	p1_treasuregoblin_ondeathgreedportal		
+405592	p1_treasuregoblin_ondeathwhimsyshireportal		
+262935	pages_buff_damage	Dimensional Power	
+263029	pages_buff_electrified		
+340227	pages_buff_electrified_cast	Dimensional Conduit	
+398655	pages_buff_electrified_cast_tieredrift	Dimensional Conduit	
+403404	pages_buff_electrified_tieredrift		
+266258	pages_buff_infinite_casting	Dimensional Channeling	
+266254	pages_buff_invulnerable	Dimensional Shield	
+266271	pages_buff_run_speed	Dimensional Tread	
+257036	pandemoniumportal		
+366954	pandemoniumportal_diablo		
+366951	pandemoniumportal_ghom		
+366953	pandemoniumportal_siegebreaker		
+366950	pandemoniumportal_skeletonking		
+131976	pickupnearby		
+147876	plagueoftoadsknockback		
+375617	playerupscaledbuff		
+30385	proxy_delayed_power		
+30391	punch	Punch	A good old-fashioned punch.<br><br>{c_yellow}Skills default to basic melee attacks when low on Resources.{/c}
+265723	pvp_controlpoint		
+202701	pvp_damagebuff	[Temp] PvP Damage Buff	
+203535	pvp_deathstreakbuff	Vengeance	[Temp] DEATHSTREAK
+222243	pvp_healingmacguffin	PvP_HealingMacguffin	[TEMP] Heals dudes
+267462	pvp_hill		
+234527	pvp_levelequalizerbuff	Arena Combat	
+276837	pvp_peanut_neutralobjective		
+1749	pvp_rangedprojectile		
+275730	pvp_shrine_murderball		
+268588	pvp_spawner_setup		
+272501	pvp_spawner_towerdefenders		
+274304	pvp_stationary_attack		
+276805	pvp_threecontrol_spawndefenders		
+97359	pvpbuff		
+170408	pvproundendbuff	PvP Round End Mechanic	
+96719	pvpskirmishbuff	Practice Round	Death is prevented, resources are infinite, and Life regenerates rapidly.
+103338	quest_canyonbridge_enchantress_revealfootsteps		
+103337	quest_canyonbridge_player_revealfootsteps	QUEST: Enchantress Scrying	Have the Enchantress use her scrying ability to search the area for cultist footprints.
+107729	quilldemon_projectile		
+364571	quilldemon_projectile_fastattack		
+169411	rakcenterstone_electrifiedminion	RakCenterStone_electrifiedMinion_name	
+367779	random_movespeed_scripted		
+30394	rangedescort_projectile		
+317139	redwingsbuff	Collectors Edition Buff	
+30420	removeburrow_effect		
+30422	resurrectfallen		
+30424	resurrection_buff		
+30426	rockworm_attack		
+330606	rockworm_burrowandteleport		
+30427	rockworm_burstout		
+219076	rockworm_grab	Rockworm Chomp	
+230406	rockworm_grab_burstout		
+30428	rockworm_hideidle		
+30429	rockworm_preburst		
+30430	rockworm_retreat		
+30431	rockworm_web		
+30433	roottrygrab		
+213730	sandmonster_burrowout		
+59308	sandmonster_burrowout_long		
+30438	sandmonster_sandwall		
+223914	sandmonster_weapon_melee_instant	Melee Attack	Swing your melee weapon for {c_green}{DamageMin} - {DamageMax}{/c} damage.
+30440	sandsharkburrowin		
+30441	sandsharkburrowout		
+30448	sandtornado_onspawn		
+30449	sandwasp_projectile	Poison Stinger	
+1752	scavenger_leap		
+30450	scavengerburrowin		
+30451	scavengerburrowout		
+30454	scoundrel_anatomy	Anatomy	Increases Critical Hit Chance for you and the Scoundrel.
+30455	scoundrel_bandage	Bandage	Heals the player or scoundrel for [{Hitpoints Granted By Heal}] Life.<br><br>Cooldown: {c_green}[{Cooldown Time}/60|1|]{/c_green} minutes
+95675	scoundrel_cripplingshot	Crippling Shot	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 4}{/c_green} seconds<br><br>Ranged attack that slows enemies.
+97436	scoundrel_dirtyfighting	Dirty Fighting	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 0}{/c_green} seconds<br><br>Blinds nearby enemies in front of the Scoundrel.
+200169	scoundrel_hysteria	Hysteria	Critical Hits cause you and the Scoundrel to temporarily deal more damage.
+30460	scoundrel_poisonarrow	Poison Bolts	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 5}{/c_green} seconds<br><br>Shoots a deadly poisoned bolt.
+95690	scoundrel_powershot	Powered Shot	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 4}{/c_green} seconds<br><br>Deals damage in an area that has a chance to Stun enemies.
+99902	scoundrel_ranged_projectile		
+99904	scoundrel_runaway		
+30464	scoundrel_vanish	Vanish	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 0}{/c_green} seconds<br><br>The Scoundrel temporarily vanishes when in danger.
+30469	scrollbuff		
+217340	selectingskill	Stone Of Recall	This is your skill at close-range combat.
+123014	setitembonusbuff		
+30471	setmode_escortfollow		
+30473	shieldskeleton_shield		
+213187	shrine_call_monster		
+30476	shrine_desecrated_blessed	Blessed Shrine	
+30477	shrine_desecrated_enlightened	Enlightened Shrine	
+30478	shrine_desecrated_fortune	Fortune Shrine	
+30479	shrine_desecrated_frenzied	Frenzied Shrine	
+260348	shrine_desecrated_hoarder	Fleeting Shrine	
+260349	shrine_desecrated_reloaded	Empowered Shrine	
+278268	shrine_power_blessed		
+278269	shrine_power_enlightened		
+278270	shrine_power_fortune		
+278271	shrine_power_frenzied		
+377314	sidekickstatsboostbuff		
+377413	sidekickweapondamageboostbuff		
+240529	siegebreaker_enrage	Enrage	
+376912	siegebreaker_reflectsdamagecast		
+30482	siegebreakerdemon_bite		
+30484	siegebreakerdemon_charge		
+182586	siegebreakerdemon_chargenew		
+30487	siegebreakerdemon_grab		
+30488	siegebreakerdemon_grabtobite		
+1754	siegebreakerdemon_lookaround		
+30490	siegebreakerdemon_mini_charge		
+30491	siegebreakerdemon_pound		
+228688	siegebreakerdemon_roar		
+30492	siegebreakerdemon_stomp		
+30495	skeletonarcher_projectile		
+30504	skeletonking_cleave		
+87523	skeletonking_killsummonedskeletons		
+30496	skeletonking_summon_skeleton	Skeleton King Summon	
+79334	skeletonking_teleport		
+81504	skeletonking_teleport_away		
+73824	skeletonking_whirlwind		
+30497	skeletonmage_cold_projectile		
+30498	skeletonmage_fire_aoe		
+30499	skeletonmage_fire_projectile		
+30500	skeletonmage_lightning_pierce		
+30501	skeletonmage_poison_death		
+30502	skeletonmage_poison_pierce		
+30503	skeletonsummoner_projectile		
+221275	skilloverridestartedorended		
+30512	snakeman_meleestealth		
+30513	snakeman_meleeunstealth		
+30509	snakemancaster_electricburst		
+69743	soaringascend		
+54196	soaringdescend		
+226572	soulripper_despair_tonguelash	Melee Attack	This is your skill at close-range combat.
+145822	soulripper_tonguelash	short range physical tongue attack	This is your skill at close-range combat.
+137642	spider_sprintthroughobjectsto		
+30518	spider_web_immobolize		
+76961	spider_web_slow		
+76951	spider_web_slow_spit		
+151219	spiderqueen_vomitspiders_charge	Spider Queen Vomit (Charge)	
+151516	spiderqueen_vomitspiders_vomit	Vomit Spiders	
+151218	spiderqueen_webspit	Web Spit	
+376298	splashdamageproc	!!Missing!! - Powers:SplashDamageProc_name	
+30525	sporecloud		
+30527	stealthbuff		
+30529	stitchexplode		
+30530	stitchmeleealternate		
+30531	stitchpush		
+120874	succubus_bloodstar	Succubus Blood Star	
+366103	succubus_bloodstar_lr		
+136508	succubus_fly	Succubus Fly	
+120875	succubus_leap		
+30538	suicide_proc		
+369834	suicide_scripted		
+166154	summon_fallen_a_unique01		
+30541	summon_fallen_onspawn		
+30543	summon_skeleton		
+168212	summon_skeleton_jondar		
+30545	summon_skeleton_onspawn		
+30546	summon_skeleton_orb		
+1757	summon_skeleton_pillar		
+30547	summon_triune_demon		
+30550	summon_zombie_crawler		
+94734	summon_zombie_vomit		
+30540	summoned		
+117580	summoning_machine_summon		
+128729	swarm_death		
+67110	tarpitslowoff		
+67106	tarpitslowon		
+212952	taunted_monster_ranged_projectile		
+212953	taunted_weapon_melee_instant	Melee Attack	This is your skill at close-range combat.
+290885	teleport_checkpath_passability		
+318242	teleporttoplayer	Stone Of Recall	This is your skill at close-range combat.
+371139	teleporttoplayer_cast	Stone Of Recall	This is your skill at close-range combat.
+349060	teleporttowaypoint	Stone Of Recall	This is your skill at close-range combat.
+371141	teleporttowaypoint_cast	Stone Of Recall	This is your skill at close-range combat.
+30359	templar_guardian	Guardian	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 6}{/c_green} seconds<br><br>When your Life is low, the Templar will come to your aid, knocking back nearby enemies and healing you.
+257640	templar_heal_110	Heal	{c_gold}Cooldown:{/c_gold} {c_green}{Cooldown Time}{/c_green} seconds<br><br>Heals you and the Templar.
+30356	templar_inspire	Inspire	Increases your resource generation.
+93938	templar_intervene	Intervene	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 2}{/c_green} seconds<br><br>Taunt enemies near you when you are hit.
+94008	templar_intervene_proc	Intervene	Taunts enemies near player when player is low on Life.
+93901	templar_intimidate	Intimidate	Enemies that hit or are hit by the Templar are slowed.
+30357	templar_loyalty	Loyalty	Provides Life regeneration for you and the Templar.
+230239	templar_melee_instant	Melee Attack	Swing your melee weapon for {c_green}{DamageMin} - {DamageMax}{/c} damage.
+93888	templar_onslaught	Onslaught	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 3}{/c_green} seconds<br><br>Delivers a massive blow to an enemy.
+30360	templar_shieldcharge	Charge	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 6}{/c_green} seconds<br><br>Charges an enemy, dealing damage and stunning nearby enemies.
+209509	tentaclehorse_a_unique_01_charge		
+123907	terrordemon_meleestrike		
+123935	terrordemon_shadowphase		
+123964	terrordemon_shadowphase_end		
+30554	thorns	Thorns	
+30557	thousandpounder_knockback		
+86990	tongue_prototype	tongue jump to target	
+30078	trait_barbarian_fury	Passive	
+52753	trait_monk_spirit		
+109560	trait_witchdoctor_zombiedogspawner_passive	Summon Zombie Dogs	Spawns Dogs
+30563	transformtoactivatedtriune		
+186216	trdun_cath_wallcollapse_damage	trDun_Cath_WallCollapse_Damage	
+227949	trdun_cath_wallcollapse_damage_offset	trDun_Cath_WallCollapse_Damage	
+105371	treasuregoblin_escape		
+260595	treasuregoblin_playalertsound		
+410453	treasuregoblin_portal_stay		
+54836	treasuregoblin_throwportal		
+105665	treasuregoblin_throwportal_fast		
+408430	treasuregoblin_throwportal_fast_v2		
+54866	treasuregoblin_useportal		
+54055	treasuregoblinpause		
+30567	triuneberserker_power_hit		
+30570	triunesummoner_projectile		
+30571	triunesummoner_shield		
+30572	triunesummoner_splitsummoncast		
+30573	triunevesselcharge		
+30574	triunevesseloverpower		
+186138	trout_logstack_short_damage		
+100287	trout_logstack_trap	trOut_LogStack_Trap	
+91261	trout_tristramfields_punji_trap_aoe		
+95387	trout_tristramfields_punji_trap_mirror_aoe		
+260844	uber_despair_melee_cleave		
+257950	uber_despair_summonminion		
+375537	uber_despair_summonminion_diablo		
+260845	uber_despair_teleport		
+376039	uber_despair_teleportenrage_diablo		
+260847	uber_despair_volley		
+376056	uber_despair_volley_diablo		
+365978	uber_diablo_stompandstun	Expanding Fire Ring	
+260848	uber_gluttony_breath_attack		
+260849	uber_gluttony_gas_cloud		
+376396	uber_gluttony_gas_cloud_diablo		
+257951	uber_gluttony_loogiespawn		
+278341	uber_maghda_mothdust		
+260976	uber_maghda_punish		
+260977	uber_maghda_punish_shielded		
+260901	uber_maghda_shield		
+377242	uber_maghda_shield_diablo		
+257952	uber_maghda_summon_beserker		
+375493	uber_maghda_summon_beserker_diablo		
+259946	uber_siegebreakerdemon_pound		
+258635	uber_siegebreakerdemon_stomp		
+258636	uber_skeletonking_cleave		
+256110	uber_skeletonking_summon_skeleton		
+375473	uber_skeletonking_summon_skeleton_diablo		
+258637	uber_skeletonking_whirlwind		
+260851	uber_zoltunkulle_collapseceiling		
+260852	uber_zoltunkulle_energytwister		
+260853	uber_zoltunkulle_fieryboulder		
+259947	uber_zoltunkulle_slowtime		
+376043	uber_zoltunkulle_slowtime_diablo		
+258638	uber_zoltunkulle_teleport		
+375929	uberdiablo_mirrorimage		
+30580	unburied_knockback		
+30581	unburied_melee_attack		
+202344	unburied_wreckable_attack		
+93715	unburiedboss_cleave		
+122977	unholyshield		
+79486	uninterruptibleduringbuff		
+256059	unique_monster_earthquake_prototype		
+270004	unique_monster_generic_aoe_nova		
+374527	unique_monster_generic_aoe_nova2		
+363519	unique_monster_generic_aoe_randomaroundowner		
+270040	unique_monster_generic_aoe_targeted		
+269583	unique_monster_generic_pie_shockwave		
+152540	unique_monster_generic_projectile		
+346247	unique_monster_generic_projectile_allplayers		
+359684	unique_monster_generic_projectile2		
+270043	unique_monster_generic_summon		
+359685	unique_monster_generic_summon2		
+375207	unique_monster_icetrail_passive_lr_boss		
+260815	unique_monster_icetrail_passive_prototype		
+256060	unique_monster_tempestrush_prototype	Tempest Rush	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Spirit plus an additional {c_green}[{Script Formula 15}]{/c_green} Spirit while channeling<br><br>Charge directly through your enemies, knocking them back and hobbling them, slowing their movement by {c_green}[{Script Formula 9}*100]%{/c_green} for {c_green}{Script Formula 11}{/c_green} seconds. Also deals {c_green}[{Script Formula 4}*100]%{/c_green} weapon damage while running.
+30582	untargetableduringbuff		
+361300	urzael_stompandstun	Expanding Fire Ring	
+165553	usearcaneglyph		
+220318	usedungeonstone	Stone Of Recall	This is your skill at close-range combat.
+30584	usehealthglyph		
+1759	useitem		
+389049	uselootrunportal		
+404128	uselootrunprogressglyph		
+30585	usemanaglyph		
+191590	usestoneofrecall	Stone Of Recall	This is your skill at close-range combat.
+30588	walk		
+143063	wallmonsterspawn	Melee Attack	This is your skill at close-range combat.
+316261	wallmonsterspawnsiegebreaker		
+30589	warp		
+132910	warpinmagical	Melee Attack	This is your skill at close-range combat.
+57931	waterloggedcorpse_eel_spawn		
+57028	waterloggedcorpse_poison_cloud		
+396375	watertower_a_oasis_caout_breakable_damage	trDun_Cath_WallCollapse_Damage	
+30592	weapon_melee_instant	Melee Attack	Swing your melee weapon at an enemy.<br><br>{c_yellow}Skills default to basic attacks when low on Resources.{/c}
+30593	weapon_melee_instant_bothhand	Melee Attack	
+368212	weapon_melee_instant_cowking	Melee Attack	Swing your melee weapon for {c_green}100%{/c_green} weapon damage.
+106087	weapon_melee_instant_freeze_facing	Melee Attack	This is your skill at close-range combat.
+30594	weapon_melee_instant_offhand	Melee Attack	
+263041	weapon_melee_instant_shortescape		
+202345	weapon_melee_instant_wreckables	Melee Attack	This is your skill at close-range combat.
+70218	weapon_melee_noclose	Melee	
+30595	weapon_melee_obstruction		
+30596	weapon_melee_reach_instant	Melee Attack	Swing your melee weapon for {c_green}{DamageMin} - {DamageMax}{/c} damage.
+115624	weapon_melee_reach_instant_freeze_facing	Melee Attack	This is your skill with melee reach weapons.
+30598	weapon_ranged_instant		
+30599	weapon_ranged_projectile	Ranged Attack	Shoot your ranged weapon at an enemy.<br><br>{c_yellow}Skills default to basic attacks when low on Resources.{/c}
+30601	weapon_ranged_wand	Shoot Wand	Shoot your wand at an enemy.<br><br>{c_yellow}Skills default to basic attacks when low on Resources.{/c}
+70455	witchdoctor_acidcloud	Acid Cloud	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Mana<br><br>Cause acid to rain down and leave pools of poison.
+117402	witchdoctor_bigbadvoodoo	Big Bad Voodoo	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 12}{/c_green} seconds<br><br>Conjure a Fetish that increases the attack and movement speed of all allies.
+69866	witchdoctor_corpsespider	Corpse Spiders	{c_gold}Signature Spell{/c_gold}<br><br>Throw a jar with Corpse Spiders that attack nearby enemies before dying.
+107103	witchdoctor_corpsespider_leap	Corpse Spider Leap	
+72785	witchdoctor_fetisharmy	Fetish Army	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 17}{/c_green} seconds<br><br>Summon an army of dagger-wielding Fetishes.
+119166	witchdoctor_fetisharmy_hunter	Witchdoctor Fetish Hunter	
+226690	witchdoctor_fetisharmy_melee	Fetish Army Melee Attack	
+118442	witchdoctor_fetisharmy_shaman	Witchdoctor Fetish Shaman	
+105963	witchdoctor_firebats	Firebats	{c_gold}Cost:{/c_gold} {c_green}[{Script Formula 30}]{/c_green} Mana initially, and an additional {c_green}[{Script Formula 2}]{/c_green} Mana while channeling<br><br>Call forth a swarm of fiery bats.
+67567	witchdoctor_firebomb	Firebomb	{c_gold}Signature Spell{/c_gold}<br><br>Throw a possessed skull that explodes on impact.
+30624	witchdoctor_gargantuan	Gargantuan	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 11}{/c_green} seconds<br><br>Summon a Gargantuan zombie to fight for you.
+121942	witchdoctor_gargantuan_cleave	Gargantuan Cleave	
+308827	witchdoctor_gargantuan_poisoncloud	Gargantuan Poison Cloud	
+121943	witchdoctor_gargantuan_slam	Gargantuan Slam	
+186851	witchdoctor_gargantuan_smash	Gargantuan Smash	
+69182	witchdoctor_graspofthedead	Grasp of the Dead	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Mana<br>{c_gold}Cooldown:{/c_gold} {c_green}[{Script Formula 7}]{/c_green} seconds<br><br>Summon ghoulish hands from the ground that Slow and damage enemies.
+83602	witchdoctor_haunt	Haunt	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Mana<br><br>Command a spirit to haunt an enemy. If the enemy dies, the spirit haunts another victim.<br><br>{c_yellow}An enemy can only be affected by one Haunt at a time.{/c}
+30631	witchdoctor_hex	Hex	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 17}{/c_green} seconds<br><br>Summon a Fetish Shaman that transforms enemies into chickens.
+196974	witchdoctor_hex_chickenwalk	Hex Chicken Walk	You are a Chicken! Run Chicken Run!!!!!
+188442	witchdoctor_hex_explode	Hex Explode	Explode!
+107301	witchdoctor_hex_fetish	Painful Transformation	
+107742	witchdoctor_hex_fetish_heal	Hex_Fetish_Heal	
+67668	witchdoctor_horrify	Horrify	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 15}{/c_green} seconds<br><br>Channel the horrors of the Unformed Land and frighten nearby enemies.
+69867	witchdoctor_locust_swarm	Locust Swarm	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Mana<br><br>Unleash a plague of locusts that swarms enemies.
+67600	witchdoctor_massconfusion	Mass Confusion	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 14}{/c_green} seconds<br><br>Confuse enemies and cause them to fight for you.
+217826	witchdoctor_passive_badmedicine	Bad Medicine	"Their mastery of paralytic agents is astounding. The jungle, they say, provides ample demonstration of its wonders." —Abner Lockridge
+208568	witchdoctor_passive_bloodritual	Blood Ritual	"To give of one's self... Is there any greater gift?" —Final words spoken at the Ritual of Blood
+208571	witchdoctor_passive_circleoflife	Circle of Life	"The heads hanging in the village had their eyes sewn shut with thick thread. Whatever wicked magic held the frightful hound-beasts together was considerably stronger." —Abner Lockridge
+340908	witchdoctor_passive_creepingdeath	Creeping Death	There are some terrors that cannot be outrun. Bit by bit, second by second, they consume you.
+218588	witchdoctor_passive_fetishsycophants	Fetish Sycophants	The denizens of the Unformed Land are mischievous and drawn to power, always seeking to intrude upon our world, but too fickle to stay for long.
+208639	witchdoctor_passive_fierceloyalty	Fierce Loyalty	Establish dominance. They will obey.
+218191	witchdoctor_passive_graveinjustice	Grave Injustice	Only a fool tries to cheat death. The wise offer a fair trade.
+208594	witchdoctor_passive_gruesomefeast	Gruesome Feast	"We are all connected in life and in death. Partake of the spirits of the dead and flourish like the jungle that grows wild after the fire." —Shadewalker Zunimassa
+217968	witchdoctor_passive_junglefortitude	Jungle Fortitude	To be one with the jungle is to take what you need and endure what you must.
+340909	witchdoctor_passive_midnightfeast	Midnight Feast	In the deepest hour of night, they emerge for the hunt.
+340910	witchdoctor_passive_physicalattunement	Physical Attunement	Know your enemies. Know their strength. Make it your own.
+208628	witchdoctor_passive_piercetheveil	Pierce the Veil	"The spirits take their toll. Best to be ready to pay." —Shadewalker Zunimassa
+208565	witchdoctor_passive_rushofessence	Rush of Essence	All spirits must move onward if they wish to return to their origins. There is no going back.
+208569	witchdoctor_passive_spiritualattunement	Spiritual Attunement	"The pool is deep and still, cool and silent. Now a fountain, now a whirlpool. Drink and be renewed." —Runic carvings on the Shallow Stone
+218501	witchdoctor_passive_spiritvessel	Spirit Vessel	Everyone dies. Sometimes we must return to finish what we started.
+208601	witchdoctor_passive_tribalrites	Tribal Rites	"Befriend those who come from the Unformed Land, and they will befriend you." —Zuwadza of the Tribe of the Five Hills
+209041	witchdoctor_passive_visionquest	Vision Quest	"You sense but do not see. Walk beside yourself in the Unformed Land. Walk until you find yourself again, or wander lost forever." —Chant of Ordeal
+208563	witchdoctor_passive_zombiehandler	Zombie Handler	The dead are willing minions. Death to them is not unknown, therefore need not be feared.
+347265	witchdoctor_piranhas	Piranhas	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Mana<br>{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 23}{/c_green} seconds<br><br>Summons a pool of deadly piranhas that deals damage and causes affected enemies to take additional damage.
+106465	witchdoctor_plagueoftoads	Plague of Toads	{c_gold}Signature Spell{/c_gold}<br><br>Conjure toads that explode on contact.
+220908	witchdoctor_plagueoftoads_bigtoad_tongueslap	Hex	
+106592	witchdoctor_plagueoftoads_bigtoadattack	Hex	
+103181	witchdoctor_poisondart	Poison Dart	{c_gold}Signature Spell{/c_gold}<br><br>Shoot a deadly Poison Dart.
+102572	witchdoctor_sacrifice	Sacrifice	Banish one of your active Zombie Dogs, causing it to explode.
+67616	witchdoctor_soulharvest	Soul Harvest	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 14}{/c_green} seconds<br><br>Feed on the life force of enemies to increase your Intelligence for {c_green}{Script Formula 5}{/c_green} seconds.
+108506	witchdoctor_spiritbarrage	Spirit Barrage	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Mana<br><br>Unleash a spirit blast that can travel long distances and over some obstacles.
+186471	witchdoctor_spiritbarrage_runec_aoe		
+106237	witchdoctor_spiritwalk	Spirit Walk	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 7}{/c_green} seconds<br><br>Leave your physical body and enter the spirit realm to move faster.
+102573	witchdoctor_summonzombiedog	Summon Zombie Dogs	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 18}{/c_green} seconds<br><br>Summon {c_green}{Script Formula 0}{/c_green} Zombie Dogs to fight by your side.
+134837	witchdoctor_wallofzombies	Wall of Zombies	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 13}{/c_green} seconds<br><br>Raise a line of zombies from the ground that attacks nearby enemies.
+74003	witchdoctor_zombiecharger	Zombie Charger	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Mana<br><br>Raise a zombie that charges enemies in its path before decomposing.
+309100	witchdoctor_zombiedog_fireaoe	Zombie Dog Fire	
+226692	witchdoctor_zombiedog_melee	Zombie Dog Melee Attack	This is your skill at close-range combat.
+310071	witchdoctor_zombiedog_poisondot	Poison Bite	
+30668	wizard_arcaneorb	Arcane Orb	{c_gold}Cost:{/c_gold} {c_green}[{Script Formula 0}]{/c_green} Arcane Power<br><br>Cast an orb of pure arcane energy that explodes on contact.
+134456	wizard_arcanetorrent	Arcane Torrent	{c_gold}Cost:{/c_gold} {c_green}[{Script Formula 22}]{/c_green} Arcane Power<br><br>Unleash a barrage of arcane projectiles.
+165598	wizard_arcanetorrent_runec_mine	Arcane Torrent	
+134872	wizard_archon	Archon	{c_gold}Cooldown:{/c_gold} {c_green}[{Script Formula 10}]{/c_green} |4second:seconds;<br><br>Become a being of pure energy and gain potent new abilities for {c_green}{Script Formula 2}{/c_green} seconds.
+167355	wizard_archon_arcaneblast	Arcane Blast	{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}]{/c_green} |4second:seconds;<br><br>Release a wave of pure energy that damages all nearby enemies.
+392883	wizard_archon_arcaneblast_cold	Ice Blast	{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}]{/c_green} |4second:seconds;<br><br>Release a wave of pure energy that damages all nearby enemies.
+392884	wizard_archon_arcaneblast_fire	Fire Blast	{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}]{/c_green} |4second:seconds;<br><br>Release a wave of pure energy that damages all nearby enemies.
+392885	wizard_archon_arcaneblast_lightning	Lightning Blast	{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}]{/c_green} |4second:seconds;<br><br>Release a wave of pure energy that damages all nearby enemies.
+135166	wizard_archon_arcanestrike	Arcane Strike	Strike the ground and damage enemies in front of you.
+392886	wizard_archon_arcanestrike_cold	Frozen Strike	Strike the ground and damage enemies in front of you.
+392887	wizard_archon_arcanestrike_fire	Inferno Strike	Strike the ground and damage enemies in front of you.
+392888	wizard_archon_arcanestrike_lightning	Lightning Strike	Strike the ground and damage enemies in front of you.
+166616	wizard_archon_cancel	Cancel Archon Form	Release the powers of the Archon and return to your natural form.
+135238	wizard_archon_disintegrationwave	Disintegration Wave	Channel a beam of pure energy that pierces through all enemies.
+392889	wizard_archon_disintegrationwave_cold	Disintegration Wave	Channel a beam of pure energy that pierces through all enemies.
+392890	wizard_archon_disintegrationwave_fire	Disintegration Wave	Channel a beam of pure energy that pierces through all enemies.
+392891	wizard_archon_disintegrationwave_lightning	Disintegration Wave	Channel a beam of pure energy that pierces through all enemies.
+135663	wizard_archon_slowtime	Slow Time	Create a time distortion bubble that follows you.
+167648	wizard_archon_teleport	Teleport	{c_gold}Cooldown:{/c_gold} {c_green}{Cooldown Time}{/c_green} seconds<br><br>Teleport instantly to a location.
+30680	wizard_blizzard	Blizzard	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 17}{/c_green} Arcane Power<br><br>Unleash a Blizzard that damages and Slows enemies caught in its grasp.
+75599	wizard_diamondskin	Diamond Skin	{c_gold}Cooldown:{/c_gold} {c_green}{Cooldown Time}{/c_green} seconds<br><br>Transform your skin to diamond, temporarily absorbing damage for a short duration.
+91549	wizard_disintegrate	Disintegrate	{c_gold}Cost:{/c_gold} {c_green}[{Script Formula 20}]{/c_green} Arcane Power<br><br>Channel a beam of pure energy that pierces through all enemies.
+1765	wizard_electrocute	Electrocute	{c_gold}Signature Spell{/c_gold}<br><br>Cast chain lightning that electrocutes up to {c_green}[{Script Formula 13}]{/c_green} enemies.
+86991	wizard_energyarmor	Energy Armor	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Arcane Power<br><br>Increase your Armor at the cost of decreasing your maximum Arcane Power while Energy Armor is active.<br><br>{c_yellow}Only one Armor may be active at a time.{/c_yellow}
+30708	wizard_energyshield	NYI - Energy Shield	
+77113	wizard_energytwister	Energy Twister	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 14}{/c_green} Arcane Power<br><br>Release a raging tornado that wreaks havoc across the battlefield.
+87525	wizard_explosiveblast	Explosive Blast	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 16}{/c_green} Arcane Power<br>{c_gold}Cooldown:{/c_gold} {c_green}{Cooldown Time}{/c_green} |4second:seconds;<br><br>Gather energy and release it as a devastating blast.
+99120	wizard_familiar	Familiar	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Arcane Power<br><br>Summon a mystical Familiar companion. Your Familiar is immune to damage and assists you in combat.
+30718	wizard_frostnova	Frost Nova	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 4}{/c_green} seconds<br><br>Blast nearby enemies and freeze them in place.
+30725	wizard_hydra	Hydra	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Arcane Power<br><br>Summon a magical Hydra that attacks enemies with bursts of fire.
+77068	wizard_hydra_defaultfire_prototype	Hydra	
+77066	wizard_hydra_runeacid_prototype	Hydra	
+77067	wizard_hydra_runearcane_prototype	Arcane Hydra	
+84030	wizard_hydra_runebig_prototype	Hydra	
+77063	wizard_hydra_runefire_prototype	Hydra	
+83040	wizard_hydra_runefrost_prototype	Hydra	
+77065	wizard_hydra_runelightning_prototype	Hydra	
+73223	wizard_icearmor	Ice Armor	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Arcane Power<br><br>Protect yourself with a barrier of ice that Chills attackers.<br><br>{c_yellow}Only one Armor may be active at a time.{/c_yellow}
+30744	wizard_magicmissile	Magic Missile	{c_gold}Signature Spell{/c_gold}<br><br>Cast a bolt of arcane energy towards an enemy.
+30745	wizard_magicmissile_count	Magic Missile	Fire additional missiles
+30746	wizard_magicmissile_damage	Magic Missile	Increased damage per missile
+30748	wizard_magicmissile_speed	Magic Missile	Increased casting speed and missile speed
+76108	wizard_magicweapon	Magic Weapon	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Arcane Power<br><br>Imbue your weapon with magical energy, increasing your weapon's effectiveness.
+69190	wizard_meteor	Meteor	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 17}{/c_green} Arcane Power<br><br>Unleash a massive Meteor that scorches enemies caught in its blast.
+98027	wizard_mirrorimage	Mirror Image	{c_gold}Cooldown:{/c_gold} {c_green}{Cooldown Time}{/c_green} seconds<br><br>Summon illusions of yourself that taunt nearby enemies. Spells cast by your Mirror Images deal limited damage.
+208823	wizard_passive_arcanedynamo	Arcane Dynamo	Dare not to invoke the wrath of a Wizard. You are nothing more than a loose coalescence of dust before their ire, easily scattered at a whim.
+208472	wizard_passive_astralpresence	Astral Presence	"Feel the power in the veil that surrounds us—a thunder cloud ready to burst... a volcano about to erupt. Harness it, and you will be invincible." —Adria
+208468	wizard_passive_blur	Blur	Truly powerful Wizards have been known to turn their magic inward, transmuting the very composition of their own bodies for boundless energy and catlike reflexes.
+226301	wizard_passive_coldblooded	Cold Blooded	"Feel your blood run cold as the water of the Frozen Sea, and know that I can shatter you with a touch." —The Ice Queen's Tale
+218044	wizard_passive_conflagration	Conflagration	"The red hot armor seared their flesh and boiled their blood as they tried desperately to pry it from smoldering bodies. We finished the defenseless creatures as an act of mercy." —Tales of Caldeum, Volume XII
+208473	wizard_passive_evocation	Evocation	So long have you focused on twisting reality to your will that time itself seeks to appease you.
+208541	wizard_passive_galvanizingward	Galvanizing Ward	"Power begets power. The excess energy from one spell is absorbed by the other, and so the effect is sustained." —Excerpt from Grand Master Clavaught's Lecture on Synergistic Effects in Esoteric Arcane Spheres
+208471	wizard_passive_glasscannon	Glass Cannon	"How will I survive? I don't intend to get hit in the first place. If you even touch me, it's because I allowed it." —Maloth, renegade wizard
+208547	wizard_passive_illusionist	Illusionist	"To be where you are not is the wisest of strategies." —Grand Archmage Ralhys
+226348	wizard_passive_paralysis	Paralysis	"Some people are shocked by my mastery of magic." —Larra Stormlash
+208478	wizard_passive_powerhungry	Power Hungry	"It just doesn't sit right with me. Some of the things these so-called wizards do... They border on necromancy. Or worse! It's just not proper magic." —Venerable Sorcerer Fob Dunar
+208493	wizard_passive_prodigy	Prodigy	"Heavy steel armor may turn aside a blade, but let's see how well it works against lightning!" —Larra Stormlash's infamous faux pas at the Royal Westmarch Joust
+208477	wizard_passive_temporalflux	Temporal Flux	"The energies of time and arcane power are jealous consorts. If you caress the one, you neglect the other at great risk." —Ennead Sage Resko
+208474	wizard_passive_unstableanomaly	Unstable Anomaly	"It takes perfect concentration for a Wizard to dance on the edge of infinity. Never be the one to break that concentration." —One-Eye Whipple
+93395	wizard_rayoffrost	Ray of Frost	{c_gold}Cost:{/c_gold} {c_green}[{Script Formula 17}]{/c_green} Arcane Power<br><br>Channel a beam of pure cold, chilling your enemies.
+30783	wizard_shockpulse	Shock Pulse	{c_gold}Signature Spell{/c_gold}<br><br>Release bursts of uncontrollable electricity across the ground.
+1769	wizard_slowtime	Slow Time	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 15}{/c_green} seconds<br><br>Fracture time and space, slowing enemies around you while you move unhindered.
+71548	wizard_spectralblade	Spectral Blade	{c_gold}Signature Spell{/c_gold}<br><br>Summon mystic blades that slice through enemies.
+74499	wizard_stormarmor	Storm Armor	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Arcane Power<br><br>Surround yourself with a magical storm that electrocutes enemies with lightning.<br><br>{c_yellow}Only one Armor may be active at a time.{/c_yellow}
+168344	wizard_teleport	Teleport	{c_gold}Cooldown:{/c_gold} {c_green}[{Script Formula 19}]{/c_green} |4second:seconds;<br><br>Teleport instantly to another location.
+30796	wizard_waveofforce	Wave of Force	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 27}{/c_green} Arcane Power<br><br>Discharge a wave of pure energy that damages nearby enemies.
+375412	wodflagbuff	Collectors Edition Buff	
+30800	woodwraithsummonspores		
+223604	worldcreatingbuff		
+324819	x1_abattoir_furnace_01		
+354796	x1_abattoir_furnacespinner		
+359960	x1_abattoir_furnacespinner_event		
+375458	x1_abattoir_furnacespinner_event_phase1		
+375462	x1_abattoir_furnacespinner_event_phase2		
+375499	x1_abattoir_furnacespinner_event_phase3		
+354856	x1_abattoir_furnacespinner_firebeam_clockwise		
+355457	x1_abattoir_furnacespinner_firebeam_clockwise_event		
+377631	x1_abattoir_furnacespinner_firebeam_clockwise_event_phase1		
+377636	x1_abattoir_furnacespinner_firebeam_clockwise_event_phase2		
+377641	x1_abattoir_furnacespinner_firebeam_clockwise_event_phase3		
+354884	x1_abattoir_furnacespinner_firebeam_counterclockwise		
+355458	x1_abattoir_furnacespinner_firebeam_counterclockwise_event		
+355369	x1_abattoir_furnacewall		
+290708	x1_adria_arena_floorpanelfire	Floor Panel Fire	
+298181	x1_adria_arena_floorpanelstart	Floor Panel Fire	
+340805	x1_adria_boss_arena_gas_off0		
+340806	x1_adria_boss_arena_gas_off1		
+340804	x1_adria_boss_arena_gas_on0	Bog Water	
+340807	x1_adria_boss_arena_gas_on1	Bog Water	
+330791	x1_adria_cauldronspawner_activate		
+358590	x1_adria_cauldronspawner_initialpoolsbuff		
+330783	x1_adria_cauldronspawner_lifetimebuff		
+355825	x1_adria_cauldronspawner_roompools		
+355826	x1_adria_cauldronspawner_roompoolsinner		
+355827	x1_adria_cauldronspawner_roompoolsouter		
+293152	x1_adria_delayedteleport_attack		
+362989	x1_adria_delayedteleport_cauldronactivate		
+293151	x1_adria_delayedteleport_start		
+284247	x1_adria_jumpback		
+360204	x1_adria_phaseone_aistate		
+360205	x1_adria_phasetwo_aistate		
+365720	x1_adria_scriptedsequence180turn		
+359746	x1_adria_spitatplayer		
+354328	x1_adria_wingsweep_left		
+354340	x1_adria_wingsweep_right		
+341833	x1_armorscavenger_asteroidrain		
+271621	x1_armorscavenger_buff		
+273462	x1_armorscavenger_burrowin		
+271740	x1_armorscavenger_burrowout		
+322380	x1_armorscavenger_preburrow		
+330593	x1_asteroid_basic	Grenades	Throw out three grenades that explode in {Script Formula 0} - [{Script Formula 0} + {Script Formula 1}] damage.
+378238	x1_asteroid_basic_lr_boss		
+330129	x1_asteroid_pool	Asteroid Pool	Throw out three grenades that explode in {Script Formula 0} - [{Script Formula 0} + {Script Formula 1}] damage.
+292865	x1_asteroid_spawn	Grenades	Throw out three grenades that explode in {Script Formula 0} - [{Script Formula 0} + {Script Formula 1}] damage.
+377453	x1_barbarian_ancientspear	Ancient Spear	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 9}{/c_green} Fury<br><br>Throw a spear that pierces enemies.
+353447	x1_barbarian_avalanche_v2	Avalanche	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 36}{/c_green} seconds<br><br>Cause a massive avalanche of rocks to fall on an area.<br><br>{c_yellow}Cooldown is reduced by spending Fury.{/c_yellow}
+353458	x1_barbarian_avalanche_v2_passive	Avalanche	
+361661	x1_barbarian_passive_earthenmight	Earthen Might	"My capital has become the cell in which I await my execution. The ground roars beneath me, announcing the presence of the wild men, as they rend and tear the foundations of the world and laugh. Oh, woe is me that I ever confused their savage ways for weakness."—Loren, Panep of Samauren
+296572	x1_barbarian_passive_rampage	Rampage	"The battle was never ending, sapping our minds and bodies to the point of exhaustion. But they thrived amidst the carnage, every killing blow renewing their bloodlust. They couldn't be stopped." —Sergeant Peshkov on the Siege of the Barbarians, 1123 Anno Kehjistani
+340877	x1_barbarian_passive_swordandboard	Sword and Board	"Turning away the attack of an enemy saps their resolve as surely as landing a blow of your own." —Battlemaster Kal-Jor
+375483	x1_barbarian_warcry_v2	War Cry	{c_gold}Generate:{/c_gold} {c_green}{Script Formula 15}{/c_green} Fury<br>{c_gold}Cooldown:{/c_gold} {c_green}{Cooldown Time}{/c_green} seconds<br><br>A rallying cry increases Armor for you and your allies for {c_green}{Script Formula 13}{/c_green} seconds.
+377452	x1_barbarian_weaponthrow	Weapon Throw	{c_gold}Generate:{/c_gold} {c_green}{Script Formula 18}{/c_green} Fury per attack<br><br>Hurl a mighty axe that damages an enemy.
+364196	x1_bloodhawk_event_ballistaboss_furiouscharge		
+237495	x1_bog_beartrap	Bear Trap	
+376509	x1_bog_beartrap_trigger		
+335458	x1_bog_bogwater	Marsh Water	
+335795	x1_bog_bogwater_large	Marsh Water	
+335789	x1_bog_bogwater_medium	Marsh Water	
+339982	x1_bog_family_guard_tower_setup	Slime Geyser	
+288754	x1_bog_kingofthehill_leap		
+234539	x1_bog_plant_explodeknockback	x1_Bog_Plant_explodeKnockback	
+276820	x1_bogblight_burrowin		
+276843	x1_bogblight_burrowout		
+341714	x1_bogblight_pustuledeath		
+234556	x1_bogblight_pustulespawn		
+399284	x1_bogblight_pustulespawn_con		
+238930	x1_bogfamily_brute_charge		
+239018	x1_bogfamily_brute_shout		
+247961	x1_bogfamily_brute_summonmeleeaction		
+355511	x1_bogfamily_brute_summonmeleeaction_unique		
+238965	x1_bogfamily_brute_throwdude		
+338049	x1_bogfamily_melee_transform		
+239743	x1_bogfamily_ranged_beartrap	Bear Trap	
+340026	x1_bogfamily_ranged_beartrapfromtower	Bear Trap	
+340041	x1_bogfamily_ranged_beartrapfromtowerreturntofacing		
+336527	x1_bogfamily_ranged_rapidshot		
+339985	x1_bogfamily_ranged_rapidshotfromtower		
+339986	x1_bogfamily_ranged_rapidshotfromtowerreturntofacing		
+263272	x1_catacombs_door_a_ondeath		
+267289	x1_catacombs_floor_runes_a_ondeath		
+345943	x1_catacombs_spirit_totem_activate		
+301930	x1_cesspool_slime_posion_attack		
+346299	x1_challenge_lure_supersizelure		
+366438	x1_crazedangelarcher_firearrow		
+269032	x1_crusader_akaratschampion	Akarat's Champion	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 12}{/c_green} seconds<br><br>Explode with the fury of your order, increasing your damage and Wrath regeneration.
+266766	x1_crusader_blessedhammer	Blessed Hammer	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Wrath<br><br>Summon a blessed hammer that spins around you, damaging all enemies hit.
+266951	x1_crusader_blessedshield	Blessed Shield	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Wrath<br><br>Hurl a celestial shield that smashes into enemies and ricochets between them.
+284876	x1_crusader_bombardment	Bombardment	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 40}{/c_green} seconds<br><br>Call in an assault from afar, raining spheres of burning pitch and stone onto enemies around you for a short duration.
+266627	x1_crusader_condemn	Condemn	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 8}{/c_green} seconds<br><br>Build up a massive explosion, unleashing it after {c_green}{Script Formula 9}{/c_green} seconds.
+273941	x1_crusader_consecration	Consecration	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 6}{/c_green} seconds<br><br>Consecrate the ground around you. You and your allies heal while standing on the consecrated ground.
+267818	x1_crusader_crushingresolve	Crushing Resolve	{c_gold}Generate:{/c_gold} {c_green}{Script Formula 4}{/c_green} Wrath per attack<br><br>Attack for {c_green}[{Script Formula 3}*100]%{/c_green} weapon damage.  Every time you strike an enemy, the number of targets hit increases by {c_green}1{/c_green}, up to a maximum of {c_green}5{/c_green}.
+239137	x1_crusader_fallingsword	Falling Sword	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Wrath<br>{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 10}{/c_green} seconds<br><br>Launch yourself into the heavens and come crashing down on your enemies.
+239218	x1_crusader_fistoftheheavens	Fist of the Heavens	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Wrath<br><br>Call forth a pillar of lightning from the heavens that explodes and splits into multiple bolts, damaging all nearby enemies.
+316014	x1_crusader_heavensfury3	Heaven's Fury	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 3}{/c_green} seconds<br><br>Call down a furious ray of Holy power that burns all enemies caught within it.
+291804	x1_crusader_ironskin	Iron Skin	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 2}{/c_green} seconds<br><br>Your skin turns to iron, protecting you from most damage for a short duration.
+267600	x1_crusader_judgment	Judgment	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 2}{/c_green} seconds<br><br>Pass judgment on all enemies in an area, Immobilizing them in place for a short duration.
+325216	x1_crusader_justice	Justice	{c_gold}Generate:{/c_gold} {c_green}{Script Formula 0}{/c_green} Wrath per attack<br><br>Hurl a hammer of justice at your enemies.
+290960	x1_crusader_lawsoffate	Laws of Fate	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 1}{/c_green} seconds<br><br>{c_gold}Active:{/c_gold} Recite a Law, increasing the speed you and your allies move for a short time.<br><br>{c_gold}Passive:{/c_gold} When you dodge, theres a chance you and your allies will move faster for a short period of time.
+323371	x1_crusader_lawsoffate_passive		
+290912	x1_crusader_lawsofhope	Laws of Hope	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 1}{/c_green} seconds<br><br>{c_gold}Active:{/c_gold} Recite a Law, increasing resource regeneration rate for you and your allies for a short time.<br><br>{c_gold}Passive:{/c_gold} Whenever you pick up a health globe, you and your allies' resources will regenerate faster.
+323370	x1_crusader_lawsofhope_passive		
+342299	x1_crusader_lawsofhope_passive2		
+342279	x1_crusader_lawsofhope2	Laws of Hope	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 0}{/c_green} seconds<br><br>{c_gold}Active:{/c_gold} Empower the Law, surrounding you and your allies in a shield for a short duration.<br><br>{c_gold}Passive:{/c_gold} Recite the Law, continually healing you and your allies.<br><br>{c_yellow}Only one Law may be active at a time.{/c_yellow}
+266722	x1_crusader_lawsofjustice	Laws of Justice	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 1}{/c_green} seconds<br><br>{c_gold}Active:{/c_gold} Recite a Law, increasing you and your allies resistances for a short time.<br><br>{c_gold}Passive:{/c_gold} Whenever you block, there is a chance you and your allies take less damage for a short period of time.
+323386	x1_crusader_lawsofjustice_passive		
+342286	x1_crusader_lawsofjustice_passive2		
+342280	x1_crusader_lawsofjustice2	Laws of Justice	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 0}{/c_green} seconds<br><br>{c_gold}Active:{/c_gold} Empower the Law, greatly reducing the amount of damage you and your allies take from the elements for a short time.<br><br>{c_gold}Passive:{/c_gold} Recite the Law, reducing the amount of damage you and your allies take from the elements.<br><br>{c_yellow}Only one Law may be active at a time.{/c_yellow}
+290946	x1_crusader_lawsofvalor	Laws of Valor	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 1}{/c_green} seconds<br><br>{c_gold}Active:{/c_gold} Recite a Law, increasing the damage you and your allies deal for a short time.<br><br>{c_gold}Passive:{/c_gold} Whenever you deal a critical strike against an enemy, there is a chance you and your allies will deal more damage for a short time.
+323387	x1_crusader_lawsofvalor_passive		
+342284	x1_crusader_lawsofvalor_passive2		
+342281	x1_crusader_lawsofvalor2	Laws of Valor	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 0}{/c_green} seconds<br><br>{c_gold}Active:{/c_gold} Empower the Law, greatly increasing the Attack Speed of you and your allies for a short duration.<br><br>{c_gold}Passive:{/c_gold} Recite the Law, increasing the Attack Speed of you and your allies.<br><br>{c_yellow}Only one Law may be active at a time.{/c_yellow}
+348773	x1_crusader_passive_blunt	Blunt	Let your hammer educate the heathens in the error of their ways.
+356176	x1_crusader_passive_divinefortress	Divine Fortress	"His shield whirled around him, faster than the eye could follow, creating an impenetrable barrier against his foes."—The Tale of Joryn
+357218	x1_crusader_passive_fervor	Fervor	"As the wicked fall at your feet, you shall know the power of the crusade."—Sir Gyrfalcon the Swift
+311629	x1_crusader_passive_finery	Finery	As you meditate upon those stones that contain the Light, you will find the Light within yourself.
+286177	x1_crusader_passive_heavenlystrength	Heavenly Strength	"You must quiet both mind and body in order to feel the Light.  Only then shall it unleash your hidden strength."—Cleric Akkhan
+302500	x1_crusader_passive_holdyourground	Hold Your Ground	"I shall not be moved. Your blows cannot touch me."—Harrel the Unbreakable
+310804	x1_crusader_passive_holycause	Holy Cause	"Unleash your might upon the wicked that they may be cleansed."—Melmoth, the Wanderer of the Wastes
+309830	x1_crusader_passive_indestructible	Indestructible	"As my life drained away, I could no longer feel the blows raining down upon me."—Anajinn
+310640	x1_crusader_passive_insurmountable	Insurmountable	Tenacity is measured by one's endurance against overwhelming odds.
+310783	x1_crusader_passive_ironmaiden	Iron Maiden	Woe to those who would approach a true crusader while carrying anger in their hearts, for soon, they shall be no more.
+310678	x1_crusader_passive_longarmofthelaw	Long Arm of the Law	"The Light sustains the law, for without it, the law is naught but empty words"—Cleric Akkhan
+348741	x1_crusader_passive_lordcommander	Lord Commander	"You will follow, or you will fall."—Kassar
+357269	x1_crusader_passive_nephalemmajesty	Fanaticism	"My words are not new. The ancients embraced the Light completely, and it made them mightier than we can even imagine."—Akarat
+356173	x1_crusader_passive_renewal	Renewal	"I say unto you, let not the foul darkness engulf the Light within you. For whosoever hears these words and knows them to be true shall be reborn."—Akarat
+356147	x1_crusader_passive_righteousness	Righteousness	The deeper your belief, the greater your power.
+356052	x1_crusader_passive_toweringshield	Towering Shield	A crusader's shield is one with his body.
+310626	x1_crusader_passive_vigilant	Vigilant	"May Akarat protect me and grant me the faith to allow the Light to heal my soul."—The Crusader's Oath
+310775	x1_crusader_passive_wrathful	Wrathful	"One clad in the Light absorbs the anger of her foes and then turns it against them."—Crusader saying
+375866	x1_crusader_phalanx_basic_melee	Phalanx Melee	
+330729	x1_crusader_phalanx3	Phalanx	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Wrath<br><br>Summon powerful avatars who charge forward to the targeted destination.
+369807	x1_crusader_phalanxarcher_ranged_projectile	Phalanx Ranged Attack	
+290545	x1_crusader_provoke	Provoke	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 2}{/c_green} seconds<br>{c_gold}Generate:{/c_gold} {c_green}{Script Formula 3}{/c_green} Wrath<br><br>Taunt all nearby enemies and instantly generate an additional {c_green}{Script Formula 19}{/c_green} Wrath for every enemy taunted.
+285903	x1_crusader_punish	Punish	{c_gold}Generate:{/c_gold} {c_green}{Script Formula 5}{/c_green} Wrath per attack<br><br>Strike your enemy and gain Hardened Senses, increasing your chance to block for a short time.
+353492	x1_crusader_shieldbash2	Shield Bash	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Wrath<br><br>Charge at your enemy, bashing him and all nearby foes violently with your shield.
+268530	x1_crusader_shieldglare	Shield Glare	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 4}{/c_green} seconds<br><br>Light erupts from your shield, Blinding all enemies in front of you.
+289243	x1_crusader_slash	Slash	{c_gold}Generate:{/c_gold} {c_green}{Script Formula 3}{/c_green} Wrath per attack<br><br>Ignite the air in front of you, damaging all enemies caught in the flames.
+286510	x1_crusader_smite	Smite	{c_gold}Generate:{/c_gold} {c_green}{Script Formula 5}{/c_green} Wrath per attack<br><br>Smite enemies up to {c_green}{Script Formula 19}{/c_green} yards away with holy chains that deal a large amount of damage. The chains break off and strike at nearby enemies, dealing lesser damage.
+243853	x1_crusader_steedcharge	Steed Charge	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 2}{/c_green} seconds<br><br>Mount a celestial war horse that allows you to ride through enemies unhindered for a short time.
+239042	x1_crusader_sweepattack	Sweep Attack	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Wrath<br><br>Sweep a mystical flail through enemies before you, dealing a large amount of damage.
+363569	x1_darkangel_death		
+335991	x1_darkangel_soulrush		
+342349	x1_darkangel_summon		
+366275	x1_deathmaiden_powerslam_lr_boss	Melee Attack	Swing your melee weapon for {c_green}{DamageMin} - {DamageMax}{/c} damage.
+254440	x1_deathmaiden_powerslam_prototype	Melee Attack	Swing your melee weapon for {c_green}{DamageMin} - {DamageMax}{/c} damage.
+366276	x1_deathmaiden_spin_attack_mortar_lr_boss		
+253326	x1_deathmaiden_spin_attack_prototype		
+253328	x1_deathmaiden_summon_prototype	Skeleton King Summon	
+369862	x1_deathmaiden_summon_prototype_extraskeletons	Skeleton King Summon	
+376562	x1_deathmaiden_unique_fire_abattoirfurnace_firewreath	Death Maiden Fire Wreath	
+365311	x1_demonhunter_companion	Companion	{c_gold}Cooldown:{/c_gold} {c_green}{Cooldown Time}{/c_green} seconds<br><br>{c_gold}Active:{/c_gold} Your raven deals additional damage on its next attack.<br><br>{c_gold}Passive:{/c_gold} Summons a raven companion from the shadows.
+365312	x1_demonhunter_companion_passive	Companion	!!Missing!! - Powers:x1_DemonHunter_Companion_Passive_desc
+361936	x1_demonhunter_entanglingshot	Entangling Shot	{c_gold}Generate:{/c} {c_green}{Script Formula 1}{/c} Hatred<br><br>Imbue an arrow with shadow energy, slowing up to {c_green}[{Script Formula 14}+1]{/c_green} enemies.
+377450	x1_demonhunter_evasivefire	Evasive Fire	{c_gold}Generate:{/c} {c_green}{Script Formula 4}{/c} Hatred<br><br>Fire at three enemies and occasionally perform an evasive backflip if any enemies are close.
+352920	x1_demonhunter_passive_ambush	Ambush	"The art of surprise is difficult, but rewarding to master." —Mynton, Demon Hunter
+324770	x1_demonhunter_passive_awareness	Awareness	"Everything is a test. Study your surroundings well, and you will pass." —Josen, Master Hunter
+338859	x1_demonhunter_passive_singleout	Single Out	Wield your focus like a weapon.
+302846	x1_demonhunter_vengeance	Vengeance	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 1}{/c_green} |4second:seconds;<br><br>Turn into the physical embodiment of Vengeance for {c_green}{Script Formula 0}{/c_green} |4second:seconds;.
+363984	x1_detonate_dot_buffs		
+368154	x1_dh_companion_boar_intervene	Intervene	Taunts enemies near player when player is low on Life.
+340186	x1_floaterangel_lightningbeam		
+359519	x1_floaterangel_lightningbeam_malthael		
+340168	x1_floaterangel_teleport		
+340083	x1_floaterangel_transform		
+357811	x1_floaterangel_transform_malthael		
+334740	x1_fortress_judgeevent_spawnknockback		
+360496	x1_fortress_portal_switch		
+361425	x1_fortress_portal_switch_checkmonsters		
+361488	x1_fortress_portal_switch_teleportmonster		
+330641	x1_fortress_rotating_door		
+343407	x1_fortressb_visuals		
+377827	x1_generic_break_walls_buff		
+346580	x1_ghost_dark_soulsiphon		
+298686	x1_ghost_soulsiphon		
+346561	x1_ghost_soulsiphon_fire		
+299066	x1_ghostwalkthroughwalls		
+392702	x1_greed_death		
+293555	x1_imperius_cleave	Despair Cleave	
+345327	x1_imperius_enemyornothing		
+293355	x1_imperius_leapsmash	Leap	{c_gold}Generate:{/c} {c_green}{Resource Gained On First Hit}{/c} Fury<br>{c_gold}Cooldown:{/c} {c_green}{Cooldown Time}{/c} seconds<br><br>Leap into the air, dealing {c_green}[{Script Formula 35}*100]%{/c_green} weapon damage to all enemies within {c_green}{Script Formula 0}{/c_green} yards of your destination and slowing their movement speed by {c_green}[{Script Formula 5}*100]%{/c_green} for {c_green}{Script Formula 4}{/c_green} seconds.
+378346	x1_imperiuswingsbuff		
+315456	x1_kyla_cheer		
+315448	x1_kyla_falldownanimation		
+315450	x1_kyla_shieldup		
+344094	x1_legendary_potion_06		Drinking Kulle-Aid allows you to burst through walls summoned by Waller elites for 5 seconds.
+405166	x1_legendary_potion_07		Restores {c_magic}[{VALUE1}*100]%{/c_magic} resource when used below 25% health.
+342078	x1_legendarygenericpotionpowerup		
+327306	x1_lifetimebuff_absorbnonplayerdamage		
+374302	x1_lr_boss_asteroidrain		
+354164	x1_lr_boss_bigred_izual_frostnova	Frost Nova	An explosion of ice freezes nearby enemies for {c_green}[{Script Formula 2}|1|] seconds{/c_green} and causes {c_green}{Script Formula 0} - [{Script Formula 0} + {Script Formula 1}] Cold damage{/c_green}. Cold damage chills enemies, slowing their movement and attack speed. Damage will break the freeze effect, but not the Chill effect.<br><br>Cooldown: {c_green}[{Cooldown Time}|1|] seconds{/c_green}
+416435	x1_lr_boss_butcher_spears	Butcher Spears	Throw a spear up to {c_green}{Script Formula 2}{/c_green} yards to pull an enemy back to the Barbarian, slowing target's movement speed and dealing {c_green}[{Script Formula 0}*100]%{/c_green} weapon damage.<br><br>Generates: {c_green}{Script Formula 12}{/c_green} Fury<br>Cooldown: {c_green}{Cooldown Time}{/c_green} seconds
+375182	x1_lr_boss_corruptangel_piercingdash		
+366520	x1_lr_boss_darkangel_soulrush		
+366525	x1_lr_boss_darkangel_summon		
+369463	x1_lr_boss_darkangel_wave		
+354687	x1_lr_boss_demonflyermega_firebreath	Big Red Fire Breath	This is your skill at close-range combat.
+366974	x1_lr_boss_dummy_buff		
+374236	x1_lr_boss_expandingfirering	Expanding Fire Ring	
+367112	x1_lr_boss_firenova	Wickerman Fire Nova	
+374471	x1_lr_boss_generic_taunt		
+374569	x1_lr_boss_morluspellcaster_meteor		
+374570	x1_lr_boss_morluspellcaster_meteor_2		
+345382	x1_lr_boss_sandmonster_sandwall		
+365722	x1_lr_boss_sandmonster_summoning		
+374386	x1_lr_boss_sandmonster_summoning2		
+374387	x1_lr_boss_sandmonster_summoning3		
+367289	x1_lr_boss_sharedcooldown		
+373204	x1_lr_boss_skeletonking_summon_skeleton	Skeleton King Summon	
+375515	x1_lr_boss_skeletonking_whirlwind		
+359186	x1_lr_boss_skeletonsummoner_projectile		
+369518	x1_lr_boss_skeletonsummoner_projectile_b		
+369519	x1_lr_boss_skeletonsummoner_projectile_c		
+365266	x1_lr_boss_skeletonsummoner_summoning		
+374493	x1_lr_boss_succubus_firestorm		
+309921	x1_lr_creepmob_multiple_arm_attack		
+328714	x1_malthael_baal_aistate		
+330055	x1_malthael_baal_festeringappendage_melee	Melee Attack	Swing your melee weapon for {c_green}{DamageMin} - {DamageMax}{/c} damage.
+324846	x1_malthael_baal_hoarfrost		
+330084	x1_malthael_baal_rift		
+330063	x1_malthael_baal_summonfesteringappendages		
+325140	x1_malthael_deathfogmonster_setup		
+328715	x1_malthael_diablo_aistate		
+334760	x1_malthael_diablo_teleportfirenovalightning		
+327766	x1_malthael_drainsoul		
+340819	x1_malthael_healthglobedropper		
+328712	x1_malthael_mephisto_aistate		
+330366	x1_malthael_mephisto_poisoncloud		
+323604	x1_malthael_mephisto_skullmissile		
+354617	x1_malthael_mephisto_spawninvislightningproxies		
+358059	x1_malthael_mephisto_spirallightning_inward		
+348226	x1_malthael_mephisto_summonrotatinglightning		
+347681	x1_malthael_mephisto_teleportexplodeorbs		
+371010	x1_malthael_ondeath		
+330358	x1_malthael_phaseone_aistate		
+367300	x1_malthael_phasethree_aistate		
+330360	x1_malthael_phasetwo_aistate		
+327847	x1_malthael_sicklethrowteleport		
+360885	x1_malthael_spirit_death		
+362756	x1_malthael_spirit_fog		
+325184	x1_malthael_summondeathfogmonster		
+354045	x1_malthael_summonfloaterangel		
+325648	x1_malthael_swordshieldstart		
+325649	x1_malthael_swordshieldstop		
+354881	x1_molemutant_ranged_jumpback_shot		
+349044	x1_molemutant_ranged_projectile		
+349528	x1_molemutant_shaman_blast		
+350639	x1_molemutant_shaman_resurrect		
+350022	x1_molemutantenragedcombo	Melee Attack	This is your skill at close-range combat.
+312736	x1_monk_dashingstrike	Dashing Strike	{c_gold}Cost:{/c_gold} {c_green}{Script Formula 23}{/c_green} Charge<br><br>Quickly dash and strike enemies.<br><br>{c_yellow}You gain a charge every {c_green}{Script Formula 2}{/c_green} seconds and can have up to {c_green}{Script Formula 0}{/c_green} charges stored at a time.{/c_yellow}
+312307	x1_monk_epiphany	Epiphany	{c_gold}Cooldown:{/c_gold} {c_green}{Cooldown Time}{/c_green} seconds<br><br>Have an Epiphany, increasing your Spirit Regeneration per Second and enabling your melee attacks to instantly dash to your target for {c_green}{Script Formula 0}{/c_green} seconds.
+317076	x1_monk_innersanctuary	Inner Sanctuary	{c_gold}Cooldown:{/c_gold} {c_green}{Cooldown Time}{/c_green} seconds<br><br>Create a runic circle of protection that reduces all damage taken for all allies inside.
+375088	x1_monk_mantraofconviction_v2	Mantra of Conviction	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Spirit<br><br>{c_gold}Active:{/c_gold} Damage bonus is increased for a short duration.<br><br>{c_gold}Passive:{/c_gold} Nearby enemies take increased damage.<br><br>{c_yellow}Only one Mantra may be active at a time.{/c_yellow}
+375089	x1_monk_mantraofconviction_v2_passive	Mantra of Conviction	
+375049	x1_monk_mantraofevasion_v2	Mantra of Salvation	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Spirit<br><br>{c_gold}Active:{/c_gold} You and nearby allies gain greatly increased resistance to all elements.<br><br>{c_gold}Passive:{/c_gold} You and nearby allies gain increased resistance to all elements.<br><br>{c_yellow}Only one Mantra may be active at a time.{/c_yellow}
+375050	x1_monk_mantraofevasion_v2_passive	Mantra of Salvation	
+373143	x1_monk_mantraofhealing_v2	Mantra of Healing	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Spirit<br><br>{c_gold}Active:{/c_gold} Shroud you and your allies with a mystical shield that absorbs damage.<br><br>{c_gold}Passive:{/c_gold} You and nearby allies gain increased Life regeneration.<br><br>{c_yellow}Only one Mantra may be active at a time.{/c_yellow}
+373154	x1_monk_mantraofhealing_v2_passive	Mantra of Healing	
+375082	x1_monk_mantraofretribution_v2	Mantra of Retribution	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Spirit<br><br>{c_gold}Active:{/c_gold} Increase the amount of damage dealt to attackers.<br><br>{c_gold}Passive:{/c_gold} You and nearby allies deal a percentage of your weapon damage as Holy to attackers when blocking, dodging or getting hit.<br><br>{c_yellow}Only one Mantra may be active at a time.{/c_yellow}
+375083	x1_monk_mantraofretribution_v2_passive	Mantra of Retribution	
+363878	x1_monk_mystically_runea_explode		
+363876	x1_monk_mystically_runea_tagforexplosion		
+362102	x1_monk_mystically_v2	Mystic Ally	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 18}{/c_green} seconds<br><br>{c_gold}Active:{/c_gold} Your mystic ally has its damage increased for a short duration.<br><br>{c_gold}Passive:{/c_gold} A mystic ally fights by your side.
+362118	x1_monk_mystically_v2_passive	Mystic Ally	
+341559	x1_monk_passive_momentum	Momentum	Always in motion, flowing like water.
+315271	x1_monk_passive_mythicrhythm	Mythic Rhythm	"The spirit is inconquerable, it folds in upon itself, it grows, always strengthening." — Patriarch Anisim
+368899	x1_monk_passive_unity	Unity	"I thought I was done for, trampled into the snow. Suddenly I felt her hand on my shoulder. The warmth returned to my bones, and together we repelled the beasts." —Legends of the North
+384623	x1_monsteraffix_avenger_corpsebomberrare		
+384624	x1_monsteraffix_avenger_corpsebomberrarecast		
+384628	x1_monsteraffix_avenger_lightningstorm		
+384630	x1_monsteraffix_avenger_lightningstormcast		
+384570	x1_monsteraffix_avenger_orbiter		
+384571	x1_monsteraffix_avenger_orbitercast		
+308319	x1_monsteraffix_corpsebomber	Poison	
+308318	x1_monsteraffix_corpsebombercast		
+309247	x1_monsteraffix_corpsebomberrare	Poison	
+309248	x1_monsteraffix_corpsebomberrarecast		
+328052	x1_monsteraffix_lightningstorm	Pulse	
+332756	x1_monsteraffix_lightningstorm_ai_close		
+349748	x1_monsteraffix_lightningstorm_killself		
+348532	x1_monsteraffix_lightningstorm_pulse		
+332683	x1_monsteraffix_lightningstorm_tagtarget		
+328053	x1_monsteraffix_lightningstormcast		
+349751	x1_monsteraffix_lightningstormchampion		
+343528	x1_monsteraffix_orbiter	Orbiter	
+343527	x1_monsteraffix_orbitercast		
+345214	x1_monsteraffix_orbiterchampion	Orbiter	
+345215	x1_monsteraffix_orbiterchampioncast		
+337106	x1_monsteraffix_teleportmines	Wormhole	
+337107	x1_monsteraffix_teleportminescast		
+334807	x1_negativehealthglobe_flash		
+338025	x1_nightscreamer_allybitetransform		
+338114	x1_nightscreamer_cantransform		
+322542	x1_nightscreamer_furiouscharge		
+324956	x1_nightscreamer_screamattack		
+367807	x1_npc_westmarch_aldritch_crushingresolve	Crushing Resolve	{c_gold}Generate:{/c_gold} {c_green}{Script Formula 4}{/c_green} Wrath per attack<br><br>Attack for {c_green}[{Script Formula 3}*100]%{/c_green} weapon damage.  Every time you strike an enemy, the number of targets hit increases by {c_green}1{/c_green}, up to a maximum of {c_green}5{/c_green}.
+329848	x1_pand_brute_decapitate_slide	Decapitate	
+360331	x1_pand_ext_event_greatweapon_bosssuckin	Great Weapon Boss Suck In	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Arcane Power<br>{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}]{/c_green} |4second:seconds;<br><br>Conjure a Black Hole at the target location that draws enemies to it and deals {c_green}[{Script Formula 13} * 100]%{/c_green} weapon damage as Arcane over {c_green}[{Script Formula 0}]{/c_green} seconds to all enemies within {c_green}[{Script Formula 14}]{/c_green} yards.
+361400	x1_pand_ext_event_greatweapon_fireenergypulses		
+358496	x1_pand_ext_event_greatweapon_summonboss		
+357034	x1_pand_ext_event_greatweapon_summonmonsters		
+364483	x1_pand_ext_imperiuscharge_towers_chains		
+365313	x1_pand_ext_imperiuscharge_towers_setup	Slime Geyser	
+323354	x1_pand_ext_ram_knockback	Belial Firebomb	Throw out three grenades that explode in {Script Formula 0} - [{Script Formula 0} + {Script Formula 1}] damage.
+321861	x1_pand_fortress_ordnance_chronofield		
+321168	x1_pand_fortress_ordnance_mine	X1_Pand_Fortress_Ordnance_Mine	
+321860	x1_pand_fortress_ordnance_shocker		
+347156	x1_pand_hexmaze_portalchampsummon		
+277005	x1_pand_leaperangel_leap		
+270752	x1_pand_maze_portaltest_power		
+374755	x1_pand_maze_portaltest_power_bloone		
+374759	x1_pand_maze_portaltest_power_borgoth		
+374763	x1_pand_maze_portaltest_power_grotescor		
+374767	x1_pand_maze_portaltest_power_haziael		
+374771	x1_pand_maze_portaltest_power_magrethar		
+374775	x1_pand_maze_portaltest_power_severag		
+330626	x1_pand_rockworm_burstout		
+279220	x1_pand_sniperangel_closerangedattack	Melee Attack	This is your skill at close-range combat.
+375514	x1_pand_sniperangel_closerangedattack_lr_boss		
+274493	x1_pand_sniperangel_rangedattack	Melee Attack	This is your skill at close-range combat.
+365321	x1_pand_sniperangel_rangedattack_lr_boss	Melee Attack	This is your skill at close-range combat.
+365454	x1_pand_sniperangel_rangedattack_lr_boss_offset	Melee Attack	This is your skill at close-range combat.
+300679	x1_pandemonium_ideation_timestopbuff		
+322467	x1_pandext_collapsing_pillar	a2dun_Zolt_Tesla_Tower_Lightning_pewpew_	
+300721	x1_pandext_ideation_bacon_beaconondeath		
+272299	x1_pandext_ranged_prototype	Melee Attack	Swing your melee weapon for {c_green}{DamageMin} - {DamageMax}{/c} damage.
+323070	x1_pandext_ranged_prototype_strafeleft	Melee Attack	Swing your melee weapon for {c_green}{DamageMin} - {DamageMax}{/c} damage.
+323071	x1_pandext_ranged_prototype_straferight	Melee Attack	Swing your melee weapon for {c_green}{DamageMin} - {DamageMax}{/c} damage.
+347846	x1_pandext_timetrap		
+276351	x1_pandint_splitmonster_merge		
+276298	x1_pandint_splitmonster_split		
+356461	x1_passive_bountyscroll	Bounty Scroll	Grants a random buff to you and your allies.
+375252	x1_passive_bountyscroll_beastdamage	Bounty Scroll	
+366183	x1_passive_bountyscroll_bossdamage	Bounty Scroll	
+375246	x1_passive_bountyscroll_demondamage	Bounty Scroll	
+359128	x1_passive_bountyscroll_elitedamage	Bounty Scroll	
+356462	x1_passive_bountyscroll_experience	Bounty Scroll	
+377214	x1_passive_bountyscroll_liferegen	Bounty Scroll	
+375263	x1_passive_bountyscroll_runspeed	Bounty Scroll	
+375248	x1_passive_bountyscroll_undeaddamage	Bounty Scroll	
+359826	x1_plagued_lacuni_specialmelee	Decapitate	
+357878	x1_plagued_lacunimale_summon		
+334633	x1_portalguardian_turning		
+302416	x1_portalguardianminion_projectile		
+270783	x1_portalmonster_burrowin		
+270782	x1_portalmonster_burrowout		
+270784	x1_portalmonster_lifetimebuff		
+325081	x1_portalmonster_portalsummon		
+330047	x1_portalmonster_roarsummon		
+279029	x1_portalmonster_stomp		
+323805	x1_portalmonster_swipe	Melee Attack	Swing your melee weapon for {c_green}{DamageMin} - {DamageMax}{/c} damage.
+271815	x1_rockfodder_charge		
+322494	x1_rockfodder_furiouscharge		
+371040	x1_rockfodder_furiouscharge_rockhive_queen		
+327540	x1_rockfodder_tumble		
+323210	x1_rockworm_pand_projectile		
+377188	x1_sandmonster_weapon_melee_instant	Melee Attack	Swing your melee weapon for {c_green}{DamageMin} - {DamageMax}{/c} damage.
+246451	x1_scaryeyes_burrowinhidden		
+246453	x1_scaryeyes_burrowout		
+254946	x1_scaryeyes_charge		
+365395	x1_scoundrel_multishot	Multishot	{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 3}{/c_green} seconds<br><br>{c_gold}Active:{/c_gold} The Scoundrel will shoot multiple bolts at once.<br><br>{c_gold}Passive:{/c_gold} The Scoundrel's special attacks have a chance to fire multiple bolts.
+366585	x1_scoundrel_multishot_passive	Multishot	The Scoundrel will occasionally fire a mulitshot, and his special attacks fire {c_green}[{Script Formula 2}+1]{/c_green} bolts at a time.
+333071	x1_shardpassive_fakeglobes		
+333072	x1_shardpassive_minresource		
+315052	x1_skeleton_stab	Downthrust	{c_gold}Generate:{/c} {c_green}{Resource Gained On First Hit}{/c} Fury<br>{c_gold}Cooldown:{/c} {c_green}{Cooldown Time}{/c} seconds<br><br>Leap into the air, dealing {c_green}[{Script Formula 35}*100]%{/c_green} weapon damage to all enemies within {c_green}{Script Formula 0}{/c_green} yards of your destination and slowing their movement speed by {c_green}[{Script Formula 5}*100]%{/c_green} for {c_green}{Script Formula 4}{/c_green} seconds.
+314835	x1_skeleton_strafe		
+300136	x1_skeletonarcher_firearrow		
+313920	x1_skeletonarcher_firearrowbackpedal		
+375703	x1_snitchley_treasuregoblin_escape		
+370348	x1_spectralhound_buff		
+319739	x1_summonvanitypet		
+286732	x1_temp_ballista_switch_leap		
+375439	x1_uber_diablo_hellspikes	Hell Spikes	
+338723	x1_udder_lightning		
+345292	x1_unique_npc_enchantress_forcefulpush	Forceful Push	Summon an Arcane explosion {c_green}{Script Formula 5}{/c_green} yards around an enemy, dealing {c_green}[{Script Formula 6}*100]%{/c_green} weapon damage as Arcane and knocking back all monsters caught within it.<br><br>Cooldown: {c_green}{Script Formula 7}{/c_green} seconds
+344565	x1_unique_npc_enchantress_masscharm	Mass Control	Lob a bulb of magical energy that will hex a group of enemies into chickens for {c_green}{Script Formula 6}{/c_green} seconds. Hexed enemies are unable to perform offensive actions.<br><br>Cooldown: {c_green}{Script Formula 7}{/c_green} seconds
+345394	x1_unique_npc_enchantress_scorchedearth	Erosion	Conjures a pool of energy that deals {c_green}[{Script Formula 9}*{Script Formula 4}*100]%{/c_green} weapon damage as Arcane over {c_green}[{Script Formula 4}]{/c_green} seconds. Affected enemies take an extra {c_green}[{Script Formula 0}*100]%{/c_green} damage from all attacks for {c_green}[{Script Formula 1}]{/c_green} seconds.<br><br>Cooldown: {c_green}{Script Formula 10}{/c_green} seconds
+344096	x1_unique_npc_templar_heal	Heal	Heals you and the Templar for {c_green}[{Script Formula 0}]{/c_green} Life.<br><br>Cooldown: {c_green}[{Cooldown Time}]{/c_green} seconds
+344099	x1_unique_npc_templar_onslaught	Onslaught	Delivers a massive blow to an enemy for {c_green}[{Script Formula 0} * 100]%{/c_green} weapon damage.<br><br>Cooldown: {c_green}{Script Formula 3}{/c_green} seconds
+344098	x1_unique_npc_templar_shieldcharge	Charge	Charges a target, dealing {c_green}[{Script Formula 0}*100]%{/c_green} weapon damage and stunning all enemies within {c_green}{Script Formula 5}{/c_green} yards for {c_green}{Script Formula 4}{/c_green} seconds.<br><br>Cooldown: {c_green}{Script Formula 6}{/c_green} seconds
+346525	x1_unique_triunesummoner_projectile		
+340870	x1_urzael_cannonball		
+347799	x1_urzael_cannonball_burning		
+346168	x1_urzael_ceilingdebris		
+347842	x1_urzael_ceilingdebris_burning		
+292061	x1_urzael_flamesweep		
+346045	x1_urzael_leapknockback		
+308295	x1_urzael_melee_instant	Melee Attack	Swing your melee weapon for {c_green}{DamageMin} - {DamageMax}{/c} damage.
+346028	x1_urzael_phaseone_aistate		
+346027	x1_urzael_phasetwo_aistate		
+306381	x1_westm_convert		
+307341	x1_westm_convert_aoe		
+330009	x1_westm_convert_delayedstart2		
+313957	x1_westm_convert_delayedstartfromtarget		
+328861	x1_westm_convert_scripted		
+330011	x1_westm_convert2		
+354949	x1_westm_doomedwoman_visual		
+244759	x1_westm_hoist_trigger_ondeathpower		
+319534	x1_westm_soul_summoner_orb_summonneartarget		
+301826	x1_westm_soul_summoner_setup		
+313229	x1_westm_soul_summoner_summon		
+315014	x1_westm_unique_ghostlord_shockwave		
+364239	x1_westmarch_brute_b_charge_custom_lr_boss		
+367003	x1_westmarch_brute_b_charge_custom_lr_boss_hulkmode		
+278970	x1_westmarch_brute_charge		
+278971	x1_westmarch_brute_decapitate	Decapitate	
+278972	x1_westmarch_brute_vomit		
+360845	x1_westmarch_rat_charge		
+360240	x1_westmarch_rat_kamikaze		
+335450	x1_westmarchhound_deadplayertaunt		
+335449	x1_westmarchhound_deadplayertauntsearch		
+335522	x1_westmarchhound_shaketarget		
+289871	x1_westmarchranged_rangedattack_prototype	Ranged Soul Missile	Swing your melee weapon for {c_green}{DamageMin} - {DamageMax}{/c} damage.
+289870	x1_westmarchranged_slowareadenial_prototype	Slowing ground line attack	Swing your melee weapon for {c_green}{DamageMin} - {DamageMax}{/c} damage.
+247959	x1_wickerman_aggro		
+348207	x1_wickerman_firenova	Wickerman Fire Nova	
+288538	x1_wickerman_firephantom	Wickerman Fire Phantom	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Spirit<br>{c_gold}Cooldown:{/c_gold} {c_green}{Script Formula 18}{/c_green} seconds<br><br>Dash rapidly between nearby enemies, dealing {c_green}[{Script Formula 3} * {Script Formula 1} * 100]%{/c_green} weapon damage over {c_green}{Script Formula 1}{/c_green} hits.
+247960	x1_wickerman_suicide		
+341344	x1_wizard_passive_arcaneaegis	Dominance	"Why waste your own energy? Using your enemy's to protect yourself strengthens you while it weakens him. What could be more perfect?" —Ennead Sage Resko
+341540	x1_wizard_passive_audacity	Audacity	"Those who dare approach you do so at their own peril." —Valthek, High Councilor of the Vizjerei
+342326	x1_wizard_passive_elementalexposure	Elemental Exposure	Adding insult to injury may be entertaining, but adding increased injury is a more effective tactic.
+298038	x1_wizard_passive_unwaveringwill	Unwavering Will	"At times the greatest strategy is to withdraw into yourself, to experience the clarity of mind in the moments before launching your attack." —Archmage Skye
+243141	x1_wizard_wormhole	Black Hole	{c_gold}Cost:{/c_gold} {c_green}{Resource Cost}{/c_green} Arcane Power<br>{c_gold}Cooldown:{/c_gold} {c_green}[{Cooldown Time}]{/c_green} |4second:seconds;<br><br>Conjure a Black Hole that draws enemies to it and deals damage.
+291711	x1_wraith_chargeclose		
+265587	x1_wraith_melee	Melee Attack	Swing your melee weapon for {c_green}{DamageMin} - {DamageMax}{/c} damage.
+265911	x1_wraith_piercingdash		
+365581	x1_x1_event_speedkill_champion_spawner		
+364720	x1_x1_event_speedkill_spawner		
+355496	x1_zombiefemale_projectile_poison		
+30804	zk_ball_summon_skeleton		
+30808	zolt_smallfloorspawner		
+30810	zolt_tablet_statechange		
+139705	zoltunkulle_collapseceiling	Collapse Ceiling	
+139736	zoltunkulle_energytwister	Energy Twister	
+139942	zoltunkulle_fieryboulder	Fiery Boulder	
+139831	zoltunkulle_slowtime	Slow Time	
+139711	zoltunkulle_teleport	Teleport	
+241753	zoltunkulle_teleporttoplayer		
+243289	zoltunkulle_teleporttoplayer_enrage		
+178483	zombieeatstart		This is your skill at close-range combat.
+178485	zombieeatstop		This is your skill at close-range combat.
+110518	zombiefemale_projectile		
+1771	zombiekillergrab		

@@ -1,0 +1,17 @@
+﻿<Window x:Class="D3Helper.A_WPFOverlay.Overlay"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d"
+            
+            Title="Overlay"
+            AllowsTransparency="True"
+            WindowState="Normal"
+            WindowStyle="None"
+            Background="Transparent"
+             >
+    <Grid>
+        <Canvas Name="canvas1"/>
+    </Grid>
+</Window>
