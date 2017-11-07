@@ -1,7 +1,7 @@
 # D3Helper-CraftAndParagorn-2.6.1 updates:
 
 - UpgradeAfterKadala (for using with RosBot)
-- ParagornPointsChange
+- ParagornPointsChange (only for Main stats)
 - UpgradeRares
 - ConvertMaterials
 
