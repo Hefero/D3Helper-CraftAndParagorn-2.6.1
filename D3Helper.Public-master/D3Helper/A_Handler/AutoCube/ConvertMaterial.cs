@@ -99,10 +99,26 @@ namespace D3Helper.A_Handler.AutoCube
                                     {
                                         A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Exit_Button);
                                         Thread.Sleep(200);
+                                        Tools.ClickOnCube(CubeStand);
+                                        Thread.Sleep(200);
+                                        //receipe button
+                                        A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Recipe_Button);
+                                        Thread.Sleep(5);
+                                        //press next button 2x for upgrade rare menu
+                                        A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
+                                        Thread.Sleep(5);
+                                        A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
                                     }
                                     else
                                     {
                                         Tools.ClickOnCube(CubeStand);
+                                        Thread.Sleep(200);
+                                        A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Recipe_Button);
+                                        Thread.Sleep(5);
+                                        //press next button 2x for upgrade rare menu
+                                        A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
+                                        Thread.Sleep(5);
+                                        A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
                                         Thread.Sleep(200);
                                     }
                                     FailedTriesExit++;
