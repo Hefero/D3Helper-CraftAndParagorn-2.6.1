@@ -91,23 +91,54 @@ namespace D3Helper.A_Handler.AutoCube
                                         Thread.Sleep(200);
                                         //receipe button
                                         A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Recipe_Button);
-                                        Thread.Sleep(5);
-                                        //press next button 2x for upgrade rare menu
-                                        A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
-                                        Thread.Sleep(5);
-                                        A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
+                                        Thread.Sleep(100);
+                                        //press next button x for convert menu
+                                        nextClicks = 0;
+                                        switch (FromMaterialQuality)
+                                        {
+                                            case "normal":
+                                                nextClicks = 6;
+                                                break;
+                                            case "magic":
+                                                nextClicks = 7;
+                                                break;
+                                            case "rare":
+                                                nextClicks = 8;
+                                                break;
+                                        }
+                                        while (nextClicks > 0)
+                                        {
+                                            A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
+                                            Thread.Sleep(120);
+                                            nextClicks--;
+                                        }
                                     }
                                     else
                                     {
                                         Tools.ClickOnCube(CubeStand);
                                         Thread.Sleep(200);
                                         A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Recipe_Button);
-                                        Thread.Sleep(5);
-                                        //press next button 2x for upgrade rare menu
-                                        A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
-                                        Thread.Sleep(5);
-                                        A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
-                                        Thread.Sleep(200);
+                                        Thread.Sleep(100);
+                                        //press next button x for convert menu
+                                        nextClicks = 0;
+                                        switch (FromMaterialQuality)
+                                        {
+                                            case "normal":
+                                                nextClicks = 6;
+                                                break;
+                                            case "magic":
+                                                nextClicks = 7;
+                                                break;
+                                            case "rare":
+                                                nextClicks = 8;
+                                                break;
+                                        }
+                                        while (nextClicks > 0)
+                                        {
+                                            A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
+                                            Thread.Sleep(120);
+                                            nextClicks--;
+                                        }
                                     }
                                     FailedTriesExit++;
                                 }
