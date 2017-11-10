@@ -144,6 +144,12 @@ namespace D3Helper
             this.cbox_ConvertMaterialFromTo.Text = Properties.Settings.Default.ConvertMaterialText;
             this.RosBotUpgradeKadala.Checked = Properties.Settings.Default.RosBotUpgradeKadalaBool;
 
+            this.RosBotUpgradeKadala.Checked = Properties.Settings.Default.RosBotUpgradeKadalaBool;
+            this.MinDelayClick.Text = Properties.Settings.Default.MinDelayClick.ToString();
+            this.MaxDelayClick.Text = Properties.Settings.Default.MaxDelayClick.ToString();
+            this.SleepTransmute.Text = Properties.Settings.Default.SleepTransmute.ToString();
+
+
             //--------------------
 
             // load simpleCaste settings
@@ -1216,6 +1222,34 @@ namespace D3Helper
         {
             Properties.Settings.Default.RosBotUpgradeKadalaBool = this.RosBotUpgradeKadala.Checked;
             Properties.Settings.Default.Save();
-        }        
+        }
+
+        private void MinDelayClick_TextChanged(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.MinDelayClick = int.Parse(this.MinDelayClick.Text);
+            Properties.Settings.Default.Save();
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void MaxDelayLabel_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void MaxDelayClick_TextChanged(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.MaxDelayClick = int.Parse(this.MaxDelayClick.Text);
+            Properties.Settings.Default.Save();
+        }
+
+        private void SleepTransmute_TextChanged(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.SleepTransmute = int.Parse(this.SleepTransmute.Text);
+            Properties.Settings.Default.Save();
+        }
     }
 }

@@ -15,8 +15,6 @@ namespace D3Helper.A_Handler.AutoCube
     {
         public static bool IsConvertingMaterial = false;
 
-        private const string BTN_Transmute = "Root.NormalLayer.vendor_dialog_mainPage.transmute_dialog.LayoutRoot.transmute_button";
-
         public static void DoConvert(string FromMaterialQuality, string ToMaterialQuality)
         {
             // check input
@@ -39,11 +37,6 @@ namespace D3Helper.A_Handler.AutoCube
                             s1.Start(); ///////////
 
                             // Get list of Materials to convert from
-                            List<ActorCommonData> Materials;
-                            var Count_AvailableEnchants = 50;                            
-
-                            var Count_Enchants = 0;
-
                             //receipe button
                             A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Recipe_Button);
 
@@ -77,19 +70,14 @@ namespace D3Helper.A_Handler.AutoCube
                                     // Find the item position and rightclick on the item
                                     UIRect UIRect_item = A_Collection.D3UI.InventoryItemUIRectMesh.FirstOrDefault(x => x.Key.ItemSlotX == item.x118_ItemSlotX && x.Key.ItemSlotY == item.x11C_ItemSlotY).Value;
                                     A_Tools.InputSimulator.IS_Mouse.RightCLick((int)UIRect_item.Left, (int)UIRect_item.Top, (int)UIRect_item.Right, (int)UIRect_item.Bottom);
-                                    Thread.Sleep(1);
                                     //fill
                                     A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Fill_Button);
-                                    Thread.Sleep(1);
                                     //transmute
                                     A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Transmute_Button);
-                                    Thread.Sleep(8);
+                                    Thread.Sleep(Properties.Settings.Default.SleepTransmute);
                                     //click next and back to reset
                                     A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
-                                    Thread.Sleep(1);
                                     A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Previous);
-                                    Thread.Sleep(1);
-                                    Count_Enchants++;
                                 }
                                 ToItemList = Tools.Get_Items(ToMaterialQuality);
                                 int numberOfItemsAfterTrying = ToItemList.Count;

@@ -15,6 +15,7 @@ namespace D3Helper.A_Handler.AutoCube
     class UpgradeRare
     {
         public static bool IsUpgrading_Rare = false;
+        public static int FailedCycles = 0;
 
 
         public static void DoUpgrade()
@@ -57,18 +58,14 @@ namespace D3Helper.A_Handler.AutoCube
                                         x => x.Key.ItemSlotX == item.x118_ItemSlotX && x.Key.ItemSlotY == item.x11C_ItemSlotY).Value;
 
                                 A_Tools.T_D3UI.UIElement.rightClick(UIRect_item);
-                                Thread.Sleep(1);
                                 //fill
                                 A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Fill_Button);
-                                Thread.Sleep(1);
                                 //transmute
                                 A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Transmute_Button);
-                                Thread.Sleep(8);
+                                Thread.Sleep(Properties.Settings.Default.SleepTransmute);
                                 //click next and back to reset
                                 A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
-                                Thread.Sleep(1);
                                 A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Previous);
-                                Thread.Sleep(1);
                             }
                             UpgradableItems = Tools.Get_Items("rare");
                             int numberOfItemsAfterTrying = UpgradableItems.Count;
@@ -103,6 +100,7 @@ namespace D3Helper.A_Handler.AutoCube
                                 FailedTriesExit++;
                             }
                             if (FailedTriesExit >= 5) {
+                                FailedCycles++;
                                 break; // failed 5 times, stopping
                             }
                             numberOfItemsBeforeTrying = UpgradableItems.Count;
@@ -125,6 +123,13 @@ namespace D3Helper.A_Handler.AutoCube
                         s1.Stop(); /////////
                         TimeSpan t1 = s1.Elapsed; //////
                         Console.WriteLine(t1.TotalSeconds); ////////
+
+                        //disable upgradeafterkadala if failed too many times
+                        if (FailedCycles > 5)
+                        {
+                            FailedCycles = 0;
+                            Properties.Settings.Default.RosBotUpgradeKadalaBool = false;
+                        }
                     }
                 }
                 if (Properties.Settings.Default.RosBotUpgradeKadalaBool)
