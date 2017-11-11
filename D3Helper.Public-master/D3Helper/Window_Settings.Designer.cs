@@ -118,7 +118,11 @@
             this.CB_AutoPick_Legendary = new System.Windows.Forms.CheckBox();
             this.CB_AutoPick_Material = new System.Windows.Forms.CheckBox();
             this.CB_AutoPick_Gem = new System.Windows.Forms.CheckBox();
-            this.page_Experimental = new System.Windows.Forms.TabPage();
+            this.page_AutoCube = new System.Windows.Forms.TabPage();
+            this.MinDelayLabel = new System.Windows.Forms.Label();
+            this.MaxDelayClick = new System.Windows.Forms.TextBox();
+            this.MinDelayClick = new System.Windows.Forms.TextBox();
+            this.RosBotUpgradeKadala = new System.Windows.Forms.CheckBox();
             this.label28 = new System.Windows.Forms.Label();
             this.cbox_ConvertMaterialFromTo = new System.Windows.Forms.ComboBox();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -127,6 +131,9 @@
             this.button_simplecast_remove = new System.Windows.Forms.Button();
             this.button_simplecast_add = new System.Windows.Forms.Button();
             this.dataGridView_simpleCast = new System.Windows.Forms.DataGridView();
+            this.MaxDelayLabel = new System.Windows.Forms.Label();
+            this.SleepTransmute = new System.Windows.Forms.TextBox();
+            this.SleepTransmuteLabel = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.page_General.SuspendLayout();
             this.page_Hotkeys.SuspendLayout();
@@ -134,7 +141,7 @@
             this.page_Auto.SuspendLayout();
             this.page_ParagonPoints.SuspendLayout();
             this.page_AutoPick.SuspendLayout();
-            this.page_Experimental.SuspendLayout();
+            this.page_AutoCube.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_simpleCast)).BeginInit();
             this.SuspendLayout();
@@ -265,7 +272,7 @@
             this.tabControl1.Controls.Add(this.page_SkillEditor);
             this.tabControl1.Controls.Add(this.page_ParagonPoints);
             this.tabControl1.Controls.Add(this.page_AutoPick);
-            this.tabControl1.Controls.Add(this.page_Experimental);
+            this.tabControl1.Controls.Add(this.page_AutoCube);
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Location = new System.Drawing.Point(12, 12);
             this.tabControl1.Name = "tabControl1";
@@ -1122,16 +1129,60 @@
             this.CB_AutoPick_Gem.UseVisualStyleBackColor = false;
             this.CB_AutoPick_Gem.CheckedChanged += new System.EventHandler(this.CB_AutoPick_Gem_CheckedChanged);
             // 
-            // page_Experimental
+            // page_AutoCube
             // 
-            this.page_Experimental.Controls.Add(this.label28);
-            this.page_Experimental.Controls.Add(this.cbox_ConvertMaterialFromTo);
-            this.page_Experimental.Location = new System.Drawing.Point(4, 25);
-            this.page_Experimental.Name = "page_Experimental";
-            this.page_Experimental.Size = new System.Drawing.Size(557, 650);
-            this.page_Experimental.TabIndex = 14;
-            this.page_Experimental.Text = "Experimental";
-            this.page_Experimental.UseVisualStyleBackColor = true;
+            this.page_AutoCube.Controls.Add(this.SleepTransmuteLabel);
+            this.page_AutoCube.Controls.Add(this.SleepTransmute);
+            this.page_AutoCube.Controls.Add(this.MaxDelayLabel);
+            this.page_AutoCube.Controls.Add(this.MinDelayLabel);
+            this.page_AutoCube.Controls.Add(this.MaxDelayClick);
+            this.page_AutoCube.Controls.Add(this.MinDelayClick);
+            this.page_AutoCube.Controls.Add(this.RosBotUpgradeKadala);
+            this.page_AutoCube.Controls.Add(this.label28);
+            this.page_AutoCube.Controls.Add(this.cbox_ConvertMaterialFromTo);
+            this.page_AutoCube.Location = new System.Drawing.Point(4, 25);
+            this.page_AutoCube.Name = "page_AutoCube";
+            this.page_AutoCube.Size = new System.Drawing.Size(557, 650);
+            this.page_AutoCube.TabIndex = 14;
+            this.page_AutoCube.Text = "AutoCube";
+            this.page_AutoCube.UseVisualStyleBackColor = true;
+            // 
+            // MinDelayLabel
+            // 
+            this.MinDelayLabel.AutoSize = true;
+            this.MinDelayLabel.Location = new System.Drawing.Point(65, 56);
+            this.MinDelayLabel.Name = "MinDelayLabel";
+            this.MinDelayLabel.Size = new System.Drawing.Size(74, 13);
+            this.MinDelayLabel.TabIndex = 42;
+            this.MinDelayLabel.Text = "MinDelayClick";
+            this.MinDelayLabel.Click += new System.EventHandler(this.label8_Click);
+            // 
+            // MaxDelayClick
+            // 
+            this.MaxDelayClick.Location = new System.Drawing.Point(17, 91);
+            this.MaxDelayClick.Name = "MaxDelayClick";
+            this.MaxDelayClick.Size = new System.Drawing.Size(42, 20);
+            this.MaxDelayClick.TabIndex = 41;
+            this.MaxDelayClick.TextChanged += new System.EventHandler(this.MaxDelayClick_TextChanged);
+            // 
+            // MinDelayClick
+            // 
+            this.MinDelayClick.Location = new System.Drawing.Point(17, 55);
+            this.MinDelayClick.Name = "MinDelayClick";
+            this.MinDelayClick.Size = new System.Drawing.Size(42, 20);
+            this.MinDelayClick.TabIndex = 40;
+            this.MinDelayClick.TextChanged += new System.EventHandler(this.MinDelayClick_TextChanged);
+            // 
+            // RosBotUpgradeKadala
+            // 
+            this.RosBotUpgradeKadala.AutoSize = true;
+            this.RosBotUpgradeKadala.Location = new System.Drawing.Point(232, 55);
+            this.RosBotUpgradeKadala.Name = "RosBotUpgradeKadala";
+            this.RosBotUpgradeKadala.Size = new System.Drawing.Size(184, 17);
+            this.RosBotUpgradeKadala.TabIndex = 39;
+            this.RosBotUpgradeKadala.Text = "Auto Upgrade After Doing Kadala";
+            this.RosBotUpgradeKadala.UseVisualStyleBackColor = true;
+            this.RosBotUpgradeKadala.CheckedChanged += new System.EventHandler(this.RosBotUpgradeKadala_CheckedChanged);
             // 
             // label28
             // 
@@ -1157,6 +1208,7 @@
             this.cbox_ConvertMaterialFromTo.Name = "cbox_ConvertMaterialFromTo";
             this.cbox_ConvertMaterialFromTo.Size = new System.Drawing.Size(257, 21);
             this.cbox_ConvertMaterialFromTo.TabIndex = 37;
+            this.cbox_ConvertMaterialFromTo.SelectedIndexChanged += new System.EventHandler(this.cbox_ConvertMaterialFromTo_SelectedIndexChanged);
             // 
             // tabPage1
             // 
@@ -1221,6 +1273,33 @@
             this.dataGridView_simpleCast.TabIndex = 0;
             this.dataGridView_simpleCast.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_simpleCast_CellContentClick);
             // 
+            // MaxDelayLabel
+            // 
+            this.MaxDelayLabel.AutoSize = true;
+            this.MaxDelayLabel.Location = new System.Drawing.Point(65, 94);
+            this.MaxDelayLabel.Name = "MaxDelayLabel";
+            this.MaxDelayLabel.Size = new System.Drawing.Size(77, 13);
+            this.MaxDelayLabel.TabIndex = 43;
+            this.MaxDelayLabel.Text = "MaxDelayClick";
+            this.MaxDelayLabel.Click += new System.EventHandler(this.MaxDelayLabel_Click);
+            // 
+            // SleepTransmute
+            // 
+            this.SleepTransmute.Location = new System.Drawing.Point(17, 135);
+            this.SleepTransmute.Name = "SleepTransmute";
+            this.SleepTransmute.Size = new System.Drawing.Size(42, 20);
+            this.SleepTransmute.TabIndex = 44;
+            this.SleepTransmute.TextChanged += new System.EventHandler(this.SleepTransmute_TextChanged);
+            // 
+            // SleepTransmuteLabel
+            // 
+            this.SleepTransmuteLabel.AutoSize = true;
+            this.SleepTransmuteLabel.Location = new System.Drawing.Point(65, 135);
+            this.SleepTransmuteLabel.Name = "SleepTransmuteLabel";
+            this.SleepTransmuteLabel.Size = new System.Drawing.Size(84, 13);
+            this.SleepTransmuteLabel.TabIndex = 45;
+            this.SleepTransmuteLabel.Text = "SleepTransmute";
+            // 
             // Window_Settings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1248,8 +1327,8 @@
             this.page_ParagonPoints.PerformLayout();
             this.page_AutoPick.ResumeLayout(false);
             this.page_AutoPick.PerformLayout();
-            this.page_Experimental.ResumeLayout(false);
-            this.page_Experimental.PerformLayout();
+            this.page_AutoCube.ResumeLayout(false);
+            this.page_AutoCube.PerformLayout();
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_simpleCast)).EndInit();
@@ -1342,7 +1421,7 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Button bt_delete_hotkey_autocube_ConvertMaterial;
         private System.Windows.Forms.TextBox tb_assignedAutoCube_ConvertMaterial;
-        private System.Windows.Forms.TabPage page_Experimental;
+        private System.Windows.Forms.TabPage page_AutoCube;
         private System.Windows.Forms.ComboBox cbox_ConvertMaterialFromTo;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.CheckBox CB_EliteCircles;
@@ -1355,5 +1434,12 @@
         private System.Windows.Forms.TextBox textBox_filter_ui_elemets_listbox;
         private System.Windows.Forms.Button button_get_ui_elements;
         private System.Windows.Forms.ListBox listBox_ui_elements;
+        private System.Windows.Forms.CheckBox RosBotUpgradeKadala;
+        private System.Windows.Forms.TextBox MaxDelayClick;
+        private System.Windows.Forms.TextBox MinDelayClick;
+        private System.Windows.Forms.Label MinDelayLabel;
+        private System.Windows.Forms.Label MaxDelayLabel;
+        private System.Windows.Forms.Label SleepTransmuteLabel;
+        private System.Windows.Forms.TextBox SleepTransmute;
     }
 }

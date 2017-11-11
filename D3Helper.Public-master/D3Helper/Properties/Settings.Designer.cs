@@ -226,7 +226,67 @@ namespace D3Helper.Properties {
                 this["AutoGambleBool"] = value;
             }
         }
-        
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool RosBotUpgradeKadalaBool
+        {
+            get
+            {
+                return ((bool)(this["RosBotUpgradeKadalaBool"]));
+            }
+            set
+            {
+                this["RosBotUpgradeKadalaBool"] = value;
+            }
+        }
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("200")]
+        public int MinDelayClick
+        {
+            get
+            {
+                return ((int)(this["MinDelayClick"]));
+            }
+            set
+            {
+                this["MinDelayClick"] = value;
+            }
+        }
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("250")]
+        public int MaxDelayClick
+        {
+            get
+            {
+                return ((int)(this["MaxDelayClick"]));
+            }
+            set
+            {
+                this["MaxDelayClick"] = value;
+            }
+        }
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("175")]
+        public int SleepTransmute
+        {
+            get
+            {
+                return ((int)(this["SleepTransmute"]));
+            }
+            set
+            {
+                this["SleepTransmute"] = value;
+            }
+        }
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]

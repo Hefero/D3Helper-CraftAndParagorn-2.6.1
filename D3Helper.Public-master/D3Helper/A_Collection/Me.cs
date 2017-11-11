@@ -9,6 +9,8 @@ using Enigma.D3;
 using D3Helper.A_Enums;
 using D3Helper.A_Collector;
 using D3Helper.A_Tools;
+using D3Helper.A_Handler.AutoCube;
+using System.Threading;
 
 namespace D3Helper.A_Collection
 {
@@ -107,7 +109,7 @@ namespace D3Helper.A_Collection
             public static bool Is_SpendingPoints = false;                                           // default: false
             public static int SelectedParagonPoints_Setup = 0;                                      // default: 0 min: 0 max: 4
             public static Dictionary<long,List<ParagonPointSetup>> Setups = new Dictionary<long, List<ParagonPointSetup>>();
-            
+            public static Thread RosBotUpgradeKadalaThread;
             //
         }
 

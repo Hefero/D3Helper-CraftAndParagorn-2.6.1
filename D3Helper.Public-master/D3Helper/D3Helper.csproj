@@ -12,7 +12,7 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>D:\D3Helper\</PublishUrl>
+    <PublishUrl>C:\Users\GuilhermeMarques\Documents\Prototypes\Publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -22,7 +22,8 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>3</ApplicationRevision>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>4</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -65,23 +66,19 @@
     <OutputPath>bin\x86\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
+    <DebugType>none</DebugType>
     <PlatformTarget>x86</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>true</Prefer32Bit>
-  </PropertyGroup>
-  <PropertyGroup>
-    <ManifestCertificateThumbprint>D5A4E7188B2A8838EBB56B5CA3F5B0D1EDE1BB60</ManifestCertificateThumbprint>
-  </PropertyGroup>
-  <PropertyGroup>
-    <ManifestKeyFile>D3Helper_TemporaryKey.pfx</ManifestKeyFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
+  <PropertyGroup />
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <StartupObject>D3Helper.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="InputSimulator">
@@ -147,8 +144,10 @@
     <Compile Include="A_Enums\ParagonXPTable.cs" />
     <Compile Include="A_Enums\Powers.cs" />
     <Compile Include="A_Enums\UIElements.cs" />
+    <Compile Include="A_Handler\AutoCube\Singleton.cs" />
     <Compile Include="A_Handler\AutoCube\Tools.cs" />
     <Compile Include="A_Handler\AutoCube\ConvertMaterial.cs" />
+    <Compile Include="A_Handler\AutoCube\RosBotUpgradeKadala.cs" />
     <Compile Include="A_Handler\AutoCube\UpgradeRare.cs" />
     <Compile Include="A_Handler\AutoGamble\AutoGamble.cs" />
     <Compile Include="A_Handler\AutoPick\AutoPick.cs" />

@@ -12,7 +12,6 @@ using Enigma.D3;
 using Enigma.D3.Helpers;
 using Enigma.D3.UI;
 using Enigma.D3.UI.Controls;
-
 using WindowsInput;
 using D3Helper.A_Enums;
 using D3Helper.A_Tools;
@@ -26,6 +25,8 @@ namespace D3Helper.A_Handler.ParagonPointSpender
         {
 
             A_Collection.Me.ParagonPointSpender.Is_SpendingPoints = true;
+            //var me = A_Collector. ;
+            var playerParagorn = A_Collection.Me.HeroGlobals.Alt_Lvl;
 
             var Setup =
                 A_Collection.Me.ParagonPointSpender.Setups.FirstOrDefault(x => x.Key == A_Collection.Me.HeroGlobals.HeroID);
@@ -53,12 +54,11 @@ namespace D3Helper.A_Handler.ParagonPointSpender
                     int spentpoints = 0;
                     int tab = 0;
 
+                    bool ResetNeeded = false;
+
                     foreach (var paragonpoint in ParagonPoints.BonusPoints)
                     {
                         tab = OpenTab_byType(paragonpoint.Type);
-
-                        bool ResetNeeded = false;
-
                         if (!CheckedCore)
                         {
                             if (paragonpoint.Type == BonusPoints.core0 ||
@@ -72,22 +72,52 @@ namespace D3Helper.A_Handler.ParagonPointSpender
                                             x.Type == BonusPoints.core0 || x.Type == BonusPoints.core1 ||
                                             x.Type == BonusPoints.core2 || x.Type == BonusPoints.core3);
 
-                                
-                                foreach (var _core in corepoints)
+                                try
                                 {
-                                    if (ParagonPointSpender.ResetNeeded(_core))
+                                    var core0number = 0;
+                                    try { core0number = corepoints.Where(c => c.Type == BonusPoints.core0).FirstOrDefault().Value; }
+                                    catch { }
+                                    var core1number = 0;
+                                    try { core1number = corepoints.Where(c => c.Type == BonusPoints.core1).FirstOrDefault().Value; }
+                                    catch { }
+                                    var core2number = 0;
+                                    try { core2number = corepoints.Where(c => c.Type == BonusPoints.core2).FirstOrDefault().Value >= 0 ? corepoints.Where(c => c.Type == BonusPoints.core2).First().Value : 50; }
+                                    catch { }
+                                    var core3number = 0;
+                                    try { core3number = corepoints.Where(c => c.Type == BonusPoints.core3).FirstOrDefault().Value >= 0 ? corepoints.Where(c => c.Type == BonusPoints.core3).First().Value : 50; }
+                                    catch { }
+
+                                    int[] alrdySetPoints = new int[] { GetSpentPoints_OnGivenBonus(0), GetSpentPoints_OnGivenBonus(1), GetSpentPoints_OnGivenBonus(2), GetSpentPoints_OnGivenBonus(3) };
+                                    int[] neededPoints = new int[] {core0number, core1number, core2number, core3number};
+
+                                    if (neededPoints[0] < 0)
+                                    {   
+                                        neededPoints[0] = playerParagorn - neededPoints[1] - neededPoints[2] - neededPoints[3] - 600;
+                                    }
+                                    if (neededPoints[1] < 0)
+                                    {
+                                        neededPoints[1] = playerParagorn - neededPoints[0] - neededPoints[2] - neededPoints[3] - 600;
+                                    }
+
+                                    if (neededPoints[0] != alrdySetPoints[0])
                                     {
                                         ResetNeeded = true;
-                                        break;
                                     }
+                                    if (neededPoints[1] != alrdySetPoints[1])
+                                    {
+                                        ResetNeeded = true;
+                                    }
+                                    if (neededPoints[2] != alrdySetPoints[2])
+                                    {
+                                        ResetNeeded = true;
+                                    }
+                                    if (neededPoints[3] != alrdySetPoints[3])
+                                    {
+                                        ResetNeeded = true;
+                                    }
+                                    CheckedCore = true;
                                 }
-
-                                int[] alrdySetPoints = new int[] { GetSpentPoints_OnGivenBonus(0), GetSpentPoints_OnGivenBonus(1), GetSpentPoints_OnGivenBonus(2), GetSpentPoints_OnGivenBonus(3) };
-
-                                if (corepoints.Where(x => x.Value != 0).Count() < alrdySetPoints.Where(x => x > 0).Count() || (corepoints.Where(x => x.Value != 0).Count() > alrdySetPoints.Where(x => x > 0).Count() && Get_UnspentPoints_Core() == 0))
-                                    ResetNeeded = true;
-
-                                CheckedCore = true;
+                                catch { }
                             }
                         }
 
@@ -103,22 +133,53 @@ namespace D3Helper.A_Handler.ParagonPointSpender
                                         x =>
                                             x.Type == BonusPoints.offense0 || x.Type == BonusPoints.offense1 ||
                                             x.Type == BonusPoints.offense2 || x.Type == BonusPoints.offense3);
-
-                                foreach (var _offense in offensepoints)
+                                try
                                 {
-                                    if (ParagonPointSpender.ResetNeeded(_offense))
+                                    var offensepoints0number = 0;
+                                    try { offensepoints0number = offensepoints.Where(c => c.Type == BonusPoints.offense0).FirstOrDefault().Value; }
+                                    catch { }
+                                    var offensepoints1number = 0;
+                                    try { offensepoints1number = offensepoints.Where(c => c.Type == BonusPoints.offense1).FirstOrDefault().Value; }
+                                    catch { }
+                                    var offensepoints2number = 0;
+                                    try { offensepoints2number = offensepoints.Where(c => c.Type == BonusPoints.offense2).FirstOrDefault().Value >= 0 ? offensepoints.Where(c => c.Type == BonusPoints.offense2).First().Value : 50; }
+                                    catch { }
+                                    var offensepoints3number = 0;
+                                    try { offensepoints3number = offensepoints.Where(c => c.Type == BonusPoints.offense3).FirstOrDefault().Value >= 0 ? offensepoints.Where(c => c.Type == BonusPoints.offense3).First().Value : 50; }
+                                    catch { }
+
+                                    int[] alrdySetPoints = new int[] { GetSpentPoints_OnGivenBonus(0), GetSpentPoints_OnGivenBonus(1), GetSpentPoints_OnGivenBonus(2), GetSpentPoints_OnGivenBonus(3) };
+                                    int[] neededPoints = new int[] { offensepoints0number, offensepoints1number, offensepoints2number, offensepoints3number };
+
+                                    if (neededPoints[0] < 0)
+                                    {
+                                        neededPoints[0] = 50;
+                                    }
+                                    if (neededPoints[1] < 0)
+                                    {
+                                        neededPoints[1] = 50;
+                                    }
+
+                                    if (neededPoints[0] != alrdySetPoints[0])
                                     {
                                         ResetNeeded = true;
-                                        break;
                                     }
+                                    if (neededPoints[1] != alrdySetPoints[1])
+                                    {
+                                        ResetNeeded = true;
+                                    }
+                                    if (neededPoints[2] != alrdySetPoints[2])
+                                    {
+                                        ResetNeeded = true;
+                                    }
+                                    if (neededPoints[3] != alrdySetPoints[3])
+                                    {
+                                        ResetNeeded = true;
+                                    }
+                                    CheckedOffense = true;
                                 }
+                                catch { }
 
-                                int[] alrdySetPoints = new int[] { GetSpentPoints_OnGivenBonus(0), GetSpentPoints_OnGivenBonus(1), GetSpentPoints_OnGivenBonus(2), GetSpentPoints_OnGivenBonus(3) };
-
-                                if (offensepoints.Where(x => x.Value != 0).Count() < alrdySetPoints.Where(x => x > 0).Count() || (offensepoints.Where(x => x.Value != 0).Count() > alrdySetPoints.Where(x => x > 0).Count() && Get_UnspentPoints_Offense() == 0))
-                                    ResetNeeded = true;
-
-                                CheckedOffense = true;
                             }
                         }
 
@@ -135,21 +196,52 @@ namespace D3Helper.A_Handler.ParagonPointSpender
                                             x.Type == BonusPoints.defense0 || x.Type == BonusPoints.defense1 ||
                                             x.Type == BonusPoints.defense2 || x.Type == BonusPoints.defense3);
 
-                                foreach (var _defense in defensepoints)
+                                try
                                 {
-                                    if (ParagonPointSpender.ResetNeeded(_defense))
+                                    var defensepoints0number = 0;
+                                    try { defensepoints0number = defensepoints.Where(c => c.Type == BonusPoints.defense0).FirstOrDefault().Value; }
+                                    catch { }
+                                    var defensepoints1number = 0;
+                                    try { defensepoints1number = defensepoints.Where(c => c.Type == BonusPoints.defense1).FirstOrDefault().Value; }
+                                    catch { }
+                                    var defensepoints2number = 0;
+                                    try { defensepoints2number = defensepoints.Where(c => c.Type == BonusPoints.defense2).FirstOrDefault().Value >= 0 ? defensepoints.Where(c => c.Type == BonusPoints.defense2).First().Value : 50; }
+                                    catch { }
+                                    var defensepoints3number = 0;
+                                    try { defensepoints3number = defensepoints.Where(c => c.Type == BonusPoints.defense3).FirstOrDefault().Value >= 0 ? defensepoints.Where(c => c.Type == BonusPoints.defense3).First().Value : 50; }
+                                    catch { }
+
+                                    int[] alrdySetPoints = new int[] { GetSpentPoints_OnGivenBonus(0), GetSpentPoints_OnGivenBonus(1), GetSpentPoints_OnGivenBonus(2), GetSpentPoints_OnGivenBonus(3) };
+                                    int[] neededPoints = new int[] { defensepoints0number, defensepoints1number, defensepoints2number, defensepoints3number };
+
+                                    if (neededPoints[0] < 0)
+                                    {
+                                        neededPoints[0] = 50;
+                                    }
+                                    if (neededPoints[1] < 0)
+                                    {
+                                        neededPoints[1] = 50;
+                                    }
+
+                                    if (neededPoints[0] != alrdySetPoints[0])
                                     {
                                         ResetNeeded = true;
-                                        break;
                                     }
+                                    if (neededPoints[1] != alrdySetPoints[1])
+                                    {
+                                        ResetNeeded = true;
+                                    }
+                                    if (neededPoints[2] != alrdySetPoints[2])
+                                    {
+                                        ResetNeeded = true;
+                                    }
+                                    if (neededPoints[3] != alrdySetPoints[3])
+                                    {
+                                        ResetNeeded = true;
+                                    }
+                                    CheckedDefense = true;
                                 }
-
-                                int[] alrdySetPoints = new int[] { GetSpentPoints_OnGivenBonus(0), GetSpentPoints_OnGivenBonus(1), GetSpentPoints_OnGivenBonus(2), GetSpentPoints_OnGivenBonus(3) };
-
-                                if (defensepoints.Where(x => x.Value != 0).Count() < alrdySetPoints.Where(x => x > 0).Count() || (defensepoints.Where(x => x.Value != 0).Count() > alrdySetPoints.Where(x => x > 0).Count() && Get_UnspentPoints_Defense() == 0))
-                                    ResetNeeded = true;
-
-                                CheckedDefense = true;
+                                catch { }
                             }
                         }
 
@@ -166,21 +258,52 @@ namespace D3Helper.A_Handler.ParagonPointSpender
                                             x.Type == BonusPoints.utility0 || x.Type == BonusPoints.utility1 ||
                                             x.Type == BonusPoints.utility2 || x.Type == BonusPoints.utility3);
 
-                                foreach (var _utility in utilitypoints)
+                                try
                                 {
-                                    if (ParagonPointSpender.ResetNeeded(_utility))
+                                    var utilitypoints0number = 0;
+                                    try { utilitypoints0number = utilitypoints.Where(c => c.Type == BonusPoints.utility0).FirstOrDefault().Value; }
+                                    catch { }
+                                    var utilitypoints1number = 0;
+                                    try { utilitypoints1number = utilitypoints.Where(c => c.Type == BonusPoints.utility1).FirstOrDefault().Value; }
+                                    catch { }
+                                    var utilitypoints2number = 0;
+                                    try { utilitypoints2number = utilitypoints.Where(c => c.Type == BonusPoints.utility2).FirstOrDefault().Value >= 0 ? utilitypoints.Where(c => c.Type == BonusPoints.utility2).First().Value : 50; }
+                                    catch { }
+                                    var utilitypoints3number = 0;
+                                    try { utilitypoints3number = utilitypoints.Where(c => c.Type == BonusPoints.utility3).FirstOrDefault().Value >= 0 ? utilitypoints.Where(c => c.Type == BonusPoints.utility3).First().Value : 50; }
+                                    catch { }
+
+                                    int[] alrdySetPoints = new int[] { GetSpentPoints_OnGivenBonus(0), GetSpentPoints_OnGivenBonus(1), GetSpentPoints_OnGivenBonus(2), GetSpentPoints_OnGivenBonus(3) };
+                                    int[] neededPoints = new int[] { utilitypoints3number, utilitypoints3number, utilitypoints3number, utilitypoints3number };
+
+                                    if (neededPoints[0] < 0)
+                                    {
+                                        neededPoints[0] = 50;
+                                    }
+                                    if (neededPoints[1] < 0)
+                                    {
+                                        neededPoints[1] = 50;
+                                    }
+
+                                    if (neededPoints[0] != alrdySetPoints[0])
                                     {
                                         ResetNeeded = true;
-                                        break;
                                     }
+                                    if (neededPoints[1] != alrdySetPoints[1])
+                                    {
+                                        ResetNeeded = true;
+                                    }
+                                    if (neededPoints[2] != alrdySetPoints[2])
+                                    {
+                                        ResetNeeded = true;
+                                    }
+                                    if (neededPoints[3] != alrdySetPoints[3])
+                                    {
+                                        ResetNeeded = true;
+                                    }
+                                    CheckedUtility = true;
                                 }
-
-                                int[] alrdySetPoints = new int[] { GetSpentPoints_OnGivenBonus(0), GetSpentPoints_OnGivenBonus(1), GetSpentPoints_OnGivenBonus(2), GetSpentPoints_OnGivenBonus(3) };
-
-                                if (utilitypoints.Where(x => x.Value != 0).Count() < alrdySetPoints.Where(x => x > 0).Count() || (utilitypoints.Where(x => x.Value != 0).Count() > alrdySetPoints.Where(x => x > 0).Count() && Get_UnspentPoints_Utility() == 0))
-                                    ResetNeeded = true;
-
-                                CheckedUtility = true;
+                                catch { }
                             }
                         }
 
@@ -220,11 +343,9 @@ namespace D3Helper.A_Handler.ParagonPointSpender
                                     }
                                     break;
                             }
-
-                            
+                            spentpoints += SpendPoints_byType(paragonpoint.Type, paragonpoint.Value);
                         }
-
-                        spentpoints += SpendPoints_byType(paragonpoint.Type, paragonpoint.Value);
+                        
                     }
 
                     if (spentpoints > 0)
@@ -232,12 +353,13 @@ namespace D3Helper.A_Handler.ParagonPointSpender
 
 
                     if (isParagonWindowVisible())
-                        CloseParagonWindow();
+                        CloseParagonWindow();                    
 
-                    int _x = A_Collection.D3Client.Window.D3ClientRect.Width/2;
-                    int _y = A_Collection.D3Client.Window.D3ClientRect.Height/2;
+                    int _x = A_Collection.D3Client.Window.D3ClientRect.Width / 2;
+                    int _y = A_Collection.D3Client.Window.D3ClientRect.Height / 2;
+                    Cursor.Position = new Point((int)_x, (int)_y);
 
-                    Cursor.Position = new Point((int) _x, (int) _y);
+                    Thread.Sleep(1000);
                 }
             }
 
@@ -245,17 +367,17 @@ namespace D3Helper.A_Handler.ParagonPointSpender
 
         }
 
-        private static bool ResetNeeded(BonusPoint bonuspoint)
+        private static bool ResetNeededFunction(BonusPoint bonuspoint)
         {
             try
             {
                 switch (bonuspoint.Type)
                 {
-                        case BonusPoints.core0:
+                    case BonusPoints.core0:
                         if (bonuspoint.Value != -1)
                         {
                             var curValue = GetSpentPoints_OnGivenBonus(0);
-                            if(curValue > bonuspoint.Value || (curValue < bonuspoint.Value && Get_UnspentPoints_Core() == 0))
+                            if (curValue > bonuspoint.Value || (curValue < bonuspoint.Value && Get_UnspentPoints_Core() == 0))
                                 return true;
                         }
                         return false;
@@ -414,7 +536,7 @@ namespace D3Helper.A_Handler.ParagonPointSpender
 
         private static int GetValue_toSpend(BonusPoints Type, int Value)
         {
-            if(Value > 0)
+            if (Value > 0)
                 return Value;
 
             if (Value == 0)
@@ -460,11 +582,11 @@ namespace D3Helper.A_Handler.ParagonPointSpender
             try
             {
                 int spentpoints = 0;
-
                 switch (Type)
                 {
-                        case BonusPoints.core0:
-                        spentpoints += Spent_Points(0, GetValue_toSpend(Type,Value), 0);
+
+                    case BonusPoints.core0:
+                        spentpoints += Spent_Points(0, GetValue_toSpend(Type, Value), 0);
                         break;
 
                     case BonusPoints.core1:
@@ -527,6 +649,7 @@ namespace D3Helper.A_Handler.ParagonPointSpender
                         spentpoints += Spent_Points(3, GetValue_toSpend(Type, Value), 3);
                         break;
                 }
+                
 
                 return spentpoints;
             }
@@ -541,31 +664,31 @@ namespace D3Helper.A_Handler.ParagonPointSpender
             {
                 switch (Type)
                 {
-                        case BonusPoints.core0:
-                        case BonusPoints.core1:
-                        case BonusPoints.core2:
-                        case BonusPoints.core3:
+                    case BonusPoints.core0:
+                    case BonusPoints.core1:
+                    case BonusPoints.core2:
+                    case BonusPoints.core3:
                         OpenCore_Tab();
                         return 0;
 
-                        case BonusPoints.offense0:
-                        case BonusPoints.offense1:
-                        case BonusPoints.offense2:
-                        case BonusPoints.offense3:
+                    case BonusPoints.offense0:
+                    case BonusPoints.offense1:
+                    case BonusPoints.offense2:
+                    case BonusPoints.offense3:
                         OpenOffense_Tab();
                         return 1;
 
-                        case BonusPoints.defense0:
-                        case BonusPoints.defense1:
-                        case BonusPoints.defense2:
-                        case BonusPoints.defense3:
+                    case BonusPoints.defense0:
+                    case BonusPoints.defense1:
+                    case BonusPoints.defense2:
+                    case BonusPoints.defense3:
                         OpenDefense_Tab();
                         return 2;
 
-                        case BonusPoints.utility0:
-                        case BonusPoints.utility1:
-                        case BonusPoints.utility2:
-                        case BonusPoints.utility3:
+                    case BonusPoints.utility0:
+                    case BonusPoints.utility1:
+                    case BonusPoints.utility2:
+                    case BonusPoints.utility3:
                         OpenUtility_Tab();
                         return 3;
 
@@ -585,13 +708,13 @@ namespace D3Helper.A_Handler.ParagonPointSpender
                 lock (A_Collection.Me.HeroGlobals.LocalACD) local = A_Collection.Me.HeroGlobals.LocalACD;
 
                 double scalar = local.GetAttributeValue(AttributeId.MovementScalar);
-                
+
                 double msBonus = Math.Round((scalar - 1) * 100);
 
                 double msleft = 25 - msBonus;
 
                 //if(msleft > 0)
-                return (int)msleft*2;
+                return (int)msleft * 2;
                 //else
                 //{
                 //    return 0;
@@ -626,8 +749,9 @@ namespace D3Helper.A_Handler.ParagonPointSpender
             {
                 while (isParagonWindowVisible())
                 {
+                    InputSimulator.SimulateKeyUp(VirtualKeyCode.SHIFT);
+                    InputSimulator.SimulateKeyUp(VirtualKeyCode.CONTROL);
                     A_Tools.InputSimulator.IS_Keyboard.ParagonWindow();
-
                     Thread.Sleep(50);
                 }
             }
@@ -639,6 +763,8 @@ namespace D3Helper.A_Handler.ParagonPointSpender
             {
                 while (!isParagonWindowVisible())
                 {
+                    InputSimulator.SimulateKeyUp(VirtualKeyCode.SHIFT);
+                    InputSimulator.SimulateKeyUp(VirtualKeyCode.CONTROL);
                     A_Tools.InputSimulator.IS_Keyboard.ParagonWindow();
 
                     Thread.Sleep(50);
@@ -811,131 +937,145 @@ namespace D3Helper.A_Handler.ParagonPointSpender
             {
                 case 0:
                     Control = A_Enums.UIElements.ParagonPointSelect_SpentPoint_Bonus0;
-
-
                     while (isParagonWindowVisible() && counter < Value && A_Tools.T_D3UI.UIElement.isVisible(Control))
                     {
-
-
                         UIRect Increase = A_Tools.T_D3UI.UIElement.getRect(Control);
-
-                        if (Value - counter >= 10)
+                        if (Value - counter >= 100)
                         {
-                            InputSimulator.SimulateKeyDown(VirtualKeyCode.SHIFT);
-
+                            InputSimulator.SimulateKeyDown(VirtualKeyCode.CONTROL);
+                            Thread.Sleep(FixSleep);
                             A_Tools.InputSimulator.IS_Mouse.LeftClick((int)Increase.Left, (int)Increase.Top, (int)Increase.Right, (int)Increase.Bottom);
-
-                            InputSimulator.SimulateKeyUp(VirtualKeyCode.SHIFT);
-
-                            counter = counter + 10;
+                            counter = counter + 100;
                         }
                         else
                         {
-                            A_Tools.InputSimulator.IS_Mouse.LeftClick((int)Increase.Left, (int)Increase.Top, (int)Increase.Right, (int)Increase.Bottom);
-
-                            counter = counter + 1;
+                            if (Value - counter >= 10)
+                            {
+                                InputSimulator.SimulateKeyUp(VirtualKeyCode.CONTROL);
+                                InputSimulator.SimulateKeyDown(VirtualKeyCode.SHIFT);
+                                Thread.Sleep(FixSleep);
+                                A_Tools.InputSimulator.IS_Mouse.LeftClick((int)Increase.Left, (int)Increase.Top, (int)Increase.Right, (int)Increase.Bottom);
+                                counter = counter + 10;
+                            }
+                            else
+                            {
+                                InputSimulator.SimulateKeyUp(VirtualKeyCode.SHIFT);
+                                InputSimulator.SimulateKeyUp(VirtualKeyCode.CONTROL);
+                                Thread.Sleep(FixSleep);
+                                A_Tools.InputSimulator.IS_Mouse.LeftClick((int)Increase.Left, (int)Increase.Top, (int)Increase.Right, (int)Increase.Bottom);
+                                counter = counter + 1;
+                            }
                         }
-                        Thread.Sleep(FixSleep);
                     }
-
+                    InputSimulator.SimulateKeyUp(VirtualKeyCode.CONTROL);
                     break;
                 case 1:
                     Control = A_Enums.UIElements.ParagonPointSelect_SpentPoint_Bonus1;
-
-
-
                     while (isParagonWindowVisible() && counter < Value && A_Tools.T_D3UI.UIElement.isVisible(Control))
                     {
-
-
                         UIRect Increase = A_Tools.T_D3UI.UIElement.getRect(Control);
-
-                        if (Value - counter >= 10)
+                        if (Value - counter >= 100)
                         {
-                            InputSimulator.SimulateKeyDown(VirtualKeyCode.SHIFT);
-
+                            InputSimulator.SimulateKeyDown(VirtualKeyCode.CONTROL);
+                            Thread.Sleep(FixSleep);
                             A_Tools.InputSimulator.IS_Mouse.LeftClick((int)Increase.Left, (int)Increase.Top, (int)Increase.Right, (int)Increase.Bottom);
-
-                            InputSimulator.SimulateKeyUp(VirtualKeyCode.SHIFT);
-
-                            counter = counter + 10;
+                            counter = counter + 100;
                         }
                         else
                         {
-                            A_Tools.InputSimulator.IS_Mouse.LeftClick((int)Increase.Left, (int)Increase.Top, (int)Increase.Right, (int)Increase.Bottom);
-
-                            counter = counter + 1;
+                            if (Value - counter >= 10)
+                            {
+                                InputSimulator.SimulateKeyUp(VirtualKeyCode.CONTROL);
+                                InputSimulator.SimulateKeyDown(VirtualKeyCode.SHIFT);
+                                Thread.Sleep(FixSleep);
+                                A_Tools.InputSimulator.IS_Mouse.LeftClick((int)Increase.Left, (int)Increase.Top, (int)Increase.Right, (int)Increase.Bottom);
+                                counter = counter + 10;
+                            }
+                            else
+                            {
+                                InputSimulator.SimulateKeyUp(VirtualKeyCode.SHIFT);
+                                InputSimulator.SimulateKeyUp(VirtualKeyCode.CONTROL);
+                                Thread.Sleep(FixSleep);
+                                A_Tools.InputSimulator.IS_Mouse.LeftClick((int)Increase.Left, (int)Increase.Top, (int)Increase.Right, (int)Increase.Bottom);
+                                counter = counter + 1;
+                            }
                         }
-                        Thread.Sleep(FixSleep);
                     }
-
+                    InputSimulator.SimulateKeyUp(VirtualKeyCode.CONTROL);
                     break;
                 case 2:
                     Control = A_Enums.UIElements.ParagonPointSelect_SpentPoint_Bonus2;
-
-
-
                     while (isParagonWindowVisible() && counter < Value && A_Tools.T_D3UI.UIElement.isVisible(Control))
                     {
-
-
                         UIRect Increase = A_Tools.T_D3UI.UIElement.getRect(Control);
-
-                        if (Value - counter >= 10)
+                        if (Value - counter >= 100)
                         {
-                            InputSimulator.SimulateKeyDown(VirtualKeyCode.SHIFT);
-
+                            InputSimulator.SimulateKeyDown(VirtualKeyCode.CONTROL);
+                            Thread.Sleep(FixSleep);
                             A_Tools.InputSimulator.IS_Mouse.LeftClick((int)Increase.Left, (int)Increase.Top, (int)Increase.Right, (int)Increase.Bottom);
-
-                            InputSimulator.SimulateKeyUp(VirtualKeyCode.SHIFT);
-
-                            counter = counter + 10;
+                            counter = counter + 100;
                         }
                         else
                         {
-                            A_Tools.InputSimulator.IS_Mouse.LeftClick((int)Increase.Left, (int)Increase.Top, (int)Increase.Right, (int)Increase.Bottom);
-
-                            counter = counter + 1;
+                            if (Value - counter >= 10)
+                            {
+                                InputSimulator.SimulateKeyUp(VirtualKeyCode.CONTROL);
+                                InputSimulator.SimulateKeyDown(VirtualKeyCode.SHIFT);
+                                Thread.Sleep(FixSleep);
+                                A_Tools.InputSimulator.IS_Mouse.LeftClick((int)Increase.Left, (int)Increase.Top, (int)Increase.Right, (int)Increase.Bottom);
+                                counter = counter + 10;
+                            }
+                            else
+                            {
+                                InputSimulator.SimulateKeyUp(VirtualKeyCode.SHIFT);
+                                InputSimulator.SimulateKeyUp(VirtualKeyCode.CONTROL);
+                                Thread.Sleep(FixSleep);
+                                A_Tools.InputSimulator.IS_Mouse.LeftClick((int)Increase.Left, (int)Increase.Top, (int)Increase.Right, (int)Increase.Bottom);
+                                counter = counter + 1;
+                            }
                         }
-                        Thread.Sleep(FixSleep);
                     }
-
+                    InputSimulator.SimulateKeyUp(VirtualKeyCode.SHIFT);
+                    InputSimulator.SimulateKeyUp(VirtualKeyCode.CONTROL);
                     break;
                 case 3:
                     Control = A_Enums.UIElements.ParagonPointSelect_SpentPoint_Bonus3;
-
-
-
                     while (isParagonWindowVisible() && counter < Value && A_Tools.T_D3UI.UIElement.isVisible(Control))
-                    {
-
-
-                        UIRect Increase = A_Tools.T_D3UI.UIElement.getRect(Control);
-
-                        if (Value - counter >= 10)
+                        while (isParagonWindowVisible() && counter < Value && A_Tools.T_D3UI.UIElement.isVisible(Control))
                         {
-                            InputSimulator.SimulateKeyDown(VirtualKeyCode.SHIFT);
-
-                            A_Tools.InputSimulator.IS_Mouse.LeftClick((int)Increase.Left, (int)Increase.Top, (int)Increase.Right, (int)Increase.Bottom);
-
-                            InputSimulator.SimulateKeyUp(VirtualKeyCode.SHIFT);
-
-                            counter = counter + 10;
+                            UIRect Increase = A_Tools.T_D3UI.UIElement.getRect(Control);
+                            if (Value - counter >= 100)
+                            {
+                                InputSimulator.SimulateKeyDown(VirtualKeyCode.CONTROL);
+                                Thread.Sleep(FixSleep);
+                                A_Tools.InputSimulator.IS_Mouse.LeftClick((int)Increase.Left, (int)Increase.Top, (int)Increase.Right, (int)Increase.Bottom);
+                                counter = counter + 100;
+                            }
+                            else
+                            {
+                                if (Value - counter >= 10)
+                                {
+                                    InputSimulator.SimulateKeyUp(VirtualKeyCode.CONTROL);
+                                    InputSimulator.SimulateKeyDown(VirtualKeyCode.SHIFT);
+                                    Thread.Sleep(FixSleep);
+                                    A_Tools.InputSimulator.IS_Mouse.LeftClick((int)Increase.Left, (int)Increase.Top, (int)Increase.Right, (int)Increase.Bottom);
+                                    counter = counter + 10;
+                                }
+                                else
+                                {
+                                    InputSimulator.SimulateKeyUp(VirtualKeyCode.SHIFT);
+                                    InputSimulator.SimulateKeyUp(VirtualKeyCode.CONTROL);
+                                    Thread.Sleep(FixSleep);
+                                    A_Tools.InputSimulator.IS_Mouse.LeftClick((int)Increase.Left, (int)Increase.Top, (int)Increase.Right, (int)Increase.Bottom);
+                                    counter = counter + 1;
+                                }
+                            }
                         }
-                        else
-                        {
-                            A_Tools.InputSimulator.IS_Mouse.LeftClick((int)Increase.Left, (int)Increase.Top, (int)Increase.Right, (int)Increase.Bottom);
-
-                            counter = counter + 1;
-                        }
-                        Thread.Sleep(FixSleep);
-                    }
-
+                    InputSimulator.SimulateKeyUp(VirtualKeyCode.SHIFT);
+                    InputSimulator.SimulateKeyUp(VirtualKeyCode.CONTROL);
                     break;
             }
-
             return counter;
-
         }
         private static int Get_UnspentPoints_Core()
         {

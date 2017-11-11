@@ -70,7 +70,9 @@ namespace D3Helper.A_Tools
                     A_Tools.InputSimulator.IS_Mouse.LeftClick(center_x - 2, center_y - 2, center_x + 2, center_y + 2);
 
                     Random random = new Random();
-                    int random_sleep = (int)random.Next(200, 250);
+                    int MinDelayClick = Properties.Settings.Default.MinDelayClick;
+                    int MaxDelayClick = Properties.Settings.Default.MaxDelayClick;
+                    int random_sleep = (int)random.Next(MinDelayClick, MaxDelayClick);
                     System.Threading.Thread.Sleep(random_sleep);
                 }
                 catch { }

@@ -16,6 +16,8 @@ using Key = SlimDX.DirectInput.Key;
 using KeyEventArgs = System.Windows.Forms.KeyEventArgs;
 using Enigma.D3.Helpers;
 using Enigma.D3.UI.Controls;
+using System.Threading;
+using D3Helper.A_Handler.AutoCube;
 
 namespace D3Helper
 {
@@ -140,6 +142,13 @@ namespace D3Helper
 
             this.cb_DisableAutocastOnNoOverride.Checked = Properties.Settings.Default.DisableAutocastOnNoOverride;
             this.cbox_ConvertMaterialFromTo.Text = Properties.Settings.Default.ConvertMaterialText;
+            this.RosBotUpgradeKadala.Checked = Properties.Settings.Default.RosBotUpgradeKadalaBool;
+
+            this.RosBotUpgradeKadala.Checked = Properties.Settings.Default.RosBotUpgradeKadalaBool;
+            this.MinDelayClick.Text = Properties.Settings.Default.MinDelayClick.ToString();
+            this.MaxDelayClick.Text = Properties.Settings.Default.MaxDelayClick.ToString();
+            this.SleepTransmute.Text = Properties.Settings.Default.SleepTransmute.ToString();
+
 
             //--------------------
 
@@ -1176,5 +1185,71 @@ namespace D3Helper
             }
         }
 
+        private void cbox_ConvertMaterialFromTo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.ConvertMaterialText = this.cbox_ConvertMaterialFromTo.Text;
+            switch (cbox_ConvertMaterialFromTo.SelectedIndex) {
+                case 0:
+                    Properties.Settings.Default.ConvertMaterialFrom = "normal";
+                    Properties.Settings.Default.ConvertMaterialTo = "magic";
+                break;
+                case 1:
+                    Properties.Settings.Default.ConvertMaterialFrom = "normal";
+                    Properties.Settings.Default.ConvertMaterialTo = "rare";
+                    break;
+                case 2:
+                    Properties.Settings.Default.ConvertMaterialFrom = "magic";
+                    Properties.Settings.Default.ConvertMaterialTo = "normal";
+                    break;
+                case 3:
+                    Properties.Settings.Default.ConvertMaterialFrom = "magic";
+                    Properties.Settings.Default.ConvertMaterialTo = "rare";
+                    break;
+                case 4:
+                    Properties.Settings.Default.ConvertMaterialFrom = "rare";
+                    Properties.Settings.Default.ConvertMaterialTo = "normal";
+                    break;
+                case 5:
+                    Properties.Settings.Default.ConvertMaterialFrom = "rare";
+                    Properties.Settings.Default.ConvertMaterialTo = "magic";
+                    break;
+
+            }
+        Properties.Settings.Default.Save();
+        }
+
+        private void RosBotUpgradeKadala_CheckedChanged(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.RosBotUpgradeKadalaBool = this.RosBotUpgradeKadala.Checked;
+            Properties.Settings.Default.Save();
+        }
+
+        private void MinDelayClick_TextChanged(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.MinDelayClick = int.Parse(this.MinDelayClick.Text);
+            Properties.Settings.Default.Save();
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void MaxDelayLabel_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void MaxDelayClick_TextChanged(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.MaxDelayClick = int.Parse(this.MaxDelayClick.Text);
+            Properties.Settings.Default.Save();
+        }
+
+        private void SleepTransmute_TextChanged(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.SleepTransmute = int.Parse(this.SleepTransmute.Text);
+            Properties.Settings.Default.Save();
+        }
     }
 }
