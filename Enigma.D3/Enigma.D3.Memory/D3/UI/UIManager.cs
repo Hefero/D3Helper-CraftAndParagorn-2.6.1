@@ -10,7 +10,11 @@ namespace Enigma.D3.UI
 {
 	public partial class UIManager : MemoryObject
 	{
+<<<<<<< HEAD
 		public const int SizeOf = 0x2710; // 10000
+=======
+		public const int SizeOf = 0x2780; // 10000
+>>>>>>> 6e63c22a3c22a1a578dcec39133c7556614a3682
 
 		public Ptr<X0000> x0000_Ptr_Controls { get { return ReadPointer<X0000>(0x0000); } }
 		public int _x0004 { get { return Read<int>(0x0004); } }

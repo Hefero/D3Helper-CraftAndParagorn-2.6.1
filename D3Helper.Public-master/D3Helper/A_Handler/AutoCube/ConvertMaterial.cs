@@ -23,18 +23,34 @@ namespace D3Helper.A_Handler.AutoCube
             {
                 try
                 {
+<<<<<<< HEAD
+=======
+                    
+>>>>>>> 6e63c22a3c22a1a578dcec39133c7556614a3682
                     int FailedTriesExit = 0;
                     IsConvertingMaterial = true;
                     ActorCommonData CubeStand;
                     bool CubeNearby = Tools.IsCubeNearby(out CubeStand);
                     // Get list of equipment of the specified quality
+<<<<<<< HEAD
                     var ToItemList = Tools.Get_Items(ToMaterialQuality);                    
                     if (CubeNearby & ToItemList.Count > 0)
+=======
+                    var ToItemList = Tools.Get_Items(ToMaterialQuality);
+
+                    int Count_AvailableConversions = (int)Tools.Get_AvailableMaterial_Convert(FromMaterialQuality);
+
+                    if (CubeNearby & ToItemList.Count > 0 & Count_AvailableConversions > 0)
+>>>>>>> 6e63c22a3c22a1a578dcec39133c7556614a3682
                     {
                         if (Tools.ClickOnCube(CubeStand))
                         {
                             Stopwatch s1 = new Stopwatch(); /////////
                             s1.Start(); ///////////
+<<<<<<< HEAD
+=======
+                            int Count_Conversions = 0;
+>>>>>>> 6e63c22a3c22a1a578dcec39133c7556614a3682
 
                             // Get list of Materials to convert from
                             //receipe button
@@ -64,6 +80,14 @@ namespace D3Helper.A_Handler.AutoCube
                             int numberOfItemsBeforeTrying = ToItemList.Count;
                             foreach (var item in ToItemList)
                             {
+<<<<<<< HEAD
+=======
+                                if (Count_Conversions == Count_AvailableConversions)
+                                {
+                                    break;
+                                }
+                                Count_Conversions++;
+>>>>>>> 6e63c22a3c22a1a578dcec39133c7556614a3682
                                 if (true)
                                 {
 

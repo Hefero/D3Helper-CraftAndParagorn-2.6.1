@@ -30,7 +30,42 @@ namespace Enigma.D3.UI.Controls
 		public int x444 { get { return Read<int>(0x444); } }
 		public Ptr<RefString> x448_Ptr_RefString { get { return ReadPointer<RefString>(0x448); } }
 		public Ptr<RefString> x44C_Ptr_RefString { get { return ReadPointer<RefString>(0x44C); } }
+<<<<<<< HEAD
 	}
+=======
+
+        private int label_text_addr = 0xA20;
+        private int label_text_length_addr = 0xA20 + 0x10;
+        public string xA20_label_text
+        {
+            get
+            {
+                try
+                {
+                    return ReadStringPointer(label_text_addr, xA20_label_text_length).Dereference();
+                }
+                catch
+                {
+                    return "";
+                }
+            }
+        }
+        public int xA20_label_text_length
+        {
+            get
+            {
+                try
+                {
+                    return Read<int>(label_text_length_addr);
+                }
+                catch
+                {
+                    return 0;
+                }
+            }
+        }
+    }
+>>>>>>> 6e63c22a3c22a1a578dcec39133c7556614a3682
 
 	public partial class UXControl
 	{

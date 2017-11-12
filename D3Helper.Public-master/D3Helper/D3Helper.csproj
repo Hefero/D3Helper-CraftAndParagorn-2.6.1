@@ -144,7 +144,10 @@
     <Compile Include="A_Enums\ParagonXPTable.cs" />
     <Compile Include="A_Enums\Powers.cs" />
     <Compile Include="A_Enums\UIElements.cs" />
+<<<<<<< HEAD
     <Compile Include="A_Handler\AutoCube\Singleton.cs" />
+=======
+>>>>>>> 6e63c22a3c22a1a578dcec39133c7556614a3682
     <Compile Include="A_Handler\AutoCube\Tools.cs" />
     <Compile Include="A_Handler\AutoCube\ConvertMaterial.cs" />
     <Compile Include="A_Handler\AutoCube\RosBotUpgradeKadala.cs" />

@@ -11,6 +11,10 @@ using Enigma.D3.Enums;
 using Enigma.D3.Helpers;
 using Enigma.D3.UI.Controls;
 using D3Helper.A_Enums;
+<<<<<<< HEAD
+=======
+using System.Globalization;
+>>>>>>> 6e63c22a3c22a1a578dcec39133c7556614a3682
 
 namespace D3Helper.A_Handler.AutoCube
 {
@@ -196,6 +200,7 @@ namespace D3Helper.A_Handler.AutoCube
 
         private static int[] Costs_UpgradeRare = new int[] { 25, 50, 50, 50 }; // Deaths Breath | Reusable Parts | Arcane Dust | Veiled Crystal
 
+<<<<<<< HEAD
         public static double Get_AvailableEnchants_UpgradeRare(out List<ActorCommonData> Materials)
         {
             Materials = new List<ActorCommonData>();
@@ -216,6 +221,21 @@ namespace D3Helper.A_Handler.AutoCube
 
                 int Count_VC = GetMaterial_VeiledCrystal(inventory, out acd);
                 Materials.Add(acd);
+=======
+        public static double Get_AvailableEnchants_UpgradeRare()
+        {
+            try
+            {
+                IEnumerable<UXControl> AllControls = UXHelper.Enumerate();                
+
+                int Count_RP = GetMaterial_ReusableParts(AllControls);
+
+                int Count_AD = GetMaterial_ArcaneDust(AllControls);
+
+                int Count_VC = GetMaterial_VeiledCrystal(AllControls);
+
+                int Count_DB = GetMaterial_DeathBreath(AllControls);
+>>>>>>> 6e63c22a3c22a1a578dcec39133c7556614a3682
 
                 double Enchants_DB = Count_DB / Costs_UpgradeRare[0];
                 double Enchants_RP = Count_RP / Costs_UpgradeRare[1];
@@ -234,6 +254,7 @@ namespace D3Helper.A_Handler.AutoCube
             }
         }
 
+<<<<<<< HEAD
         public static double Get_AvailableMaterial_Convert(string inputQuality, out List<ActorCommonData> Materials)
         {
             Materials = new List<ActorCommonData>();
@@ -264,6 +285,32 @@ namespace D3Helper.A_Handler.AutoCube
 
                 int Count_DB = GetMaterial_DeathBreath(inventory, out acd);
                 Materials.Add(acd);
+=======
+        public static double Get_AvailableMaterial_Convert(string inputQuality)
+        {
+            try
+            {
+                IEnumerable<UXControl> AllControls = UXHelper.Enumerate();
+
+                int ConvertMaterialCost = 100;
+                int ConvertMaterialDBCost = 1;
+                int CountMaterial = 0;
+                
+                switch (inputQuality)
+                {
+                    case "normal":
+                        CountMaterial = GetMaterial_ReusableParts(AllControls);
+                        break;
+                    case "magic":
+                        CountMaterial = GetMaterial_ArcaneDust(AllControls);
+                        break;
+                    case "rare":
+                        CountMaterial = GetMaterial_VeiledCrystal(AllControls);
+                        break;
+                }
+
+                int Count_DB = GetMaterial_DeathBreath(AllControls);
+>>>>>>> 6e63c22a3c22a1a578dcec39133c7556614a3682
 
                 double Enchants_DB = Count_DB / ConvertMaterialDBCost;
                 double Enchants = CountMaterial / ConvertMaterialCost;
@@ -278,6 +325,7 @@ namespace D3Helper.A_Handler.AutoCube
             }
         }
 
+<<<<<<< HEAD
         private static int GetMaterial_DeathBreath(List<ActorCommonData> Inventory, out ActorCommonData acd)
         {
             acd = new ActorCommonData();
@@ -363,6 +411,47 @@ namespace D3Helper.A_Handler.AutoCube
             {
                 return 0;
             }
+=======
+        private static int GetMaterial_DeathBreath(IEnumerable<UXControl> AllControls)
+        {
+            var PartsText = AllControls.Where(x => x.x020_Self.x008_Name.Contains("8.ListItemWrapper.ItemCount"))
+                .FirstOrDefault().xA20_label_text;
+            PartsText = PartsText.Replace("*", String.Empty);
+            var PartsCount = 0;
+            int.TryParse(PartsText, NumberStyles.AllowThousands,
+                 CultureInfo.InvariantCulture, out PartsCount);
+            return PartsCount;
+        }
+        private static int GetMaterial_ReusableParts(IEnumerable<UXControl> AllControls)
+        {
+            var PartsText = AllControls.Where(x => x.x020_Self.x008_Name.Contains("5.ListItemWrapper.ItemCount"))
+                .FirstOrDefault().xA20_label_text;
+            PartsText = PartsText.Replace("*", String.Empty);
+            var PartsCount = 0;
+            int.TryParse(PartsText, NumberStyles.AllowThousands,
+                 CultureInfo.InvariantCulture, out PartsCount);
+            return PartsCount;
+        }
+        private static int GetMaterial_ArcaneDust(IEnumerable<UXControl> AllControls)
+        {
+            var PartsText = AllControls.Where(x => x.x020_Self.x008_Name.Contains("6.ListItemWrapper.ItemCount"))
+                .FirstOrDefault().xA20_label_text;
+            PartsText = PartsText.Replace("*", String.Empty);
+            var PartsCount = 0;
+            int.TryParse(PartsText, NumberStyles.AllowThousands,
+                 CultureInfo.InvariantCulture, out PartsCount);
+            return PartsCount;
+        }
+        private static int GetMaterial_VeiledCrystal(IEnumerable<UXControl> AllControls)
+        {
+            var PartsText = AllControls.Where(x => x.x020_Self.x008_Name.Contains("7.ListItemWrapper.ItemCount"))
+                .FirstOrDefault().xA20_label_text;
+            PartsText = PartsText.Replace("*", String.Empty);
+            var PartsCount = 0;
+            int.TryParse(PartsText, NumberStyles.AllowThousands,
+                 CultureInfo.InvariantCulture, out PartsCount);
+            return PartsCount;
+>>>>>>> 6e63c22a3c22a1a578dcec39133c7556614a3682
         }
 
         public static bool ClickOnCube(ActorCommonData inputCubeStand)
@@ -403,5 +492,29 @@ namespace D3Helper.A_Handler.AutoCube
             }
             return FoundCube;
         }
+<<<<<<< HEAD
+=======
+        public static List<UXControl> ListExceptControls(List<UXControl> oldList, List<UXControl> newList)
+        {
+            List<UXControl> _newlist = new List<UXControl>();
+            foreach (var newelement in newList)
+            {
+                bool found = false;
+                foreach (var element in oldList)
+                {
+                    if (newelement.x020_Self.x008_Name == element.x020_Self.x008_Name)
+                    {
+                        found = true;
+                        break;
+                    }
+                }
+                if (found == false)
+                {
+                    _newlist.Add(newelement);
+                }
+            }
+            return _newlist;
+        }
+>>>>>>> 6e63c22a3c22a1a578dcec39133c7556614a3682
     }
 }
