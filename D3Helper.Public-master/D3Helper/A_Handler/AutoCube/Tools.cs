@@ -316,18 +316,18 @@ namespace D3Helper.A_Handler.AutoCube
             // Attempt to click on Cube, wait 2 sec (10x200ms)
             while (!FoundCube && LoopCounter <= 30)
             {
-                float RX_Cube, RY_Cube;
-                LoopCounter += 1;
-                // Try to find where the cube is?
-                A_Tools.T_World.ToScreenCoordinate(inputCubeStand.x0D0_WorldPosX, inputCubeStand.x0D4_WorldPosY, inputCubeStand.x0D8_WorldPosZ, out RX_Cube, out RY_Cube);
-                // If vendor page or kanai page is not already visible, click it
                 if (IsKanaisCube_MainPage_Visible())
                 {
                     FoundCube = true;
                     break;
-                }
+                }                
+                // If vendor page or kanai page is not already visible, click it
                 else
                 {
+                    float RX_Cube, RY_Cube;
+                    LoopCounter += 1;
+                    // Try to find where the cube is?
+                    A_Tools.T_World.ToScreenCoordinate(inputCubeStand.x0D0_WorldPosX, inputCubeStand.x0D4_WorldPosY, inputCubeStand.x0D8_WorldPosZ, out RX_Cube, out RY_Cube);
                     // Move mouse cursor to the cube location coord and click it
                     if (LoopCounter < 5) //first move to half the location
                     {
