@@ -9,7 +9,7 @@ namespace Enigma.D3
 {
 	public class Trickle : MemoryObject
 	{
-		public const int SizeOf = 0x5C;
+		public const int SizeOf = 0x70;
 
 		// "MarkerCorpse"
 		// "MarkerDungeonEntranceBoss"

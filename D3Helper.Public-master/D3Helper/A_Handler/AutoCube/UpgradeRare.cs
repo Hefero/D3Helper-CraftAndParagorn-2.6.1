@@ -9,6 +9,7 @@ using Enigma.D3;
 using Enigma.D3.UI;
 using D3Helper.A_Enums;
 using Enigma.D3.Helpers;
+using System.Globalization;
 
 namespace D3Helper.A_Handler.AutoCube
 {
@@ -29,14 +30,16 @@ namespace D3Helper.A_Handler.AutoCube
                 bool CubeNearby = Tools.IsCubeNearby(out CubeStand);
                 var UpgradableItems = Tools.Get_Items("rare");
 
-                if (CubeNearby & UpgradableItems.Count > 0)
+                int Count_AvailableEnchants = (int)Tools.Get_AvailableEnchants_UpgradeRare();
+                
+                if (CubeNearby & UpgradableItems.Count > 0 & Count_AvailableEnchants > 0)
                 {
                     if (Tools.ClickOnCube(CubeStand))
                     {
                         Stopwatch s1 = new Stopwatch(); /////////
-                        s1.Start(); ///////////
-                        var Count_AvailableEnchants = 50;
-                        var Count_Enchants = 0;
+                        s1.Start(); ///////////                        
+                        int Count_Enchants = 0;
+
                         //receipe button
                         A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Recipe_Button);
                         Thread.Sleep(5);
@@ -50,6 +53,11 @@ namespace D3Helper.A_Handler.AutoCube
 
                         foreach (var item in UpgradableItems)
                         {
+                            if(Count_Enchants == Count_AvailableEnchants)
+                            {
+                                break;
+                            }
+                            Count_Enchants++;
                             if (true)
                             {
                                 //put item in cube
