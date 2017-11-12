@@ -203,13 +203,12 @@ namespace D3Helper.A_Handler.AutoCube
             {
                 IEnumerable<UXControl> AllControls = UXHelper.Enumerate();                
 
-                int Count_RP = GetMaterial_ReusableParts(AllControls);
+                int Count_RP = 0;
+                int Count_AD = 0;                               
+                int Count_VC = 0;
+                int Count_DB = 0;
 
-                int Count_AD = GetMaterial_ArcaneDust(AllControls);
-
-                int Count_VC = GetMaterial_VeiledCrystal(AllControls);
-
-                int Count_DB = GetMaterial_DeathBreath(AllControls);
+                Tools.GetAllMaterialsUpgrade(AllControls, out Count_DB, out Count_RP, out Count_VC, out Count_AD);
 
                 double Enchants_DB = Count_DB / Costs_UpgradeRare[0];
                 double Enchants_RP = Count_RP / Costs_UpgradeRare[1];
@@ -265,6 +264,66 @@ namespace D3Helper.A_Handler.AutoCube
                 return 0;
             }
         }
+
+        private static void GetAllMaterialsUpgrade(IEnumerable<UXControl> AllControls, out int DBcount, out int RPcount, out int VCcount, out int ADcount)
+        {
+            DBcount = 0;
+            VCcount = 0;
+            RPcount = 0;
+            ADcount = 0;
+            bool found1 = false;
+            bool found2 = false;
+            bool found3 = false;
+            bool found4 = false;
+            foreach (var control in AllControls)
+            {
+                if (control.x020_Self.x008_Name.Contains("5.ListItemWrapper.ItemCount"))
+                {
+                    string PartsText = control.xA20_label_text;
+                    PartsText = PartsText.Replace("*", String.Empty);
+                    var PartsCount = 0;
+                    int.TryParse(PartsText, NumberStyles.AllowThousands,
+                         CultureInfo.InvariantCulture, out PartsCount);
+                    RPcount = PartsCount;
+                    found1 = true;
+                }
+                if (control.x020_Self.x008_Name.Contains("6.ListItemWrapper.ItemCount"))
+                {
+                    string PartsText = control.xA20_label_text;
+                    PartsText = PartsText.Replace("*", String.Empty);
+                    var PartsCount = 0;
+                    int.TryParse(PartsText, NumberStyles.AllowThousands,
+                         CultureInfo.InvariantCulture, out PartsCount);
+                    ADcount = PartsCount;
+                    found2 = true;
+                }
+                if (control.x020_Self.x008_Name.Contains("7.ListItemWrapper.ItemCount"))
+                {
+                    string PartsText = control.xA20_label_text;
+                    PartsText = PartsText.Replace("*", String.Empty);
+                    var PartsCount = 0;
+                    int.TryParse(PartsText, NumberStyles.AllowThousands,
+                         CultureInfo.InvariantCulture, out PartsCount);
+                    VCcount = PartsCount;
+                    found3 = true;
+                }
+                if (control.x020_Self.x008_Name.Contains("8.ListItemWrapper.ItemCount"))
+                {
+                    string PartsText = control.xA20_label_text;
+                    PartsText = PartsText.Replace("*", String.Empty);
+                    var PartsCount = 0;
+                    int.TryParse(PartsText, NumberStyles.AllowThousands,
+                         CultureInfo.InvariantCulture, out PartsCount);
+                    DBcount = PartsCount;
+                    found4 = true;
+                }
+                if (found1 & found2 & found3 & found4)
+                {
+                    break;
+                }
+            }
+        }
+
 
         private static int GetMaterial_DeathBreath(IEnumerable<UXControl> AllControls)
         {
