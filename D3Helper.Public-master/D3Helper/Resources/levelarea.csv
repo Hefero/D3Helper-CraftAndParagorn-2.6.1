@@ -1,0 +1,479 @@
+SNO,act,code,name,host area,string ID
+58278,1,a1_c6_spidercave_01_entrance,Caverns of Araneae,0,3656606142
+78572,1,a1_c6_spidercave_01_main,Caverns of Araneae,0,39755443
+62726,1,a1_c6_spidercave_01_queen,Chamber of Queen Araneae,0,1317387500
+222593,1,a1_dun_crypt_dev_hell,Development Hell,0,430688619
+229945,1,a1_dun_qa_hell,Quality Well,0,1607924461
+119893,1,a1_fields_cave_swordofjustice_level01,Khazra Den,0,2036518712
+135237,1,a1_fields_den,Den of the Fallen Level 1,0,2251315870
+194232,1,a1_fields_den_level02,Den of the Fallen Level 2,0,3583617143
+82372,1,a1_fields_randomdrlg_cavea_level01,Lost Mine Level 1,0,3863716744
+82373,1,a1_fields_randomdrlg_cavea_level02,Lost Mine Level 2,0,3863716745
+81165,1,a1_fields_randomdrlg_scavengerdena_level01,Scavenger's Den Level 1,0,925091454
+81175,1,a1_fields_randomdrlg_scavengerdena_level02,Scavenger's Den Level 2,0,925091455
+179212,1,a1_fields_vendor_tinker_exterior,Sheltered Cottage,0,2068021106
+82566,1,a1_highlands_randomdrlg_goatmancavea_level01,Cave of the Moon Clan Level 1,0,3107527722
+82567,1,a1_highlands_randomdrlg_goatmancavea_level02,Cave of the Moon Clan Level 2,0,3107527723
+82326,1,a1_highlands_randomdrlg_westtower_level01,Watch Tower Level 1,0,497382903
+82327,1,a1_highlands_randomdrlg_westtower_level02,Watch Tower Level 2,0,497382904
+211479,1,a1_random_level01,Whimsyshire,0,969995274
+83110,1,a1_trdun_blacksmith_cellar,Cellar of the Damned,0,76240145
+90881,1,a1_trdun_butcherslair_02,Chamber of Suffering,0,356899046
+60714,1,a1_trdun_cain_intro,Leoric's Passage,0,3478783907
+135952,1,a1_trdun_cave_highlands_random01_vendorrescue,Highlands Cave,0,853662530
+60396,1,a1_trdun_cave_nephalem_01,Warrior's Rest,0,976523525
+60397,1,a1_trdun_cave_nephalem_02,Crypt of the Ancients,0,976523526
+60398,1,a1_trdun_cave_nephalem_03,Drowned Temple,0,976523527
+161964,1,a1_trdun_cave_old_ruins_random01,The Cave Under the Well,0,1192740491
+102362,1,a1_trdun_crownroom,Chancellor's Tomb,0,3895152739
+80116,1,a1_trdun_crypt_event_tower_of_power,The Lyceum,0,3801248544
+102300,1,a1_trdun_crypt_flooded_memories_level01,Decaying Crypt Level 1,0,1070710595
+165798,1,a1_trdun_crypt_flooded_memories_level02,Decaying Crypt Level 2,0,1070710596
+154588,1,a1_trdun_crypt_special_00,Defiled Crypt,0,2433745102
+60601,1,a1_trdun_crypt_special_01,Defiled Crypt Level 2,0,2433745103
+145182,1,a1_trdun_event_jarofsouls,Defiled Crypt,0,1846949062
+83264,1,a1_trdun_falsesecretpassage_01,Defiled Crypt,0,2329858258
+83265,1,a1_trdun_falsesecretpassage_02,Defiled Crypt,0,2329858259
+83266,1,a1_trdun_falsesecretpassage_03,Defiled Crypt,0,2329858260
+83267,1,a1_trdun_falsesecretpassage_04,Defiled Crypt,0,2329858261
+94672,1,a1_trdun_jail_level01,The Cursed Hold,0,1303804501
+96317,1,a1_trdun_jail_level01_cells,The Cursed Hold,0,4040155047
+19774,1,a1_trdun_leoric01,Halls of Agony Level 1,0,3768882908
+19775,1,a1_trdun_leoric02,Halls of Agony Level 2,0,3768882909
+19776,1,a1_trdun_leoric03,Halls of Agony Level 3,0,3768882910
+332464,1,a1_trdun_leoric_master,Halls of Agony,0,947858630
+19780,1,a1_trdun_level01,Cathedral Level 1,0,3896409622
+19783,1,a1_trdun_level04,Cathedral Level 2,0,3896409625
+87907,1,a1_trdun_level05_templar,Cathedral Level 3,0,1016504366
+19785,1,a1_trdun_level06,Cathedral Level 4,0,3896409627
+19787,1,a1_trdun_level07b,The Royal Crypts,0,4027466206
+19789,1,a1_trdun_level07d,Crypt of the Skeleton King,0,4027466208
+148551,1,a1_trdun_tyraeljail,Cells of the Condemned,0,1974986446
+117411,1,a1_trdun_tyrael_level09,Desolate Chamber,0,3527646990
+332339,1,a1_tristram_adventure_mode_hub,New Tristram,0,2830654550
+19929,1,a1_trout_adria'shut,Adria's Hut,0,2610324922
+62968,1,a1_trout_adriascellar,The Hidden Cellar,0,404084149
+149669,1,a1_trout_batesfarmcellar,Farmer's Cellar,0,466634838
+19933,1,a1_trout_church,Cathedral,0,2033309835
+107447,1,a1_trout_fields_vendor_curios,House of Curios,0,475625382
+179835,1,a1_trout_fields_vendor_curios_exterior,Lonely Dwelling,0,2885460311
+19935,1,a1_trout_fishingvillage,Wortham,0,2100894330
+129795,1,a1_trout_fishingvillageheights,Wortham Bluffs,0,599243974
+134002,1,a1_trout_forlornfarm,Forlorn Farm,19952,3533379606
+19938,1,a1_trout_graveyard,Cathedral Garden,0,1086994451
+19940,1,a1_trout_highlands,Southern Highlands,0,345839840
+19941,1,a1_trout_highlands2,Northern Highlands,0,2822780178
+1199,1,a1_trout_highlands3,Leoric's Hunting Grounds,0,2822780179
+93632,1,a1_trout_highlands_bridge,Highlands Crossing,0,984061516
+87832,1,a1_trout_highlands_dunexterior_a,Highlands Passage,0,1241437688
+332587,1,a1_trout_highlands_master,The Highlands,0,1394766923
+344170,1,a1_trout_highlands_northern_master,Northern Highlands,0,2390730586
+171217,1,a1_trout_highlands_servanthouse_cellar_vendor,Abandoned Servant House,0,2034574085
+344169,1,a1_trout_highlands_southern_master,Southern Highlands,0,2902583458
+129375,1,a1_trout_highlands_sub240_goatmangraveyard,Ancient Pyre,0,1747059850
+19943,1,a1_trout_leoric'smanor,Leoric's Manor Courtyard,0,3966295459
+100854,1,a1_trout_leoric_manor_int,Leoric's Manor,0,3275040658
+134920,1,a1_trout_mysticwagon,Karyna's Lost Wagon,19940,2225911299
+19947,1,a1_trout_newtristram,New Tristram,0,1943352622
+156038,1,a1_trout_newtristramoverlook,Overlook Road,0,2183415391
+202446,1,a1_trout_newtristram_attackarea,New Tristram,0,3867685790
+107051,1,a1_trout_oldtristram_cellar,Musty Cellar,0,742480917
+106756,1,a1_trout_oldtristram_cellar_1,Dank Cellar,0,1107870149
+106757,1,a1_trout_oldtristram_cellar_2,Damp Cellar,0,1107870150
+103202,1,a1_trout_oldtristram_cellar_3,Dark Cellar,0,1107870151
+105607,1,a1_trout_oldtristram_treecave,Mass Grave,0,1327449649
+91133,1,a1_trout_old_tristram,The Old Ruins,0,942542978
+91324,1,a1_trout_old_tristram_road,Old Tristram Road,0,228369863
+101351,1,a1_trout_old_tristram_road_cath,Old Tristram Road,0,2841369446
+218454,1,a1_trout_scoundrel_event_old_mill_2,The Old Mill,0,3401721178
+119870,1,a1_trout_townattack_chapelcellar,Wortham Chapel Cellar,0,1575569549
+19952,1,a1_trout_tristramfields_a,Fields of Misery,0,1515331355
+19953,1,a1_trout_tristramfields_b,The Festering Woods,0,1515331356
+61573,1,a1_trout_tristramfields_exita,Drowned Temple,0,1723740661
+179567,1,a1_trout_tristramfields_forsaken_grounds,Forsaken Grounds,19952,268832532
+179566,1,a1_trout_tristramfields_secluded_grove,The Secluded Grove,19952,1184329541
+19954,1,a1_trout_tristramwilderness,The Weeping Hollow,0,2354107236
+334900,1,a1_trout_tristramwilderness_cemetary_master,The Weeping Hollow,0,2853218888
+145066,1,a1_trout_tristramwilderness_subscenes,The Weeping Hollow,0,820401518
+130163,1,a1_trout_tristram_cainshouse,Cain's House,0,4163295573
+109457,1,a1_trout_tristram_inn,The Slaughtered Calf Inn,0,4028719112
+86857,1,a1_trout_tristram_leahsroom,Leah's Room,0,617834669
+104481,1,a1_trout_vendor_tinker_room,Tinker's Hovel,0,467811748
+72712,1,a1_trout_wilderness_burialgrounds,Cemetery of the Forsaken,0,323140782
+199391,1,a1_trout_wilderness_corpsehouse,Pillaged Home,0,932168701
+145057,1,a1_trout_wilderness_sub80_familytree,The Rathe Family Plot,0,1505212720
+192694,2,a2dun_aqd_oasis_level00,Waterlogged Passage,0,1825723588
+192689,2,a2dun_aqd_oasis_level01,Hidden Aqueducts,0,1825723589
+60757,2,a2_belial_room_01,Imperial Palace,0,1074632599
+81178,2,a2_belial_room_intro,Imperial Palace,0,3052722306
+19791,2,a2_c1dun_swr_caldeum_01,Sewers of Caldeum,0,2519309026
+19795,2,a2_c2dun_zolt_treasurehunter,Chamber of the Lost Idol,0,260002582
+57449,2,a2_c3dun_aqd_oasis_level01,Hidden Channel,0,2877119450
+19794,2,a2_cadun_zolt_timed01_level01,The Crumbling Vault,0,3424144240
+168200,2,a2_cadun_zolt_timed01_level02,Vault Treasure Room,0,3424144241
+102964,2,a2_caldeum,City of Caldeum,0,2198347789
+210451,2,a2_caldeum_uprising,City of Caldeum,0,1574089373
+368276,2,a2_caout_alcarnus_master,Alcarnus,0,3096517809
+148903,2,a2_caout_alcarnus_randomcellar_1,Alcarnus Cellar,0,1053015273
+148904,2,a2_caout_alcarnus_randomcellar_2,Sandy Cellar,0,1053015274
+148905,2,a2_caout_alcarnus_randomcellar_3,Town Cellar,0,1053015275
+53834,2,a2_caout_boneyard_01,Desolate Sands,0,483629537
+332905,2,a2_caout_boneyard_master,Desolate Sands,0,1982521164
+63666,2,a2_caout_borderlandskhamsin,Khasim Outpost,0,3782686696
+61066,2,a2_caout_borderlands_khamsin_mine,Command Post,0,2276451759
+195268,2,a2_caout_cellar_alcarnus_main,Lair of the Witch,0,1742967132
+55313,2,a2_caout_ct_refugeecamp,Caldeum Bazaar,0,1365526215
+203005,2,a2_caout_ct_refugeecamp_gates,Gates of Caldeum,0,4066118458
+168314,2,a2_caout_ct_refugeecamp_hub,Hidden Camp,0,1683860485
+332921,2,a2_caout_howlingplateau_blackcanyonmine_master,Howling Plateau and Black Canyon Mines,0,2257295177
+174592,2,a2_caout_hub_inn,Searing Sands Inn,0,1810848944
+186299,2,a2_caout_interior_c_dogbite,Blood Cellar,0,425748664
+144117,2,a2_caout_interior_h_rockworm,Deserted Cellar,0,1052987859
+19841,2,a2_caout_mine_abandoned_cellar,Fuad's Cellar,0,1933623011
+57425,2,a2_caout_oasis,Dahlgur Oasis,0,2186327756
+58980,2,a2_caout_oasis1_water,Dahlgur Oasis,0,2046479743
+57432,2,a2_caout_oasis2,Desolate Sands,0,3429339262
+110848,2,a2_caout_oasiscellars,Ransacked Cellar,0,4078158450
+175330,2,a2_caout_oasis_exit,Ancient Path,0,3790459077
+175367,2,a2_caout_oasis_exit_a,Path to the Oasis,0,346366597
+332903,2,a2_caout_oasis_master,Dahlgur Oasis,0,632533175
+211933,2,a2_caout_oasis_rakanishu,Dahlgur Oasis,0,1084504209
+159897,2,a2_caout_oasis_randomcellar_1,Storage Cellar,0,4072944303
+159898,2,a2_caout_oasis_randomcellar_2,Old Fisherman's Cellar,0,4072944304
+159899,2,a2_caout_oasis_randomcellar_3,Storm Cellar,0,4072944305
+162791,2,a2_caout_oasis_randomcellar_4,Swampy Cellar,0,4072944306
+19839,2,a2_caout_stingingwinds,Stinging Winds,0,1740006581
+19825,2,a2_caout_stingingwinds_alcarnus_tier1,Alcarnus,0,3136161841
+19826,2,a2_caout_stingingwinds_alcarnus_tier2,Alcarnus,0,3136161842
+170118,2,a2_caout_stingingwinds_bridge,Black Canyon Bridge,0,3552878721
+19836,2,a2_caout_stingingwinds_canyon,Sundered Canyon,0,3572056284
+166127,2,a2_caout_stingingwinds_fallencamp01,The Lost Caravan,0,3744002312
+19838,2,a2_caout_stingingwinds_postbridge,Black Canyon Mines,0,4267662535
+19835,2,a2_caout_stingingwinds_prealcarnus,Road to Alcarnus,0,3825644020
+19837,2,a2_caout_stingingwinds_prebridge,Howling Plateau,0,2712152232
+121418,2,a2_caout_stranded2,Abandoned Mineworks,0,288776660
+114363,2,a2_caout_zakarwamerchantcellar,Rotting Cellar,0,3714418403
+159588,2,a2_cave_random01,Sirocco Caverns Level 1,0,2000747858
+220805,2,a2_cave_random01_level02,Sirocco Caverns Level 2,0,2108407595
+102936,2,a2_cultistcellareast,Secret Altar,0,2254247386
+102932,2,a2_cultistcellarwest,Hidden Conclave,0,2254898608
+63987,2,a2_dun_aqd_control_a,Western Flow Control,0,1140186062
+63988,2,a2_dun_aqd_control_b,Eastern Flow Control,0,1140186063
+158594,2,a2_dun_aqd_oasis_randomfacepuzzle_large,Tomb of Khan Dakab,0,913850831
+158384,2,a2_dun_aqd_oasis_randomfacepuzzle_small,Tomb of Sardar,0,922565181
+62752,2,a2_dun_aqd_special_01,Ancient Waterway,0,4142697774
+62778,2,a2_dun_aqd_special_a,Western Channel,0,2598396270
+62780,2,a2_dun_aqd_special_b,Eastern Channel,0,2598396271
+146838,2,a2_dun_aqd_swr-to-oasis_level01,Ruined Cistern,0,1427610749
+204629,2,a2_dun_cave_bloodvial_01,Cave of the Betrayer Level 1,0,3986403986
+204675,2,a2_dun_cave_bloodvial_02,Cave of the Betrayer Level 2,0,3986403987
+169494,2,a2_dun_oasis_cave_mapdungeon,Mysterious Cave Level 1,0,2679833474
+194239,2,a2_dun_oasis_cave_mapdungeon_level02,Mysterious Cave Level 2,0,1109456219
+111487,2,a2_dun_portalroulette_a,The Veiled Treasure,0,2838452510
+58494,2,a2_dun_swr_adria_level01,The Wretched Pit,0,1257168972
+111109,2,a2_dun_swr_caldeum_sewers_01,Flooded Causeway,0,1597398598
+123182,2,a2_dun_zolt_blood02_level01_part1,Vault of the Assassin,0,2536406353
+153714,2,a2_dun_zolt_blood02_level01_part2,Vault of the Assassin,0,2536406354
+60194,2,a2_dun_zolt_bossfight_level04,Soulstone Chamber,0,46443076
+61632,2,a2_dun_zolt_head_random01,The Forgotten Ruins,0,4037448179
+19797,2,a2_dun_zolt_level01,The Unknown Depths,0,2931649497
+19798,2,a2_dun_zolt_level02,The Storm Halls,0,2931649498
+19799,2,a2_dun_zolt_level03,Halls of Dusk,0,2931649499
+19800,2,a2_dun_zolt_lobby,Archives of Zoltun Kulle,0,716885464
+176058,2,a2_dun_zolt_lobbycenter,The Terminus,0,3350161785
+332915,2,a2_dun_zolt_master,Archives of Zoltun Kulle,0,2205546316
+19801,2,a2_dun_zolt_random_level01,The Ruins Level 1,0,151028377
+222577,2,a2_dun_zolt_random_level02,The Ruins Level 2,0,151028378
+196047,2,a2_dun_zolt_random_portalroulette_02,The Fowl Lair,0,1231762375
+80592,2,a2_dun_zolt_shadowrealm_level01,Realm of Shadow,0,1867081263
+141067,2,a2_event_dyingmanmine,Hadi's Claim Mine,0,396896147
+195998,2,a2_event_priceofmercy_cellar,Abandoned Cellar,0,2551006765
+196225,2,a2_rockworm_cellar_cave,Tunnels of the Rockworm,0,844172630
+111671,2,a2_trdun_boneyard_spider_cave_01,Vile Cavern Level 1,0,4024653942
+218968,2,a2_trdun_boneyard_spider_cave_02,Vile Cavern Level 2,0,4024653943
+111667,2,a2_trdun_boneyard_worm_cave_01,Cave of Burrowing Horror Level 1,0,1028158260
+218969,2,a2_trdun_boneyard_worm_cave_02,Cave of Burrowing Horror Level 2,0,1028158261
+62575,2,a2_trdun_cave_oasis_random01,Ancient Cave Level 1,0,1352061372
+194242,2,a2_trdun_cave_oasis_random01_level02,Ancient Cave Level 2,0,622615957
+62574,2,a2_trdun_cave_oasis_random02,Flooded Cave Level 1,0,1352061373
+161105,2,a2_trdun_cave_oasis_random02_level02,Flooded Cave Level 2,0,2576928406
+206142,3,a3dun_hub_adriatower_intro_01,Bastion's Keep Watchtower,0,2247866581
+201250,3,a3dun_hub_adria_tower,Bastion's Keep Watchtower,0,3142631145
+111516,3,a3_azmodanfight,Heart of Sin,0,1743679055
+112548,3,a3_battlefield_a,The Battlefields,0,3851205011
+112565,3,a3_battlefield_b,Fields of Slaughter,0,3851205012
+112580,3,a3_battlefield_c,Edge of the Abyss,0,3851205013
+336718,3,a3_battlefield_master,The Battlefields,0,1097394270
+69504,3,a3_bridge_01,Rakkis Crossing,0,1073495552
+155048,3,a3_bridge_choke_a,The Bridge of Korsikk,0,2084979081
+154644,3,a3_dun_battlefield_gate,The Arreat Gate,0,3077816953
+140461,3,a3_dun_bridge_interior_random01,Bridge Stores,0,750770354
+205424,3,a3_dun_bridge_interior_random02,Bridge Stores,0,750770355
+86080,3,a3_dun_crater_level_01,Arreat Crater Level 1,0,306757905
+119305,3,a3_dun_crater_level_02,Arreat Crater Level 2,0,306757906
+119306,3,a3_dun_crater_level_03,The Core of Arreat,0,306757907
+80791,3,a3_dun_crater_st_level01,Tower of the Damned Level 1,0,2083727832
+119653,3,a3_dun_crater_st_level01b,Tower of the Cursed Level 1,0,43541786
+80792,3,a3_dun_crater_st_level02,Tower of the Damned Level 2,0,2083727833
+139274,3,a3_dun_crater_st_level02b,Tower of the Cursed Level 2,0,43541819
+85202,3,a3_dun_crater_st_level04,Heart of the Damned,0,2083727835
+119656,3,a3_dun_crater_st_level04b,Heart of the Cursed,0,43541885
+336739,3,a3_dun_crater_towers_master,Arreat Crater,0,2664754888
+189345,3,a3_dun_icecaves_random_01,Caverns of Frost Level 1,0,1029056444
+221702,3,a3_dun_icecaves_random_01_level_02,Caverns of Frost Level 2,0,151580180
+191078,3,a3_dun_icecaves_timed_01,Icefall Caves Level 1,0,942020622
+221703,3,a3_dun_icecaves_timed_01_level_02,Icefall Caves Level 2,0,3492371110
+92945,3,a3_dun_keep_hub,Bastion's Keep Stronghold,0,732643260
+185228,3,a3_dun_keep_hub_inn,The Armory,0,2326928096
+75436,3,a3_dun_keep_level03,The Keep Depths Level 1,0,2595636440
+93103,3,a3_dun_keep_level04,The Keep Depths Level 2,0,2595636441
+136448,3,a3_dun_keep_level05,The Keep Depths Level 3,0,2595636442
+336472,3,a3_dun_keep_master,The Keep Depths,0,1024009385
+174666,3,a3_dun_keep_random_01,Fortified Bunker Level 1,0,3245317342
+221752,3,a3_dun_keep_random_01_level_02,Fortified Bunker Level 2,0,2533181814
+182258,3,a3_dun_keep_random_02,The Barracks Level 1,0,3245317343
+221753,3,a3_dun_keep_random_02_level_02,The Barracks Level 2,0,2600983191
+182274,3,a3_dun_keep_random_03,Battlefield Stores Level 1,0,3245317344
+221754,3,a3_dun_keep_random_03_level_02,Battlefield Stores Level 2,0,2668784568
+182502,3,a3_dun_keep_random_04,The Foundry Level 1,0,3245317345
+221761,3,a3_dun_keep_random_04_level_02,The Foundry Level 2,0,2736585945
+220905,3,a3_dun_keep_random_cellar_01,Cryder's Outpost,0,211059664
+220904,3,a3_dun_keep_random_cellar_02,The Forward Barracks,0,211059665
+197623,3,a3_dun_keep_random_cellar_03,The Underbridge,0,211059666
+218511,3,a3_dun_keep_thebreach_level04,The Breach,0,960971134
+92960,3,a3_dun_rmpt_level01,Skycrown Battlements,0,3216631092
+93173,3,a3_dun_rmpt_level02,Stonefort,0,3216631093
+336467,3,a3_dun_rmpt_master,Bastion's Keep Ramparts,0,3385536839
+111232,3,a3_gluttony_boss,The Larder,0,2102427919
+153669,4,a4dun_diablo_shadowrealm_01,Realm of Terror,0,2307927580
+205434,4,a4dun_spire_diabloentrance,The Pinnacle of Heaven,0,4222072248
+215396,4,a4dun_spire_exterior,The Great Span,0,1038619951
+109563,4,a4_dun_diablo_arena,The Crystal Arch,0,3541768843
+215235,4,a4_dun_diablo_arena_phase3,The Crystal Arch,0,824363438
+119882,4,a4_dun_garden3_spireentrance,The Crystal Colonnade,0,3098913904
+109514,4,a4_dun_garden_of_hope_01,Gardens of Hope 1st Tier,0,2770055562
+109516,4,a4_dun_garden_of_hope_02,Gardens of Hope 2nd Tier,0,2770055563
+343354,4,a4_dun_garden_of_hope_master,Gardens of Hope 1st Tier,0,2392367989
+109149,4,a4_dun_heaven_1000_monsters_fight,The Vestibule of Light,0,1578999804
+192873,4,a4_dun_heaven_1000_monsters_fight_entrance,The Diamond Gates,0,731261611
+109526,4,a4_dun_hell_portal_01,Hell Rift Level 1,0,984446736
+361791,4,a4_dun_hell_portal_01_openworld,Hell Rift Level 1,0,3654285961
+109531,4,a4_dun_hell_portal_02,Hell Rift Level 2,0,984446737
+361792,4,a4_dun_hell_portal_02_openworld,Hell Rift Level 2,0,1596764106
+197101,4,a4_dun_keep_hub,Bastion's Keep Stronghold,0,1726708061
+143648,4,a4_dun_libraryoffate,Library of Fate,0,739323140
+198564,4,a4_dun_spire_00,Gateway to the Silver Spire,0,1067638620
+109538,4,a4_dun_spire_01,The Silver Spire Level 1,0,1067638621
+109540,4,a4_dun_spire_02,The Silver Spire Level 2,0,1067638622
+109542,4,a4_dun_spire_03,The Silver Spire Level 4,0,1067638623
+210728,4,a4_dun_spire_04,The Silver Spire Level 5,0,1067638624
+343355,4,a4_dun_spire_master,Gateway to the Silver Spire,0,1373143752
+201668,4,a4_dun_spire_sigilroom_a,Blessed Chancel,0,3324167665
+175738,4,a4_dun_spire_sigilroom_b,Holy Sanctum,0,3324167666
+201670,4,a4_dun_spire_sigilroom_c,Radiant Chapel,0,3324167667
+201671,4,a4_dun_spire_sigilroom_d,Sacellum of Virtue,0,3324167668
+19808,0,axe bad data,,0,0
+218824,0,axe flatworld,Axe Flat World,0,4256439917
+270054,0,duelworld,Scorched Chapel,0,1278251090
+231173,0,limbo,,0,0
+409094,0,p1_a1dun_random_level_goblin,Whimsydale,0,1891223114
+380081,0,p1_lr_tileset_cesspools,TEST Cesspools Test Worlds TEST,0,3894376305
+405915,0,p1_tieredrift_challenge,Realm of Trials,0,2930583316
+380773,0,p1_treasurerealm,The Vault,0,418329884
+380774,0,p1_treasurerealm_greed,The Inner Sanctum,0,3976247266
+19868,0,pvparena,Arena,0,257929661
+242031,0,pvp_cald_swr_arena,The Fetid Pools,0,334124554
+242032,0,pvp_caout_arena,Pit of the Condemned,0,4246030071
+242030,0,pvp_keep_arena,[temp] Bastion's Forge,0,3446410336
+19874,0,pvp_maze_01,The Hedge Maze of Deadly Shrubbery,0,2945068706
+242029,0,pvp_neph_arena,Altar of Courage,0,2559442790
+19875,0,pvp_octogon_01,The Octagon of Certain Doom,0,2506490958
+19876,0,pvp_pillar_01,Carls Canadian Crazy Map,0,1430408985
+19877,0,pvp_stairs_01,Raised Areas of Death!,0,2231361163
+19878,0,pvp_test_blueteam,Khazra Encampment,0,1431790467
+19879,0,pvp_test_neutral,Contested Grounds,0,1731972559
+19880,0,pvp_test_redteam,Undead Cemetery,0,2581552342
+256767,1,uber_bossworld1,Realm of Discord,0,2504472829
+256106,1,uber_bossworld2,Realm of Chaos,0,2504472830
+256742,1,uber_bossworld3,Realm of Turmoil,0,2504472831
+374239,1,uber_bossworld_diablo,Realm of Fright,0,2052580630
+257116,1,uber_portalworld,Heretic's Abode,0,4192591559
+292309,1,x1_a1_challenge_wilderness_chamberofbone,Chamber of Bone,0,2555385189
+292357,1,x1_a1_challenge_wilderness_cursedtomb,Cursed Tomb,0,1349041458
+292231,1,x1_a1_challenge_wilderness_ghoulswarm,Ghoul Swarm,0,3728270851
+300637,2,x1_a2_challenge_boneyards_bloodcarvers,Blood Carvers,0,3573975496
+296524,2,x1_a2_challenge_boneyards_dustbowl,Dust Bowl,0,1479656214
+302111,2,x1_a2_challenge_boneyards_sunkengrave,Abandoned Outpost,0,3195325739
+303221,2,x1_a2_challenge_shadowrealm_demonshade,Realm of Shade,0,1443434570
+303382,2,x1_a2_challenge_shadowrealm_horadricguardians,Horadric Guardians,0,1641926716
+298216,2,x1_a2_challenge_shadowrealm_wraithstorm,Chittering Spire,0,798883318
+300508,2,x1_a2_challenge_stingingwinds_desertfortress,Deserted Fortress,0,3590920130
+300509,2,x1_a2_challenge_stingingwinds_fallenwarband,Fallen Warband,0,508328372
+300598,2,x1_a2_challenge_stingingwinds_forsakenoutpost,Forsaken Outpost,0,935262010
+331953,5,x1_a5_challenge_westm_dreadghosts,Dread Cemetery,0,537780774
+338931,5,x1_abattoir_random01,Plague Tunnels Level 1,0,3634325407
+338970,5,x1_abattoir_random01_b,Plague Tunnels Level 2,0,2115491808
+338932,5,x1_abattoir_random02,Repository of Bones Level 1,0,3634325408
+338978,5,x1_abattoir_random02_b,Repository of Bones Level 2,0,2115492897
+287220,5,x1_adria_boss_arena,The Great Hall,0,4163627205
+235003,5,x1_bogcave_random01,Perilous Cave Level 1,0,1022651488
+336577,5,x1_bogcave_random01_b,Perilous Cave Level 2,0,1270943969
+235891,5,x1_bogcave_random02,Caverns of Luray Level 1,0,1022651489
+336578,5,x1_bogcave_random02_b,Caverns of Luray Level 2,0,1270945058
+358956,5,x1_bogcave_random_connector,Winding Cave,0,2583704009
+245964,5,x1_bog_01,Blood Marsh,0,97677856
+258142,5,x1_bog_01_part2,Paths of the Drowned,0,2367712008
+282487,5,x1_bog_adriaritual,Overgrown Ruins,0,1232608241
+335811,5,x1_bog_bogpeople_cellar_a,The Hunter's Den,0,2347763918
+359864,5,x1_bog_bogpeople_cellar_b,Wretched Hole,0,2347763919
+335815,5,x1_bog_bogpeople_cellar_c,Putrid Hovel,0,2347763920
+337313,5,x1_bog_bogpeople_cellar_d,Bogan Warren,0,2347763921
+274329,5,x1_bog_bogritualcave,Moldy Hovel,0,1294682375
+341036,5,x1_catacombs_fakeentrance_02,Passage to Corvus,0,1344182684
+341039,5,x1_catacombs_fakeentrance_03,Passage to Corvus,0,1344182685
+341041,5,x1_catacombs_fakeentrance_04,Passage to Corvus,0,1344182686
+342114,5,x1_catacombs_jeweler_1,Unearthed Ruins Level 1,0,362131378
+358555,5,x1_catacombs_jeweler_2,Unearthed Ruins Level 2,0,362131379
+283553,5,x1_catacombs_level01,Passage to Corvus,0,1943159981
+283567,5,x1_catacombs_level02,Ruins of Corvus,0,1943159982
+245739,5,x1_challenge_challengetestworld,Challenge Test World,0,1318918037
+271234,5,x1_fortress_level_01,Pandemonium Fortress Level 1,0,70258615
+340533,5,x1_fortress_level_01_b,Pandemonium Fortress Level 1,0,3497190904
+370512,5,x1_fortress_level_01_master,Pandemonium Fortress Level 1,0,2018407234
+271271,5,x1_fortress_level_02,Pandemonium Fortress Level 2,0,70258616
+360494,5,x1_fortress_level_02_intro,Pandemonium Fortress Level 2,0,1218205827
+366169,5,x1_fortress_level_02_master,,0,0
+276361,5,x1_fortress_malthaelarena,[TEMP] Final Boss Room,0,2691777838
+349787,5,x1_fortress_malthael_entrance,Pandemonium Fortress Level 3,0,1012176886
+339468,5,x1_heaven_pandemonium_portal,The Pandemonium Gate,0,470542508
+325902,5,x1_lr_dungeonfinder,,0,0
+275997,5,x1_lr_hubworld,[TEMP] Loot Run Hub,0,1653266828
+288482,5,x1_lr_level_01,Rift Level 01,0,1938876093
+288684,5,x1_lr_level_02,Rift Level 02,288482,1938876094
+288686,5,x1_lr_level_03,Rift Level 03,288482,1938876095
+288797,5,x1_lr_level_04,Rift Level 04,288482,1938876096
+288799,5,x1_lr_level_05,Rift Level 05,288482,1938876097
+288801,5,x1_lr_level_06,Rift Level 06,288482,1938876098
+288803,5,x1_lr_level_07,Rift Level 07,288482,1938876099
+288809,5,x1_lr_level_08,Rift Level 08,288482,1938876100
+288812,5,x1_lr_level_09,Rift Level 09,288482,1938876101
+288813,5,x1_lr_level_10,Rift Level 10,288482,1938876125
+283676,5,x1_lr_pathtotheboss,[TEMP] Path to the Boss,0,389897549
+352652,5,x1_lr_tileset_abattoir,,0,0
+353527,5,x1_lr_tileset_aqueducts,,0,0
+352690,5,x1_lr_tileset_bogcave,,0,0
+348617,5,x1_lr_tileset_breakup_wortham,,0,0
+352713,5,x1_lr_tileset_catacombs,,0,0
+275923,5,x1_lr_tileset_cathedral,,0,0
+275929,5,x1_lr_tileset_corruptspire,,0,0
+323580,5,x1_lr_tileset_crater,,0,0
+342477,5,x1_lr_tileset_cratertowers,,0,0
+276150,5,x1_lr_tileset_crypt,,0,0
+349048,5,x1_lr_tileset_exterior_battlefieldsbridge,,0,0
+332335,5,x1_lr_tileset_exterior_bog,Bog of Blood,0,2590062759
+349181,5,x1_lr_tileset_exterior_boneyards,,0,0
+346565,5,x1_lr_tileset_exterior_gardensofhope,,0,0
+347870,5,x1_lr_tileset_exterior_graveyard,,0,0
+347562,5,x1_lr_tileset_exterior_highlands,,0,0
+332323,5,x1_lr_tileset_exterior_oasis,,0,0
+347961,5,x1_lr_tileset_exterior_pandext,,0,0
+346527,5,x1_lr_tileset_exterior_ramparts,,0,0
+330531,5,x1_lr_tileset_exterior_tristramfields,,0,0
+347196,5,x1_lr_tileset_exterior_wilderness,,0,0
+276212,5,x1_lr_tileset_floodedcave,,0,0
+333758,5,x1_lr_tileset_fortress,,0,0
+362179,5,x1_lr_tileset_hellportal,,0,0
+352719,5,x1_lr_tileset_hexmaze,,0,0
+276230,5,x1_lr_tileset_icecave,,0,0
+276226,5,x1_lr_tileset_keep,,0,0
+275927,5,x1_lr_tileset_leorics,,0,0
+334821,5,x1_lr_tileset_leoricsjail,,0,0
+343965,5,x1_lr_tileset_pony,,0,0
+276128,5,x1_lr_tileset_rootcave,,0,0
+290245,5,x1_lr_tileset_sewers,,0,0
+322727,5,x1_lr_tileset_spidercaves,,0,0
+331264,5,x1_lr_tileset_westmarch,,0,0
+276215,5,x1_lr_tileset_wormcaves,,0,0
+312606,5,x1_lr_tileset_zoltarchives,,0,0
+312607,5,x1_lr_tileset_zoltruins,,0,0
+330576,5,x1_malthael_boss_arena,Heart of the Fortress,0,4150048876
+274985,5,x1_pandext_ramoverlook,Path of War,0,607983116
+279169,5,x1_pandext_ramoverlookatgate,Abandoned Siege Camp,0,1525380418
+295228,5,x1_pand_batteringram,The Ram,0,3861132362
+338603,5,x1_pand_ext_1_outlands,Battlegrounds of Eternity,0,2812404596
+338602,5,x1_pand_ext_2_battlefields,Battlefields of Eternity,0,298775102
+367831,5,x1_pand_ext_2_battlefields_longnub,The Crag of Eternity,0,1785287826
+377700,5,x1_pand_ext_2_battlefields_master,Battlefields of Eternity,0,4241643497
+339397,5,x1_pand_ext_batteringram_entrance_a,The Siege Outpost,0,235765865
+282938,5,x1_pand_ext_cellar_01,Pandemonium Exerior Cellar,0,896606861
+322645,5,x1_pand_ext_cellar_a,Ancient Ruins of Dholmour,0,2743237325
+357651,5,x1_pand_ext_cellar_b,Crumbling Bunker,0,2743237326
+357654,5,x1_pand_ext_cellar_c,Occupied Ruins,0,2743237327
+357655,5,x1_pand_ext_cellar_d,Infested Ruins,0,2743237328
+357657,5,x1_pand_ext_cellar_e,Hideout of the Lost Legion,0,2743237329
+267810,5,x1_pand_ext_level_01,Fields of Eternity,0,145593010
+294586,5,x1_pand_hexmaze,Realm of the Banished,0,1149314364
+307433,5,x1_pand_hexmaze_2,Realm of the Banished Level 1,0,1767862445
+374757,5,x1_pand_hexmaze_bloone,Realm of the Banished,0,524651034
+374761,5,x1_pand_hexmaze_borgoth,Realm of the Banished,0,254293072
+302609,5,x1_pand_hexmaze_en_01,Lair of the Prophet Level 1,0,4183175374
+310711,5,x1_pand_hexmaze_en_02,Lair of the Prophet Level 2,0,4183175375
+374765,5,x1_pand_hexmaze_grotescor,Realm of the Banished,0,3152612851
+374769,5,x1_pand_hexmaze_haziael,Realm of the Banished,0,3169781593
+374773,5,x1_pand_hexmaze_magrethar,Realm of the Banished,0,1509489046
+374777,5,x1_pand_hexmaze_severag,Realm of the Banished,0,347732584
+252218,5,x1_pof_dungeonboss_01,Pages of Fate Dungeon Boss Level,0,1842138899
+245404,5,x1_pof_dungeonlayout_level_01,Pages of Fate Dungeon Prototype Level 1,0,237300305
+252203,5,x1_pof_dungeonlayout_level_01b,Pages of Fate Dungeon Prototype Level 2,0,3535942835
+378681,5,x1_treasuregoblin_a,The Vault,0,2814948110
+308487,5,x1_urzael_arena,Tower of Korelan,0,2605637249
+304359,5,x1_westm_alley_rats,Vermin Alley,0,2411823271
+311624,5,x1_westm_cathedralcourtyard,Cathedral Courtyard,0,394851740
+330763,5,x1_westm_cellar_corpsefinder,House of Corpses,0,683724333
+351801,5,x1_westm_cellar_kids,Captain Haile's House,0,3452590644
+351802,5,x1_westm_cellar_ruffians,Ransacked Dwelling,0,412504359
+299955,5,x1_westm_custom_alley_01_rat,[temp] Plagued Alley,0,2507029966
+338956,5,x1_westm_deathorb_gideonscourt,Gideon's Row,0,4024630549
+339158,5,x1_westm_deathorb_kerwinsrow,Nobles' Rest Courtyard,0,2861325466
+338946,5,x1_westm_graveyard_deathorb,Briarthorn Cemetery,0,2868789764
+270011,5,x1_westm_hub,The Survivors' Enclave,0,1877684886
+276704,5,x1_westm_interior01,House of Deep Sorrow,0,2426337764
+276705,5,x1_westm_interior02,House of Madness,0,2426337765
+311623,5,x1_westm_introalley,Streets of Westmarch,0,3906620922
+308323,5,x1_westm_introbridge,The Wolf Gate,0,115613072
+315938,5,x1_westm_introbridge_a,The Wolf Gate,0,1348587024
+308324,5,x1_westm_introgate,Gates of Westmarch,0,639188452
+308325,5,x1_westm_introsewer,Moldering Waterway,0,3927727913
+309413,5,x1_westm_intro_cath_int_door,Zakarum Cathedral,0,3941989055
+284069,5,x1_westm_intro_overlook,Westmarch Overlook,0,2841977843
+368430,5,x1_westm_int_blacksmith,Musty Cellar,0,4225240931
+316646,5,x1_westm_int_gen_a02necromancer,Hall of Dark Arts,0,852517898
+321983,5,x1_westm_int_gen_a_01_captainstokely,The Killing Floor,0,1775330885
+328342,5,x1_westm_int_gen_b_02_var_c_yard_rush,Invaded House,0,3656306935
+335059,5,x1_westm_int_gen_b_03_var_b (ghost chase),Haunted Inn,0,3587038241
+336217,5,x1_westm_int_gen_b_03_var_c_panic,Panic House,0,819184402
+328336,5,x1_westm_int_gen_c_01_skeleton_rush,House of Screams,0,606195042
+358642,5,x1_westm_int_gen_c_01_zombiefireplace,Cozy Bookstore,0,525955565
+357578,5,x1_westm_int_gen_c_03_deathmaiden,Burning Courtyard,0,1723854290
+357577,5,x1_westm_int_gen_c_03_dogs,Alley of Embers,0,21715499
+328813,5,x1_westm_int_gen_c_03_elements,Fire Alley,0,250083227
+246663,5,x1_westm_int_gen_c_miser,Miser's Hovel,0,2043324508
+294634,5,x1_westm_int_rescue_guards_01,Old Smugglers' Warehouse,0,4116505741
+306916,5,x1_westm_int_rescue_guards_02,Tustine's Brewery,0,4116505742
+303053,5,x1_westm_int_zombiesorcerer,Sorcerer's Room,0,2544007628
+336846,5,x1_westm_kingevent01,Contested Villa,0,3542218787
+336847,5,x1_westm_kingevent02,Wynton Courtyard,0,3542218788
+336848,5,x1_westm_kingevent03,Clyfton Hall,0,3542218789
+310991,5,x1_westm_reformedcultist_entrance,Abandoned Cultist Stores,0,2952665666
+310992,5,x1_westm_reformedcultist_treasureroom,Cultist Treasure Room,0,798857082
+284489,5,x1_westm_rescueinterior_01,The King's Armory,0,1831650314
+284490,5,x1_westm_rescueinterior_02,Ackton's Hold,0,1831650315
+303497,5,x1_westm_scoundrelevent,Westmarch Dungeons,0,3151383816
+340644,5,x1_westm_scoundrelevent_level02,Edlin's Cell,0,3197658337
+276513,5,x1_westm_templarevent,Secret Templar Stronghold,0,3546143758
+316374,5,x1_westm_warehouse,Old Westmarch Storehouse,0,3437210474
+261758,5,x1_westm_zone_01,Westmarch Commons,0,2935553331
+314782,5,x1_westm_zone_01_a,Westmarch Commons,0,1361912435
+314783,5,x1_westm_zone_01_b,Mercantile Quarter,0,1361912436
+368269,5,x1_westm_zone_01_master,Westmarch Commons,0,2483936574
+263493,5,x1_westm_zone_03,Westmarch Heights,0,2935553333

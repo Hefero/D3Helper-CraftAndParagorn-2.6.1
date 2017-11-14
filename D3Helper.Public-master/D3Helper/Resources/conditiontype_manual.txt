@@ -1,0 +1,284 @@
+*Add_Property_Channeling
+- (If Value = -1 This skill will be channeled while Conditions are TRUE instead of just single used/clicked) (If Value > 0/-1 This skill will be channeled for X Amount(VALUE) of Ticks(60 ticks = 1 sec) after all Conditions are TRUE)
+
+*Add_Property_APSSnapShot
+- (Requires ConditionType.Player_MinAPS) (If this Property is added D3Helper will cache Player's APS on AreaChange,UseHealthPotion,Death) (If cached APS is greater then or equal set Player_MinAPS this Skill will not be casted) (If cached APS is less then or equal set Player_MinAPS this Skill will be casted)
+
+*Add_Property_TimedUse
+- Is TRUE if the last autocast of the skill was greater than or equal TICKS (VALUE) ago (60 TICKS = 1 SEC)
+
+*Key_ForceStandStill
+- IF CHECKED it Is TRUE if the ForceStandStill Key is pressed IF UNCHECKED it Is TRUE if the ForceStandStill Key is NOT pressed
+
+*MonstersInRange_HaveArcaneEnchanted
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveAvenger
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveDesecrator
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveElectrified
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveExtraHealth
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveFast
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveFirechains
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveFrozen
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveHealthlink
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveIllusionist
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveJailer
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveKnockback
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveMolten
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveMortar
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveNightmarish
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HavePlagued
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveReflectsDamage
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveShielding
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveTeleporter
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveThunderstorm
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveVortex
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_HaveWaller
+- IF CHECKED it Is TRUE if there is ATLEAST ONE monster in range with that affix IF UNCHECKED it Is TRUE if there are NO MONSTERS in range with the given AFFIX
+
+*MonstersInRange_IsBuffActive
+- Is TRUE if a given BUFF (PowerSNO) is active on (greater then or equal / less then or equal) an AMOUNT (VALUE) of Monsters in range
+
+*MonstersInRange_IsBuffNotActive
+- Is TRUE if a given BUFF (PowerSNO) is NOT active on (greater then or equal / less then or equal) an AMOUNT (VALUE) of Monsters in range
+
+*MonstersInRange_IsBuffCount
+- Is TRUE if a given BUFF (POWERSNO) with a given ATTRIBUTEID (ATTRIBID) has greater than or equal AMOUNT (VALUE) of STACKS on ANY Monster in range
+
+*MonstersInRange_IsNotBuffCount
+- Is TRUE if a given BUFF (POWERSNO) with a given ATTRIBUTEID (ATTRIBID) has less than or equal AMOUNT (VALUE) of STACKS on ANY Monster in range
+
+*MonstersInRange_MinHitpointsPercentage
+- Is TRUE if greater/less then or equal a given Amount (VALUE2) of MonstersInRange have greater then or equal a given Amount (VALUE1) of Hitpoints PERCENTAGE
+
+*MonstersInRange_MaxHitpointsPercentage
+- Is TRUE if greater/less then or equal a given Amount (VALUE2) of MonstersInRange have less then or equal a given Amount (VALUE1) of Hitpoints PERCENTAGE
+
+*SelectedMonster_MonstersInRange_MinHitpointsPercentage
+- Is TRUE if greater/less then or equal a given Amount (VALUE2) of SelectedMonster_MonstersInRange have greater then or equal a given Amount (VALUE1) of Hitpoints PERCENTAGE
+
+*SelectedMonster_MonstersInRange_MaxHitpointsPercentage
+- Is TRUE if greater/less then or equal a given Amount (VALUE2) of SelectedMonster_MonstersInRange have less then or equal a given Amount (VALUE1) of Hitpoints PERCENTAGE
+
+*SelectedMonster_MinHitpointsPercentage
+- is TRUE if the selected Monster has greater then or equal a given Amount (VALUE) of Hitpoints PERCENTAGE
+
+*SelectedMonster_MaxHitpointsPercentage
+- is TRUE if the selected Monster has less then or equal a given Amount (VALUE) of Hitpoints PERCENTAGE
+
+*Party_AllInRange
+- Is TRUE if all players in the current game are within a given RANGE (DISTANCE in yards)
+
+*Party_AllAlive
+- Is TRUE if CHECKED and all players in the current game are alive
+
+*Party_NotAllInRange
+- Is TRUE if NOT all players in the current game are within a given RANGE (DISTANCE in yards)
+
+*PartyMember_InRangeIsBuff
+- Is TRUE if a given BUFF (PowerSNO) is active on greater/less then or equal a given AMOUNT (VALUE)(Use -1 for all PartyMembers in Range) of PartyMembers in a given range (DISTANCE in yards)
+
+*PartyMember_InRangeIsNotBuff
+- Is TRUE if a given BUFF (PowerSNO) is NOT active on greater/less then or equal a given AMOUNT (VALUE)(Use -1 for all PartyMembers in Range) of PartyMembers in a given range (DISTANCE in yards)
+
+*PartyMember_InRangeMinHitpoints
+- Is TRUE if atleast ONE PartyMember in a given RANGE (DISTANCE in yards) has less than or equal a given AMOUNT (VALUE IN PERCENT) of hitpoints
+
+*Player_BuffTicksLeft
+- Is TRUE if the BUFFDURATION left of a given BUFF (POWERSNO) with a given BUFFENDTICK ATTRIBUTE (ATTRIBID) is less than or equal a given VALUE (VALUE) VALUE in TICKS (1sec = 60 TICKS)
+
+*Player_HasSkillEquipped
+- Is TRUE if a given ACTIVESKILL (POWERSNO) is equipped
+
+*Player_HasSkillNotEquipped
+- Is TRUE if a given ACTIVESKILL (POWERSNO) is NOT equipped
+
+*Player_IsDestructableSelected
+- IF CHECKED it Is TRUE if a destructable object is SELECTED IF UNCHECKED it Is TRUE if NO destructable object is selected
+
+*Player_IsBuffActive
+- Is TRUE if a given BUFF (POWERSNO) with a given ATTRIBUTEID (ATTRIBID) is ACTIVE
+
+*Player_IsBuffCount
+- Is TRUE if a given BUFF (POWERSNO) with a given ATTRIBUTEID (ATTRIBID) has greater than or equal AMOUNT (VALUE) of STACKS
+
+*Player_IsBuffNotActive
+- Is TRUE if a given BUFF (POWERSNO) with a given ATTRIBUTEID (ATTRIBID) is NOT ACTIVE
+
+*Player_IsMoving
+- IF CHECKED it Is TRUE if you are MOVING IF UNCHECKED it Is TRUE if you are NOT MOVING
+
+*Player_IsNotBuffCount
+- Is TRUE if a given BUFF (POWERSNO) with a given ATTRIBUTEID (ATTRIBID) has less than or equal AMOUNT (VALUE) of STACKS
+
+*Player_IsMonsterSelected
+- IF CHECKED it Is TRUE if a monster is SELECTED IF UNCHECKED it Is TRUE if NO monster is selected
+
+*Player_MaxPrimaryResource
+- Is TRUE if you have less than or equal a given AMOUNT (VALUE) of PRIMARY RESOURCE
+
+*Player_MaxPrimaryResourcePercentage
+- Is TRUE if you have less than or equal a given AMOUNT (VALUE IN PERCENT) of PRIMARY RESOURCE PERCENTAGE
+
+*Player_MaxSecondaryResource
+- Is TRUE if you have less than or equal a given AMOUNT (VALUE) of SECONDARY RESOURCE
+
+*Player_MaxSecondaryResourcePercentage
+- Is TRUE if you have less than or equal a given AMOUNT (VALUE IN PERCENT) of SECONDARY RESOURCE PERCENTAGE
+
+*Player_MaxHitpointsPercentage
+- Is TRUE if you have less than or equal a given AMOUNT (VALUE IN PERCENT) of HITPOINTS PERCENTAGE
+
+*Player_MinPrimaryResource
+- Is TRUE if you have greater than or equal a given AMOUNT (VALUE) of PRIMARY RESOURCE
+
+*Player_MinPrimaryResourcePercentage
+- Is TRUE if you have greater than or equal a given AMOUNT (VALUE IN PERCENT) of PRIMARY RESOURCE PERCENTAGE
+
+*Player_MinSecondaryResource
+- Is TRUE if you have greater than or equal a given AMOUNT (VALUE) of SECONDARY RESOURCE
+
+*Player_MinSecondaryResourcePercentage
+- Is TRUE if you have greater than or equal a given AMOUNT (VALUE IN PERCENT) of SECONDARY RESOURCE PERCENTAGE
+
+*Player_MinAPS
+- Is TRUE if you have greater than or equal a given AMOUNT (VALUE) AttacksPerSecond
+
+*Player_Pet_MaxFetishesCount
+- Is TRUE if there are less than or equal an AMOUNT (VALUE) FETISHES alive
+
+*Player_Pet_MaxGargantuanCount
+- Is TRUE if there are less than or equal an AMOUNT (VALUE) GARGANTUANS alive
+
+*Player_Pet_MaxZombieDogsCount
+- Is TRUE if there are less than or equal an AMOUNT (VALUE) ZOMBIEDOGS alive
+
+*Player_Pet_MinFetishesCount
+- Is TRUE if there are greater than or equal an AMOUNT (VALUE) FETISHES alive
+
+*Player_Pet_MinGargantuanCount
+- Is TRUE if there are greater than or equal an AMOUNT (VALUE) GARGANTUANS alive
+
+*Player_Pet_MinZombieDogsCount
+- Is TRUE if there are greater than or equal an AMOUNT (VALUE) ZOMBIEDOGS alive
+
+*Player_Pet_MinSkeletalMageCount
+- Is TRUE if there are greater than or equal an AMOUNT (VALUE) SKELETALMAGES alive
+
+*Player_Pet_MaxSkeletalMageCount
+- Is TRUE if there are less than or equal an AMOUNT (VALUE) SKELETALMAGES alive
+
+*Player_Power_IsNotOnCooldown
+- Is TRUE if the given POWER (POWERSNO) is NOT ON COOLDOWN
+
+*Player_Power_IsOnCooldown
+- Is TRUE if the given POWER (POWERSNO) is ON COOLDOWN
+
+*Player_Skill_IsNotOnCooldown
+- IF CHECKED it Is TRUE if this skill is NOT on cooldown IF UNCHECKED it Is TRUE this skill IS on cooldown
+
+*Player_Skill_MinCharges
+- Is TRUE if this skill has greater than or equal AMOUNT (VALUE) of CHARGES left
+
+*Player_Skill_MinResource
+- IF CHECKED it Is TRUE if you have enough RESOURCE to cast IF UNCHECKED it Is TRUE if you dont have enough RESOURCE to cast
+
+*Player_StandStillTime
+- Is TRUE if the Player stands still for greater/less then or equal an Amount (VALUE) of time in ticks (60 ticks = 1 sec)
+
+*SelectedMonster_IsBuffActive
+- Is TRUE if a given BUFF (POWERSNO) is ACTIVE on the selected monster
+
+*SelectedMonster_IsBuffNotActive
+- Is TRUE if a given BUFF (POWERSNO) is NOT ACTIVE on the selected monster
+
+*SelectedMonster_IsBuffCount
+- Is TRUE if a given BUFF (POWERSNO) with a given ATTRIBUTEID (ATTRIBID) has greater than or equal AMOUNT (VALUE) of STACKS
+
+*SelectedMonster_IsNotBuffCount
+- Is TRUE if a given BUFF (POWERSNO) with a given ATTRIBUTEID (ATTRIBID) has less than or equal AMOUNT (VALUE) of STACKS
+
+*SelectedMonster_IsBoss
+- IF CHECKED it Is TRUE if the selected monster's type is BOSS IF UNCHECKED it Is TRUE if the selected monster's type is NO BOSS
+
+*SelectedMonster_IsElite
+- IF CHECKED it Is TRUE if the selected monster's type is ELITE(this also includes Boss and Goblin) IF UNCHECKED it Is TRUE if the selected monster's type is NOT ELITE
+
+*SelectedMonster_MaxDistance
+- Is TRUE if the selected monster's DISTANCE is less than or equal a given VALUE (DISTANCE in yards)
+
+*SelectedMonster_MinDistance
+- Is TRUE if the selected monster's DISTANCE is greater than or equal a given VALUE (DISTANCE in yards)
+
+*SelectedMonster_MonstersInRange
+- Is TRUE if there are atleast (greater then or equal / less then or equal) a given AMOUNT (VALUE) monsters in RANGE (DISTANCE in yards) of the SELECTED monster
+
+*SelectedMonster_MonstersInRange_IsBuffActive
+- Is TRUE if a given BUFF (PowerSNO) is active on (greater then or equal / less then or equal) an AMOUNT (VALUE) of Monsters in range of the SELECTED MONSTER
+
+*SelectedMonster_MonstersInRange_IsBuffNotActive
+- Is TRUE if a given BUFF (PowerSNO) is NOT active on (greater then or equal / less then or equal) an AMOUNT (VALUE) of Monsters in range of the SELECTED MONSTER
+
+*World_BossInRange
+- Is TRUE if a given AMOUNT (VALUE) of monsters of TYPE BOSS are within a RADIUS of a given AMOUNT (DISTANCE in yards)
+
+*World_EliteInRange
+- Is TRUE if (greater then or equal / less then or equal) a given AMOUNT (VALUE) of monsters of TYPE ELITE are within a RADIUS of a given AMOUNT (DISTANCE in yards)
+
+*World_IsGRift
+- IF CHECKED it Is TRUE if the current AREA is a GREATER RIFT IF UNCHECKED it Is TRUE the current AREA is NO GREATER RIFT
+
+*World_IsRift
+- IF CHECKED it Is TRUE if the current AREA is a RIFT OR GREATER RIFT IF UNCHECKED it Is TRUE the current AREA is NO RIFT OR GREATER RIFT
+
+*World_MonstersInRange
+- Is TRUE if (greater then or equal / less then or equal) a given AMOUNT (VALUE) of monsters of TYPE ANY are within a RADIUS of a given AMOUNT (DISTANCE in yards)
+
+*MonstersInRange_RiftProgress
+- Is TRUE if monsters in range have greater/less then or equal a given AMOUNT (VALUE) of RIFTPROGRESS in PERCENT
+
+*SelectedMonster_MonstersInRange_RiftProgress
+- Is TRUE if monsters in range of the selected monster have greater/less then or equal a given AMOUNT (VALUE) of RIFTPROGRESS in PERCENT
+
+*SelectedMonster_RiftProgress
+- Is TRUE if the selected monster has greater/less then or equal a given AMOUNT (VALUE) of RIFTPROGRESS in PERCENT

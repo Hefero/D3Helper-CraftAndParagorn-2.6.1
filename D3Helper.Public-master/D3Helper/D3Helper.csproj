@@ -1,0 +1,1085 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{070A821F-4207-47C7-9D10-4CE8080597E0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>D3Helper</RootNamespace>
+    <AssemblyName>D3Helper</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\GuilhermeMarques\Documents\Prototypes\Publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>d3_helper_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject>D3Helper.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="InputSimulator">
+      <HintPath>.\InputSimulator.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="protobuf-net, Version=2.0.0.668, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <HintPath>..\packages\protobuf-net.2.0.0.668\lib\net40\protobuf-net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SlimDX">
+      <HintPath>..\packages\SlimDX.4.0.13.44\lib\NET40\SlimDX.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="A_Collection\Presets.cs" />
+    <Compile Include="A_Collection\SkillCastConditions.cs" />
+    <Compile Include="A_Collector\IC_Party.cs" />
+    <Compile Include="A_Enums\ActionBarSlot.cs" />
+    <Compile Include="A_Enums\BonusPoints.cs" />
+    <Compile Include="A_Enums\ConditionType.cs" />
+    <Compile Include="A_Enums\ConditionValueName.cs" />
+    <Compile Include="A_Enums\DamageType.cs" />
+    <Compile Include="A_Collection\D3Client.cs" />
+    <Compile Include="A_Collection\D3UI.cs" />
+    <Compile Include="A_Collection\Environment.cs" />
+    <Compile Include="A_Collection\Hotkeys.cs" />
+    <Compile Include="A_Collection\Me.cs" />
+    <Compile Include="A_Collection\Preferences.cs" />
+    <Compile Include="A_Collection\Skills.cs" />
+    <Compile Include="A_Collection\Stats.cs" />
+    <Compile Include="A_Collector\H_ExternalFiles.cs" />
+    <Compile Include="A_Collector\IC_Preferences.cs" />
+    <Compile Include="A_Collector\IC_Skills.cs" />
+    <Compile Include="A_Collector\IC_Actors.cs" />
+    <Compile Include="A_Collector\H_D3Client.cs" />
+    <Compile Include="A_Collector\IC_Area.cs" />
+    <Compile Include="A_Collector\IC_D3UI.cs" />
+    <Compile Include="A_Collector\IC_Player.cs" />
+    <Compile Include="A_Collector\H_Keyboard.cs" />
+    <Compile Include="A_Enums\ExceptionThread.cs" />
+    <Compile Include="A_Enums\HeroClass.cs" />
+    <Compile Include="A_Enums\ParagonXPTable.cs" />
+    <Compile Include="A_Enums\Powers.cs" />
+    <Compile Include="A_Enums\UIElements.cs" />
+    <Compile Include="A_Handler\AutoCube\Tools.cs" />
+    <Compile Include="A_Handler\AutoCube\ConvertMaterial.cs" />
+    <Compile Include="A_Handler\AutoCube\RosBotUpgradeKadala.cs" />
+    <Compile Include="A_Handler\AutoCube\UpgradeRare.cs" />
+    <Compile Include="A_Handler\AutoGamble\AutoGamble.cs" />
+    <Compile Include="A_Handler\AutoPick\AutoPick.cs" />
+    <Compile Include="A_Handler\EventHandler\EventHandler.cs" />
+    <Compile Include="A_Handler\HealthPotion\HealthPotion.cs" />
+    <Compile Include="A_Handler\Log\Exception.cs" />
+    <Compile Include="A_Handler\ParagonPointSpender\ParagonPointSpender.cs" />
+    <Compile Include="A_Handler\SkillHandler\Aggregator_CastConditions.cs" />
+    <Compile Include="A_Handler\SkillHandler\SkillHandler.cs" />
+    <Compile Include="A_Handler\StatHandler\StatHandler.cs" />
+    <Compile Include="A_Initialize\Th_Handler.cs" />
+    <Compile Include="A_Initialize\Th_ICollector.cs" />
+    <Compile Include="A_TCPClient\TCPClient.cs" />
+    <Compile Include="A_Tools\Buffs\Buffs.cs" />
+    <Compile Include="A_Tools\InputSimulator\IS_Keyboard.cs" />
+    <Compile Include="A_Tools\InputSimulator\IS_Mouse.cs" />
+    <Compile Include="A_Tools\Skills\Skills.cs" />
+    <Compile Include="A_Tools\T_ACD.cs" />
+    <Compile Include="A_Tools\T_D3Client.cs" />
+    <Compile Include="A_Tools\T_D3UI.cs" />
+    <Compile Include="A_Tools\T_ExternalFile.cs" />
+    <Compile Include="A_Tools\T_LevelArea.cs" />
+    <Compile Include="A_Tools\T_LocalPlayer.cs" />
+    <Compile Include="A_Tools\T_SimpleCast.cs" />
+    <Compile Include="A_Tools\T_World.cs" />
+    <Compile Include="A_Tools\Version\AppVersion.cs" />
+    <Compile Include="A_Enums\ItemTypes.cs" />
+    <Compile Include="EnigmaAdapter.cs" />
+    <Compile Include="Window_ActivePowerView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_ActivePowerView.Designer.cs">
+      <DependentUpon>Window_ActivePowerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window_ImportExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_ImportExport.Designer.cs">
+      <DependentUpon>Window_ImportExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window_Outdated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_Outdated.Designer.cs">
+      <DependentUpon>Window_Outdated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window_SkillEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_SkillEditor.designer.cs">
+      <DependentUpon>Window_SkillEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window_Changelog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_Changelog.Designer.cs">
+      <DependentUpon>Window_Changelog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window_Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_Settings.Designer.cs">
+      <DependentUpon>Window_Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_Main.Designer.cs">
+      <DependentUpon>Window_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A_WPFOverlay\Overlay.xaml.cs">
+      <DependentUpon>Overlay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Window_Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window_Info.Designer.cs">
+      <DependentUpon>Window_Info.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Window_ImportExport.resx">
+      <DependentUpon>Window_ImportExport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_Outdated.resx">
+      <DependentUpon>Window_Outdated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_SkillEditor.resx">
+      <DependentUpon>Window_SkillEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_Changelog.resx">
+      <DependentUpon>Window_Changelog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_Main.resx">
+      <DependentUpon>Window_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_Settings.resx">
+      <DependentUpon>Window_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Window_Info.resx">
+      <DependentUpon>Window_Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window_ActivePowerView.resx">
+      <DependentUpon>Window_ActivePowerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EXL_____.TTF" />
+    <None Include="D3Helper_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\actorintownbuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barbarian_bash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barbarian_battlerage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barbarian_calloftheancients.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barbarian_cleave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barbarian_earthquake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barbarian_frenzy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barbarian_furiouscharge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barbarian_groundstomp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barbarian_hammeroftheancients.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barbarian_ignorepain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barbarian_leap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barbarian_overpower.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barbarian_rend.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barbarian_revenge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barbarian_seismicslam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barbarian_sprint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barbarian_threateningshout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barbarian_whirlwind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\barbarian_wrathoftheberserker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\BuffFrame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\debuffblind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\debuffchilled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\debufffeared.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\DebuffFrame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\debuffrooted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\debuffslowed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\debuffstunned.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_bolas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_caltrops.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_chakram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_clusterarrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_elementalarrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_fanofknives.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_grenades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_hungeringarrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_impale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_markedfordeath.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_multishot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_passive_steadyaim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_passive_tacticaladvantage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_preparation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_rainofvengeance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_rapidfire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_sentry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_shadowpower.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_smokescreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_spiketrap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_strafe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\demonhunter_vault.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\dotdebuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\inventory_materials.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\levelarea.csv" />
+    <Resource Include="Resources\monk_blindingflash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\monk_breathofheaven.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\monk_cripplingwave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\monk_cyclonestrike.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\monk_deadlyreach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\monk_explodingpalm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\monk_fistsofthunder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\monk_lashingtailkick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\monk_passive_combinationstrike.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\monk_passive_guidinglight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\monk_serenity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\monk_sevensidedstrike.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\monk_sweepingwind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\monk_tempestrush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\monk_waveoflight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\monk_wayofthehundredfists.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\monsteraffix_plaguedcast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\pages_buff_damage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\pages_buff_electrified.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\pages_buff_electrified_tieredrift.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\pages_buff_infinite_casting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\pages_buff_invulnerable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\pages_buff_run_speed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\scoundrel_anatomy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\scoundrel_hysteria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\shrine_desecrated_blessed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\shrine_desecrated_enlightened.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\shrine_desecrated_fortune.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\shrine_desecrated_frenzied.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\shrine_desecrated_hoarder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\shrine_desecrated_reloaded.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_acidcloud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_bigbadvoodoo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_corpsespider.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_fetisharmy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_firebats.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_firebomb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_gargantuan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_graspofthedead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_haunt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_hex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_horrify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_locust_swarm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_massconfusion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_plagueoftoads.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_poisondart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_sacrifice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_soulharvest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_spiritbarrage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_spiritwalk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_summonzombiedog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_wallofzombies.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\witchdoctor_zombiecharger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_arcaneorb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_arcanetorrent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_archon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_archon_arcaneblast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_archon_arcanestrike.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_archon_disintegrationwave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_archon_slowtime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_archon_teleport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_blizzard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_diamondskin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_disintegrate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_electrocute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_energyarmor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_energytwister.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_explosiveblast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_familiar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_frostnova.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_hydra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_icearmor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_magicmissile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_magicweapon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_meteor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_mirrorimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_rayoffrost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_shockpulse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_slowtime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_spectralblade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_stormarmor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_teleport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wizard_waveofforce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_barbarian_ancientspear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_barbarian_avalanche_v2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_barbarian_warcry_v2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_barbarian_weaponthrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_akaratschampion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_blessedshield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_bombardment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_condemn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_consecration.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_fallingsword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_fistoftheheavens.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_heavensfury3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_ironskin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_judgment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_justice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_lawsoffate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_lawsofhope2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_lawsofjustice2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_lawsofvalor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_phalanx3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_provoke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_punish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_shieldbash2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_shieldglare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_slash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_smite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_steedcharge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_crusader_sweepattack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_demonhunter_companion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_demonhunter_entanglingshot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_demonhunter_evasivefire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_demonhunter_vengeance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_monk_dashingstrike.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_monk_epiphany.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_monk_innersanctuary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_monk_mantraofconviction_v2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_monk_mantraofevasion_v2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_monk_mantraofhealing_v2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_monk_mantraofretribution_v2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_monk_mystically_v2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_wizard_passive_unwaveringwill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\x1_wizard_wormhole.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="d3_helper_icon.ico" />
+    <Content Include="OverlaySettings.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\necro\necro_skeletalmage.png" />
+    <None Include="Resources\necro\necro_siphonblood.png" />
+    <None Include="Resources\necro\necro_simulacrum.png" />
+    <None Include="Resources\necro\necro_revive.png" />
+    <None Include="Resources\necro\necro_leech.png" />
+    <None Include="Resources\necro\necro_landofthedead.png" />
+    <None Include="Resources\necro\necro_grimscythe.png" />
+    <None Include="Resources\necro\necro_frailty.png" />
+    <None Include="Resources\necro\necro_devour.png" />
+    <None Include="Resources\necro\necro_decrepify.png" />
+    <None Include="Resources\necro\necro_deathnova.png" />
+    <None Include="Resources\necro\necro_corpselance.png" />
+    <None Include="Resources\necro\necro_corpseexplosion.png" />
+    <None Include="Resources\necro\necro_commandskeletons.png" />
+    <None Include="Resources\necro\necro_commandgolem.png" />
+    <None Include="Resources\necro\necro_bonespirit.png" />
+    <None Include="Resources\necro\necro_bonespikes.png" />
+    <None Include="Resources\necro\necro_bonespear.png" />
+    <None Include="Resources\necro\necro_bonearmor.png" />
+    <None Include="Resources\necro\necro_bloodrush.png" />
+    <None Include="Resources\necro\necro_armyofthedead.png" />
+    <None Include="Resources\BattleNetAuctionHouse_MenuTitleBar.png" />
+    <Resource Include="Resources\menu_iconsettings.png" />
+    <Resource Include="Resources\menu0.png" />
+    <None Include="Resources\demonhunter_cloakofshadows1.png" />
+    <None Include="Resources\common_superiorskill.png" />
+    <None Include="Resources\common_intimidatio.png" />
+    <None Include="Resources\common_unbreakablewill.png" />
+    <None Include="Resources\common_toughness.png" />
+    <None Include="Resources\common_cruelty.png" />
+    <None Include="Resources\common_weakspot.png" />
+    <None Include="Resources\witchdoctor_junglefortitude.png" />
+    <None Include="Resources\witchdoctor_graveinjustice.png" />
+    <None Include="Resources\witchdoctor_fetishleader.png" />
+    <None Include="Resources\witchdoctor_ferocity.png" />
+    <None Include="Resources\witchdoctor_deathpact.png" />
+    <None Include="Resources\witchdoctor_creepingdeath.png" />
+    <None Include="Resources\witchdoctor_careofthemaster.png" />
+    <None Include="Resources\witchdoctor_bloodrites.png" />
+    <None Include="Resources\witchdoctor_badmedicine.png" />
+    <None Include="Resources\monk_untouchable.png" />
+    <None Include="Resources\monk_thunderousblows.png" />
+    <None Include="Resources\monk_strengthofspirit.png" />
+    <None Include="Resources\monk_strengthinadversity.png" />
+    <None Include="Resources\monk_sixthsense.png" />
+    <None Include="Resources\monk_selflesshealer.png" />
+    <None Include="Resources\monk_resonance.png" />
+    <None Include="Resources\monk_nirvana.png" />
+    <None Include="Resources\monk_neardeathexperience.png" />
+    <None Include="Resources\monk_mythicrhythm.png" />
+    <None Include="Resources\monk_momentum.png" />
+    <None Include="Resources\monk_harmony.png" />
+    <None Include="Resources\monk_frenziedattacks.png" />
+    <None Include="Resources\monk_fleet.png" />
+    <None Include="Resources\monk_flawlesstechnique.png" />
+    <None Include="Resources\monk_exaltedsoul.png" />
+    <None Include="Resources\monk_determinatio.png" />
+    <None Include="Resources\monk_counterattack.png" />
+    <None Include="Resources\monk_combinationstrikes.png" />
+    <None Include="Resources\monk_assault.png" />
+    <None Include="Resources\icon_witchdoctor_sycophant.png" />
+    <None Include="Resources\demonhunter_yearsoftraini.png" />
+    <None Include="Resources\demonhunter_vengeance.png" />
+    <None Include="Resources\demonhunter_tacticaladvantage.png" />
+    <None Include="Resources\demonhunter_singleout.png" />
+    <None Include="Resources\demonhunter_sharpshooter.png" />
+    <None Include="Resources\demonhunter_resourcefulness.png" />
+    <None Include="Resources\demonhunter_rapidreload.png" />
+    <None Include="Resources\demonhunter_opportunity.png" />
+    <None Include="Resources\demonhunter_numbingtraps.png" />
+    <None Include="Resources\demonhunter_marksma.png" />
+    <None Include="Resources\demonhunter_leech.png" />
+    <None Include="Resources\demonhunter_killingspree.png" />
+    <None Include="Resources\demonhunter_hotpursuit.png" />
+    <None Include="Resources\demonhunter_focuseddiscipline.png" />
+    <None Include="Resources\demonhunter_cloakofshadows.png" />
+    <None Include="Resources\demonhunter_ballistics.png" />
+    <None Include="Resources\demonhunter_backtobasics.png" />
+    <None Include="Resources\demonhunter_awareness.png" />
+    <None Include="Resources\demonhunter_archery.png" />
+    <None Include="Resources\demonhunter_ambush.png" />
+    <None Include="Resources\crusader_wrathful.png" />
+    <None Include="Resources\crusader_vigilant.png" />
+    <None Include="Resources\crusader_toweringshield.png" />
+    <None Include="Resources\crusader_renewal.png" />
+    <None Include="Resources\crusader_nephalemmajesty.png" />
+    <None Include="Resources\crusader_lordcommander.png" />
+    <None Include="Resources\crusader_longarmofthelaw.png" />
+    <None Include="Resources\crusader_ironmaide.png" />
+    <None Include="Resources\crusader_insurmountable.png" />
+    <None Include="Resources\crusader_indestructible.png" />
+    <None Include="Resources\crusader_holycause.png" />
+    <None Include="Resources\crusader_holdyourground.png" />
+    <None Include="Resources\crusader_heavenlystrength.png" />
+    <None Include="Resources\crusader_finery.png" />
+    <None Include="Resources\crusader_fervor.png" />
+    <None Include="Resources\crusader_fanaticism.png" />
+    <None Include="Resources\crusader_divinefortress.png" />
+    <None Include="Resources\crusader_blunt.png" />
+    <None Include="Resources\common_naturalleader.png" />
+    <None Include="Resources\common_lucky.png" />
+    <None Include="Resources\common_lightningreflexes.png" />
+    <None Include="Resources\common_legendarymight.png" />
+    <None Include="Resources\common_juststaydead.png" />
+    <None Include="Resources\common_demonbane.png" />
+    <None Include="Resources\common_beasthunter.png" />
+    <None Include="Resources\common_aggressio.png" />
+    <None Include="Resources\barbarian_warpaint.png" />
+    <None Include="Resources\barbarian_thunderousblows.png" />
+    <None Include="Resources\barbarian_swordandboard.png" />
+    <None Include="Resources\barbarian_superstitious.png" />
+    <None Include="Resources\barbarian_slaughter.png" />
+    <None Include="Resources\barbarian_shieldofiro.png" />
+    <None Include="Resources\barbarian_secondwind.png" />
+    <None Include="Resources\barbarian_rampage.png" />
+    <None Include="Resources\barbarian_poundofflesh.png" />
+    <None Include="Resources\barbarian_nervesofsteel.png" />
+    <None Include="Resources\barbarian_killingspree.png" />
+    <None Include="Resources\barbarian_ironski.png" />
+    <None Include="Resources\barbarian_insanecourage.png" />
+    <None Include="Resources\barbarian_innerrage.png" />
+    <None Include="Resources\barbarian_frenziedattacks.png" />
+    <None Include="Resources\barbarian_earthenmight.png" />
+    <None Include="Resources\barbarian_badtemper.png" />
+    <None Include="Resources\wizard_wandspecializatio.png" />
+    <None Include="Resources\wizard_unwaveringwill.png" />
+    <None Include="Resources\wizard_unstableenergy.png" />
+    <None Include="Resources\wizard_temporalshift.png" />
+    <None Include="Resources\wizard_temporalflux.png" />
+    <None Include="Resources\wizard_telekinesis.png" />
+    <None Include="Resources\wizard_quickeni.png" />
+    <None Include="Resources\wizard_piercingattacks.png" />
+    <None Include="Resources\wizard_paralysis.png" />
+    <None Include="Resources\wizard_lucky.png" />
+    <None Include="Resources\wizard_knowledgeispower.png" />
+    <None Include="Resources\wizard_glasscanno.png" />
+    <None Include="Resources\wizard_flightbeforefight.png" />
+    <None Include="Resources\wizard_expertdefense.png" />
+    <None Include="Resources\wizard_energyreserves.png" />
+    <None Include="Resources\wizard_empoweredarmor.png" />
+    <None Include="Resources\wizard_elementalexposure.png" />
+    <None Include="Resources\wizard_drainpower.png" />
+    <None Include="Resources\wizard_criticalmass.png" />
+    <None Include="Resources\wizard_conflagratio.png" />
+    <None Include="Resources\wizard_blur.png" />
+    <None Include="Resources\wizard_blackice.png" />
+    <None Include="Resources\wizard_audacity.png" />
+    <None Include="Resources\wizard_astralpresence.png" />
+    <None Include="Resources\wizard_arcaneaegis.png" />
+    <None Include="Resources\witchdoctor_zombiemaster.png" />
+    <None Include="Resources\witchdoctor_zombiedogspawner.png" />
+    <None Include="Resources\witchdoctor_spiritvessel.png" />
+    <None Include="Resources\witchdoctor_spiritualattunement.png" />
+    <None Include="Resources\witchdoctor_rituals.png" />
+    <None Include="Resources\witchdoctor_ritualofblood.png" />
+    <None Include="Resources\witchdoctor_plagued.png" />
+    <None Include="Resources\witchdoctor_physicalattunement.png" />
+    <None Include="Resources\witchdoctor_mindandbody.png" />
+    <None Include="Resources\witchdoctor_midnightfeast.png" />
+    <None Include="Resources\witchdoctor_meditatio.png" />
+    <None Include="Resources\witchdoctor_manaregeneratio.png" />
+    <None Include="Resources\witchdoctor_leaderofthepack.png" />
+    <None Include="Resources\Wizard_WandSpecialization.png" />
+    <None Include="Resources\Wizard_Quickening.png" />
+    <None Include="Resources\Wizard_GlassCannon.png" />
+    <None Include="Resources\Wizard_Conflagration.png" />
+    <None Include="Resources\Witchdoctor_Meditation.png" />
+    <None Include="Resources\Witchdoctor_ManaRegeneration.png" />
+    <None Include="Resources\Monk_Determination.png" />
+    <None Include="Resources\DemonHunter_YearsOfTraining.png" />
+    <None Include="Resources\DemonHunter_Marksman.png" />
+    <None Include="Resources\Crusader_IronMaiden.png" />
+    <None Include="Resources\Common_Intimidation.png" />
+    <None Include="Resources\Common_Aggression.png" />
+    <None Include="Resources\Barbarian_ShieldOfIron.png" />
+    <None Include="Resources\Barbarian_IronSkin.png" />
+    <None Include="Resources\conditiontype_manual.txt" />
+    <None Include="Resources\Crusader_BlessedHammer_Normal-2047437116.png" />
+    <Resource Include="Resources\Buff_Legendary_Ring_Poison_p2-3513867492.png" />
+    <Resource Include="Resources\Buff_Legendary_Ring_Physical_p2-928374825.png" />
+    <Resource Include="Resources\Buff_Legendary_Ring_Lightning_p2-569405584.png" />
+    <Resource Include="Resources\Buff_Legendary_Ring_Holy_p2-2639019912.png" />
+    <Resource Include="Resources\Buff_Legendary_Ring_Frost_p2-1541236666.png" />
+    <Resource Include="Resources\Buff_Legendary_Ring_Fire_p2-4122635698.png" />
+    <Resource Include="Resources\Buff_Legendary_Ring_Arcane_p2-3405442230.png" />
+    <Resource Include="Resources\Witchdoctor_Hex_Explode_Normal.png" />
+    <Resource Include="Resources\Witchdoctor_Hex_ChickenWalk_Normal.png" />
+    <Resource Include="Resources\matrix-app-icon.png" />
+    <Resource Include="Resources\Upload.png" />
+    <Resource Include="Resources\Download.png" />
+    <Resource Include="Resources\Item_HealthPotion_Console.png" />
+    <Resource Include="Resources\monster.txt" />
+    <Resource Include="Resources\Background_Monk_50_SplitLine_Wide.png" />
+    <Resource Include="Resources\Background_Monk_50_MainWindow.png" />
+    <Resource Include="Resources\Background_Monk_50_Settings.png" />
+    <Resource Include="Resources\Powers.txt" />
+    <Resource Include="Resources\report_icon.png" />
+    <Resource Include="Resources\_480px_Info_icon_002_svg.png" />
+    <Resource Include="Resources\sno_powers.txt" />
+    <Resource Include="Resources\power_stats.txt" />
+    <Resource Include="Resources\diablo_iii_wallpaper_monk_by_desess-d61frcb.jpg" />
+    <Resource Include="Resources\Background_Monk_50_SplitLine.png" />
+    <Resource Include="Resources\Background_Monk_50.png" />
+    <Resource Include="Resources\add.png" />
+    <Resource Include="Resources\120px-Crystal_128_trashcan_full.png" />
+    <Resource Include="Resources\4f696df9042ab.jpg" />
+    <Resource Include="Resources\0pvBq.png" />
+    <Resource Include="Resources\settings-icon-psd-hammer-and-wrench-53181.jpg" />
+    <Resource Include="Resources\report-icon.png" />
+    <Resource Include="Resources\pignon.png" />
+    <Resource Include="Resources\pic_3.png" />
+    <Resource Include="Resources\480px-Info_icon_002.svg.png" />
+    <Resource Include="Resources\witchdoctor_piranhas.png" />
+    <Resource Include="Resources\TraitList_Button_Inactive.png" />
+    <Resource Include="Resources\Inventory_ParagonBtn_Mouseover.png" />
+    <Resource Include="Resources\youtube.png" />
+    <Resource Include="Resources\paypal-donate-button11.png" />
+    <Resource Include="Resources\d3helper_hellokitty_theme.jpg" />
+    <Resource Include="Resources\vrpink.jpg" />
+    <Resource Include="Resources\vrblue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="A_WPFOverlay\Overlay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Enigma.D3\Enigma.D3.Core\Enigma.D3.Core.csproj">
+      <Project>{e01f9c34-f404-48dc-92e2-991da7adf9eb}</Project>
+      <Name>Enigma.D3.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Enigma.D3\Enigma.D3.Memory\Enigma.D3.Memory.csproj">
+      <Project>{23848103-7dc0-4ab0-958f-b8793ffd1f2d}</Project>
+      <Name>Enigma.D3.Memory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Enigma.D3\Enigma.Memory\Enigma.Memory.csproj">
+      <Project>{3a385f29-42e2-4caf-b1f2-2a1a7b90a971}</Project>
+      <Name>Enigma.Memory</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

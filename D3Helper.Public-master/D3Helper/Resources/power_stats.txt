@@ -1,0 +1,987 @@
+//sno	rune index	damage_type	weapdmg%	dotseconds	resourcecost	cooldown	power	rune
+0	0	0	-1	-1	-1	30	HealthPotion	No Rune
+79242	0	0	320	-1	-1	-1	Barbarian_Bash	No Rune
+79242	1	2	320	-1	-1	-1	Barbarian_Bash	Onslaught
+79242	2	0	320	-1	-1	-1	Barbarian_Bash	Punish
+79242	3	3	320	-1	-1	-1	Barbarian_Bash	Frostbite
+79242	4	1	320	-1	-1	-1	Barbarian_Bash	Instigation
+79242	5	1	320	-1	-1	-1	Barbarian_Bash	Pulverize
+79076	0	-1	-1	-1	20	-1	Barbarian_BattleRage	No Rune
+79076	1	-1	-1	-1	20	-1	Barbarian_BattleRage	Marauder's Rage
+79076	2	-1	-1	-1	20	-1	Barbarian_BattleRage	Ferocity
+79076	3	-1	-1	-1	20	-1	Barbarian_BattleRage	Swords to Ploughshares
+79076	4	-1	-1	-1	20	-1	Barbarian_BattleRage	Into the Fray
+79076	5	-1	-1	-1	20	-1	Barbarian_BattleRage	Bloodshed
+80049	0	0	270	-1	-1	120	Barbarian_CallOfTheAncients	No Rune
+80049	1	0	270	-1	-1	120	Barbarian_CallOfTheAncients	Ancients' Blessing
+80049	2	1	540	-1	-1	120	Barbarian_CallOfTheAncients	The Council Rises
+80049	3	0	270	-1	-1	120	Barbarian_CallOfTheAncients	Ancients' Fury
+80049	4	3	270	-1	-1	120	Barbarian_CallOfTheAncients	Duty to the Clan
+80049	5	2	270	-1	-1	120	Barbarian_CallOfTheAncients	Together as One
+80263	0	0	200	-1	-1	-1	Barbarian_Cleave	No Rune
+80263	1	2	235	-1	-1	-1	Barbarian_Cleave	Broad Sweep
+80263	2	3	200	-1	-1	-1	Barbarian_Cleave	Gathering Storm
+80263	3	0	200	-1	-1	-1	Barbarian_Cleave	Scattering Blast
+80263	4	1	200	-1	-1	-1	Barbarian_Cleave	Reaping Swing
+80263	5	1	200	-1	-1	-1	Barbarian_Cleave	Rupture
+98878	0	1	4200	8	50	60	Barbarian_Earthquake	No Rune
+98878	1	1	5100	8	50	60	Barbarian_Earthquake	Molten Fury
+98878	2	1	4200	8	50	60	Barbarian_Earthquake	Giant's Stride
+98878	3	3	4200	8	50	60	Barbarian_Earthquake	Chilling Earth
+98878	4	2	4200	8	-1	50	Barbarian_Earthquake	The Mountain's Call
+98878	5	0	4200	8	50	60	Barbarian_Earthquake	Cave-In
+78548	0	0	220	-1	-1	-1	Barbarian_Frenzy	No Rune
+78548	1	1	220	-1	-1	-1	Barbarian_Frenzy	Maniac
+78548	2	3	220	-1	-1	-1	Barbarian_Frenzy	Sidearm
+78548	3	0	220	-1	-1	-1	Barbarian_Frenzy	Vanguard
+78548	4	2	220	-1	-1	-1	Barbarian_Frenzy	Smite
+78548	5	3	220	-1	-1	-1	Barbarian_Frenzy	Berserk
+97435	0	0	600	-1	-1	-1	Barbarian_FuriousCharge	No Rune
+97435	1	1	1050	-1	-1	-1	Barbarian_FuriousCharge	Battering Ram
+97435	2	2	600	-1	-1	-1	Barbarian_FuriousCharge	Dreadnought
+97435	3	3	600	-1	-1	-1	Barbarian_FuriousCharge	Cold Rush
+97435	4	0	600	-1	-1	-1	Barbarian_FuriousCharge	Stamina
+97435	5	0	600	-1	-1	-1	Barbarian_FuriousCharge	Merciless Assault
+79446	0	-1	-1	-1	-1	12	Barbarian_GroundStomp	No Rune
+79446	1	1	575	4	-1	12	Barbarian_GroundStomp	Trembling Stomp
+79446	2	-1	-1	-1	-1	12	Barbarian_GroundStomp	Wrenching Smash
+79446	3	-1	-1	-1	-1	12	Barbarian_GroundStomp	Jarring Slam
+79446	4	-1	-1	-1	-1	12	Barbarian_GroundStomp	Foot of the Mountain
+79446	5	-1	-1	-1	-1	12	Barbarian_GroundStomp	Deafening Crash
+80028	0	0	535	-1	20	-1	Barbarian_HammerOfTheAncients	No Rune
+80028	1	1	640	-1	20	-1	Barbarian_HammerOfTheAncients	Smash
+80028	2	0	505	-1	20	-1	Barbarian_HammerOfTheAncients	Rolling Thunder
+80028	3	3	535	-1	20	-1	Barbarian_HammerOfTheAncients	The Devil's Anvil
+80028	4	0	535	-1	20	-1	Barbarian_HammerOfTheAncients	Birthright
+80028	5	2	535	-1	20	-1	Barbarian_HammerOfTheAncients	Thunderstrike
+79528	0	-1	-1	-1	-1	30	Barbarian_IgnorePain	No Rune
+79528	1	-1	-1	-1	-1	30	Barbarian_IgnorePain	Contempt for Weakness
+79528	2	-1	-1	-1	-1	30	Barbarian_IgnorePain	Iron Hide
+79528	3	-1	-1	-1	-1	30	Barbarian_IgnorePain	Mob Rule
+79528	4	-1	-1	-1	-1	30	Barbarian_IgnorePain	Bravado
+79528	5	-1	-1	-1	-1	30	Barbarian_IgnorePain	Ignorance is Bliss
+93409	0	0	180	-1	-1	10	Barbarian_Leap	No Rune
+93409	1	0	180	-1	-1	10	Barbarian_Leap	Call of Arreat
+93409	2	0	450	-1	-1	10	Barbarian_Leap	Toppling Impact
+93409	3	0	180	-1	-1	10	Barbarian_Leap	Launch
+93409	4	0	180	-1	-1	10	Barbarian_Leap	Iron Impact
+93409	5	0	180	-1	-1	10	Barbarian_Leap	Death from Above
+159169	0	0	380	-1	-1	12	Barbarian_Overpower	No Rune
+159169	1	2	380	-1	-1	12	Barbarian_Overpower	Killing Spree
+159169	2	0	380	-1	-1	12	Barbarian_Overpower	Storm of Steel
+159169	3	1	760	-1	-1	12	Barbarian_Overpower	Revel
+159169	4	0	380	-1	-1	12	Barbarian_Overpower	Momentum
+159169	5	3	380	-1	-1	12	Barbarian_Overpower	Crushing Advance
+70472	0	0	1100	5	20	-1	Barbarian_Rend	No Rune
+70472	1	2	1350	5	20	-1	Barbarian_Rend	Lacerate
+70472	2	1	1100	5	20	-1	Barbarian_Rend	Ravage
+70472	3	3	1100	5	20	-1	Barbarian_Rend	Mutilate
+70472	4	0	1100	5	20	-1	Barbarian_Rend	Blood Lust
+70472	5	0	1100	5	20	-1	Barbarian_Rend	Bloodbath
+109342	0	0	300	-1	-1	-1	Barbarian_Revenge	No Rune
+109342	1	1	700	-1	-1	-1	Barbarian_Revenge	Retribution
+109342	2	0	300	-1	-1	-1	Barbarian_Revenge	Provocation
+109342	3	2	300	-1	-1	-1	Barbarian_Revenge	Grudge
+109342	4	0	300	-1	-1	-1	Barbarian_Revenge	Blood Law
+109342	5	3	300	-1	-1	-1	Barbarian_Revenge	Best Served Cold
+86989	0	0	620	-1	30	-1	Barbarian_SeismicSlam	No Rune
+86989	1	1	735	-1	30	-1	Barbarian_SeismicSlam	Shattered Ground
+86989	2	0	550	-1	30	-1	Barbarian_SeismicSlam	Rumble
+86989	3	2	550	-1	30	-1	Barbarian_SeismicSlam	Stagger
+86989	4	0	550	-1	30	-1	Barbarian_SeismicSlam	Strength from Earth
+86989	5	3	750	-1	30	-1	Barbarian_SeismicSlam	Permafrost
+78551	0	-1	-1	-1	20	-1	Barbarian_Sprint	No Rune
+78551	1	-1	-1	-1	20	-1	Barbarian_Sprint	Marathon
+78551	2	-1	-1	-1	20	-1	Barbarian_Sprint	Rush
+78551	3	0	60	3	20	-1	Barbarian_Sprint	Run Like the Wind
+78551	4	-1	-1	-1	20	-1	Barbarian_Sprint	Forced March
+78551	5	0	25	-1	20	-1	Barbarian_Sprint	Gangway
+79077	0	-1	-1	-1	-1	10	Barbarian_ThreateningShout	No Rune
+79077	1	-1	-1	-1	-1	10	Barbarian_ThreateningShout	Demoralize
+79077	2	-1	-1	-1	-1	10	Barbarian_ThreateningShout	Intimidate
+79077	3	-1	-1	-1	-1	10	Barbarian_ThreateningShout	Grim Harvest
+79077	4	-1	-1	-1	-1	10	Barbarian_ThreateningShout	Falter
+79077	5	-1	-1	-1	-1	10	Barbarian_ThreateningShout	Terrify
+96296	0	0	340	-1	10	-1	Barbarian_Whirlwind	No Rune
+96296	1	1	325	-1	10	-1	Barbarian_Whirlwind	Volcanic Eruption
+96296	2	0	340	-1	10	-1	Barbarian_Whirlwind	Dust Devils
+96296	3	3	340	-1	10	-1	Barbarian_Whirlwind	Hurricane
+96296	4	2	340	-1	10	-1	Barbarian_Whirlwind	Wind Shear
+96296	5	0	340	-1	10	-1	Barbarian_Whirlwind	Blood Funnel
+79607	0	-1	-1	-1	-1	120	Barbarian_WrathOfTheBerserker	No Rune
+79607	1	-1	-1	-1	-1	120	Barbarian_WrathOfTheBerserker	Insanity
+79607	2	1	3400	-1	-1	120	Barbarian_WrathOfTheBerserker	Arreat's Wail
+79607	3	-1	-1	-1	-1	120	Barbarian_WrathOfTheBerserker	Striding Giant
+79607	4	-1	-1	-1	-1	120	Barbarian_WrathOfTheBerserker	Thrive on Chaos
+79607	5	-1	-1	-1	-1	120	Barbarian_WrathOfTheBerserker	Slaughter
+377453	0	0	500	-1	25	-1	Barbarian_AncientSpear	No Rune
+377453	1	0	500	-1	25	-1	Barbarian_AncientSpear	Harpoon
+377453	2	0	500	-1	25	-1	Barbarian_AncientSpear	Boulder Toss
+377453	3	1	640	-1	25	-1	Barbarian_AncientSpear	Jagged Edge
+377453	4	0	500	-1	25	-1	Barbarian_AncientSpear	Ranseur
+377453	5	0	500	-1	25	-1	Barbarian_AncientSpear	Rage Flip
+353447	0	0	1600	-1	-1	30	Barbarian_Avalanche_v2	No Rune
+353447	1	3	1600	-1	-1	30	Barbarian_Avalanche_v2	Glacier
+353447	2	3	1800	-1	-1	30	Barbarian_Avalanche_v2	Snow-Capped Mountain
+353447	3	1	4400	5	-1	30	Barbarian_Avalanche_v2	Volcano
+353447	4	0	1600	-1	-1	30	Barbarian_Avalanche_v2	Lahar
+353447	5	0	1600	-1	-1	30	Barbarian_Avalanche_v2	Tectonic Rift
+375483	0	-1	-1	-1	-1	20	Barbarian_WarCry_v2	No Rune
+375483	1	-1	-1	-1	-1	20	Barbarian_WarCry_v2	Hardened Wrath
+375483	2	-1	-1	-1	-1	20	Barbarian_WarCry_v2	Veteran's Warning
+375483	3	-1	-1	-1	-1	20	Barbarian_WarCry_v2	Impunity
+375483	4	-1	-1	-1	-1	20	Barbarian_WarCry_v2	Charge!
+375483	5	-1	-1	-1	-1	20	Barbarian_WarCry_v2	Invigorate
+377452	0	0	185	-1	-1	-1	Barbarian_WeaponThrow	No Rune
+377452	1	2	270	-1	-1	-1	Barbarian_WeaponThrow	Mighty Throw
+377452	2	1	185	-1	-1	-1	Barbarian_WeaponThrow	Ricochet
+377452	3	0	185	-1	-1	-1	Barbarian_WeaponThrow	Throwing Hammer
+377452	4	1	185	-1	-1	-1	Barbarian_WeaponThrow	Balanced Weapon
+377452	5	0	185	-1	-1	-1	Barbarian_WeaponThrow	Stupefy
+269032	0	-1	-1	-1	-1	90	Crusader_AkaratsChampion	No Rune
+269032	1	1	100	-1	-1	90	Crusader_AkaratsChampion	Fire Starter
+269032	2	-1	-1	-1	-1	90	Crusader_AkaratsChampion	Embodiment of Power
+269032	3	-1	-1	-1	-1	90	Crusader_AkaratsChampion	Rally
+269032	4	-1	-1	-1	-1	90	Crusader_AkaratsChampion	Prophet
+269032	5	-1	-1	-1	-1	90	Crusader_AkaratsChampion	Hasteful
+266766	0	6	320	-1	10	-1	Crusader_BlessedHammer	No Rune
+266766	1	1	320	-1	10	-1	Crusader_BlessedHammer	Burning Wrath
+266766	2	2	320	-1	10	-1	Crusader_BlessedHammer	Thunderstruck
+266766	3	6	320	-1	10	-1	Crusader_BlessedHammer	Limitless
+266766	4	3	460	-1	10	-1	Crusader_BlessedHammer	Icebound Hammer
+266766	5	6	320	-1	10	-1	Crusader_BlessedHammer	Dominion
+266951	0	6	430	-1	20	-1	Crusader_BlessedShield	No Rune
+266951	1	2	430	-1	20	-1	Crusader_BlessedShield	Staggering Shield
+266951	2	1	430	-1	20	-1	Crusader_BlessedShield	Combust
+266951	3	0	430	-1	20	-1	Crusader_BlessedShield	Divine Aegis
+266951	4	6	430	-1	20	-1	Crusader_BlessedShield	Shattering Throw
+266951	5	6	430	-1	20	-1	Crusader_BlessedShield	Piercing Shield
+284876	0	0	570	-1	-1	60	Crusader_Bombardment	No Rune
+284876	1	0	570	-1	-1	60	Crusader_Bombardment	Barrels of Tar
+284876	2	1	570	-1	-1	60	Crusader_Bombardment	Annihilate
+284876	3	1	570	-1	-1	60	Crusader_Bombardment	Mine Field
+284876	4	0	3320	-1	-1	60	Crusader_Bombardment	Impactful Bombardment
+284876	5	6	570	-1	-1	60	Crusader_Bombardment	Targeted
+266627	0	6	1160	-1	-1	15	Crusader_Condemn	No Rune
+266627	1	1	1160	-1	-1	15	Crusader_Condemn	Reciprocate
+266627	2	6	1160	-1	-1	15	Crusader_Condemn	Vacuum
+266627	3	6	1160	-1	-1	15	Crusader_Condemn	Eternal Retaliation
+266627	4	0	1160	-1	-1	15	Crusader_Condemn	Shattering Explosion
+266627	5	6	1160	-1	-1	15	Crusader_Condemn	Unleashed
+273941	0	-1	-1	-1	-1	30	Crusader_Consecration	No Rune
+273941	1	-1	-1	-1	-1	30	Crusader_Consecration	Aegis Purgatory
+273941	2	-1	-1	-1	-1	30	Crusader_Consecration	Bed of Nails
+273941	3	-1	-1	-1	-1	30	Crusader_Consecration	Bathed in Light
+273941	4	1	155	10	-1	30	Crusader_Consecration	Shattered Ground
+273941	5	-1	-1	-1	-1	30	Crusader_Consecration	Fearful
+239137	0	0	1700	-1	25	30	Crusader_FallingSword	No Rune
+239137	1	1	1700	-1	25	30	Crusader_FallingSword	Superheated
+239137	2	2	1700	-1	25	30	Crusader_FallingSword	Part the Clouds
+239137	3	0	1700	-1	25	30	Crusader_FallingSword	Rise Brothers
+239137	4	2	1700	-1	25	30	Crusader_FallingSword	Rapid Descent
+239137	5	6	1700	-1	25	30	Crusader_FallingSword	Flurry
+239218	0	2	545	-1	30	-1	Crusader_FistOfTheHeavens	No Rune
+239218	1	1	545	-1	30	-1	Crusader_FistOfTheHeavens	Heaven's Tempest
+239218	2	2	545	-1	30	-1	Crusader_FistOfTheHeavens	Reverberation
+239218	3	2	545	-1	30	-1	Crusader_FistOfTheHeavens	Fissure
+239218	4	6	545	-1	30	-1	Crusader_FistOfTheHeavens	Divine Well
+239218	5	6	270	-1	30	-1	Crusader_FistOfTheHeavens	Retribution
+316014	0	6	1710	6	-1	20	Crusader_HeavensFury3	No Rune
+316014	1	6	2766	6	-1	20	Crusader_HeavensFury3	Ascendancy
+316014	2	6	1710	6	-1	20	Crusader_HeavensFury3	Blessed Ground
+316014	3	6	1980	6	-1	20	Crusader_HeavensFury3	Split Fury
+316014	4	2	1710	6	-1	20	Crusader_HeavensFury3	Thou Shalt Not Pass
+316014	5	6	960	-1	-1	20	Crusader_HeavensFury3	Fires of Heaven
+291804	0	-1	-1	-1	-1	30	Crusader_IronSkin	No Rune
+291804	1	-1	-1	-1	-1	30	Crusader_IronSkin	Charged Up
+291804	2	-1	-1	-1	-1	30	Crusader_IronSkin	Steel Skin
+291804	3	0	1050	-1	-1	30	Crusader_IronSkin	Explosive Skin
+291804	4	0	200	-1	-1	30	Crusader_IronSkin	Reflective Skin
+291804	5	-1	-1	-1	-1	30	Crusader_IronSkin	Flash
+267600	0	-1	-1	-1	-1	20	Crusader_Judgment	No Rune
+267600	1	-1	-1	-1	-1	20	Crusader_Judgment	Penitence
+267600	2	-1	-1	-1	-1	20	Crusader_Judgment	Mass Verdict
+267600	3	-1	-1	-1	-1	20	Crusader_Judgment	Deliberation
+267600	4	-1	-1	-1	-1	20	Crusader_Judgment	Resolved
+267600	5	0	100	-1	-1	20	Crusader_Judgment	Conversion
+325216	0	6	245	-1	-1	-1	Crusader_Justice	No Rune
+325216	1	0	245	-1	-1	-1	Crusader_Justice	Sword of Justice
+325216	2	6	245	-1	-1	-1	Crusader_Justice	Crack
+325216	3	0	335	-1	-1	-1	Crusader_Justice	Hammer of Pursuit
+325216	4	2	245	-1	-1	-1	Crusader_Justice	Burst
+325216	5	6	245	-1	-1	-1	Crusader_Justice	Holy Bolt
+342279	0	-1	-1	-1	-1	30	Crusader_LawsOfHope2	No Rune
+342279	1	-1	-1	-1	-1	30	Crusader_LawsOfHope2	Wings of Angels
+342279	2	-1	-1	-1	-1	30	Crusader_LawsOfHope2	Eternal Hope
+342279	3	-1	-1	-1	-1	30	Crusader_LawsOfHope2	Hopeful Cry
+342279	4	-1	-1	-1	-1	30	Crusader_LawsOfHope2	Faith's Reward
+342279	5	-1	-1	-1	-1	30	Crusader_LawsOfHope2	Promise of Faith
+342280	0	-1	-1	-1	-1	30	Crusader_LawsOfJustice2	No Rune
+342280	1	-1	-1	-1	-1	30	Crusader_LawsOfJustice2	Protect the Innocent
+342280	2	-1	-1	-1	-1	30	Crusader_LawsOfJustice2	Immovable Object
+342280	3	-1	-1	-1	-1	30	Crusader_LawsOfJustice2	Faith's Armor
+342280	4	-1	-1	-1	-1	30	Crusader_LawsOfJustice2	Decaying Strength
+342280	5	-1	-1	-1	-1	30	Crusader_LawsOfJustice2	Bravery
+342281	0	-1	-1	-1	-1	30	Crusader_LawsOfValor2	No Rune
+342281	1	-1	-1	-1	-1	30	Crusader_LawsOfValor2	Invincible
+342281	2	-1	-1	-1	-1	30	Crusader_LawsOfValor2	Frozen in Terror
+342281	3	-1	-1	-1	-1	30	Crusader_LawsOfValor2	Critical
+342281	4	-1	-1	-1	-1	30	Crusader_LawsOfValor2	Unstoppable Force
+342281	5	-1	-1	-1	-1	30	Crusader_LawsOfValor2	Answered Prayer
+330729	0	0	490	-1	30	-1	Crusader_Phalanx3	No Rune
+330729	1	0	185	-1	-1	15	Crusader_Phalanx3	Bowmen
+330729	2	0	490	-1	30	-1	Crusader_Phalanx3	Shield Charge
+330729	3	0	490	-1	30	-1	Crusader_Phalanx3	Stampede
+330729	4	0	490	-1	30	-1	Crusader_Phalanx3	Shield Bearers
+330729	5	0	490	-1	30	-1	Crusader_Phalanx3	Bodyguard
+290545	0	-1	-1	-1	-1	20	Crusader_Provoke	No Rune
+290545	1	-1	-1	-1	-1	20	Crusader_Provoke	Cleanse
+290545	2	-1	-1	-1	-1	20	Crusader_Provoke	Flee Fool
+290545	3	-1	-1	-1	-1	20	Crusader_Provoke	Too Scared to Run
+290545	4	-1	-1	-1	-1	20	Crusader_Provoke	Charged Up
+290545	5	-1	-1	-1	-1	20	Crusader_Provoke	Hit Me
+285903	0	0	335	-1	-1	-1	Crusader_Punish	No Rune
+285903	1	6	335	-1	-1	-1	Crusader_Punish	Retaliate
+285903	2	0	335	-1	-1	-1	Crusader_Punish	Celerity
+285903	3	0	335	-1	-1	-1	Crusader_Punish	Rebirth
+285903	4	1	335	-1	-1	-1	Crusader_Punish	Roar
+285903	5	2	335	-1	-1	-1	Crusader_Punish	Fury
+353492	0	6	370	-1	30	-1	Crusader_ShieldBash2	No Rune
+353492	1	1	700	-1	30	-1	Crusader_ShieldBash2	Crumble
+353492	2	6	370	-1	30	-1	Crusader_ShieldBash2	Shattered Shield
+353492	3	0	370	-1	30	-1	Crusader_ShieldBash2	Shield Cross
+353492	4	0	1320	-1	30	-1	Crusader_ShieldBash2	Pound
+353492	5	2	370	-1	30	-1	Crusader_ShieldBash2	One on One
+268530	0	-1	-1	-1	-1	12	Crusader_ShieldGlare	No Rune
+268530	1	-1	-1	-1	-1	12	Crusader_ShieldGlare	Divine Verdict
+268530	2	-1	-1	-1	-1	12	Crusader_ShieldGlare	Uncertainty
+268530	3	0	-1	-1	-1	12	Crusader_ShieldGlare	Emblazoned Shield
+268530	4	-1	-1	-1	-1	12	Crusader_ShieldGlare	Zealous Glare
+268530	5	-1	-1	-1	-1	12	Crusader_ShieldGlare	Subdue
+289243	0	1	230	-1	-1	-1	Crusader_Slash	No Rune
+289243	1	6	230	-1	-1	-1	Crusader_Slash	Zeal
+289243	2	2	230	-1	-1	-1	Crusader_Slash	Electrify
+289243	3	1	230	-1	-1	-1	Crusader_Slash	Crush
+289243	4	1	230	-1	-1	-1	Crusader_Slash	Carve
+289243	5	1	230	-1	-1	-1	Crusader_Slash	Guard
+286510	0	6	175	-1	-1	-1	Crusader_Smite	No Rune
+286510	1	2	175	-1	-1	-1	Crusader_Smite	Shared Fate
+286510	2	6	175	-1	-1	-1	Crusader_Smite	Shackle
+286510	3	6	175	-1	-1	-1	Crusader_Smite	Shatter
+286510	4	6	175	-1	-1	-1	Crusader_Smite	Reaping
+286510	5	6	175	-1	-1	-1	Crusader_Smite	Surge
+243853	0	-1	-1	-1	-1	16	Crusader_SteedCharge	No Rune
+243853	1	0	515	-1	-1	16	Crusader_SteedCharge	Spiked Barding
+243853	2	-1	-1	-1	-1	16	Crusader_SteedCharge	Endurance
+243853	3	-1	-1	-1	-1	16	Crusader_SteedCharge	Rejuvenation
+243853	4	1	550	-1	-1	16	Crusader_SteedCharge	Nightmare
+243853	5	6	185	-1	-1	16	Crusader_SteedCharge	Draw and Quarter
+239042	0	0	480	-1	20	-1	Crusader_SweepAttack	No Rune
+239042	1	6	480	-1	20	-1	Crusader_SweepAttack	Gathering Sweep
+239042	2	1	480	-1	20	-1	Crusader_SweepAttack	Blazing Sweep
+239042	3	0	480	-1	20	-1	Crusader_SweepAttack	Holy Shock
+239042	4	2	480	-1	20	-1	Crusader_SweepAttack	Trip Attack
+239042	5	3	480	-1	20	-1	Crusader_SweepAttack	Frozen Sweep
+77552	0	1	160	-1	-1	-1	DemonHunter_Bolas	No Rune
+77552	1	1	160	-1	-1	-1	DemonHunter_Bolas	Volatile Explosives
+77552	2	3	160	-1	-1	-1	DemonHunter_Bolas	Freezing Strike
+77552	3	2	160	-1	-1	-1	DemonHunter_Bolas	Thunder Ball
+77552	4	2	160	-1	-1	-1	DemonHunter_Bolas	Bitter Pill
+77552	5	1	216	-1	-1	-1	DemonHunter_Bolas	Imminent Doom
+129216	0	-1	-1	-1	-6	-1	DemonHunter_Caltrops	No Rune
+129216	1	0	270	6	-6	-1	DemonHunter_Caltrops	Jagged Spikes
+129216	2	-1	-1	-1	-6	-1	DemonHunter_Caltrops	Hooked Spines
+129216	3	-1	-1	-1	-6	-1	DemonHunter_Caltrops	Torturous Ground
+129216	4	-1	-1	-1	-6	-1	DemonHunter_Caltrops	Carved Stakes
+129216	5	-1	-1	-1	-6	-1	DemonHunter_Caltrops	Bait the Trap
+129213	0	0	380	-1	10	-1	DemonHunter_Chakram	No Rune
+129213	1	1	220	-1	10	-1	DemonHunter_Chakram	Twin Chakrams
+129213	2	2	400	-1	10	-1	DemonHunter_Chakram	Boomerang
+129213	3	3	500	-1	10	-1	DemonHunter_Chakram	Serpentine
+129213	4	0	380	-1	10	-1	DemonHunter_Chakram	Razor Disk
+129213	5	0	200	-1	10	-1	DemonHunter_Chakram	Shuriken Cloud
+129214	0	1	550	-1	40	-1	DemonHunter_ClusterArrow	No Rune
+129214	1	1	770	-1	40	-1	DemonHunter_ClusterArrow	Loaded for Bear
+129214	2	0	600	-1	40	-1	DemonHunter_ClusterArrow	Shooting Stars
+129214	3	1	525	-1	40	-1	DemonHunter_ClusterArrow	Cluster Bombs
+129214	4	3	450	-1	40	-1	DemonHunter_ClusterArrow	Maelstrom
+129214	5	2	550	-1	40	-1	DemonHunter_ClusterArrow	Dazzling Arrow
+131325	0	1	330	-1	10	-1	DemonHunter_ElementalArrow	No Rune
+131325	1	3	330	-1	10	-1	DemonHunter_ElementalArrow	Frost Arrow
+131325	2	2	300	-1	10	-1	DemonHunter_ElementalArrow	Ball Lightning
+131325	3	1	300	-1	10	-1	DemonHunter_ElementalArrow	Immolation Arrow
+131325	4	0	300	-1	10	-1	DemonHunter_ElementalArrow	Nether Tentacles
+131325	5	2	300	-1	10	-1	DemonHunter_ElementalArrow	Lightning Bolts
+77546	0	0	620	-1	-1	10	DemonHunter_FanOfKnives	No Rune
+77546	1	0	620	-1	30	10	DemonHunter_FanOfKnives	Knives Expert
+77546	2	0	620	-1	-1	10	DemonHunter_FanOfKnives	Assassin's Knives
+77546	3	1	620	-1	-1	10	DemonHunter_FanOfKnives	Fan of Daggers
+77546	4	2	1600	-1	-1	10	DemonHunter_FanOfKnives	Pinpoint Accuracy
+77546	5	3	620	-1	-1	10	DemonHunter_FanOfKnives	Bladed Armor
+86610	0	1	160	-1	-1	-1	DemonHunter_Grenades	No Rune
+86610	1	3	160	-1	-1	-1	DemonHunter_Grenades	Cold Grenade
+86610	2	1	200	-1	-1	-1	DemonHunter_Grenades	Cluster Grenades
+86610	3	1	160	-1	-1	-1	DemonHunter_Grenades	Grenade Cache
+86610	4	1	160	-1	-1	-1	DemonHunter_Grenades	Tinkerer
+86610	5	2	160	-1	-1	-1	DemonHunter_Grenades	Stun Grenade
+129215	0	0	155	-1	-1	-1	DemonHunter_HungeringArrow	No Rune
+129215	1	1	155	-1	-1	-1	DemonHunter_HungeringArrow	Serrated Arrow
+129215	2	2	155	-1	-1	-1	DemonHunter_HungeringArrow	Shatter Shot
+129215	3	3	155	-1	-1	-1	DemonHunter_HungeringArrow	Devouring Arrow
+129215	4	0	155	-1	-1	-1	DemonHunter_HungeringArrow	Puncturing Arrow
+129215	5	0	155	-1	-1	-1	DemonHunter_HungeringArrow	Spray of Teeth
+131366	0	0	750	-1	20	-1	DemonHunter_Impale	No Rune
+131366	1	3	750	-1	20	-1	DemonHunter_Impale	Overpenetration
+131366	2	0	750	-1	20	-1	DemonHunter_Impale	Impact
+131366	3	1	750	-1	20	-1	DemonHunter_Impale	Chemical Burn
+131366	4	2	750	-1	20	-1	DemonHunter_Impale	Ricochet
+131366	5	0	750	-1	20	-1	DemonHunter_Impale	Grievous Wounds
+130738	0	-1	-1	-1	-3	-1	DemonHunter_MarkedForDeath	No Rune
+130738	1	-1	-1	-1	-3	-1	DemonHunter_MarkedForDeath	Grim Reaper
+130738	2	-1	-1	-1	-3	-1	DemonHunter_MarkedForDeath	Contagion
+130738	3	-1	-1	-1	-3	-1	DemonHunter_MarkedForDeath	Valley of Death
+130738	4	-1	-1	-1	-3	-1	DemonHunter_MarkedForDeath	Mortal Enemy
+130738	5	-1	-1	-1	-3	-1	DemonHunter_MarkedForDeath	Death Toll
+77649	0	0	360	-1	25	-1	DemonHunter_Multishot	No Rune
+77649	1	0	460	-1	25	-1	DemonHunter_Multishot	Full Broadside
+77649	2	3	200	-1	25	-1	DemonHunter_Multishot	Burst Fire
+77649	3	1	360	-1	25	-1	DemonHunter_Multishot	Arsenal
+77649	4	2	360	-1	18	-1	DemonHunter_Multishot	Fire at Will
+77649	5	0	360	-1	25	-1	DemonHunter_Multishot	Suppression Fire
+129212	0	0	-1	-1	-1	45	DemonHunter_Preparation	No Rune
+129212	1	0	-1	-1	-25	45	DemonHunter_Preparation	Punishment
+129212	2	0	-1	-1	-1	45	DemonHunter_Preparation	Invigoration
+129212	3	0	-1	-1	-1	45	DemonHunter_Preparation	Focused Mind
+129212	4	0	-1	-1	-1	45	DemonHunter_Preparation	Battle Scars
+129212	5	0	-1	-1	-1	45	DemonHunter_Preparation	Backup Plan
+130831	0	0	1500	5	-1	30	DemonHunter_RainOfVengeance	No Rune
+130831	1	2	2800	5	-1	30	DemonHunter_RainOfVengeance	Shade
+130831	2	0	3500	8	-1	30	DemonHunter_RainOfVengeance	Dark Cloud
+130831	3	1	5800	2	-1	30	DemonHunter_RainOfVengeance	Anathema
+130831	4	3	3800	4	-1	30	DemonHunter_RainOfVengeance	Flying Strike
+130831	5	1	4600	3	-1	30	DemonHunter_RainOfVengeance	Stampede
+131192	0	0	685	-1	20	-1	DemonHunter_RapidFire	No Rune
+131192	1	1	545	-1	20	-1	DemonHunter_RapidFire	Bombardment
+131192	2	2	685	-1	20	-1	DemonHunter_RapidFire	High Velocity
+131192	3	0	685	-1	20	-1	DemonHunter_RapidFire	Fire Support
+131192	4	1	685	-1	10	-1	DemonHunter_RapidFire	Withering Fire
+131192	5	3	685	-1	20	-1	DemonHunter_RapidFire	Frost Shots
+129217	0	0	280	-1	20	-1	DemonHunter_Sentry	No Rune
+129217	1	0	240	-1	20	-1	DemonHunter_Sentry	Chain of Torment
+129217	2	2	300	-1	20	-1	DemonHunter_Sentry	Impaling Bolt
+129217	3	1	280	-1	20	-1	DemonHunter_Sentry	Spitfire Turret
+129217	4	3	280	-1	20	-1	DemonHunter_Sentry	Polar Station
+129217	5	0	280	-1	20	-1	DemonHunter_Sentry	Guardian Turret
+130830	0	-1	-1	-1	-14	-1	DemonHunter_ShadowPower	No Rune
+130830	1	-1	-1	-1	-14	-1	DemonHunter_ShadowPower	Night Bane
+130830	2	-1	-1	-1	-14	-1	DemonHunter_ShadowPower	Shadow Glide
+130830	3	-1	-1	-1	-14	-1	DemonHunter_ShadowPower	Gloom
+130830	4	-1	-1	-1	-1	-1	DemonHunter_ShadowPower	Well of Darkness
+130830	5	-1	-1	-1	-14	-1	DemonHunter_ShadowPower	Blood Moon
+130695	0	-1	-1	-1	-14	1	DemonHunter_SmokeScreen	No Rune
+130695	1	4	700	-1	-1	1	DemonHunter_SmokeScreen	Vanishing Powder
+130695	2	-1	-1	-1	-14	1	DemonHunter_SmokeScreen	Lingering Fog
+130695	3	-1	-1	-1	-14	1	DemonHunter_SmokeScreen	Healing Vapors
+130695	4	-1	-1	-1	-1	1	DemonHunter_SmokeScreen	Special Recipe
+130695	5	-1	-1	-1	-14	1	DemonHunter_SmokeScreen	Displacement
+75301	0	1	340	-1	30	-1	DemonHunter_SpikeTrap	No Rune
+75301	1	1	930	-1	30	-1	DemonHunter_SpikeTrap	Long Fuse
+75301	2	3	575	-1	30	-1	DemonHunter_SpikeTrap	Echoing Blast
+75301	3	1	915	-1	30	-1	DemonHunter_SpikeTrap	Sticky Trap
+75301	4	1	180	-1	30	-1	DemonHunter_SpikeTrap	Scatter
+75301	5	2	500	-1	30	-1	DemonHunter_SpikeTrap	Lightning Rod
+134030	0	0	675	-1	12	-1	DemonHunter_Strafe	No Rune
+134030	1	1	460	-1	12	-1	DemonHunter_Strafe	Demolition
+134030	2	3	675	-1	12	-1	DemonHunter_Strafe	Icy Trail
+134030	3	1	675	-1	12	-1	DemonHunter_Strafe	Rocket Storm
+134030	4	2	675	-1	12	-1	DemonHunter_Strafe	Drifting Shadow
+134030	5	0	675	-1	12	-1	DemonHunter_Strafe	Stinging Steel
+111215	0	-1	-1	-1	-8	-1	DemonHunter_Vault	No Rune
+111215	1	1	300	3	-8	-1	DemonHunter_Vault	Trail of Cinders
+111215	2	-1	-1	-1	-1	-1	DemonHunter_Vault	Acrobatics
+111215	3	0	75	-1	-8	-1	DemonHunter_Vault	Action Shot
+111215	4	-1	-1	-1	-8	-1	DemonHunter_Vault	Tumble
+111215	5	-1	-1	-1	-8	-1	DemonHunter_Vault	Rattling Roll
+365311	0	0	500	-1	-1	30	DemonHunter_Companion	No Rune
+365311	1	0	100	-1	-1	30	DemonHunter_Companion	Spider Companion
+365311	2	0	100	-1	-1	30	DemonHunter_Companion	Boar Companion
+365311	3	0	100	-1	-1	30	DemonHunter_Companion	Wolf Companion
+365311	4	0	100	-1	-1	30	DemonHunter_Companion	Bat Companion
+365311	5	0	100	-1	-1	30	DemonHunter_Companion	Ferret Companion
+361936	0	0	200	-1	-1	-1	DemonHunter_EntanglingShot	No Rune
+361936	1	3	200	-1	-1	-1	DemonHunter_EntanglingShot	Heavy Burden
+361936	2	0	200	-1	-1	-1	DemonHunter_EntanglingShot	Chain Gang
+361936	3	2	200	-1	-1	-1	DemonHunter_EntanglingShot	Shock Collar
+361936	4	1	200	-1	-1	-1	DemonHunter_EntanglingShot	Justice is Served
+361936	5	0	200	-1	-1	-1	DemonHunter_EntanglingShot	Bounty Hunter
+377450	0	0	200	-1	-1	-1	DemonHunter_EvasiveFire	No Rune
+377450	1	0	200	-1	-1	-1	DemonHunter_EvasiveFire	Hardened
+377450	2	1	200	-1	-1	-1	DemonHunter_EvasiveFire	Covering Fire
+377450	3	0	200	-1	-1	-1	DemonHunter_EvasiveFire	Parting Gift
+377450	4	2	200	-1	-1	-1	DemonHunter_EvasiveFire	Surge
+377450	5	3	200	-1	-1	-1	DemonHunter_EvasiveFire	Focus
+302846	0	0	60	-1	-1	90	DemonHunter_Vengeance	No Rune
+302846	1	3	120	-1	-1	90	DemonHunter_Vengeance	From the Shadows
+302846	2	2	325	-1	-1	90	DemonHunter_Vengeance	Dark Heart
+302846	3	1	150	-1	-1	90	DemonHunter_Vengeance	Personal Mortar
+302846	4	0	225	-1	-1	90	DemonHunter_Vengeance	Side Cannons
+302846	5	0	60	-1	-1	90	DemonHunter_Vengeance	Seethe
+136954	0	-1	-1	-1	-1	15	Monk_BlindingFlash	No Rune
+136954	1	-1	-1	-1	-1	15	Monk_BlindingFlash	Faith in the Light
+136954	2	-1	-1	-1	-1	15	Monk_BlindingFlash	Replenishing Light
+136954	3	-1	-1	-1	-1	15	Monk_BlindingFlash	Mystifying Light
+136954	4	-1	-1	-1	-1	15	Monk_BlindingFlash	Self Reflection
+136954	5	-1	-1	-1	-1	15	Monk_BlindingFlash	Crippling Light
+69130	0	-1	-1	-1	-1	15	Monk_BreathOfHeaven	No Rune
+69130	1	6	505	-1	-1	15	Monk_BreathOfHeaven	Circle of Scorn
+69130	2	-1	-1	-1	-1	15	Monk_BreathOfHeaven	Circle of Life
+69130	3	-1	-1	-1	-1	15	Monk_BreathOfHeaven	Blazing Wrath
+69130	4	-1	-1	-1	-1	15	Monk_BreathOfHeaven	Infused with Light
+69130	5	-1	-1	-1	-1	15	Monk_BreathOfHeaven	Zephyr
+96311	0	0	155	-1	-1	-1	Monk_CripplingWave	No Rune
+96311	1	1	255	-1	-1	-1	Monk_CripplingWave	Mangle
+96311	2	3	155	-1	-1	-1	Monk_CripplingWave	Tsunami
+96311	3	0	155	-1	-1	-1	Monk_CripplingWave	Concussion
+96311	4	6	155	-1	-1	-1	Monk_CripplingWave	Rising Tide
+96311	5	0	155	-1	-1	-1	Monk_CripplingWave	Breaking Wave
+223473	0	6	261	-1	50	-1	Monk_CycloneStrike	No Rune
+223473	1	1	454	-1	50	-1	Monk_CycloneStrike	Sunburst
+223473	2	6	261	-1	50	-1	Monk_CycloneStrike	Implosion
+223473	3	6	261	-1	50	-1	Monk_CycloneStrike	Soothing Breeze
+223473	4	2	261	-1	26	-1	Monk_CycloneStrike	Eye of the Storm
+223473	5	3	261	-1	50	-1	Monk_CycloneStrike	Wall of Wind
+96019	0	0	150	-1	-1	-1	Monk_DeadlyReach	No Rune
+96019	1	0	150	-1	-1	-1	Monk_DeadlyReach	Foresight
+96019	2	0	150	-1	-1	-1	Monk_DeadlyReach	Piercing Trident
+96019	3	2	150	-1	-1	-1	Monk_DeadlyReach	Scattered Blows
+96019	4	3	150	-1	-1	-1	Monk_DeadlyReach	Strike from Beyond
+96019	5	1	260	-1	-1	-1	Monk_DeadlyReach	Searing Grasp
+97328	0	0	1200	9	40	-1	Monk_ExplodingPalm	No Rune
+97328	1	2	2149	12	40	-1	Monk_ExplodingPalm	Shocking Grasp
+97328	2	3	6305	0	40	-1	Monk_ExplodingPalm	Impending Doom
+97328	3	0	1200	9	40	-1	Monk_ExplodingPalm	The Flesh is Weak
+97328	4	6	1200	9	40	-1	Monk_ExplodingPalm	Strong Spirit
+97328	5	1	1875	9	40	-1	Monk_ExplodingPalm	Essence Burn
+95940	0	2	200	-1	-1	-1	Monk_FistsofThunder	No Rune
+95940	1	2	200	-1	-1	-1	Monk_FistsofThunder	Thunderclap
+95940	2	6	240	-1	-1	-1	Monk_FistsofThunder	Bounding Light
+95940	3	2	200	-1	-1	-1	Monk_FistsofThunder	Static Charge
+95940	4	0	200	-1	-1	-1	Monk_FistsofThunder	Quickening
+95940	5	3	200	-1	-1	-1	Monk_FistsofThunder	Wind Blast
+111676	0	0	755	-1	50	-1	Monk_LashingTailKick	No Rune
+111676	1	1	755	-1	50	-1	Monk_LashingTailKick	Vulture Claw Kick
+111676	2	1	755	-1	50	-1	Monk_LashingTailKick	Spinning Flame Kick
+111676	3	3	755	-1	50	-1	Monk_LashingTailKick	Hand of Ytar
+111676	4	0	825	-1	50	-1	Monk_LashingTailKick	Sweeping Armada
+111676	5	2	755	-1	50	-1	Monk_LashingTailKick	Scorpion Sting
+96215	0	-1	-1	-1	-1	16	Monk_Serenity	No Rune
+96215	1	-1	-1	-1	-1	16	Monk_Serenity	Peaceful Repose
+96215	2	-1	-1	-1	-1	16	Monk_Serenity	Instant Karma
+96215	3	-1	-1	-1	-1	16	Monk_Serenity	Ascension
+96215	4	-1	-1	-1	-1	16	Monk_Serenity	Tranquility
+96215	5	0	438	-1	-1	16	Monk_Serenity	Unwelcome Disturbance
+96694	0	0	5677	-1	50	30	Monk_SevenSidedStrike	No Rune
+96694	1	2	6477	-1	50	30	Monk_SevenSidedStrike	Sudden Assault
+96694	2	1	5677	-1	50	30	Monk_SevenSidedStrike	Incinerate
+96694	3	3	5677	-1	50	30	Monk_SevenSidedStrike	Pandemonium
+96694	4	0	5677	-1	50	30	Monk_SevenSidedStrike	Sustained Attack
+96694	5	6	977	-1	50	30	Monk_SevenSidedStrike	Fulminating Onslaught
+96090	0	0	105	-1	75	-1	Monk_SweepingWind	No Rune
+96090	1	0	145	-1	75	-1	Monk_SweepingWind	Blade Storm
+96090	2	1	105	-1	75	-1	Monk_SweepingWind	Fire Storm
+96090	3	2	105	-1	75	-1	Monk_SweepingWind	Cyclone
+96090	4	6	105	-1	75	-1	Monk_SweepingWind	Inner Storm
+96090	5	3	30	-1	75	-1	Monk_SweepingWind	Master of Wind
+121442	0	0	390	-1	30	-1	Monk_TempestRush	No Rune
+121442	1	1	390	-1	30	-1	Monk_TempestRush	Bluster
+121442	2	0	390	-1	30	-1	Monk_TempestRush	Tailwind
+121442	3	2	390	-1	30	-1	Monk_TempestRush	Electric Field
+121442	4	6	500	-1	25	-1	Monk_TempestRush	Northern Breeze
+121442	5	3	390	-1	30	-1	Monk_TempestRush	Flurry
+96033	0	6	835	-1	75	-1	Monk_WaveOfLight	No Rune
+96033	1	0	870	-1	75	-1	Monk_WaveOfLight	Wall of Light
+96033	2	1	830	-1	75	-1	Monk_WaveOfLight	Explosive Light
+96033	3	2	498	-1	75	-1	Monk_WaveOfLight	Pillar of the Ancients
+96033	4	6	1045	-1	40	-1	Monk_WaveOfLight	Empowered Wave
+96033	5	3	820	-1	75	-1	Monk_WaveOfLight	Shattering Light
+97110	0	0	190	-1	-1	-1	Monk_WayOfTheHundredFists	No Rune
+97110	1	6	190	-1	-1	-1	Monk_WayOfTheHundredFists	Fists of Fury
+97110	2	2	423	-1	-1	-1	Monk_WayOfTheHundredFists	Hands of Lightning
+97110	3	1	190	-1	-1	-1	Monk_WayOfTheHundredFists	Blazing Fists
+97110	4	0	190	-1	-1	-1	Monk_WayOfTheHundredFists	Assimilation
+97110	5	3	500	-1	-1	-1	Monk_WayOfTheHundredFists	Windforce Flurry
+312736	0	0	370	-1	-1	-1	Monk_DashingStrike	No Rune
+312736	1	0	975	-1	-1	-1	Monk_DashingStrike	Barrage
+312736	2	6	370	-1	-1	-1	Monk_DashingStrike	Way of the Falling Star
+312736	3	3	370	-1	-1	-1	Monk_DashingStrike	Blinding Speed
+312736	4	2	370	-1	-1	-1	Monk_DashingStrike	Quicksilver
+312736	5	1	370	-1	-1	-1	Monk_DashingStrike	Radiance
+312307	0	-1	-1	-1	-1	60	Monk_Epiphany	No Rune
+312307	1	-1	-1	-1	-1	60	Monk_Epiphany	Desert Shroud
+312307	2	-1	-1	-1	-1	60	Monk_Epiphany	Soothing Mist
+312307	3	-1	-1	-1	-1	60	Monk_Epiphany	Insight
+312307	4	1	353	-1	-1	60	Monk_Epiphany	Inner Fire
+312307	5	-1	-1	-1	-1	60	Monk_Epiphany	Ascendance
+317076	0	-1	-1	-1	-1	20	Monk_InnerSanctuary	No Rune
+317076	1	-1	-1	-1	-1	20	Monk_InnerSanctuary	Intervene
+317076	2	-1	-1	-1	-1	20	Monk_InnerSanctuary	Sanctified Ground
+317076	3	-1	-1	-1	-1	20	Monk_InnerSanctuary	Temple of Protection
+317076	4	-1	-1	-1	-1	20	Monk_InnerSanctuary	Safe Haven
+317076	5	-1	-1	-1	-1	20	Monk_InnerSanctuary	Forbidden Palace
+375088	0	0	-1	-1	50	-1	Monk_MantraOfConviction_v2	No Rune
+375088	1	0	-1	-1	50	-1	Monk_MantraOfConviction_v2	Overawe
+375088	2	6	38	-1	50	-1	Monk_MantraOfConviction_v2	Submission
+375088	3	0	-1	-1	50	-1	Monk_MantraOfConviction_v2	Dishearten
+375088	4	0	-1	-1	50	-1	Monk_MantraOfConviction_v2	Annihilation
+375088	5	0	-1	-1	50	-1	Monk_MantraOfConviction_v2	Intimidation
+375049	0	0	-1	-1	50	-1	Monk_MantraOfEvasion_v2	No Rune
+375049	1	-1	35	-1	50	-1	Monk_MantraOfEvasion_v2	Agility
+375049	2	0	-1	-1	50	-1	Monk_MantraOfEvasion_v2	Perseverance
+375049	3	0	-1	-1	50	-1	Monk_MantraOfEvasion_v2	Hard Target
+375049	4	0	-1	-1	50	-1	Monk_MantraOfEvasion_v2	Wind through the Reeds
+375049	5	0	-1	-1	50	-1	Monk_MantraOfEvasion_v2	Divine Protection
+373143	0	-1	-1	-1	50	-1	Monk_MantraOfHealing_v2	No Rune
+373143	1	-1	-1	-1	50	-1	Monk_MantraOfHealing_v2	Sustenance
+373143	2	-1	-1	-1	50	-1	Monk_MantraOfHealing_v2	Boon of Inspiration
+373143	3	-1	-1	-1	50	-1	Monk_MantraOfHealing_v2	Heavenly Body
+373143	4	-1	-1	-1	50	-1	Monk_MantraOfHealing_v2	Circular Breathing
+373143	5	-1	-1	-1	50	-1	Monk_MantraOfHealing_v2	Time of Need
+375082	0	6	202	-1	50	-1	Monk_MantraOfRetribution_v2	No Rune
+375082	1	1	202	-1	50	-1	Monk_MantraOfRetribution_v2	Retaliation
+375082	2	6	202	-1	50	-1	Monk_MantraOfRetribution_v2	Transgression
+375082	3	6	202	-1	50	-1	Monk_MantraOfRetribution_v2	Indignation
+375082	4	6	202	-1	50	-1	Monk_MantraOfRetribution_v2	Against All Odds
+375082	5	6	202	-1	50	-1	Monk_MantraOfRetribution_v2	Collateral Damage
+362102	0	0	130	-1	-1	30	Monk_MysticAlly_v2	No Rune
+362102	1	1	290	-1	-1	30	Monk_MysticAlly_v2	Fire Ally
+362102	2	3	625	-1	-1	30	Monk_MysticAlly_v2	Water Ally
+362102	3	0	380	-1	-1	30	Monk_MysticAlly_v2	Earth Ally
+362102	4	0	130	-1	-1	30	Monk_MysticAlly_v2	Air Ally
+362102	5	0	130	-1	-1	30	Monk_MysticAlly_v2	Enduring Ally
+70455	0	4	300	-1	175	-1	Witchdoctor_AcidCloud	No Rune
+70455	1	1	700	-1	175	-1	Witchdoctor_AcidCloud	Corpse Bomb
+70455	2	4	300	-1	175	-1	Witchdoctor_AcidCloud	Acid Rain
+70455	3	4	600	-1	175	-1	Witchdoctor_AcidCloud	Lob Blob Bomb
+70455	4	3	720	-1	175	-1	Witchdoctor_AcidCloud	Slow Burn
+70455	5	4	330	-1	175	-1	Witchdoctor_AcidCloud	Kiss of Death
+117402	0	-1	-1	-1	-1	120	Witchdoctor_BigBadVoodoo	No Rune
+117402	1	-1	-1	-1	-1	120	Witchdoctor_BigBadVoodoo	Slam Dance
+117402	2	-1	-1	-1	-1	120	Witchdoctor_BigBadVoodoo	Jungle Drums
+117402	3	-1	-1	-1	-1	120	Witchdoctor_BigBadVoodoo	Ghost Trance
+117402	4	-1	-1	-1	-1	120	Witchdoctor_BigBadVoodoo	Rain Dance
+117402	5	-1	-1	-1	-1	120	Witchdoctor_BigBadVoodoo	Boogie Man
+69866	0	0	576	-1	-1	-1	Witchdoctor_CorpseSpider	No Rune
+69866	1	1	700	-1	-1	-1	Witchdoctor_CorpseSpider	Blazing Spiders
+69866	2	4	2625	-1	-1	-1	Witchdoctor_CorpseSpider	Spider Queen
+69866	3	4	646	-1	-1	-1	Witchdoctor_CorpseSpider	Leaping Spiders
+69866	4	0	700	-1	-1	-1	Witchdoctor_CorpseSpider	Widowmakers
+69866	5	3	576	-1	-1	-1	Witchdoctor_CorpseSpider	Medusa Spiders
+72785	0	0	180	-1	-1	120	Witchdoctor_FetishArmy	No Rune
+72785	1	3	680	-1	-1	120	Witchdoctor_FetishArmy	Fetish Ambush
+72785	2	0	180	-1	-1	120	Witchdoctor_FetishArmy	Legion of Daggers
+72785	3	1	180	-1	-1	120	Witchdoctor_FetishArmy	Tiki Torchers
+72785	4	0	180	-1	-1	120	Witchdoctor_FetishArmy	Devoted Following
+72785	5	4	180	-1	-1	120	Witchdoctor_FetishArmy	Head Hunters
+105963	0	1	475	-1	75	-1	Witchdoctor_Firebats	No Rune
+105963	1	1	495	-1	75	-1	Witchdoctor_Firebats	Dire Bats
+105963	2	1	750	-1	75	-1	Witchdoctor_Firebats	Hungry Bats
+105963	3	4	720	-1	75	-1	Witchdoctor_Firebats	Plague Bats
+105963	4	0	475	-1	-1	-1	Witchdoctor_Firebats	Vampire Bats
+105963	5	1	475	-1	75	-1	Witchdoctor_Firebats	Cloud of Bats
+67567	0	1	155	-1	-1	-1	Witchdoctor_Firebomb	No Rune
+67567	1	3	155	-1	-1	-1	Witchdoctor_Firebomb	Ghost Bomb
+67567	2	1	155	-1	-1	-1	Witchdoctor_Firebomb	Roll the Bones
+67567	3	1	155	-1	-1	-1	Witchdoctor_Firebomb	Fire Pit
+67567	4	1	880	-1	-1	-1	Witchdoctor_Firebomb	Pyrogeist
+67567	5	1	155	-1	-1	-1	Witchdoctor_Firebomb	Flash Fire
+30624	0	0	100	-1	-1	60	Witchdoctor_Gargantuan	No Rune
+30624	1	0	200	-1	-1	60	Witchdoctor_Gargantuan	Restless Giant
+30624	2	3	130	-1	-1	60	Witchdoctor_Gargantuan	Humongoid
+30624	3	4	100	-1	-1	60	Witchdoctor_Gargantuan	Big Stinker
+30624	4	1	575	-1	-1	60	Witchdoctor_Gargantuan	Wrathful Protector
+30624	5	1	200	-1	-1	60	Witchdoctor_Gargantuan	Bruiser
+69182	0	0	760	8	150	8	Witchdoctor_GraspOfTheDead	No Rune
+69182	1	0	1360	8	150	8	Witchdoctor_GraspOfTheDead	Groping Eels
+69182	2	0	420	8	150	8	Witchdoctor_GraspOfTheDead	Rain of Corpses
+69182	3	4	760	8	-1	8	Witchdoctor_GraspOfTheDead	Unbreakable Grasp
+69182	4	4	760	8	150	8	Witchdoctor_GraspOfTheDead	Desperate Grasp
+69182	5	4	760	8	150	8	Witchdoctor_GraspOfTheDead	Death Is Life
+83602	0	3	4000	12	50	-1	Witchdoctor_Haunt	No Rune
+83602	1	1	4000	12	50	-1	Witchdoctor_Haunt	Consuming Spirit
+83602	2	3	4000	12	50	-1	Witchdoctor_Haunt	Lingering Spirit
+83602	3	4	4000	12	50	-1	Witchdoctor_Haunt	Poisoned Spirit
+83602	4	3	4000	12	50	-1	Witchdoctor_Haunt	Draining Spirit
+83602	5	3	4000	12	50	-1	Witchdoctor_Haunt	Resentful Spirits
+30631	0	-1	-1	-1	-1	15	Witchdoctor_Hex	No Rune
+30631	1	0	580	-1	-1	15	Witchdoctor_Hex	Toad of Hugeness
+30631	2	4	1350	-1	-1	15	Witchdoctor_Hex	Angry Chicken
+30631	3	4	500	-1	-1	15	Witchdoctor_Hex	Unstable Form
+30631	4	3	-1	-1	-1	15	Witchdoctor_Hex	Hedge Magic
+30631	5	4	-1	-1	-1	15	Witchdoctor_Hex	Jinx
+188442	0	0	-1	-1	-1	-1	Witchdoctor_Hex_Explode	No Rune
+196974	0	0	-1	-1	-1	-1	Witchdoctor_Hex_ChickenWalk	No Rune
+67668	0	-1	-1	-1	-1	12	Witchdoctor_Horrify	No Rune
+67668	1	-1	-1	-1	-1	12	Witchdoctor_Horrify	Frightening Aspect
+67668	2	-1	-1	-1	-1	12	Witchdoctor_Horrify	Face of Death
+67668	3	-1	-1	-1	-1	12	Witchdoctor_Horrify	Phobia
+67668	4	-1	-1	-1	-1	12	Witchdoctor_Horrify	Ruthless Terror
+67668	5	-1	-1	-1	-1	12	Witchdoctor_Horrify	Stalker
+69867	0	4	1040	8	300	-1	Witchdoctor_Locust_Swarm	No Rune
+69867	1	1	1480	8	300	-1	Witchdoctor_Locust_Swarm	Searing Locusts
+69867	2	4	1040	8	300	-1	Witchdoctor_Locust_Swarm	Pestilence
+69867	3	0	2080	16	300	-1	Witchdoctor_Locust_Swarm	Cloud of Insects
+69867	4	3	1040	8	300	-1	Witchdoctor_Locust_Swarm	Devouring Swarm
+69867	5	4	1040	8	300	-1	Witchdoctor_Locust_Swarm	Diseased Swarm
+67600	0	-1	-1	-1	-1	60	Witchdoctor_MassConfusion	No Rune
+67600	1	-1	-1	-1	-1	60	Witchdoctor_MassConfusion	Paranoia
+67600	2	-1	-1	-1	-1	60	Witchdoctor_MassConfusion	Mass Hysteria
+67600	3	0	400	-1	-1	60	Witchdoctor_MassConfusion	Mass Hallucination
+67600	4	-1	-1	-1	-1	60	Witchdoctor_MassConfusion	Unstable Realm
+67600	5	-1	-1	-1	-1	60	Witchdoctor_MassConfusion	Devolution
+347265	0	4	400	8	250	8	Witchdoctor_Piranhas	No Rune
+347265	1	0	1100	8	250	8	Witchdoctor_Piranhas	Bogadile
+347265	2	4	400	8	250	8	Witchdoctor_Piranhas	Zombie Piranhas
+347265	3	4	400	8	250	8	Witchdoctor_Piranhas	Piranhado
+347265	4	4	475	-1	250	8	Witchdoctor_Piranhas	Wave of Mutilation
+347265	5	3	400	8	250	8	Witchdoctor_Piranhas	Frozen Piranhas
+106465	0	4	190	-1	-1	-1	Witchdoctor_PlagueOfToads	No Rune
+106465	1	1	245	-1	-1	-1	Witchdoctor_PlagueOfToads	Explosive Toads
+106465	2	4	182	-1	-1	-1	Witchdoctor_PlagueOfToads	Rain of Toads
+106465	3	0	130	-1	-1	-1	Witchdoctor_PlagueOfToads	Piercing Toads
+106465	4	3	190	-1	-1	-1	Witchdoctor_PlagueOfToads	Toad Affinity
+106465	5	4	190	-1	-1	-1	Witchdoctor_PlagueOfToads	Addling Toads
+103181	0	4	185	-1	-1	-1	Witchdoctor_PoisonDart	No Rune
+103181	1	1	565	4	-1	-1	Witchdoctor_PoisonDart	Flaming Dart
+103181	2	4	330	-1	-1	-1	Witchdoctor_PoisonDart	Splinters
+103181	3	3	155	-1	-1	-1	Witchdoctor_PoisonDart	Numbing Dart
+103181	4	0	155	-1	-1	-1	Witchdoctor_PoisonDart	Spined Dart
+103181	5	4	155	-1	-1	-1	Witchdoctor_PoisonDart	Snake to the Face
+102572	0	0	1090	-1	-1	-1	Witchdoctor_Sacrifice	No Rune
+102572	1	0	1090	-1	-1	-1	Witchdoctor_Sacrifice	Provoke the Pack
+102572	2	0	1300	-1	-1	-1	Witchdoctor_Sacrifice	For the Master
+102572	3	0	1090	-1	-1	-1	Witchdoctor_Sacrifice	Black Blood
+102572	4	0	1090	-1	-1	-1	Witchdoctor_Sacrifice	Pride
+102572	5	0	1090	-1	-1	-1	Witchdoctor_Sacrifice	Next of Kin
+67616	0	-1	-1	-1	-1	15	Witchdoctor_SoulHarvest	No Rune
+67616	1	-1	-1	-1	-1	15	Witchdoctor_SoulHarvest	Siphon
+67616	2	-1	-1	-1	-1	15	Witchdoctor_SoulHarvest	Soul to Waste
+67616	3	-1	-1	-1	-1	15	Witchdoctor_SoulHarvest	Languish
+67616	4	-1	-1	-1	-1	15	Witchdoctor_SoulHarvest	Swallow Your Soul
+67616	5	0	630	-1	-1	15	Witchdoctor_SoulHarvest	Vengeful Spirit
+108506	0	3	425	-1	100	-1	Witchdoctor_SpiritBarrage	No Rune
+108506	1	3	425	-1	100	-1	Witchdoctor_SpiritBarrage	Phlebotomize
+108506	2	1	425	-1	100	-1	Witchdoctor_SpiritBarrage	Well of Souls
+108506	3	3	675	-1	100	-1	Witchdoctor_SpiritBarrage	Phantasm
+108506	4	3	425	-1	100	-1	Witchdoctor_SpiritBarrage	The Spirit Is Willing
+108506	5	3	2900	12	100	-1	Witchdoctor_SpiritBarrage	Manitou
+106237	0	-1	-1	-1	-1	12	Witchdoctor_SpiritWalk	No Rune
+106237	1	0	225	2	-1	12	Witchdoctor_SpiritWalk	Severance
+106237	2	-1	-1	-1	-1	12	Witchdoctor_SpiritWalk	Jaunt
+106237	3	1	750	-1	-1	12	Witchdoctor_SpiritWalk	Umbral Shock
+106237	4	-1	-1	-1	-1	12	Witchdoctor_SpiritWalk	Honored Guest
+106237	5	-1	-1	-1	-1	12	Witchdoctor_SpiritWalk	Healing Journey
+102573	0	0	30	-1	-1	45	Witchdoctor_SummonZombieDog	No Rune
+102573	1	1	30	-1	-1	45	Witchdoctor_SummonZombieDog	Burning Dogs
+102573	2	0	30	-1	-1	45	Witchdoctor_SummonZombieDog	Life Link
+102573	3	4	30	-1	-1	45	Witchdoctor_SummonZombieDog	Rabid Dogs
+102573	4	3	30	-1	-1	45	Witchdoctor_SummonZombieDog	Chilled to the Bone
+102573	5	0	30	-1	-1	45	Witchdoctor_SummonZombieDog	Leeching Beasts
+134837	0	0	1000	6	-1	8	Witchdoctor_WallOfZombies	No Rune
+134837	1	0	1000	4	-1	8	Witchdoctor_WallOfZombies	Surrounded by Death
+134837	2	4	1200	8	-1	8	Witchdoctor_WallOfZombies	Ring of Poison
+134837	3	3	1200	6	-1	8	Witchdoctor_WallOfZombies	Communing with Spirits
+134837	4	4	1000	6	-1	8	Witchdoctor_WallOfZombies	Wall of Zombies
+134837	5	1	1100	4	-1	8	Witchdoctor_WallOfZombies	Fire Wall
+74003	0	4	560	-1	150	-1	Witchdoctor_ZombieCharger	No Rune
+74003	1	4	520	-1	150	-1	Witchdoctor_ZombieCharger	Zombie Bears
+74003	2	3	280	-1	150	-1	Witchdoctor_ZombieCharger	Lumbering Cold
+74003	3	0	880	-1	150	-1	Witchdoctor_ZombieCharger	Pile On
+74003	4	4	480	-1	150	-1	Witchdoctor_ZombieCharger	Undeath
+74003	5	1	680	-1	150	-1	Witchdoctor_ZombieCharger	Explosive Beast
+30668	0	5	435	-1	30	-1	Wizard_ArcaneOrb	No Rune
+30668	1	5	700	-1	30	-1	Wizard_ArcaneOrb	Obliteration
+30668	2	2	349	-1	30	-1	Wizard_ArcaneOrb	Spark
+30668	3	5	265	-1	30	-1	Wizard_ArcaneOrb	Arcane Orbit
+30668	4	1	221	-1	30	-1	Wizard_ArcaneOrb	Scorch
+30668	5	3	393	-1	30	-1	Wizard_ArcaneOrb	Frozen Orb
+134456	0	5	400	-1	16	-1	Wizard_ArcaneTorrent	No Rune
+134456	1	1	400	-1	16	-1	Wizard_ArcaneTorrent	Flame Ward
+134456	2	5	400	-1	16	-1	Wizard_ArcaneTorrent	Cascade
+134456	3	5	825	-1	16	-1	Wizard_ArcaneTorrent	Arcane Mines
+134456	4	2	400	-1	16	-1	Wizard_ArcaneTorrent	Static Discharge
+134456	5	5	1215	-1	16	-1	Wizard_ArcaneTorrent	Death Blossom
+134872	0	5	779	-1	-1	120	Wizard_Archon	No Rune
+134872	1	5	779	-1	-1	120	Wizard_Archon	Improved Archon
+134872	2	3	779	-1	-1	120	Wizard_Archon	Slow Time
+134872	3	5	779	-1	-1	120	Wizard_Archon	Teleport
+134872	4	2	779	-1	-1	120	Wizard_Archon	Pure Power
+134872	5	1	779	-1	-1	120	Wizard_Archon	Combustion
+167355	0	0	0	-1	-1	-1	Wizard_Archon_ArcaneBlast	No Rune
+135166	0	0	0	-1	-1	-1	Wizard_Archon_ArcaneStrike	No Rune
+135238	0	0	0	-1	-1	-1	Wizard_Archon_DisintegrationWave	No Rune
+135663	0	0	0	-1	-1	-1	Wizard_Archon_SlowTime	No Rune
+167648	0	0	0	-1	-1	3	Wizard_Archon_Teleport	No Rune
+30680	0	3	1075	6	40	-1	Wizard_Blizzard	No Rune
+30680	1	3	1810	8	40	-1	Wizard_Blizzard	Unrelenting Storm
+30680	2	1	1075	6	40	-1	Wizard_Blizzard	Apocalypse
+30680	3	2	1075	6	40	-1	Wizard_Blizzard	Lightning Storm
+30680	4	3	1075	6	10	-1	Wizard_Blizzard	Snowbound
+30680	5	3	1075	6	40	-1	Wizard_Blizzard	Frozen Solid
+75599	0	-1	-1	-1	-1	15	Wizard_DiamondSkin	No Rune
+75599	1	-1	-1	-1	-1	15	Wizard_DiamondSkin	Sleek Shell
+75599	2	-1	-1	-1	-1	15	Wizard_DiamondSkin	Enduring Skin
+75599	3	-1	-1	-1	-1	15	Wizard_DiamondSkin	Crystal Shell
+75599	4	-1	-1	-1	-1	15	Wizard_DiamondSkin	Prism
+75599	5	5	863	-1	-1	15	Wizard_DiamondSkin	Diamond Shards
+91549	0	5	390	-1	18	-1	Wizard_Disintegrate	No Rune
+91549	1	5	390	-1	18	-1	Wizard_Disintegrate	Intensify
+91549	2	1	390	-1	18	-1	Wizard_Disintegrate	Convergence
+91549	3	5	435	-1	18	-1	Wizard_Disintegrate	Entropy
+91549	4	5	390	-1	18	-1	Wizard_Disintegrate	Chaos Nexus
+91549	5	5	390	-1	18	-1	Wizard_Disintegrate	Volatility
+1765	0	2	138	-1	-1	-1	Wizard_Electrocute	No Rune
+1765	1	2	140	-1	-1	-1	Wizard_Electrocute	Lightning Blast
+1765	2	2	138	-1	-1	-1	Wizard_Electrocute	Chain Lightning
+1765	3	2	310	-1	-1	-1	Wizard_Electrocute	Arc Lightning
+1765	4	2	138	-1	-1	-1	Wizard_Electrocute	Surge of Power
+1765	5	1	138	-1	-1	-1	Wizard_Electrocute	Forked Lightning
+86991	0	4	-1	-1	25	-1	Wizard_EnergyArmor	No Rune
+86991	1	4	-1	-1	25	-1	Wizard_EnergyArmor	Prismatic Armor
+86991	2	4	-1	-1	25	-1	Wizard_EnergyArmor	Energy Tap
+86991	3	4	-1	-1	25	-1	Wizard_EnergyArmor	Force Armor
+86991	4	4	-1	-1	25	-1	Wizard_EnergyArmor	Absorption
+86991	5	4	-1	-1	25	-1	Wizard_EnergyArmor	Pinpoint Barrier
+77113	0	5	1525	6	35	-1	Wizard_EnergyTwister	No Rune
+77113	1	1	1525	6	35	-1	Wizard_EnergyTwister	Gale Force
+77113	2	5	3200	6	35	-1	Wizard_EnergyTwister	Raging Storm
+77113	3	2	1525	6	35	-1	Wizard_EnergyTwister	Storm Chaser
+77113	4	3	1525	6	25	-1	Wizard_EnergyTwister	Mistral Breeze
+77113	5	5	835	6	35	-1	Wizard_EnergyTwister	Wicked Wind
+87525	0	5	945	-1	20	6	Wizard_ExplosiveBlast	No Rune
+87525	1	1	909	-1	20	6	Wizard_ExplosiveBlast	Short Fuse
+87525	2	3	990	-1	20	6	Wizard_ExplosiveBlast	Obliterate
+87525	3	2	1039	-1	20	6	Wizard_ExplosiveBlast	Flash
+87525	4	5	1485	-1	20	6	Wizard_ExplosiveBlast	Unleashed
+87525	5	1	520	-1	20	6	Wizard_ExplosiveBlast	Chain Reaction
+99120	0	5	240	-1	20	-1	Wizard_Familiar	No Rune
+99120	1	1	240	-1	20	-1	Wizard_Familiar	Sparkflint
+99120	2	5	240	-1	20	-1	Wizard_Familiar	Cannoneer
+99120	3	3	240	-1	20	-1	Wizard_Familiar	Icicle
+99120	4	5	240	-1	20	-1	Wizard_Familiar	Arcanot
+99120	5	5	240	-1	20	-1	Wizard_Familiar	Ancient Guardian
+30718	0	-1	-1	-1	-1	11	Wizard_FrostNova	No Rune
+30718	1	-1	-1	-1	-1	11	Wizard_FrostNova	Bone Chill
+30718	2	-1	-1	-1	-1	11	Wizard_FrostNova	Shatter
+30718	3	3	915	8	-1	11	Wizard_FrostNova	Frozen Mist
+30718	4	-1	-1	-1	-1	11	Wizard_FrostNova	Cold Snap
+30718	5	-1	-1	-1	-1	11	Wizard_FrostNova	Deep Freeze
+30725	0	1	165	-1	15	-1	Wizard_Hydra	No Rune
+30725	1	3	255	-1	15	-1	Wizard_Hydra	Frost Hydra
+30725	2	2	255	-1	15	-1	Wizard_Hydra	Lightning Hydra
+30725	3	1	155	-1	15	-1	Wizard_Hydra	Blazing Hydra
+30725	4	1	330	-1	15	-1	Wizard_Hydra	Mammoth Hydra
+30725	5	5	205	-1	15	-1	Wizard_Hydra	Arcane Hydra
+73223	0	3	-1	-1	25	-1	Wizard_IceArmor	No Rune
+73223	1	3	189	-1	25	-1	Wizard_IceArmor	Jagged Ice
+73223	2	3	-1	-1	25	-1	Wizard_IceArmor	Chilling Aura
+73223	3	3	80	-1	25	-1	Wizard_IceArmor	Frozen Storm
+73223	4	3	-1	-1	25	-1	Wizard_IceArmor	Crystallize
+73223	5	3	75	-1	25	-1	Wizard_IceArmor	Ice Reflect
+30744	0	5	230	-1	-1	-1	Wizard_MagicMissile	No Rune
+30744	1	5	325	-1	-1	-1	Wizard_MagicMissile	Charged Blast
+30744	2	5	80	-1	-1	-1	Wizard_MagicMissile	Split
+30744	3	1	170	-1	-1	-1	Wizard_MagicMissile	Conflagrate
+30744	4	3	175	-1	-1	-1	Wizard_MagicMissile	Glacial Spike
+30744	5	5	285	-1	-1	-1	Wizard_MagicMissile	Seeker
+76108	0	4	-1	-1	25	-1	Wizard_MagicWeapon	No Rune
+76108	1	1	300	3	25	-1	Wizard_MagicWeapon	Ignite
+76108	2	2	-1	-1	25	-1	Wizard_MagicWeapon	Electrify
+76108	3	4	-1	-1	25	-1	Wizard_MagicWeapon	Force Weapon
+76108	4	4	-1	-1	25	-1	Wizard_MagicWeapon	Conduit
+76108	5	4	-1	-1	25	-1	Wizard_MagicWeapon	Deflection
+69190	0	1	740	-1	40	-1	Wizard_Meteor	No Rune
+69190	1	1	1648	-1	40	-1	Wizard_Meteor	Molten Impact
+69190	2	1	228	-1	40	-1	Wizard_Meteor	Meteor Shower
+69190	3	3	740	-1	40	-1	Wizard_Meteor	Comet
+69190	4	5	740	-1	30	-1	Wizard_Meteor	Star Pact
+69190	5	2	740	-1	40	-1	Wizard_Meteor	Thunder Crash
+98027	0	-1	-1	-1	-1	15	Wizard_MirrorImage	No Rune
+98027	1	-1	-1	-1	-1	15	Wizard_MirrorImage	Mirror Mimics
+98027	2	-1	-1	-1	-1	15	Wizard_MirrorImage	Duplicates
+98027	3	-1	-1	-1	-1	15	Wizard_MirrorImage	Simulacrum
+98027	4	-1	-1	-1	-1	15	Wizard_MirrorImage	Extension of Will
+98027	5	-1	-1	-1	-1	15	Wizard_MirrorImage	Mocking Demise
+93395	0	3	430	-1	16	-1	Wizard_RayOfFrost	No Rune
+93395	1	3	430	-1	16	-1	Wizard_RayOfFrost	Snow Blast
+93395	2	3	300	-1	16	-1	Wizard_RayOfFrost	Sleet Storm
+93395	3	3	430	-1	16	-1	Wizard_RayOfFrost	Numb
+93395	4	3	430	-1	11	-1	Wizard_RayOfFrost	Cold Blood
+93395	5	3	430	-1	16	-1	Wizard_RayOfFrost	Black Ice
+30783	0	2	194	-1	-1	-1	Wizard_ShockPulse	No Rune
+30783	1	1	274	-1	-1	-1	Wizard_ShockPulse	Fire Bolts
+30783	2	2	165	-1	-1	-1	Wizard_ShockPulse	Living Lightning
+30783	3	2	214	-1	-1	-1	Wizard_ShockPulse	Piercing Orb
+30783	4	5	194	-1	-1	-1	Wizard_ShockPulse	Power Affinity
+30783	5	3	184	-1	-1	-1	Wizard_ShockPulse	Explosive Bolts
+1769	0	-1	-1	-1	-1	15	Wizard_SlowTime	No Rune
+1769	1	-1	-1	-1	-1	15	Wizard_SlowTime	Time Warp
+1769	2	-1	-1	-1	-1	15	Wizard_SlowTime	Point of No Return
+1769	3	-1	-1	-1	-1	15	Wizard_SlowTime	Time Shell
+1769	4	-1	-1	-1	-1	15	Wizard_SlowTime	Exhaustion
+1769	5	-1	-1	-1	-1	15	Wizard_SlowTime	Stretch Time
+71548	0	5	168	-1	-1	-1	Wizard_SpectralBlade	No Rune
+71548	1	1	168	-1	-1	-1	Wizard_SpectralBlade	Flame Blades
+71548	2	2	231	-1	-1	-1	Wizard_SpectralBlade	Thrown Blade
+71548	3	3	168	-1	-1	-1	Wizard_SpectralBlade	Ice Blades
+71548	4	5	168	-1	-1	-1	Wizard_SpectralBlade	Siphoning Blade
+71548	5	5	168	-1	-1	-1	Wizard_SpectralBlade	Barrier Blades
+74499	0	2	175	-1	25	-1	Wizard_StormArmor	No Rune
+74499	1	2	315	-1	25	-1	Wizard_StormArmor	Thunder Storm
+74499	2	2	147	-1	25	-1	Wizard_StormArmor	Scramble
+74499	3	2	189	-1	25	-1	Wizard_StormArmor	Reactive Armor
+74499	4	2	147	-1	25	-1	Wizard_StormArmor	Power of the Storm
+74499	5	2	425	-1	25	-1	Wizard_StormArmor	Shocking Aspect
+168344	0	-1	-1	-1	-1	11	Wizard_Teleport	No Rune
+168344	1	5	175	-1	-1	11	Wizard_Teleport	Calamity
+168344	2	-1	-1	-1	-1	11	Wizard_Teleport	Fracture
+168344	3	-1	-1	-1	-1	11	Wizard_Teleport	Safe Passage
+168344	4	-1	-1	-1	-1	11	Wizard_Teleport	Reversal
+168344	5	-1	-1	-1	-1	11	Wizard_Teleport	Wormhole
+30796	0	5	390	-1	25	-1	Wizard_WaveOfForce	No Rune
+30796	1	5	390	-1	25	-1	Wizard_WaveOfForce	Impactful Wave
+30796	2	2	390	-1	25	-1	Wizard_WaveOfForce	Static Pulse
+30796	3	1	475	-1	25	-1	Wizard_WaveOfForce	Heat Wave
+30796	4	5	390	-1	25	-1	Wizard_WaveOfForce	Arcane Attunement
+30796	5	5	390	-1	25	-1	Wizard_WaveOfForce	Debilitating Force
+243141	0	5	700	2	20	12	Wizard_Wormhole	No Rune
+243141	1	2	1290	2	20	12	Wizard_Wormhole	Supermassive
+243141	2	5	700	2	20	12	Wizard_Wormhole	Event Horizon
+243141	3	1	725	2	20	12	Wizard_Wormhole	Blazar
+243141	4	5	700	2	20	12	Wizard_Wormhole	Spellsteal
+243141	5	3	700	2	20	12	Wizard_Wormhole	Absolute Zero
+451490	0	-1	500	-1	20	-1	necro_bonespear	No Rune
+451490	1	-1	500	-1	20	-1	necro_bonespear	Crystallization
+451490	2	-1	500	-1	20	-1	necro_bonespear	Shatter
+451490	3	-1	500	-1	20	-1	necro_bonespear	Blighted Marrow
+451490	4	-1	650	-1	10	-1	necro_bonespear	Blood Spear
+451490	5	-1	300	-1	20	-1	necro_bonespear	Teeth
+451491	0	-1	-1	-1	10	-1	necro_decrepify	No Rune
+451491	1	-1	-1	-1	10	-1	necro_decrepify	Enfeeblement
+451491	2	-1	-1	-1	10	-1	necro_decrepify	Opportunist
+451491	3	-1	-1	-1	10	-1	necro_decrepify	Borrowed Time
+451491	4	-1	-1	-1	10	-1	necro_decrepify	Wither
+451491	5	-1	-1	-1	10	-1	necro_decrepify	Dizzying Curse
+451537	0	-1	450	-1	-1	45	necro_commandgolem	No Rune
+451537	1	-1	2000	2	-1	45	necro_commandgolem	Bone Golem
+451537	2	-1	450	-1	-1	45	necro_commandgolem	Blood Golem
+451537	3	-1	450	-1	-1	45	necro_commandgolem	Decay Golem
+451537	4	-1	450	-1	-1	45	necro_commandgolem	Flesh Golem
+451537	5	-1	450	-1	-1	45	necro_commandgolem	Ice Golem
+453563	0	-1	300	-1	-1	-1	necro_siphonblood	No Rune
+453563	1	-1	300	-1	-1	-1	necro_siphonblood	Suppress
+453563	2	-1	300	-1	-1	-1	necro_siphonblood	Purity of Essence
+453563	3	-1	300	-1	-1	-1	necro_siphonblood	Drain Life
+453563	4	-1	300	-1	-1	-1	necro_siphonblood	Power Shift
+453563	5	-1	300	-1	-1	-1	necro_siphonblood	Blood Sucker
+453801	0	-1	-1	-1	50	-1	necro_commandskeletons	No Rune
+453801	1	-1	-1	-1	25	-1	necro_commandskeletons	Enforcer
+453801	2	-1	-1	-1	50	-1	necro_commandskeletons	Dark Mending
+453801	3	-1	-1	-1	50	-1	necro_commandskeletons	Freezing Grasp
+453801	4	-1	215	-1	50	-1	necro_commandskeletons	Kill Command
+453801	5	-1	-1	-1	50	-1	necro_commandskeletons	Frenzy
+454090	0	-1	-1	-1	5	5	necro_bloodrush	No Rune
+454090	1	-1	-1	-1	5	5	necro_bloodrush	Transfusion
+454090	2	-1	-1	-1	5	5	necro_bloodrush	Hemostasis
+454090	3	-1	-1	-1	5	5	necro_bloodrush	Metabolism
+454090	4	-1	-1	-1	5	5	necro_bloodrush	Potency
+454090	5	-1	-1	-1	5	5	necro_bloodrush	Molting
+454174	0	-1	350	-1	-1	-1	necro_corpseexplosion	No Rune
+454174	1	-1	350	-1	-1	-1	necro_corpseexplosion	Shrapnel
+454174	2	-1	350	-1	-1	-1	necro_corpseexplosion	Final Embrace
+454174	3	-1	525	-1	-1	-1	necro_corpseexplosion	Close Quarters
+454174	4	-1	350	-1	-1	-1	necro_corpseexplosion	Bloody Mess
+454174	5	-1	350	-1	-1	-1	necro_corpseexplosion	Dead Cold
+460358	0	-1	12000	-1	-1	120	necro_armyofthedead	No Rune
+460358	1	-1	14000	5	-1	120	necro_armyofthedead	Blighted Grasp
+460358	2	-1	12000	-1	-1	120	necro_armyofthedead	Frozen Army
+460358	3	-1	50000	4	-1	120	necro_armyofthedead	Unconventional Warfare
+460358	4	-1	12000	-1	-1	120	necro_armyofthedead	Death Valley
+460358	5	-1	15500	5	20	120	necro_armyofthedead	Dead Storm
+460757	0	-1	-1	-1	-1	-1	necro_devour	No Rune
+460757	1	-1	-1	-1	-1	-1	necro_devour	Cannibalize
+460757	2	-1	-1	-1	-1	-1	necro_devour	Ruthless
+460757	3	-1	-1	-1	-1	-1	necro_devour	Voracious
+460757	4	-1	-1	-1	-1	-1	necro_devour	Devouring Aura
+460757	5	-1	-1	-1	-1	-1	necro_devour	Satiated
+460870	0	-1	-1	-1	10	-1	necro_frailty	No Rune
+460870	1	-1	-1	-1	10	-1	necro_frailty	Early Grave
+460870	2	-1	-1	-1	10	-1	necro_frailty	Harvest Essence
+460870	3	-1	100	-1	10	-1	necro_frailty	Volatile Death
+460870	4	-1	-1	-1	10	-1	necro_frailty	Scent of Blood
+460870	5	-1	-1	-1	10	-1	necro_frailty	Aura of Frailty
+461650	0	-1	1750	-1	-1	-1	necro_corpselance	No Rune
+461650	1	-1	1750	-1	-1	-1	necro_corpselance	Ricochet
+461650	2	-1	1750	-1	-1	-1	necro_corpselance	Brittle Touch
+461650	3	-1	2275	-1	2	-1	necro_corpselance	Blood Lance
+461650	4	-1	1750	-1	-1	-1	necro_corpselance	Visceral Impact
+461650	5	-1	1750	-1	-1	-1	necro_corpselance	Shredding Splinters
+462089	0	-1	400	-1	40	-1	necro_skeletalmage	No Rune
+462089	1	-1	400	-1	40	-1	necro_skeletalmage	Gift of Death
+462089	2	-1	400	-1	40	-1	necro_skeletalmage	Singularity
+462089	3	-1	400	-1	40	-1	necro_skeletalmage	Life Support
+462089	4	-1	400	-1	40	-1	necro_skeletalmage	Contamination
+462089	5	-1	400	-1	40	-1	necro_skeletalmage	Skeleton Archer
+462147	0	-1	150	-1	24	-1	necro_bonespikes	No Rune
+462147	1	-1	100	-1	24	-1	necro_bonespikes	Sudden Impact
+462147	2	-1	150	-1	24	-1	necro_bonespikes	Path of Bones
+462147	3	-1	225	-1	24	-1	necro_bonespikes	Bone Pillars
+462147	4	-1	150	-1	24	-1	necro_bonespikes	Frost Spikes
+462147	5	-1	50	2	24	-1	necro_bonespikes	Blood Spikes
+462198	0	-1	150	-1	-1	-1	necro_grimscythe	No Rune
+462198	1	-1	150	-1	-1	-1	necro_grimscythe	Blood Scythe
+462198	2	-1	150	-1	-1	-1	necro_grimscythe	Execution
+462198	3	-1	150	-1	-1	-1	necro_grimscythe	Frost Scythe
+462198	4	-1	150	-1	-1	-1	necro_grimscythe	Dual Scythes
+462198	5	-1	150	-1	-1	-1	necro_grimscythe	Cursed Scythe
+462239	0	-1	-1	-1	-1	-1	necro_revive	No Rune
+462239	1	-1	-1	-1	-1	-1	necro_revive	Purgatory
+462239	2	-1	-1	-1	-1	-1	necro_revive	Oblation
+462239	3	-1	-1	-1	-1	-1	necro_revive	Personal Army
+462239	4	-1	-1	-1	-1	-1	necro_revive	Recklessness
+462239	5	-1	-1	-1	-1	-1	necro_revive	Horrific Return
+462243	0	-1	350	-1	20	-1	necro_deathnova	No Rune
+462243	1	-1	225	-1	20	-1	necro_deathnova	Tendril Nova
+462243	2	-1	475	-1	20	-1	necro_deathnova	Bone Nova
+462243	3	-1	450	-1	20	-1	necro_deathnova	Blood Nova
+462243	4	-1	350	-1	20	-1	necro_deathnova	Blight
+462243	5	-1	350	-1	20	-1	necro_deathnova	Unstable Compound
+462255	0	-1	-1	-1	10	-1	necro_leech	No Rune
+462255	1	-1	-1	-1	10	-1	necro_leech	Osmosis
+462255	2	-1	-1	-1	10	-1	necro_leech	Transmittable
+462255	3	-1	-1	-1	10	-1	necro_leech	Sanguine End
+462255	4	-1	-1	-1	10	-1	necro_leech	Cursed Ground
+462255	5	-1	-1	-1	10	-1	necro_leech	Blood Flask
+464896	0	-1	4000	-1	-1	-1	necro_bonespirit	No Rune
+464896	1	-1	4000	-1	5	-1	necro_bonespirit	Possession
+464896	2	-1	4000	-1	-1	-1	necro_bonespirit	Panic Attack
+464896	3	-1	4000	-1	-1	-1	necro_bonespirit	Poltergeist
+464896	4	-1	1250	-1	-1	-1	necro_bonespirit	Unfinished Business
+464896	5	-1	4000	-1	-1	-1	necro_bonespirit	Astral Projection
+465350	0	-1	-1	-1	25	120	necro_simulacrum	No Rune
+465350	1	-1	-1	-1	25	120	necro_simulacrum	Reservoir
+465350	2	-1	-1	-1	25	120	necro_simulacrum	Cursed Form
+465350	3	-1	-1	-1	25	120	necro_simulacrum	Blood Debt
+465350	4	-1	-1	-1	25	120	necro_simulacrum	Blood and Bone
+465350	5	-1	-1	-1	25	120	necro_simulacrum	Self Sacrifice
+465839	0	-1	-1	-1	-1	120	necro_landofthedead	No Rune
+465839	1	-1	-1	-1	-1	120	necro_landofthedead	Invigoration
+465839	2	-1	-1	-1	-1	120	necro_landofthedead	Frozen Lands
+465839	3	-1	10000	10	-1	120	necro_landofthedead	Plaguelands
+465839	4	-1	-1	-1	-1	120	necro_landofthedead	Land of Plenty
+465839	5	-1	-1	-1	-1	120	necro_landofthedead	Shallow Graves
+466857	0	-1	125	-1	10	-1	necro_bonearmor	No Rune
+466857	1	-1	145	-1	10	-1	necro_bonearmor	Vengeful Armaments
+466857	2	-1	125	-1	10	-1	necro_bonearmor	Limited Immunity
+466857	3	-1	125	-1	10	-1	necro_bonearmor	Dislocation
+466857	4	-1	125	-1	20	-1	necro_bonearmor	Thy Flesh Sustained
+466857	5	-1	125	-1	10	-1	necro_bonearmor	Harvest of Anguish
