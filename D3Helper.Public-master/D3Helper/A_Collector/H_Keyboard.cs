@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using D3Helper.A_Collection;
 using SlimDX.DirectInput;
 using SlimDX.DirectWrite;
+using System.Threading;
 
 namespace D3Helper.A_Collector
 {
@@ -243,18 +244,35 @@ namespace D3Helper.A_Collector
                                 case "autocube_upgraderare":
                                     if (!A_Handler.AutoCube.UpgradeRare.IsUpgrading_Rare)
                                     {
-                                        A_Handler.AutoCube.UpgradeRare.DoUpgrade();
+                                        A_Handler.AutoCube.UpgradeRare.StopConversion = false;
+                                        Thread UpgradeThread = new Thread(() =>
+                                        {
+                                            A_Handler.AutoCube.UpgradeRare.DoUpgrade();
+                                        });
+                                        UpgradeThread.Start();
+                                    }
+                                    else
+                                    {
+                                        A_Handler.AutoCube.UpgradeRare.StopConversion = true;
                                     }
                                     break;
 
                                 case "autocube_convertmaterial":
                                     if (!A_Handler.AutoCube.ConvertMaterial.IsConvertingMaterial)
-                                    {
+                                    {                                        
                                         // normal, magic, rare
-                                        A_Handler.AutoCube.ConvertMaterial.DoConvert(Properties.Settings.Default.ConvertMaterialFrom, Properties.Settings.Default.ConvertMaterialTo);
+                                        A_Handler.AutoCube.ConvertMaterial.StopConversion = false;
+                                        Thread UpgradeThread = new Thread(() =>
+                                        {
+                                            A_Handler.AutoCube.ConvertMaterial.DoConvert(Properties.Settings.Default.ConvertMaterialFrom, Properties.Settings.Default.ConvertMaterialTo);
+                                        });
+                                        UpgradeThread.Start();                                        
+                                    }
+                                    else
+                                    {
+                                        A_Handler.AutoCube.ConvertMaterial.StopConversion = true;
                                     }
                                     break;
-
                             }
 
                             A_Collection.Hotkeys.lastprocessedHotkey = hotkey.Key.Key;

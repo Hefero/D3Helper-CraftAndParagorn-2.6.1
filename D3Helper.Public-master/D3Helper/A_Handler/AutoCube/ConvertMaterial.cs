@@ -14,6 +14,7 @@ namespace D3Helper.A_Handler.AutoCube
     class ConvertMaterial
     {
         public static bool IsConvertingMaterial = false;
+        public static bool StopConversion = false;
 
         public static void DoConvert(string FromMaterialQuality, string ToMaterialQuality)
         {
@@ -24,10 +25,13 @@ namespace D3Helper.A_Handler.AutoCube
                 try
                 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     
 >>>>>>> 6e63c22a3c22a1a578dcec39133c7556614a3682
                     int FailedTriesExit = 0;
+=======
+>>>>>>> f27d9ee9b9e5163e2841abc63d0741440127868c
                     IsConvertingMaterial = true;
                     ActorCommonData CubeStand;
                     bool CubeNearby = Tools.IsCubeNearby(out CubeStand);
@@ -81,14 +85,25 @@ namespace D3Helper.A_Handler.AutoCube
                             foreach (var item in ToItemList)
                             {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+                                if (StopConversion)
+                                {
+                                    break;
+                                }
+>>>>>>> f27d9ee9b9e5163e2841abc63d0741440127868c
                                 if (Count_Conversions == Count_AvailableConversions)
                                 {
                                     break;
                                 }
                                 Count_Conversions++;
+<<<<<<< HEAD
 >>>>>>> 6e63c22a3c22a1a578dcec39133c7556614a3682
                                 if (true)
+=======
+                                if (Tools.ClickOnCube(CubeStand))
+>>>>>>> f27d9ee9b9e5163e2841abc63d0741440127868c
                                 {
 
                                     // Find the item position and rightclick on the item
@@ -103,76 +118,7 @@ namespace D3Helper.A_Handler.AutoCube
                                     A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
                                     A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Previous);
                                 }
-                                ToItemList = Tools.Get_Items(ToMaterialQuality);
-                                int numberOfItemsAfterTrying = ToItemList.Count;
-                                if (numberOfItemsAfterTrying == numberOfItemsBeforeTrying) //retrying if no materials
-                                {
-                                    if (Tools.IsKanaisCube_MainPage_Visible())
-                                    {
-                                        A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Exit_Button);
-                                        Thread.Sleep(200);
-                                        Tools.ClickOnCube(CubeStand);
-                                        Thread.Sleep(200);
-                                        //receipe button
-                                        A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Recipe_Button);
-                                        Thread.Sleep(100);
-                                        //press next button x for convert menu
-                                        nextClicks = 0;
-                                        switch (FromMaterialQuality)
-                                        {
-                                            case "normal":
-                                                nextClicks = 6;
-                                                break;
-                                            case "magic":
-                                                nextClicks = 7;
-                                                break;
-                                            case "rare":
-                                                nextClicks = 8;
-                                                break;
-                                        }
-                                        while (nextClicks > 0)
-                                        {
-                                            A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
-                                            Thread.Sleep(120);
-                                            nextClicks--;
-                                        }
-                                    }
-                                    else
-                                    {
-                                        Tools.ClickOnCube(CubeStand);
-                                        Thread.Sleep(200);
-                                        A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Recipe_Button);
-                                        Thread.Sleep(100);
-                                        //press next button x for convert menu
-                                        nextClicks = 0;
-                                        switch (FromMaterialQuality)
-                                        {
-                                            case "normal":
-                                                nextClicks = 6;
-                                                break;
-                                            case "magic":
-                                                nextClicks = 7;
-                                                break;
-                                            case "rare":
-                                                nextClicks = 8;
-                                                break;
-                                        }
-                                        while (nextClicks > 0)
-                                        {
-                                            A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
-                                            Thread.Sleep(120);
-                                            nextClicks--;
-                                        }
-                                    }
-                                    FailedTriesExit++;
-                                }
-                                if (FailedTriesExit >= 3)
-                                {
-                                    break; // failed 5 times, stopping
-                                }
-                                numberOfItemsBeforeTrying = ToItemList.Count;
                             }
-
                             // Close Cube window after transmute
                             int close_timeout =5;
                             while (Tools.IsKanaisCube_MainPage_Visible())

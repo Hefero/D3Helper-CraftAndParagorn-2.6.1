@@ -19,15 +19,12 @@ namespace D3Helper.A_Handler.AutoCube
     class UpgradeRare
     {
         public static bool IsUpgrading_Rare = false;
-        public static int FailedCycles = 0;
-
-
+        public static bool StopConversion = false;
         public static void DoUpgrade()
         {
             try
             {
                 IsUpgrading_Rare = true;
-                int FailedTriesExit = 0;
                 ActorCommonData CubeStand;
 
                 bool CubeNearby = Tools.IsCubeNearby(out CubeStand);
@@ -67,14 +64,26 @@ namespace D3Helper.A_Handler.AutoCube
                         foreach (var item in UpgradableItems)
                         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                             if(Count_Enchants == Count_AvailableEnchants)
+=======
+                            if (StopConversion)
+                            {
+                                break;
+                            }
+                            if (Count_Enchants == Count_AvailableEnchants)
+>>>>>>> f27d9ee9b9e5163e2841abc63d0741440127868c
                             {
                                 break;
                             }
                             Count_Enchants++;
+<<<<<<< HEAD
 >>>>>>> 6e63c22a3c22a1a578dcec39133c7556614a3682
                             if (true)
+=======
+                            if (Tools.ClickOnCube(CubeStand))
+>>>>>>> f27d9ee9b9e5163e2841abc63d0741440127868c
                             {
                                 //put item in cube
                                 UIRect UIRect_item =
@@ -91,43 +100,6 @@ namespace D3Helper.A_Handler.AutoCube
                                 A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
                                 A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Previous);
                             }
-                            UpgradableItems = Tools.Get_Items("rare");
-                            int numberOfItemsAfterTrying = UpgradableItems.Count;
-                            if (numberOfItemsAfterTrying == numberOfItemsBeforeTrying) //retrying if no materials
-                            {
-                                if (Tools.IsKanaisCube_MainPage_Visible())
-                                {   
-                                    A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Exit_Button);
-                                    Thread.Sleep(200);
-                                    Tools.ClickOnCube(CubeStand);
-                                    Thread.Sleep(200);
-                                    //receipe button
-                                    A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Recipe_Button);
-                                    Thread.Sleep(5);
-                                    //press next button 2x for upgrade rare menu
-                                    A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
-                                    Thread.Sleep(5);
-                                    A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);                                    
-                                }
-                                else
-                                {
-                                    Tools.ClickOnCube(CubeStand);
-                                    Thread.Sleep(200);
-                                    A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Recipe_Button);
-                                    Thread.Sleep(5);
-                                    //press next button 2x for upgrade rare menu
-                                    A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
-                                    Thread.Sleep(5);
-                                    A_Tools.T_D3UI.UIElement.leftClick(UIElements.Kanai_Cube_Page_Next);
-                                    Thread.Sleep(200);
-                                }
-                                FailedTriesExit++;
-                            }
-                            if (FailedTriesExit >= 5) {
-                                FailedCycles++;
-                                break; // failed 5 times, stopping
-                            }
-                            numberOfItemsBeforeTrying = UpgradableItems.Count;
                         }
                         //close all windows
                         int close_timeout = 5;
@@ -147,13 +119,6 @@ namespace D3Helper.A_Handler.AutoCube
                         s1.Stop(); /////////
                         TimeSpan t1 = s1.Elapsed; //////
                         Console.WriteLine(t1.TotalSeconds); ////////
-
-                        //disable upgradeafterkadala if failed too many times
-                        if (FailedCycles > 5)
-                        {
-                            FailedCycles = 0;
-                            Properties.Settings.Default.RosBotUpgradeKadalaBool = false;
-                        }
                     }
                 }
                 if (Properties.Settings.Default.RosBotUpgradeKadalaBool)
