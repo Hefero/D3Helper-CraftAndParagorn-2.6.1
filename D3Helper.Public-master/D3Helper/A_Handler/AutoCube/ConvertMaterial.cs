@@ -77,7 +77,7 @@ namespace D3Helper.A_Handler.AutoCube
                                     break;
                                 }
                                 Count_Conversions++;
-                                if (true)
+                                if (Tools.ClickOnCube(CubeStand))
                                 {
 
                                     // Find the item position and rightclick on the item
