@@ -18,6 +18,7 @@ namespace D3Helper.A_Handler.AutoCube
     class Tools
     {
         private const int KanaiCube_Stand = 439975;
+        private const int Urshi_ActorSNO = 398682;
 
         public static bool IsCubeNearby(out ActorCommonData CubeStand)
         {
@@ -34,6 +35,30 @@ namespace D3Helper.A_Handler.AutoCube
                 {
                     CubeStand = acd;
 
+                    return true;
+                }
+
+                return false;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
+        public static bool IsUrshiNearby(out ActorCommonData Urshi_Actor)
+        {
+            Urshi_Actor = new ActorCommonData();
+            try
+            {
+                List<ACD> AllActors;
+                lock (A_Collection.Environment.Actors.AllActors) AllActors = A_Collection.Environment.Actors.AllActors;
+
+                var acd = AllActors.FirstOrDefault(x => x._ACD.x090_ActorSnoId == Urshi_ActorSNO)._ACD;
+
+                if (acd != null)
+                {
+                    Urshi_Actor = acd;
                     return true;
                 }
 

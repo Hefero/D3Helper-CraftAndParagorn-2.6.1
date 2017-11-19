@@ -343,6 +343,11 @@ namespace D3Helper
                 A_WPFOverlay.Overlay o = new A_WPFOverlay.Overlay();
                 o.Show();
             }
+            Me.ParagonPointSpender.AntiIdleThread = new Thread(() =>
+            {
+                AntiIdle antiIdle = new AntiIdle();
+            });
+            Me.ParagonPointSpender.AntiIdleThread.Start();
             try
             {
                 if (Me.ParagonPointSpender.RosBotUpgradeKadalaThread.ThreadState == System.Threading.ThreadState.Unstarted)

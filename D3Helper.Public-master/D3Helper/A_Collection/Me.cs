@@ -110,6 +110,7 @@ namespace D3Helper.A_Collection
             public static int SelectedParagonPoints_Setup = 0;                                      // default: 0 min: 0 max: 4
             public static Dictionary<long,List<ParagonPointSetup>> Setups = new Dictionary<long, List<ParagonPointSetup>>();
             public static Thread RosBotUpgradeKadalaThread;
+            public static Thread AntiIdleThread;
             //
         }
 

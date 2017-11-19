@@ -230,6 +230,37 @@ namespace D3Helper.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool AntiIdleBool
+        {
+            get
+            {
+                return ((bool)(this["AntiIdleBool"]));
+            }
+            set
+            {
+                this["AntiIdleBool"] = value;
+            }
+        }
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("40")]
+        public int AntiIdle_Timer
+        {
+            get
+            {
+                return ((int)(this["AntiIdle_Timer"]));
+            }
+            set
+            {
+                this["AntiIdle_Timer"] = value;
+            }
+        }
+
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
         public bool RosBotUpgradeKadalaBool
         {
             get
@@ -242,6 +273,20 @@ namespace D3Helper.Properties {
             }
         }
 
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool ShowItemQualityBool
+        {
+            get
+            {
+                return ((bool)(this["ShowItemQualityBool"]));
+            }
+            set
+            {
+                this["ShowItemQualityBool"] = value;
+            }
+        }
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("200")]

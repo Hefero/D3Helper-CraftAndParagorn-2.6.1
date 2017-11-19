@@ -237,46 +237,53 @@ namespace D3Helper.A_WPFOverlay
                                 //*********************************************************
                                 // mark ancient,primals in Inventory
                                 //*********************************************************
-                                var itemsInInventory = Tools.Get_Items("legendary");
-                                foreach(var item in itemsInInventory)
+
+                                if (Properties.Settings.Default.ShowItemQualityBool)
                                 {
-                                    var ancientRank = item.GetAttributeValue(Enigma.D3.Enums.AttributeId.AncientRank);
-                                    if(ancientRank > 0)
+                                    var itemsInInventory = Tools.Get_Items("legendary");
+                                    foreach (var item in itemsInInventory)
                                     {
-                                        //get UIrect of actorcommondata item
-                                        UIRect UIRect_item =
-                                            A_Collection.D3UI.InventoryItemUIRectMesh.FirstOrDefault(
-                                                x => x.Key.ItemSlotX == item.x118_ItemSlotX && x.Key.ItemSlotY == item.x11C_ItemSlotY).Value;
+                                        var ancientRank = item.GetAttributeValue(Enigma.D3.Enums.AttributeId.AncientRank);
+                                        if (ancientRank > 0)
+                                        {
+                                            //get UIrect of actorcommondata item
+                                            UIRect UIRect_item =
+                                                A_Collection.D3UI.InventoryItemUIRectMesh.FirstOrDefault(
+                                                    x => x.Key.ItemSlotX == item.x118_ItemSlotX && x.Key.ItemSlotY == item.x11C_ItemSlotY).Value;
 
 
-                                        string txt = "A";
-                                        if(ancientRank == 1)
-                                        {
-                                            txt = "A";
-                                        }else if(ancientRank == 2)
-                                        {
-                                            txt = "P";
+                                            string txt = "A";
+                                            if (ancientRank == 1)
+                                            {
+                                                txt = "A";
+                                            }
+                                            else if (ancientRank == 2)
+                                            {
+                                                txt = "P";
+                                            }
+
+                                            TextBlock t = new TextBlock();
+                                            t.BeginInit();
+                                            t.Text = txt;
+                                            t.FontSize = 12;
+                                            t.FontWeight = FontWeights.Bold;
+                                            t.Foreground = Brushes.Orange; //textcolor
+
+                                            Canvas.SetLeft(t, UIRect_item.Left + +4);
+                                            Canvas.SetTop(t, UIRect_item.Top + +4);
+
+                                            t.EndInit();
+
+                                            canvas1.Children.Add(t);
+
                                         }
 
-                                        TextBlock t = new TextBlock();
-                                        t.BeginInit();
-                                        t.Text = txt;
-                                        t.FontSize = 12;
-                                        t.FontWeight = FontWeights.Bold;
-                                        t.Foreground = Brushes.Orange; //textcolor
 
-                                        Canvas.SetLeft(t, UIRect_item.Left + +4);
-                                        Canvas.SetTop(t, UIRect_item.Top + +4);
-
-                                        t.EndInit();
-
-                                        canvas1.Children.Add(t);
 
                                     }
-
-                                    
-
                                 }
+
+
                             }
 
 

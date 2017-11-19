@@ -487,7 +487,7 @@ namespace D3Helper.A_Tools.InputSimulator
                 ReleaseModKey(A_Collection.Preferences.Hotkeys.ModKey2_OpenInventory.Value);
         }
 
-        private static void execute_ForceMove()
+        public static void execute_ForceMove()
         {
             if (A_Collection.Preferences.Hotkeys.ModKey1_ForceMove != null)
                 PressModKey(A_Collection.Preferences.Hotkeys.ModKey1_ForceMove.Value);
